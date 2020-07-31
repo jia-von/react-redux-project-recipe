@@ -1,8 +1,12 @@
 import React from "react";
-import "./App.css";
+import "../style/App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <h1>Spice Girls Repice Rating</h1>
+    </>
+  );
 }
 
 export default App;
