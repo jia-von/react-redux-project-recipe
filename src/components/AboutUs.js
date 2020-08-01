@@ -17,28 +17,28 @@ export default class AboutUs extends Component {
           title: "Bibu",
           description:
             " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae aliquam vero at, saepe non nesciunt eos corporis expedita veritatis consequatur quam error ducimus suscipit? Quo nam laborum harum voluptates!",
-          socialLink: "http://google.cpm",
+          socialLink: "http://google.com",
         },
         {
           id: 2,
           title: "Corinna",
           description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptates officia quod dicta ea sapiente itaque! Quia, nisi. Corrupti, error itaque excepturi obcaecati animi unde. Nulla a rem nemo suscipit?",
-          socialLink: "http://google.cpm",
+          socialLink: "http://google.com",
         },
         {
           id: 3,
           title: "Jia",
           description:
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus esse perspiciatis, tempore autem deserunt, delectus placeat eum est quam sit eaque cumque molestias harum maiores in numquam amet consequuntur.",
-          socialLink: "http://google.cpm",
+          socialLink: "http://google.com",
         },
         {
           id: 4,
           title: "Osasenaga",
           description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex esse veritatis quisquam, laborum error quod laboriosam. Quaerat voluptatem perferendis libero non natus culpa asperiores similique facere. Rem excepturi ipsa suscipit.",
-          socialLink: "http://google.cpm",
+          socialLink: "http://google.com",
         },
       ],
     };
