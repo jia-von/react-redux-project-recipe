@@ -4,7 +4,7 @@ import "../style/App.css";
 function App() {
   return (
     <>
-      <h1>Spice Girls Repice Rating</h1>
+      <h1>Spice Girls Recipe Rating</h1>
     </>
   );
 }
