@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import social from "../images/001-github-sign.png";
 
-export default class AboutUs extends Component {
+class Authors extends Component {
   constructor() {
     super();
     this.state = {
@@ -48,9 +48,11 @@ export default class AboutUs extends Component {
     const { authors } = this.state;
     return (
       <>
-        {authors.map((author) => (
+        {authors.map((authorkey = author.id) => (
           <section>
-            <h2>{author.title}</h2>
+            <h2>
+              {author.title} <i className="fa fa-plus" />
+            </h2>
             <p>{author.description}</p>
             <a href={author.socialLink}>
               <img src={social} id="githubLogo" alt="GitHub Logo" />
@@ -61,3 +63,4 @@ export default class AboutUs extends Component {
     );
   }
 }
+export default Authors;
