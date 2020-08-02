@@ -32,7 +32,7 @@ class MyGoodRecipes extends React.Component {
 <figure>
           <div className="foodDetail" key="foodDetail.id">
            
-            <div className="picture">{foodDetail.recipe.image}</div>
+            <div className="picture"><img src={foodDetail.recipe.image}/></div>
             </div>
             <figcaption>
             <div className="label">{foodDetail.recipe.label}</div>
