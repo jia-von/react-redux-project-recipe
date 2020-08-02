@@ -29,6 +29,7 @@ class MyGoodRecipes extends React.Component {
         return (
           //console.log(foodDetails)
          <>
+        <div className="containerForMyGoodRecipes">
 <figure>
           <div className="foodDetail" key="foodDetail.id">
            
@@ -36,9 +37,10 @@ class MyGoodRecipes extends React.Component {
             </div>
             <figcaption>
             <div className="label">{foodDetail.recipe.label}</div>
-            <div className="ingredientLines">{foodDetail.recipe.ingredientLines[0]}</div>
+            <div className="ingredientLines">Ingredients: {foodDetail.recipe.ingredientLines}</div>
             </figcaption>
             </figure>
+            </div>
             </>
         )
       })

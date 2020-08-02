@@ -1,6 +1,9 @@
 html {
   background-color: rgb(214, 228, 201);
 }
+.containerForMyGoodRecipes {
+  width: 90%;
+}
 .picture img{
   color: black;
   font-size: larger;
