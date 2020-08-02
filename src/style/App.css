@@ -1,3 +1,31 @@
 html {
-  background-color: chartreuse;
+  background-color: rgb(214, 228, 201);
+}
+.picture {
+  color: black;
+  font-size: larger;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  margin-right: 20px;
+}
+.foodDetail {
+  display: flex;
+  margin-bottom: 20px;
+ 
+
+ 
+
+}
+figure {
+  display: flex;
+  width: 100%;
+  padding: 25px;
+  border-bottom: 1px dotted black;
+}
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  
 }
