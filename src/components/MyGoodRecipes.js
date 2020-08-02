@@ -37,7 +37,13 @@ class MyGoodRecipes extends React.Component {
             </div>
             <figcaption>
             <div className="label">{foodDetail.recipe.label}</div>
-            <div className="ingredientLines">Ingredients: {foodDetail.recipe.ingredientLines}</div>
+            <div className="topics"><span className="topicHeader"> Ingredients:</span><span className="topicP"> {foodDetail.recipe.ingredientLines}</span></div>
+            <div className="topics"><span className="topicHeader">Health Label: </span><span className="topicP">{foodDetail.recipe.healthLabels}</span></div>
+            <div className="topics"><span className="topicHeader">Calories: </span><span className="topicP">{foodDetail.recipe.calories}</span></div>
+            <div className="topics"><span className="topicHeader">Total Weight: </span><span className="topicP">{foodDetail.recipe.totalWeight}</span></div>
+            <div className="topics"><span className="topicHeader">Total Time: </span><span className="topicP">{foodDetail.recipe.totalTime}</span></div>
+            <div className="topics"><span className="topicHeader">Influenced By: </span><span className="topicP"><a href={foodDetail.recipe.url} target="_blank">Click Here to check out their URL</a></span></div>
+           
             </figcaption>
             </figure>
             </div>

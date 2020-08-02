@@ -7,14 +7,21 @@ html {
 .picture img{
   color: black;
   font-size: larger;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border: 2px solid black;
   margin-right: 25px;
 }
 .foodDetail {
   display: flex;
   
+}
+.topicHeader {
+  font-size: large;
+  font-weight: bold;
+}
+.topicP {
+  font-size: large;
 }
 figure {
   display: flex;
@@ -30,8 +37,13 @@ figcaption {
 }
 .label {
   text-decoration: underline;
-  font-size: larger;
+  font-size: x-large;
   font-weight: bold;
   margin-bottom: 15px;
+
+}
+.topics {
+  margin-bottom: 15px;
+  font-size: medium;
 
 }
