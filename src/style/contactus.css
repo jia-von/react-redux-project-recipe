@@ -1,4 +1,21 @@
 html {
   background-color: rgb(214, 228, 201);
 }
+.contactUsContainer {
+  width: 90%;
+  margin: auto;
+}
+form {
+  margin: auto;
+  border: 2px solid black;
+  padding: 25px;
+}
 
+label {
+  margin-bottom: 15px;
+  color: black;
+}
+
+input {
+  margin-bottom: 25px;
+}

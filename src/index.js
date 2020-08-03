@@ -1,11 +1,11 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 import "./style/index.css";
-import App from "./App";
+//import App from "./App";
 import AboutUs from "./Component/AboutUs";
 
 import { render } from "@testing-library/react";
-import { Provider } from "react-redux";
+//import { Provider } from "react-redux";
 import Home from "./Component/Home";
 import Nav from "./Component/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
