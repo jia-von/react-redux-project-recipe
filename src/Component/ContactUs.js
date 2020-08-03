@@ -24,7 +24,7 @@ class ContactUs extends React.Component {
   render() {
     return (
       <>
-        <h1>Calculator</h1>
+        <h1>Contact Us</h1>
         <div>
           <label htmlFor="fullName">Full Name</label>
           <input
