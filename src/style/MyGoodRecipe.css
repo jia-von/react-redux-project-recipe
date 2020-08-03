@@ -1,0 +1,46 @@
+
+img{
+  color: black;
+  font-size: larger;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  margin-right: 25px;
+}
+
+.topicHeader {
+  font-size: large;
+  font-weight: bold;
+}
+.topicP {
+  font-size: large;
+}
+figure {
+  display: flex;
+  width: 90%;
+  padding: 20px;
+  border-bottom: 1px dotted black;
+}
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.label {
+  text-decoration: underline;
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 15px;
+  list-style: none;
+
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  margin-bottom: 15px;
+  font-size: medium;
+  list-style: none;
+}

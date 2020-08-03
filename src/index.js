@@ -1,12 +1,7 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 import "./style/index.css";
-import App from "./components/App";
-// import { createStore } from "redux";
-// import { Provider } from "react-redux";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { render } from "react-dom";
-import AboutUs from "./components/AboutUs";
+import App from "./App";
 
 render(
   <React.StrictMode>
