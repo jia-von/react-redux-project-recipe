@@ -18,7 +18,9 @@ function Nav() {
         <Link to="/AboutUs">
           <li>About Us</li>
         </Link>
-        
+        <Link to="/HomeHamMenu">
+          <li>HomeHamMenu</li>
+        </Link>
       </ul>
     </nav>
   );
