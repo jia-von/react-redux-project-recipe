@@ -1,6 +1,11 @@
 import React from "react";
 import "../style/MyGoodRecipe.css";
 import axios from "axios";
+import { createBrowserHistory } from 'history';
+import { withRouter } from 'react-router';
+
+import { Link } from "react-router-dom";
+import { Router } from "react-router-dom";
 
 class MyGoodRecipes extends React.Component {
 
@@ -9,6 +14,8 @@ class MyGoodRecipes extends React.Component {
   }
 
   foodDetail() {
+  
+    this.props.history.push("/FoodDetails");
 
   }
 
@@ -23,17 +30,12 @@ class MyGoodRecipes extends React.Component {
       )
   }
   render() {
-
     const { foodDetails } = this.state;
     const foodDetailsList = foodDetails.length ? (
-      foodDetails.map((foodDetail,id) => {
+      foodDetails.map((foodDetail) => {
         return (
-
           <figure>
-
-
-            <img src={foodDetail.recipe.image} alt="Food Recipe To See" />
-
+<img src={foodDetail.recipe.image} alt="Food Recipe To See" />
             <figcaption>
               <ul>
                 <li className="label">{foodDetail.recipe.label}</li>
@@ -43,7 +45,7 @@ class MyGoodRecipes extends React.Component {
                 <li ><span className="topicHeader">Total Weight: </span><span className="topicP">{foodDetail.recipe.totalWeight}</span></li>
                 <li ><span className="topicHeader">Total Time: </span><span className="topicP">{foodDetail.recipe.totalTime}</span></li>
                 <li><span className="topicHeader">Influenced By: </span><span className="topicP"><a href={foodDetail.recipe.url} rel="noopener noreferrer" target="_blank">Click Here to check out their URL</a></span></li>
-                <li key={id} className="topics"><span className="topicHeader">Want to read more about this Food? </span><span className="topicP"> <button onClick={() => this.foodDetail()}>Click Here</button></span></li>
+                <li  className="topics"><span className="topicHeader">Want to read more about this Food? </span><span className="topicP"> <button onClick= {this.foodDetail.bind(this)}>Click Here</button></span></li>
               </ul>
             </figcaption>
           </figure>

@@ -3,6 +3,7 @@ import React from "react";
 import "./style/index.css";
 //import App from "./App";
 import AboutUs from "./Component/AboutUs";
+import FoodDetails from "./Component/FoodDetails";
 
 import { render } from "@testing-library/react";
 //import { Provider } from "react-redux";
@@ -18,10 +19,11 @@ render(
       <Nav />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/Home" component={Home} />
-        <Route path="/MyGoodRecipes" component={MyGoodRecipes} />
-        <Route path="/ContactUs" component={ContactUs} />
-        <Route path="/AboutUs" component={AboutUs} />
+        <Route path="/home" component={Home} />
+        <Route path="/mygoodrecipes" component={MyGoodRecipes} />
+        <Route path="/contactus" component={ContactUs} />
+        <Route path="/aboutus" component={AboutUs} />
+        <Route path="/fooddetails" component={FoodDetails} />
       </Switch>
     </Router>
   </React.StrictMode>,
