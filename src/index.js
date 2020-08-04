@@ -24,6 +24,7 @@ render(
         <Route path="/contactus" component={ContactUs} />
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/fooddetails" component={FoodDetails} />
+        <Route path="/homehammenu" component={HomeHamMenu} />
       </Switch>
     </Router>
   </React.StrictMode>,
