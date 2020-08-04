@@ -13,9 +13,13 @@ form {
 
 label {
   margin-bottom: 15px;
+  margin-right: 25px;
   color: black;
+  font-size: large;
 }
 
 input {
   margin-bottom: 25px;
+  height: 40px;
+  width: 100%;
 }

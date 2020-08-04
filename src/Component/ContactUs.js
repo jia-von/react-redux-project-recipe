@@ -12,66 +12,63 @@ class ContactUs extends React.Component {
         email:"",
         subject:"",
         message:""
-      };
-      
+      };     
     } 
-    
-  calculate(data) {
-    console.log(data);
-    }
-  
+  handleSubmit = (event) => {
+    event.preventDefault();  
+    let subject = this.state.subject;
+    var message = this.state.message;
+    document.location = "mailto:bibhuti@ualberta.ca?subject="+subject+"&body="+message;
 
+    
+  }
+  updateItem=(key, value)=> {  
+    this.setState({[key]:value})
+    }
+    
   render() {
     return (
       <div className="contactUsContainer">
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <h1>Contact Us</h1>
         <div>
-          <label htmlFor="fullName">Full Name</label>
+          <div><label htmlFor="fullName">Full Name</label></div>
           <input
-            type="text" name="fullName"
+            type="text" name="fullName" required
             value={this.fullName}
-            onChange={(event) => {
-              this.props.dispatch(updateFullName(event.target.value));
-            }}
+            onChange={event => {this.updateItem('fullName', event.target.value)}}
           />
         </div>
 
         <div>
-          <label htmlFor="email">Email</label>
+        <div><label htmlFor="email">Email</label></div>
           <input
-            type="text" name="email"
+            type="text" name="email" required
             value={this.email}
-            onChange={(event) => {
-              this.props.dispatch(updateEmail(event.target.value));
-            }}
+            onChange={event => {this.updateItem('email', event.target.value)}}
           />
         </div>
 
         <div>
-          <label htmlFor="subject">Subject</label>
+        <div><label htmlFor="subject">Subject</label></div>
           <input
-            type="text" name="subject"
+            type="text" name="subject" required
             value={this.subject}
-            onChange={(event) => {
-              this.props.dispatch(updateSubject(event.target.value));
-            }}
+            onChange={event => {this.updateItem('subject', event.target.value)}}
           />
         </div>
 
         <div>
-          <label htmlFor="message">Message</label>
+          <div><label htmlFor="message">Message</label></div>
           <input
-            type="text" name="message"
+            type="textarea" name="message" required
             value={this.message}
-            onChange={(event) => {
-              this.props.dispatch(updateMessage(event.target.value));
-            }}
+            onChange={event => {this.updateItem('message', event.target.value)}}
           />
         </div>
 
         <div>
-          <button onClick={() => this.calculate()}>Calculate</button>
+          <button>Calculate</button>
         </div>
 
         {/* <p>{this.props.anything.result}</p> */}
