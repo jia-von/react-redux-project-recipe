@@ -33,6 +33,7 @@ figcaption {
   font-weight: bold;
   margin-bottom: 15px;
   list-style: none;
+  color: black;
 
 }
 ul {
@@ -43,4 +44,5 @@ li {
   margin-bottom: 15px;
   font-size: medium;
   list-style: none;
+  color: black;
 }

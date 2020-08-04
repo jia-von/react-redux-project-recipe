@@ -1,6 +1,6 @@
 import "../style/App.css";
 import React from "react";
-import { Link, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -18,6 +18,7 @@ function Nav() {
         <Link to="/AboutUs">
           <li>About Us</li>
         </Link>
+        
       </ul>
     </nav>
   );

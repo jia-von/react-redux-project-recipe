@@ -1,80 +1,82 @@
 import React from "react";
 import "../style/contactus.css";
-import {updateFullName, updateEmail, updateSubject, updateMessage} from "../actions/contactUs";
+//import { updateFullName, updateEmail, updateSubject, updateMessage } from "../actions/contactUs";
 // import { connect } from "react-redux";
 
 class ContactUs extends React.Component {
-    constructor(props)
-    {
-      super(props);
-      this.state = {
-        fullName:"",
-        email:"",
-        subject:"",
-        message:""
-      };
-      
-    } 
-    
-  calculate(data) {
-    console.log(data);
-    }
-  
+  constructor(props) {
+    super(props);
+    this.state = {
+      fullName: "",
+      email: "",
+      subject: "",
+      message: ""
+    };
+  }
+  handleSubmit = (event) => {
+    event.preventDefault();
+    let subject = this.state.subject;
+    var message = this.state.message;
+    document.location = "mailto:bibhuti@ualberta.ca?subject=" + subject + "&body=" + message;
+    this.resetContactForm();
+  }
+
+  resetContactForm = () => {
+    this.setState({ fullName: "", email: "", message: "", subject: "" })
+  }
+
+  updateItem = (key, value) => {
+    this.setState({ [key]: value })
+  }
 
   render() {
     return (
-      <>
-        <h1>Contact Us</h1>
-        <div>
-          <label htmlFor="fullName">Full Name</label>
-          <input
-            type="text" name="fullName"
-            value={this.fullName}
-            onChange={(event) => {
-              this.props.dispatch(updateFullName(event.target.value));
-            }}
-          />
-        </div>
+      <div className="contactUsContainer">
+        <form onSubmit={this.handleSubmit} className="contactFormHolder">
+          <h1>Contact Us</h1>
+          <div>
+            <div><label htmlFor="fullName">Full Name</label></div>
+            <input
+              type="text" name="fullName" required
+              value={this.state.fullName}
+              onChange={event => { this.updateItem('fullName', event.target.value) }}
+            />
+          </div>
 
-        <div>
-          <label htmlFor="email">Email</label>
-          <input
-            type="text"
-            value={this.email}
-            onChange={(event) => {
-              this.props.dispatch(updateEmail(event.target.value));
-            }}
-          />
-        </div>
+          <div>
+            <div><label htmlFor="email">Email</label></div>
+            <input
+              type="text" name="email" required
+              value={this.state.email}
+              onChange={event => { this.updateItem('email', event.target.value) }}
+            />
+          </div>
 
-        <div>
-          <label htmlFor="subject">Subject</label>
-          <input
-            type="text"
-            value={this.subject}
-            onChange={(event) => {
-              this.props.dispatch(updateSubject(event.target.value));
-            }}
-          />
-        </div>
+          <div>
+            <div><label htmlFor="subject">Subject</label></div>
+            <input
+              type="text" name="subject" required
+              value={this.state.subject}
+              onChange={event => { this.updateItem('subject', event.target.value) }}
+            />
+          </div>
 
-        <div>
-          <label htmlFor="message">Message</label>
-          <input
-            type="text"
-            value={this.message}
-            onChange={(event) => {
-              this.props.dispatch(updateMessage(event.target.value));
-            }}
-          />
-        </div>
+          <div>
+            <div><label htmlFor="message">Message</label></div>
+            <input
+              type="textarea" name="message" required
+              value={this.state.message}
+              onChange={event => { this.updateItem('message', event.target.value) }}
+            />
+          </div>
 
-        <div>
-          <button onClick={() => this.calculate()}>Calculate</button>
-        </div>
+          <div>
+            <button>Calculate</button>
+          </div>
 
-        {/* <p>{this.props.anything.result}</p> */}
-      </>
+          {/* <p>{this.props.anything.result}</p> */}
+        </form>
+      </div>
     );
   }
 }
@@ -84,5 +86,5 @@ class ContactUs extends React.Component {
 //       anything: state,
 //     };
 //   }
-  
-  export default ContactUs;
+
+export default ContactUs;
