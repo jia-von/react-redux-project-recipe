@@ -1,0 +1,12 @@
+.bgHeader {
+  background-image: url(../images/salad.jpg);
+  height: 15vw;
+  background-size: stretch;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  vertical-align: middle;
+  background-color: crimson;
+}
