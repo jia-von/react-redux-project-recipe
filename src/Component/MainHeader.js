@@ -4,9 +4,9 @@ export default class MainHeader extends Component {
   render() {
     const titleHeader = this.props.titleHeader;
     return (
-      <>
-        <h1 className="bgHeader">{titleHeader}</h1>
-      </>
+      <div className="bgHeader">
+        <h1>{titleHeader}</h1>
+      </div>
     );
   }
 }
