@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import social from "../images/001-github-sign.png";
+import MainHeader from "./MainHeader";
 
 export default class AboutUs extends Component {
   constructor() {
@@ -48,6 +49,7 @@ export default class AboutUs extends Component {
     const { authors } = this.state;
     return (
       <>
+        <MainHeader titleHeader="About Us" />
         {authors.map((author) => (
           <section>
             <h2>{author.title}</h2>
