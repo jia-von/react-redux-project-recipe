@@ -17,9 +17,7 @@ import Search from "./Component/Search";
 
 const store = createStore(recipeReducer);
 
-// store.subscribe(() => console.log(typeof store.getState()));
-
-// store.dispatch(addComment("Say Hello"));
+store.subscribe(() => console.log(store.getState()));
 
 const Root = (store) => (
   <Provider store={store.store}>

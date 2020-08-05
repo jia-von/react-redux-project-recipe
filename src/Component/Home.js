@@ -18,13 +18,3 @@ export default class Home extends Component {
     );
   }
 }
-
-// const Home = () => {
-//   render()
-//   {
-//     return (
-//     );
-//   }
-// };
-
-// export default Home;

@@ -7,8 +7,8 @@ const addComment = (commentInput) => {
 const addRecipe = (recipeArray) => {
   return {
     type: "ADD_RECIPE",
-    value: recipeArray,
+    recipe: recipeArray,
   };
 };
 
-export { addComment };
+export { addComment, addRecipe };

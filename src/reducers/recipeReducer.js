@@ -10,6 +10,14 @@ const recipeReducer = (state = [], action) => {
       const newState = state.slice();
       newState.push(newComment);
       return newState;
+    case "ADD_RECIPE":
+      const newRecipe = {
+        recipe: action.value,
+      };
+      const newArray = state.slice();
+      newArray.push(newRecipe);
+      return newArray;
+
     default:
       return state;
   }
