@@ -11,12 +11,13 @@ class Search extends Component {
 
   // addRecipe([{ chicken: "chicken feet" }, { beef: "beef on a bun" }]);
 
-  componentDidMount() {
+  componentDidMount = () => {
     const newRecipe = { chicken: "chicken feet" };
-    this.setState({ recipe: newRecipe });
+    // this.setState({ lrecipe: newRecipe });
+    console.log(this.state.lrecipe);
+    this.props.dispatch(addRecipe(newRecipe));
     console.log(this.props.recipe);
-    this.props.dispatch(addRecipe(this.state.recipe));
-  }
+  };
   render() {
     return (
       <div>

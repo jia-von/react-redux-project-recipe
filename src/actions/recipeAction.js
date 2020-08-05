@@ -4,10 +4,11 @@ const addComment = (commentInput) => {
     value: commentInput,
   };
 };
-const addRecipe = (recipeArray) => {
+const addRecipe = (recipe) => {
+  console.log(recipe);
   return {
     type: "ADD_RECIPE",
-    recipe: recipeArray,
+    value: recipe,
   };
 };
 
