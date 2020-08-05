@@ -6,6 +6,7 @@ import { withRouter } from 'react-router';
 
 import { Link } from "react-router-dom";
 import { Router } from "react-router-dom";
+import Footer from "./Footer";
 
 class MyGoodRecipes extends React.Component {
 
@@ -57,6 +58,7 @@ class MyGoodRecipes extends React.Component {
     return (
       <>
         {foodDetailsList}
+        <Footer />
       </>
     )
   }

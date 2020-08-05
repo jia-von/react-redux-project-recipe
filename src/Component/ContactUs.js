@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/contactus.css";
+import Footer from "./Footer";
 //import { updateFullName, updateEmail, updateSubject, updateMessage } from "../actions/contactUs";
 // import { connect } from "react-redux";
 
@@ -76,6 +77,7 @@ class ContactUs extends React.Component {
 
           {/* <p>{this.props.anything.result}</p> */}
         </form>
+        <Footer />
       </div>
     );
   }

@@ -1,6 +1,7 @@
 
 import "../style/App.css";
 import React from 'react';
+import Footer from "./Footer";
 
 // import Nav from './Component/Nav';
 // import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -10,9 +11,12 @@ import React from 'react';
 
 function Home() {
   return (
+    <>
    <h1>home page</h1>
-  
+    <Footer />
+  </>
   );
+
 }
   export default Home;
 

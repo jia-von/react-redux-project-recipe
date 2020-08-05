@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import social from "../images/001-github-sign.png";
+import Footer from "./Footer";
 
 export default class AboutUs extends Component {
   constructor() {
@@ -57,6 +58,7 @@ export default class AboutUs extends Component {
             </a>
           </section>
         ))}
+        <Footer />
       </>
     );
   }

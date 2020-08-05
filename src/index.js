@@ -12,6 +12,8 @@ import Nav from "./Component/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ContactUs from "./Component/ContactUs";
 import MyGoodRecipes from "./Component/MyGoodRecipes";
+import Footer from "./Component/Footer";
+
 
 render(
   <React.StrictMode>
@@ -24,6 +26,7 @@ render(
         <Route path="/contactus" component={ContactUs} />
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/fooddetails" component={FoodDetails} />
+        <Route path="/footer" component={Footer} />
       </Switch>
     </Router>
   </React.StrictMode>,
