@@ -1,25 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./style/index.css";
-
 import { createStore } from "redux";
 import AboutUs from "./Component/AboutUs";
 import FoodDetails from "./Component/FoodDetails";
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
-
-
-import FoodDetails from "./Component/FoodDetails";
-import GirlRec from './Component/GirlRec';
-import { render } from "@testing-library/react";
-import AboutUs from "./Component/AboutUs";
-
 import Home from "./Component/Home";
 import Nav from "./Component/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ContactUs from "./Component/ContactUs";
 import MyGoodRecipes from "./Component/MyGoodRecipes";
 import recipeReducer from "./reducers/recipeReducer";
+import GirlRec from "./Component/GirlRec";
+
 
 const store = createStore(recipeReducer);
 
