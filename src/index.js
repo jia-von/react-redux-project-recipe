@@ -13,7 +13,7 @@ import ContactUs from "./Component/ContactUs";
 import MyGoodRecipes from "./Component/MyGoodRecipes";
 import recipeReducer from "./reducers/recipeReducer";
 import GirlRec from "./Component/GirlRec";
-import RecGallery from "./Component/RecGallery";
+
 
 const store = createStore(recipeReducer);
 
@@ -29,7 +29,6 @@ const Root = (store) => (
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/fooddetails" component={FoodDetails} />
         <Route path="/GirlRec" component={GirlRec} />
-        <Route path="/RecGallery" component={RecGallery} />
       </Switch>
     </Router>
   </Provider>
