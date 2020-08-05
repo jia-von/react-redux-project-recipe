@@ -2,6 +2,7 @@ import React from "react";
 import "../style/MyGoodRecipe.css";
 import axios from "axios";
 import MainHeader from "./MainHeader";
+import Footer from "./Footer";
 import { createBrowserHistory } from "history";
 import { withRouter } from "react-router";
 
@@ -97,10 +98,13 @@ class MyGoodRecipes extends React.Component {
           </>
         );
       })
-    ) : (
-      <p>No Food Details Yet </p>
-    );
-    return <>{foodDetailsList}</>;
+      ) : (
+        <p>No Food Details Yet </p>
+        );
+        
+    return <>{foodDetailsList}
+    <Footer />
+    </>;
   }
 }
 
