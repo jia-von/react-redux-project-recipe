@@ -1,17 +1,18 @@
 import "../style/App.css";
-import React, { Component } from "react";
-import MainHeader from "./MainHeader";
-import { render } from "@testing-library/react";
 
-const Home = () => {
-  render();
-  {
+import MainHeader from "./MainHeader";
+
+import React, { Component } from "react";
+
+export default class Home extends Component {
+  render() {
     return (
       <>
         <MainHeader titleHeader="Good Girls Eat" />
+        <p>Body</p>
+        <p>Footer</p>
+        <p>Hamburger</p>
       </>
     );
   }
-};
-
-export default Home;
+}

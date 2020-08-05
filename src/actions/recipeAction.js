@@ -4,3 +4,11 @@ const addComment = (commentInput) => {
     value: commentInput,
   };
 };
+const addRecipe = (recipeArray) => {
+  return {
+    type: "ADD_RECIPE",
+    value: recipeArray,
+  };
+};
+
+export { addComment };
