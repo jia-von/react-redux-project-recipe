@@ -1,20 +1,17 @@
-
 import "../style/App.css";
-import React from 'react';
+import React, { Component } from "react";
+import MainHeader from "./MainHeader";
+import { render } from "@testing-library/react";
 
-// import Nav from './Component/Nav';
-// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-// import Calculator from './Component/ContactUs';
-// import PastCalculations from './Component/FoodDetails';
-// import Home from './Component/MyGoodRecipes';
+const Home = () => {
+  render();
+  {
+    return (
+      <>
+        <MainHeader titleHeader="Good Girls Eat" />
+      </>
+    );
+  }
+};
 
-function Home() {
-  return (
-   <h1>home page</h1>
-  
-  );
-}
-  export default Home;
-
-
-
+export default Home;
