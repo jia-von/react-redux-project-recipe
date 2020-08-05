@@ -17,6 +17,7 @@ const Home = () => {
 
         <RecGallery recGallery="RecGallery"/>
 
+        <Footer />
       </>
     );
   }

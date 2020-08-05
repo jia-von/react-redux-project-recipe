@@ -7,7 +7,6 @@ import { withRouter } from "react-router";
 
 import { Link } from "react-router-dom";
 import { Router } from "react-router-dom";
-import Footer from "./Footer";
 
 class MyGoodRecipes extends React.Component {
   state = {
@@ -99,14 +98,9 @@ class MyGoodRecipes extends React.Component {
         );
       })
     ) : (
-        <p>No Food Details Yet </p>
-      )
-    return (
-      <>
-        {foodDetailsList}
-        <Footer />
-      </>
-    )
+      <p>No Food Details Yet </p>
+    );
+    return <>{foodDetailsList}</>;
   }
 }
 
