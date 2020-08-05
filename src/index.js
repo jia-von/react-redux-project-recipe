@@ -24,7 +24,6 @@ const Root = (store) => (
   <Provider store={store.store}>
     <Router>
       <Nav />
-      <PopulateStore />
       <Route path="/" exact component={Home} />
       <Route path="/home" component={Home} />
       <Route path="/mygoodrecipes" component={MyGoodRecipes} />
