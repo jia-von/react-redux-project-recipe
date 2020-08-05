@@ -2,11 +2,15 @@ import React from "react";
 import "../style/MyGoodRecipe.css";
 import axios from "axios";
 import MainHeader from "./MainHeader";
+import { connect } from "react-redux";
 
 class MyGoodRecipes extends React.Component {
-  state = {
-    foodDetails: [],
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      foodDetails: [],
+    };
+  }
 
   foodDetail() {
     this.props.history.push("/FoodDetails");
@@ -101,4 +105,6 @@ class MyGoodRecipes extends React.Component {
   }
 }
 
-export default MyGoodRecipes;
+export default connect((state) => {
+  return { foodDetails: state };
+})(MyGoodRecipes);
