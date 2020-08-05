@@ -13,12 +13,13 @@ import ContactUs from "./Component/ContactUs";
 import MyGoodRecipes from "./Component/MyGoodRecipes";
 import recipeReducer from "./reducers/recipeReducer";
 import GirlRec from "./Component/GirlRec";
+import Search from "./Component/Search";
 
 const store = createStore(recipeReducer);
 
-store.subscribe(() => console.log(typeof store.getState()));
+// store.subscribe(() => console.log(typeof store.getState()));
 
-store.dispatch(addComment("Say Hello"));
+// store.dispatch(addComment("Say Hello"));
 
 const Root = (store) => (
   <Provider store={store.store}>
@@ -31,6 +32,7 @@ const Root = (store) => (
       <Route path="/aboutus" component={AboutUs} />
       <Route path="/fooddetails" component={FoodDetails} />
       <Route path="/search" component={Search} />
+      <Route path="/girlRec" component={GirlRec} />
     </Router>
   </Provider>
 );

@@ -3,8 +3,6 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import MainHeader from "./MainHeader";
 
-import React, { Component } from "react";
-
 class Search extends Component {
   render() {
     return (

@@ -4,15 +4,27 @@ import MainHeader from "./MainHeader";
 
 import RecGallery from "./RecGallery";
 
-const Home = () => {
-  render();
-  {
-    return (
-      <>
-        <MainHeader titleHeader="Good Girls Eat" />
+import React, { Component } from "react";
 
-        <RecGallery recGallery="RecGallery" />
-      </>
+export default class Home extends Component {
+  render() {
+    return (
+      <div>
+        <>
+          <MainHeader titleHeader="Good Girls Eat" />
+          <RecGallery recGallery="RecGallery" />
+        </>
+      </div>
     );
   }
-};
+}
+
+// const Home = () => {
+//   render()
+//   {
+//     return (
+//     );
+//   }
+// };
+
+// export default Home;
