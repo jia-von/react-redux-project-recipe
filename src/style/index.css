@@ -20,3 +20,7 @@ html {
   max-width: 900px;
   height: auto;
 }
+
+body {
+  width: 100%;
+}

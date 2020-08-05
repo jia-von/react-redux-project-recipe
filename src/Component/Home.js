@@ -2,17 +2,17 @@ import "../style/App.css";
 
 import MainHeader from "./MainHeader";
 
-import React, { Component } from "react";
+import RecGallery from "./RecGallery";
 
-export default class Home extends Component {
-  render() {
+const Home = () => {
+  render();
+  {
     return (
       <>
         <MainHeader titleHeader="Good Girls Eat" />
-        <p>Body</p>
-        <p>Footer</p>
-        <p>Hamburger</p>
+
+        <RecGallery recGallery="RecGallery" />
       </>
     );
   }
-}
+};

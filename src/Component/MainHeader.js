@@ -7,6 +7,7 @@ export default class MainHeader extends Component {
       <div className="bgHeader">
         <h1>{titleHeader}</h1>
       </div>
+
     );
   }
 }

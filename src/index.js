@@ -12,8 +12,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import ContactUs from "./Component/ContactUs";
 import MyGoodRecipes from "./Component/MyGoodRecipes";
 import recipeReducer from "./reducers/recipeReducer";
-import Search from "./Component/Search";
-import { addComment } from "./actions/recipeAction";
+import GirlRec from "./Component/GirlRec";
 
 const store = createStore(recipeReducer);
 
