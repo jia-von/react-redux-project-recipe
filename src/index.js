@@ -18,6 +18,7 @@ import PopulateStore from "./Component/PopulateStore";
 const store = createStore(recipeReducer);
 
 store.subscribe(() => console.log(store.getState()));
+store.dispatch(PopulateStore);
 
 const Root = (store) => (
   <Provider store={store.store}>

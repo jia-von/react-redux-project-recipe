@@ -11,7 +11,7 @@ const recipeReducer = (state = [], action) => {
     //   newState.push(newComment);
     //   return newState;
     case "ADD_RECIPE":
-      console.log(action.value);
+      // console.log(action.value);
       const newRecipe = {
         recipe: action.value,
       };
