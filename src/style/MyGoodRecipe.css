@@ -18,7 +18,7 @@ img{
 figure {
   
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   padding: 30px;
   border-bottom: 1px dotted black;
 }
@@ -26,11 +26,12 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  font-size: medium;
   
 }
 .label {
   text-decoration: underline;
-  font-size: x-large;
+  font-size: large;
   font-weight: bold;
   margin-bottom: 15px;
   list-style: none;

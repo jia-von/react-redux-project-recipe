@@ -4,20 +4,3 @@ html {
   width: 100%;
 }
 
-.footer{  
-  color: #B90000;
-  border-top: 1.5px solid #B90000;
-  background-color: #ffffff;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  padding: 12px;
-  justify-content: space-evenly;
-  font-size: 20px;  
-}
-
-.footer > a{
-  color: #B90000;
-}

@@ -4,6 +4,7 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import "../style/Footer.css";
 
 const Footer = () => (
   <div className="footer">

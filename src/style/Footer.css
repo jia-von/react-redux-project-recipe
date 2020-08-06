@@ -1,9 +1,41 @@
 .footer{
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: rgb(235, 195, 64);
+  
+    color: #B90000;
+    border-top: 4px solid #B90000;
+    background-color: #ffffff;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    display: flex;
+    padding: 12px;
+    justify-content: space-evenly;
+    font-size: 35px;  
+   
   }
+  
+  .footer > a{
+    color: #B90000;
+    justify-content: space-between;
+margin-right: 30px;
+
+  }
+  
+
+  @media only screen and (min-width: 800px) {
+    .footer {
+      width: 100%;
+      margin: 0 auto;
+      padding: 30px;
+      
+      display: flex;
+      font-size: 35px; 
+    }
+    .footer > a{
+      color: #B90000;
+      justify-content: center;
+  margin-right: 30px;
+  
+    }
+  
+     }
