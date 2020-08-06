@@ -11,6 +11,7 @@ import Nav from "./Component/Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ContactUs from "./Component/ContactUs";
 import MyGoodRecipes from "./Component/MyGoodRecipes";
+import Footer from "./Component/Footer";
 import recipeReducer from "./reducers/recipeReducer";
 import GirlRec from "./Component/GirlRec";
 import PopulateStore from "./Component/PopulateStore";
@@ -30,6 +31,7 @@ const Root = (store) => (
       <Route path="/aboutus" component={AboutUs} />
       <Route path="/fooddetails" component={FoodDetails} />
       <Route path="/girlRec" component={GirlRec} />
+
     </Router>
   </Provider>
 );
