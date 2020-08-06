@@ -12,28 +12,25 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import ContactUs from "./Component/ContactUs";
 import MyGoodRecipes from "./Component/MyGoodRecipes";
 import Footer from "./Component/Footer";
-
 import recipeReducer from "./reducers/recipeReducer";
 import GirlRec from "./Component/GirlRec";
 import PopulateStore from "./Component/PopulateStore";
 
 const store = createStore(recipeReducer);
-
 store.subscribe(() => console.log(store.getState()));
-store.dispatch(PopulateStore);
 
 const Root = (store) => (
   <Provider store={store.store}>
     <Router>
       <Nav />
-        <Route path="/" exact component={Home} />
-        <Route path="/home" component={Home} />
-        <Route path="/mygoodrecipes" component={MyGoodRecipes} />
-        <Route path="/contactus" component={ContactUs} />
-        <Route path="/aboutus" component={AboutUs} />
-        <Route path="/fooddetails" component={FoodDetails} />
-        <Route path="/footer" component={Footer} />
-        <Route path="/girlrec" component={GirlRec} />
+      <PopulateStore />
+      <Route path="/" exact component={Home} />
+      <Route path="/home" component={Home} />
+      <Route path="/mygoodrecipes" component={MyGoodRecipes} />
+      <Route path="/contactus" component={ContactUs} />
+      <Route path="/aboutus" component={AboutUs} />
+      <Route path="/fooddetails" component={FoodDetails} />
+      <Route path="/girlRec" component={GirlRec} />
 
     </Router>
   </Provider>
