@@ -1,6 +1,6 @@
-import "../style/App.css";
-import Footer from "./Footer";
-import MainHeader from "./MainHeader";
+import "../../style/App.css";
+import Footer from "../logic/Footer";
+import MainHeader from "../logic/MainHeader";
 import RecGallery from "./RecGallery";
 import React, { Component } from "react";
 

@@ -1,38 +1,19 @@
 import React from "react";
-import "../style/MyGoodRecipe.css";
-import MainHeader from "./MainHeader";
-
-import Footer from "./Footer";
+import "../../style/MyGoodRecipe.css";
+import MainHeader from "../logic/MainHeader";
+import Footer from "../logic/Footer";
 import { createBrowserHistory } from "history";
-import { withRouter } from "react-router";
-import { Link } from "react-router-dom";
-import { Router } from "react-router-dom";
 import { connect } from "react-redux";
-
 
 class MyGoodRecipes extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      // foodDetails: [],
-    };
+    this.state = {};
   }
   // foodDetail() {
   //   this.props.history.push("/FoodDetails");
   // }
   // var clean = DOMPurify.sanitize(dirty);
-  // componentDidMount() {
-  //   axios
-  //     .get(
-  //       "https://api.edamam.com/search?q=chicken&app_id=243f16f9&app_key=819a5992ef814566f4860aaaf9edec40"
-  //     )
-  //     .then((res) => {
-  //       // console.log(res);
-  //       this.setState({
-  //         foodDetails: res.data.hits,
-  //       });
-  //     });
-  // }
   render() {
     console.log(this.props.recipe);
     return (
@@ -103,10 +84,9 @@ class MyGoodRecipes extends React.Component {
             </>
           ))
         )}
-      <Footer />
+        <Footer />
       </div>
     );
-
   }
   // const { foodDetails } = this.state;
   // const foodDetailsList = foodDetails.length ? (

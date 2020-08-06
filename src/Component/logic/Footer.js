@@ -4,14 +4,22 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import "../style/Footer.css";
+import "../../style/Footer.css";
 
 const Footer = () => (
   <div className="footer">
-    <a href="MyGoodRecipes"><FontAwesomeIcon icon={faHome} /></a>
-    <a href="MyGoodRecipes"><FontAwesomeIcon icon={faSearch} /></a>
-    <a href="MyGoodRecipes"><FontAwesomeIcon icon={faHeart} /></a>
-    <a href="MyGoodRecipes"><FontAwesomeIcon icon={faBars} /></a>
+    <a href="MyGoodRecipes">
+      <FontAwesomeIcon icon={faHome} />
+    </a>
+    <a href="MyGoodRecipes">
+      <FontAwesomeIcon icon={faSearch} />
+    </a>
+    <a href="MyGoodRecipes">
+      <FontAwesomeIcon icon={faHeart} />
+    </a>
+    <a href="MyGoodRecipes">
+      <FontAwesomeIcon icon={faBars} />
+    </a>
   </div>
 );
 

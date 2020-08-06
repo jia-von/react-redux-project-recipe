@@ -1,14 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-// import MainHeader from "./MainHeader";
-import { addRecipe } from "../actions/recipeAction";
+import { addRecipe } from "../../actions/recipeAction";
 import axios from "axios";
 
 class PopulateStore extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   componentDidMount() {
     axios
       .get(
@@ -21,9 +16,11 @@ class PopulateStore extends Component {
   }
 
   render() {
-    console.log(this.props.recipe);
     return (
       <></>
+      // This code is used to dig into the recipe global state props
+      // First map gets us into the first array of the prop where our api result is stored
+      // Second map iterates through all the recipes that are stored from the api result
       // <div>
       //   {this.props.recipe.map((recipe) =>
       //     recipe.map((indrecipe) => <p>{indrecipe.title}</p>)

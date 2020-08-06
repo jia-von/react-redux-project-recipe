@@ -19,7 +19,7 @@ const recipeReducer = (state = [], action) => {
       // const individualRecipe = newRecipeObject.map((indres) =>
       // );
       newArray.push(action.value);
-      console.log(newArray);
+      // console.log(newArray);
       return newArray;
 
     default:

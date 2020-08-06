@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import social from "../images/001-github-sign.png";
-import Footer from "./Footer";
-import MainHeader from "./MainHeader";
-import "../style/AboutUs.css";
+import social from "../../images/001-github-sign.png";
+import Footer from "../logic/Footer";
+import MainHeader from "../logic/MainHeader";
+import "../../style/AboutUs.css";
 
 export default class AboutUs extends Component {
   constructor() {
     super();
     this.state = {
       authors: [
-        
         {
           id: 1,
           title: "Bibu",
@@ -50,8 +49,8 @@ export default class AboutUs extends Component {
         {authors.map((author) => (
           <section>
             <div className="bindAuthAndTitle">
-            <h2>{author.title}</h2>
-            <p>{author.description}</p>
+              <h2>{author.title}</h2>
+              <p>{author.description}</p>
             </div>
             <a href={author.socialLink}>
               <img src={social} id="githubLogo" alt="GitHub Logo" />

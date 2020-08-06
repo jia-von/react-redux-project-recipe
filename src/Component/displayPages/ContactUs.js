@@ -1,9 +1,7 @@
 import React from "react";
-import "../style/contactus.css";
-import Footer from "./Footer";
-//import { updateFullName, updateEmail, updateSubject, updateMessage } from "../actions/contactUs";
-// import { connect } from "react-redux";
-import MainHeader from "./MainHeader";
+import "../../style/contactus.css";
+import Footer from "../logic/Footer";
+import MainHeader from "../logic/MainHeader";
 
 class ContactUs extends React.Component {
   constructor(props) {
@@ -102,7 +100,6 @@ class ContactUs extends React.Component {
             <div>
               <button>Calculate</button>
             </div>
-            {/* <p>{this.props.anything.result}</p> */}
           </form>
         </div>
         <Footer />
@@ -110,11 +107,5 @@ class ContactUs extends React.Component {
     );
   }
 }
-
-// function mapStateToProps(state) {
-//     return {
-//       anything: state,
-//     };
-//   }
 
 export default ContactUs;

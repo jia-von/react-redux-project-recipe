@@ -2,19 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./style/index.css";
 import { createStore } from "redux";
-import AboutUs from "./Component/AboutUs";
-import FoodDetails from "./Component/FoodDetails";
+import AboutUs from "./Component/displayPages/AboutUs";
+import FoodDetails from "./Component/displayPages/FoodDetails";
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
-import Home from "./Component/Home";
-import Nav from "./Component/Nav";
+import Home from "./Component/displayPages/Home";
+import Nav from "./Component/logic/Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import ContactUs from "./Component/ContactUs";
-import MyGoodRecipes from "./Component/MyGoodRecipes";
-import Footer from "./Component/Footer";
+import ContactUs from "./Component/displayPages/ContactUs";
+import MyGoodRecipes from "./Component/displayPages/MyGoodRecipes";
+import Footer from "./Component/logic/Footer";
 import recipeReducer from "./reducers/recipeReducer";
-import GirlRec from "./Component/GirlRec";
-import PopulateStore from "./Component/PopulateStore";
+import GirlRec from "./Component/displayPages/GirlRec";
+import PopulateStore from "./Component/logic/PopulateStore";
 
 const store = createStore(recipeReducer);
 store.subscribe(() => console.log(store.getState()));
@@ -31,7 +31,6 @@ const Root = (store) => (
       <Route path="/aboutus" component={AboutUs} />
       <Route path="/fooddetails" component={FoodDetails} />
       <Route path="/girlRec" component={GirlRec} />
-
     </Router>
   </Provider>
 );
