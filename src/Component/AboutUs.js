@@ -2,18 +2,14 @@ import React, { Component } from "react";
 import social from "../images/001-github-sign.png";
 import Footer from "./Footer";
 import MainHeader from "./MainHeader";
+import "../style/AboutUs.css";
 
 export default class AboutUs extends Component {
   constructor() {
     super();
     this.state = {
       authors: [
-        {
-          id: 0,
-          title: "OUR STORY",
-          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor quibusdam veniam quam ratione dolorem optio labore sit eius voluptatum delectus sed molestias deleniti id, suscipit nemo laboriosam repellendus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id laborum eligendi minus voluptates explicabo saepe ex. Pariatur hic nisi dolores quasi dolorum quaerat eos, alias quibusdam qui, rerum quia!",
-        },
+        
         {
           id: 1,
           title: "Bibu",
@@ -53,8 +49,10 @@ export default class AboutUs extends Component {
         <MainHeader titleHeader="About Us" />
         {authors.map((author) => (
           <section>
+            <div className="bindAuthAndTitle">
             <h2>{author.title}</h2>
             <p>{author.description}</p>
+            </div>
             <a href={author.socialLink}>
               <img src={social} id="githubLogo" alt="GitHub Logo" />
             </a>

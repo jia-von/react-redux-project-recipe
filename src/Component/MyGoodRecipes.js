@@ -41,7 +41,7 @@ class MyGoodRecipes extends React.Component {
         {this.props.recipe.map((recipe) =>
           recipe.map((indrecipe) => (
             <>
-              <p>{indrecipe.title}</p>
+              <h2>{indrecipe.title}</h2>
               <figure>
                 <img src={indrecipe.image} alt="Food Recipe To See" />
                 <figcaption>

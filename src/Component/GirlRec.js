@@ -7,7 +7,7 @@ import food5 from "../images/food5.jpg";
 import food6 from "../images/food6.jpg";
 import food7 from "../images/food7.jpg";
 import food8 from "../images/food8.jpg";
-
+import MainHeader from "./MainHeader";
 import "../style/GirlRec.css";
 import Footer from "./Footer";
 
@@ -18,10 +18,10 @@ class GirlRec extends React.Component {
   }
   render() {
     return (
+      <div>
+      <MainHeader titleHeader="GOOD GIRL'S FAVES" />
       <div className="GirlRecContainer">
-      <header>
-        <h1>GOOD GIRL'S FAVES</h1>
-      </header>
+     
       <main>
         <h2>Bibu's Pick</h2>
         <div className="imgBinder"> 
@@ -61,6 +61,7 @@ class GirlRec extends React.Component {
       </main>
       <nav></nav>
       <Footer />
+      </div>
       </div>
     )
 
