@@ -11,12 +11,15 @@ const recipeReducer = (state = [], action) => {
     //   newState.push(newComment);
     //   return newState;
     case "ADD_RECIPE":
-      console.log(action.value);
-      const newRecipe = {
-        recipe: action.value,
-      };
+      // console.log(action.value);
       const newArray = state.slice();
-      newArray.push(newRecipe);
+      // const newRecipeObject = {
+      //   recipe: action.value,
+      // };
+      // const individualRecipe = newRecipeObject.map((indres) =>
+      // );
+      newArray.push(action.value);
+      console.log(newArray);
       return newArray;
 
     default:

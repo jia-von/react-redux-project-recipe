@@ -5,7 +5,7 @@ const addComment = (commentInput) => {
   };
 };
 const addRecipe = (recipe) => {
-  console.log(recipe);
+  // console.log(recipe);
   return {
     type: "ADD_RECIPE",
     value: recipe,

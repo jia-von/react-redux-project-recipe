@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import MainHeader from "./MainHeader";
+// import MainHeader from "./MainHeader";
 import { addRecipe } from "../actions/recipeAction";
 import axios from "axios";
 
@@ -12,23 +12,29 @@ class PopulateStore extends Component {
   componentDidMount() {
     axios
       .get(
-        "https://api.edamam.com/search?q=chicken&app_id=243f16f9&app_key=819a5992ef814566f4860aaaf9edec40"
+        // The number=2 in the html link is returning us 2 results. If we want more results we just increase that number to what we want.
+        "https://api.spoonacular.com/recipes/complexSearch?apiKey=c5413da4ad594941bce9e89fdadec43c&number=2&addRecipeNutrition=false&addRecipeInformation=true&offset=120"
       )
       .then((res) => {
-        console.log(res);
-        this.props.dispatch(addRecipe(res.data.hits));
+        console.log(res.data.results);
+        // const newres = res.data.results.map((one) => one);
+        // console.log(newres);
+        // const newnewres = newres.map((one) => one.title);
+        // console.log(newnewres);
+        this.props.dispatch(addRecipe(res.data.results));
+        // console.log(this.props);
       });
-    console.log(this.props);
   }
-  // componentDidMount = () => {
-  //   const newRecipe = { chicken: "chicken feet" };
-  //   // this.setState({ lrecipe: newRecipe });
-  //   console.log(this.state.lrecipe);
-  //   this.props.dispatch(addRecipe(newRecipe));
-  //   console.log(this.props.recipe);
-  // };
+
   render() {
-    return <div></div>;
+    console.log(this.props.recipe);
+    return (
+      <div>
+        {this.props.recipe.map((recipe) =>
+          recipe.map((indrecipe) => <p>{indrecipe.title}</p>)
+        )}
+      </div>
+    );
   }
 }
 

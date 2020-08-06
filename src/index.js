@@ -18,12 +18,12 @@ import PopulateStore from "./Component/PopulateStore";
 const store = createStore(recipeReducer);
 
 store.subscribe(() => console.log(store.getState()));
+store.dispatch(PopulateStore);
 
 const Root = (store) => (
   <Provider store={store.store}>
     <Router>
       <Nav />
-      <PopulateStore />
       <Route path="/" exact component={Home} />
       <Route path="/home" component={Home} />
       <Route path="/mygoodrecipes" component={MyGoodRecipes} />

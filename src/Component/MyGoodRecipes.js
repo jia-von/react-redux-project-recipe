@@ -18,7 +18,7 @@ class MyGoodRecipes extends React.Component {
         "https://api.edamam.com/search?q=chicken&app_id=243f16f9&app_key=819a5992ef814566f4860aaaf9edec40"
       )
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         this.setState({
           foodDetails: res.data.hits,
         });
