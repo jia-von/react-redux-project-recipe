@@ -1,11 +1,8 @@
 import "../style/App.css";
-
 import Footer from "./Footer";
-import React, { Component } from "react";
 import MainHeader from "./MainHeader";
-import { render } from "@testing-library/react";
-
 import RecGallery from "./RecGallery";
+import React, { Component } from "react";
 
 
 const Home = () => {
@@ -19,8 +16,7 @@ const Home = () => {
 
         <Footer />
       </>
+
     );
   }
-};
-
-export default Home;
+}
