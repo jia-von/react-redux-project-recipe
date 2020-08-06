@@ -12,6 +12,7 @@ class PopulateStore extends Component {
   componentDidMount() {
     axios
       .get(
+        // The number=2 in the html link is returning us 2 results. If we want more results we just increase that number to what we want.
         "https://api.spoonacular.com/recipes/complexSearch?apiKey=c5413da4ad594941bce9e89fdadec43c&number=2&addRecipeNutrition=false&addRecipeInformation=true&offset=120"
       )
       .then((res) => {
