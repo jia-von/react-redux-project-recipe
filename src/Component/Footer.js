@@ -7,11 +7,10 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => (
   <div className="footer">
-    <p>the footer</p> 
-    <FontAwesomeIcon icon={faHome} />
-    <FontAwesomeIcon icon={faSearch} />
-    <FontAwesomeIcon icon={faHeart} />
-    <FontAwesomeIcon icon={faBars} />
+    <a href="MyGoodRecipes"><FontAwesomeIcon icon={faHome} /></a>
+    <a href="MyGoodRecipes"><FontAwesomeIcon icon={faSearch} /></a>
+    <a href="MyGoodRecipes"><FontAwesomeIcon icon={faHeart} /></a>
+    <a href="MyGoodRecipes"><FontAwesomeIcon icon={faBars} /></a>
   </div>
 );
 
