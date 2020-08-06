@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/MyGoodRecipe.css";
-import axios from "axios";
 import MainHeader from "./MainHeader";
 import { connect } from "react-redux";
 
@@ -11,11 +10,10 @@ class MyGoodRecipes extends React.Component {
       // foodDetails: [],
     };
   }
-
   // foodDetail() {
   //   this.props.history.push("/FoodDetails");
   // }
-
+  // var clean = DOMPurify.sanitize(dirty);
   // componentDidMount() {
   //   axios
   //     .get(
