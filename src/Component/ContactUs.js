@@ -35,7 +35,7 @@ class ContactUs extends React.Component {
   render() {
     return (
       <>
-        <MainHeader titleHeader="About Us" />
+        <MainHeader titleHeader="Contact Us" />
         <div className="contactUsContainer">
           <form onSubmit={this.handleSubmit} className="contactFormHolder">
             <h2>Contact Us</h2>
