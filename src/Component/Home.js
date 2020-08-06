@@ -1,24 +1,20 @@
 import "../style/App.css";
-import React, { Component } from "react";
+
 import MainHeader from "./MainHeader";
-import { render } from "@testing-library/react";
 
 import RecGallery from "./RecGallery";
 
+import React, { Component } from "react";
 
-
-const Home = () => {
-  render();
-  {
+export default class Home extends Component {
+  render() {
     return (
-      <>
-        <MainHeader titleHeader="Good Girls Eat" />
-
-        <RecGallery recGallery="RecGallery"/>
-
-      </>
+      <div>
+        <>
+          <MainHeader titleHeader="Good Girls Eat" />
+          <RecGallery recGallery="RecGallery" />
+        </>
+      </div>
     );
   }
-};
-
-export default Home;
+}
