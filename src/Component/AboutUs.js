@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import social from "../images/001-github-sign.png";
+import Footer from "./Footer";
 import MainHeader from "./MainHeader";
 
 export default class AboutUs extends Component {
@@ -59,6 +60,7 @@ export default class AboutUs extends Component {
             </a>
           </section>
         ))}
+        <Footer />
       </>
     );
   }

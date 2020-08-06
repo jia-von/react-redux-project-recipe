@@ -9,6 +9,7 @@ import food7 from "../images/food7.jpg";
 import food8 from "../images/food8.jpg";
 
 import "../style/GirlRec.css";
+import Footer from "./Footer";
 
 class GirlRec extends React.Component {
 
@@ -59,6 +60,7 @@ class GirlRec extends React.Component {
         This Project will use the "" API to populate recipes. Features: - Featured Recipe and gallery on main page - Search recipes -  </p>
       </main>
       <nav></nav>
+      <Footer />
       </div>
     )
 
