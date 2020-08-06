@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/contactus.css";
+import Footer from "./Footer";
 //import { updateFullName, updateEmail, updateSubject, updateMessage } from "../actions/contactUs";
 // import { connect } from "react-redux";
 import MainHeader from "./MainHeader";
@@ -101,10 +102,10 @@ class ContactUs extends React.Component {
             <div>
               <button>Calculate</button>
             </div>
-
             {/* <p>{this.props.anything.result}</p> */}
           </form>
         </div>
+        <Footer />
       </>
     );
   }
