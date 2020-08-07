@@ -4,6 +4,7 @@ import MainHeader from "../logic/MainHeader";
 import Footer from "../logic/Footer";
 import { createBrowserHistory } from "history";
 import { connect } from "react-redux";
+import Search from "../logic/Search";
 
 class MyGoodRecipes extends React.Component {
   constructor(props) {
@@ -15,9 +16,9 @@ class MyGoodRecipes extends React.Component {
   // }
   // var clean = DOMPurify.sanitize(dirty);
   render() {
-    console.log(this.props.recipe);
     return (
       <div>
+        <Search />
         <MainHeader titleHeader="My Good Recipes" />
         {this.props.recipe.map((recipe) =>
           recipe.map((indrecipe) => (
