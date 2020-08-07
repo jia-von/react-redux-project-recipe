@@ -10,5 +10,11 @@ const addRecipe = (recipe) => {
     value: recipe,
   };
 };
+const searchRecipe = (searched) => {
+  return {
+    type: "SEARCH_RECIPE",
+    value: searched,
+  };
+};
 
-export { addComment, addRecipe };
+export { addComment, addRecipe, searchRecipe };

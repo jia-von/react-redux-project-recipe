@@ -4,21 +4,18 @@ import MainHeader from "../logic/MainHeader";
 import Footer from "../logic/Footer";
 import { createBrowserHistory } from "history";
 import { connect } from "react-redux";
+import Search from "../logic/Search";
 
 class MyGoodRecipes extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
-  // foodDetail() {
-  //   this.props.history.push("/FoodDetails");
-  // }
-  // var clean = DOMPurify.sanitize(dirty);
   render() {
-    console.log(this.props.recipe);
     return (
       <div>
         <MainHeader titleHeader="My Good Recipes" />
+        <Search />
         {this.props.recipe.map((recipe) =>
           recipe.map((indrecipe) => (
             <>

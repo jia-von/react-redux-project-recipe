@@ -11,16 +11,15 @@ const recipeReducer = (state = [], action) => {
     //   newState.push(newComment);
     //   return newState;
     case "ADD_RECIPE":
-      // console.log(action.value);
       const newArray = state.slice();
-      // const newRecipeObject = {
-      //   recipe: action.value,
-      // };
-      // const individualRecipe = newRecipeObject.map((indres) =>
-      // );
       newArray.push(action.value);
-      // console.log(newArray);
       return newArray;
+
+    case "SEARCH_RECIPE":
+      const searchedArray = state.slice();
+
+      searchedArray.push(action.value);
+      return searchedArray;
 
     default:
       return state;

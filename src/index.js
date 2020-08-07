@@ -11,14 +11,14 @@ import Nav from "./Component/logic/Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ContactUs from "./Component/displayPages/ContactUs";
 import MyGoodRecipes from "./Component/displayPages/MyGoodRecipes";
-import Footer from "./Component/logic/Footer";
 import recipeReducer from "./reducers/recipeReducer";
 import GirlRec from "./Component/displayPages/GirlRec";
 import PopulateStore from "./Component/logic/PopulateStore";
+import { addRecipe } from "./actions/recipeAction";
+import RecipeSearch from "./Component/displayPages/RecipeSearch";
 
 const store = createStore(recipeReducer);
 store.subscribe(() => console.log(store.getState()));
-
 const Root = (store) => (
   <Provider store={store.store}>
     <Router>
@@ -29,6 +29,7 @@ const Root = (store) => (
       <Route path="/mygoodrecipes" component={MyGoodRecipes} />
       <Route path="/contactus" component={ContactUs} />
       <Route path="/aboutus" component={AboutUs} />
+      <Route path="/recipes" component={RecipeSearch} />
       <Route path="/fooddetails" component={FoodDetails} />
       <Route path="/girlRec" component={GirlRec} />
     </Router>
