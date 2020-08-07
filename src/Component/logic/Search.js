@@ -1,6 +1,7 @@
 import { connect } from "react-redux";
 import React, { Component } from "react";
 import { searchRecipe } from "../../actions/recipeAction";
+import "../../style/search.css";
 
 class Search extends Component {
   constructor(props) {
@@ -50,16 +51,18 @@ class Search extends Component {
 
     return (
       <form onSubmit={this.search}>
+        <p>Find your new favourite recipe!</p>
         <input
           type="text"
           name="userInput"
           id="userInput"
+          placeholder="Search... "
           value={this.state.userSearch}
           onChange={(event) =>
             this.updateItem("userSearch", event.target.value)
           }
         />
-        <input type="submit" />
+        <input type="submit" id="submit"/>
       </form>
     );
   }
