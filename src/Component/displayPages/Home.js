@@ -18,7 +18,7 @@ class Home extends React.Component {
           <div className="overlay"> {/*className overlay was created to replect the CSS where an overlay can be inserted @link: https://www.w3schools.com/howto/howto_css_overlay.asp*/}
           
           <img src={Egg_Benedict_Breakfast} id="Egg Benedict Breakfast"/>
-          <ul>
+          <ul className="recipeText">
             <li>Classic Eggs Benedict</li>
             <li>The key to this brunch classic is delicious simplicity: poached fresh eggs, Canadian bacon, toasted English muffins, and an authentic hollandaise sauce. Eggs Benedict can be intimidating for a first-timer, but it doesn’t need to be.</li>
           </ul>
