@@ -13,6 +13,15 @@ class Search extends Component {
   search = (event) => {
     event.preventDefault();
     console.log("Works");
+    {
+      this.props.recipe.map((recipe) =>
+        recipe.map((indrecipe) =>
+          indrecipe.title.indexOf(this.state.userSearch) != -1
+            ? console.log(indrecipe.title)
+            : console.log("not")
+        )
+      );
+    }
 
     //this.props.dispatch(searchRecipe(this.state.userSearch));
     // const recipeArray = (this.props.recipes.map((recipe) => recipe.map((indrecipe) => indrecipe.title))
@@ -22,7 +31,7 @@ class Search extends Component {
     //   ),
     // ];
 
-    console.log(typeof newArray);
+    // console.log(typeof newArray);
     // newArray = newArray.filter(
     //   (title) =>
     //     title.toLowerCase().indexOf(this.userSearch.toLowerCase()) !== 1
@@ -49,7 +58,7 @@ class Search extends Component {
             this.updateItem("userSearch", event.target.value)
           }
         />
-        <button onClick={this.search}></button>
+        <input type="submit" />
       </form>
     );
   }

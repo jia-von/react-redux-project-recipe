@@ -8,7 +8,7 @@ class PopulateStore extends Component {
     axios
       .get(
         // The number=2 in the html link is returning us 2 results. If we want more results we just increase that number to what we want.
-        "https://api.spoonacular.com/recipes/complexSearch?apiKey=ef55fdb6ca834d57b5eeb8fcc602e463&number=2&addRecipeNutrition=false&addRecipeInformation=true&offset=120"
+        "https://api.spoonacular.com/recipes/complexSearch?apiKey=c5413da4ad594941bce9e89fdadec43c&number=2&addRecipeNutrition=false&addRecipeInformation=true&offset=120"
       )
       .then((res) => {
         this.props.dispatch(addRecipe(res.data.results));

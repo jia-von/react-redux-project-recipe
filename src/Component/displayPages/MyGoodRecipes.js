@@ -11,10 +11,6 @@ class MyGoodRecipes extends React.Component {
     super(props);
     this.state = {};
   }
-  // foodDetail() {
-  //   this.props.history.push("/FoodDetails");
-  // }
-  // var clean = DOMPurify.sanitize(dirty);
   render() {
     return (
       <div>
