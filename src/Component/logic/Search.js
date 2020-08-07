@@ -9,21 +9,29 @@ class Search extends Component {
       userSearch: "",
     };
   }
-  //   recipeTitle = this.props.recipe;
+
   search = (event) => {
     event.preventDefault();
+    console.log(this.state);
+    // Create an empty Array to hold the recipes that get returned as having the search term in thier title
     let newArray = [];
-    console.log("Works");
+
+    // Search through the store with the results from the API searching for titles with the searched text
+    // Push the entire recipe to the Array if it matches
     {
       this.props.recipe.map((recipe) =>
         recipe.map((indrecipe) =>
-          indrecipe.title.indexOf(this.state.userSearch) != -1
+          indrecipe.title
+            .toLowerCase()
+            .indexOf(this.state.userSearch.toLowerCase()) !== -1
             ? newArray.push(indrecipe)
-            : console.log("not")
+            : null
         )
       );
     }
-    console.log(newArray);
+
+    // Dispatch the newArray using search action to create a store result for returned arrays for display on RecipeSearch Page
+    this.props.dispatch(searchRecipe(newArray));
     //this.props.dispatch(searchRecipe(this.state.userSearch));
     // const recipeArray = (this.props.recipes.map((recipe) => recipe.map((indrecipe) => indrecipe.title))
     // let newArray = [
@@ -31,14 +39,7 @@ class Search extends Component {
     //     recipeArr.map((indrecipe) => indrecipe)
     //   ),
     // ];
-
-    // console.log(typeof newArray);
-    // newArray = newArray.filter(
-    //   (title) =>
-    //     title.toLowerCase().indexOf(this.userSearch.toLowerCase()) !== 1
-    // );
-    // console.log(recipeArray);
-    // state = state.filter((toDo) => toDo.uniqueId !== action.value);
+    // Clear the search bar once the search is complete
     this.updateItem("userSearch", "");
   };
   updateItem(key, value) {
@@ -46,8 +47,6 @@ class Search extends Component {
   }
 
   render() {
-    const userInput = "kale";
-
     return (
       <form onSubmit={this.search}>
         <input
