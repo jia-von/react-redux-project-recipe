@@ -33,7 +33,7 @@ class ContactUs extends React.Component {
   render() {
     return (
       <>
-        <MainHeader titleHeader="Contact Us" />
+        <MainHeader titleHeader="About Us" />
         <div className="contactUsContainer">
           <form onSubmit={this.handleSubmit} className="contactFormHolder">
             <div>

@@ -11,7 +11,6 @@ import MainHeader from "../logic/MainHeader";
 import "../../style/GirlRec.css";
 import Footer from "../logic/Footer";
 import social from "../../images/001-github-sign.png";
-import "../../style/AboutUs.css";
 
 
 class GirlRec extends React.Component {

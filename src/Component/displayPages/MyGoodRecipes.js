@@ -7,10 +7,13 @@ import { connect } from "react-redux";
 import Search from "../logic/Search";
 
 class MyGoodRecipes extends React.Component {
+<<<<<<< HEAD
+=======
   constructor(props) {
     super(props);
     this.state = {};
   }
+>>>>>>> 2e83dd927dceb8259c3db9db9d922f85e5a62670
   render() {
     return (
       <div>

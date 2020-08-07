@@ -1,6 +1,5 @@
-html {
-  background-color: rgb(128, 245, 18);
-}
+/*Completed merging master to home branch on August 7, 2020*/
+
 .contactUsContainer {
 padding: 30px;
  /* margin: auto;*/
@@ -8,7 +7,6 @@ padding: 30px;
   background-image: url("../images/food1.jpg");
   margin-bottom: 50px;
 }
-
 
 form {
   background-color: #ffffff;
