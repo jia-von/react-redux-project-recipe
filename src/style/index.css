@@ -11,14 +11,12 @@ html {
  /*Start of.bgHeader that will influence all <MainHeader/> component*/
 .bgHeader {
   background-image: url(../images/salad.jpg);
-  height: 150px;
-  background-size: stretch;
-  background-repeat: no-repeat;
-  width: 80%;
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
+    height: 150px;
+    background-size: stretch;
+    background-repeat: no-repeat;
+    margin: auto;
+    align-items: center;
+    width: 100%;
 }   
 
 /*End of .bgHeader that will influence all <MainHeader/> component*/
@@ -42,7 +40,6 @@ h1 {
     height: 150px;
     background-size: stretch;
     background-repeat: no-repeat;
-    width: 80%;
     display: flex;
     
     margin: auto;

@@ -11,7 +11,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="recGalleryContainer">
-      <MainHeader titleHeader="Good Girls Eat" className="recGalleryHeader"/>
+      <MainHeader titleHeader="Good Girls Eat"/>
         <h2>Are you ready to cook?</h2> 
         <figure className="eggBenedictBreakfast"> {/*Start of Egg_Benedict_Breakfast @link: https://spoonacular.com/recipes/classic-eggs-benedict-639594*/}
 
