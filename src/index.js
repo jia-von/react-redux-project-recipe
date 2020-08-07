@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./style/index.css";
 import { createStore } from "redux";
-import AboutUs from "./Component/displayPages/AboutUs";
 import FoodDetails from "./Component/displayPages/FoodDetails";
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
@@ -28,7 +27,6 @@ const Root = (store) => (
       <Route path="/home" component={Home} />
       <Route path="/mygoodrecipes" component={MyGoodRecipes} />
       <Route path="/contactus" component={ContactUs} />
-      <Route path="/aboutus" component={AboutUs} />
       <Route path="/fooddetails" component={FoodDetails} />
       <Route path="/girlRec" component={GirlRec} />
     </Router>

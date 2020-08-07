@@ -1,4 +1,4 @@
-.bgHeader {
+/*.bgHeader {
   background-image: url(../images/salad.jpg);
   height: 150px;
   
@@ -6,8 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-h1 {
+}   */
+
+
+/*h1 {
   text-align: center;
   vertical-align: center;
   height: 33%;
@@ -42,4 +44,4 @@ html {
     font-size: 2rem;
   }
 
-   }
+   }*/

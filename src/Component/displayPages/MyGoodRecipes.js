@@ -6,10 +6,10 @@ import { createBrowserHistory } from "history";
 import { connect } from "react-redux";
 
 class MyGoodRecipes extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+  //constructor(props) {
+    //super(props);
+    //this.state = {};
+  //}
   // foodDetail() {
   //   this.props.history.push("/FoodDetails");
   // }

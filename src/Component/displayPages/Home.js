@@ -8,8 +8,6 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <MainHeader titleHeader="Good Girls Eat" />
-
         <RecGallery recGallery="RecGallery" />
 
         <Footer />
