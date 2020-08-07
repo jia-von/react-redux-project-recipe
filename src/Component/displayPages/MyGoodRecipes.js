@@ -27,7 +27,22 @@ class MyGoodRecipes extends React.Component {
                 <img src={indrecipe.image} alt="Food Recipe To See" />
                 <figcaption>
                   <ul>
-                    <li className="label">{indrecipe.summary}</li>
+                    <li className="label">
+                      {indrecipe.summary.replace(/(<([^>]+)>)/gi, "")}
+                    </li>
+                    <li>
+                      <span className="topicHeader">Ingredients: </span>
+                      <span className="topicP">
+                        {indrecipe.analyzedInstructions.map(
+                          (analyzedInstruction) =>
+                            analyzedInstruction.steps.map((stepsInd) =>
+                              stepsInd.ingredients.map((ingredient) => (
+                                <>{ingredient.name} , </>
+                              ))
+                            )
+                        )}
+                      </span>
+                    </li>
                     {/* <li>
                     <span className="topicHeader"> Ingredients:</span>
                     <span className="topicP">
