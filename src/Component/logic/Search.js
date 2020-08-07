@@ -12,17 +12,18 @@ class Search extends Component {
   //   recipeTitle = this.props.recipe;
   search = (event) => {
     event.preventDefault();
+    let newArray = [];
     console.log("Works");
     {
       this.props.recipe.map((recipe) =>
         recipe.map((indrecipe) =>
           indrecipe.title.indexOf(this.state.userSearch) != -1
-            ? console.log(indrecipe.title)
+            ? newArray.push(indrecipe)
             : console.log("not")
         )
       );
     }
-
+    console.log(newArray);
     //this.props.dispatch(searchRecipe(this.state.userSearch));
     // const recipeArray = (this.props.recipes.map((recipe) => recipe.map((indrecipe) => indrecipe.title))
     // let newArray = [

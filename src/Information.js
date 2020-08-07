@@ -4773,3 +4773,4 @@ const results = [
     ],
   },
 ];
+let newResult = results.filter(pricePerServing);

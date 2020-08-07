@@ -14,8 +14,8 @@ class MyGoodRecipes extends React.Component {
   render() {
     return (
       <div>
-        <Search />
         <MainHeader titleHeader="My Good Recipes" />
+        <Search />
         {this.props.recipe.map((recipe) =>
           recipe.map((indrecipe) => (
             <>
