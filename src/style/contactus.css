@@ -1,7 +1,8 @@
-/*.contactUsContainer {
+.contactUsContainer {
 padding: 30px;
   margin: auto;
 }
+
 form {
   margin: auto;
   border: 2px solid black;
@@ -26,4 +27,4 @@ input {
   margin: auto;}
   
 
-} */
+} 
