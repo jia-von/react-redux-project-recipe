@@ -3,22 +3,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 import "../../style/Footer.css";
 
 const Footer = () => (
   <div className="footer">
-    <a href="MyGoodRecipes">
-      <FontAwesomeIcon icon={faHome} />
+    <a href="Home">
+      <FontAwesomeIcon icon={ faHome } />
     </a>
     <a href="MyGoodRecipes">
-      <FontAwesomeIcon icon={faSearch} />
+      <FontAwesomeIcon icon={ faSearch } />
     </a>
     <a href="MyGoodRecipes">
-      <FontAwesomeIcon icon={faHeart} />
+      <FontAwesomeIcon icon={ faHamburger } />
     </a>
     <a href="MyGoodRecipes">
-      <FontAwesomeIcon icon={faBars} />
+      <FontAwesomeIcon icon={ faHeart } />
+    </a>
+    <a href="ContactUs">
+      <FontAwesomeIcon icon={ faQuestion } />
     </a>
   </div>
 );
