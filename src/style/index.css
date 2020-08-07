@@ -1,28 +1,41 @@
-/*.bgHeader {
+/*Start of the html that influences globally on all pages and apps*/
+html {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ /*End of the html that influeces globall on all pages and apps*/
+ 
+
+ /*Start of.bgHeader that will influence all <MainHeader/> component*/
+.bgHeader {
   background-image: url(../images/salad.jpg);
   height: 150px;
-  
-  width: 100%;
+  background-size: stretch;
+  background-repeat: no-repeat;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  margin: auto;
   align-items: center;
-}   */
+  justify-content: center;
+}   
 
+/*End of .bgHeader that will influence all <MainHeader/> component*/
 
-/*h1 {
+/*Start of h1 that will influence all h1 element in all pages*/
+h1 {
   text-align: center;
   vertical-align: center;
   height: 33%;
   background-color: rgba(226, 40, 77, 0.6);
-  width: 100%;
   font-size: 2rem;
+  width: 100%;
 }
-html {
- width: 80%;
- margin: 0 auto;
-  height: auto;
-}
+/*End of h1 that will influence all the h1 element in all pages*/
 
+
+/*Start of media query that will influence that app when viewed in mobile*/
 @media only screen and (min-width: 800px) {
   .bgHeader {
     background-image: url(../images/salad.jpg);
@@ -43,5 +56,5 @@ html {
     margin: 0 auto;
     font-size: 2rem;
   }
-
-   }*/
+   }
+   /*End of media query that will influence that app when viewed in a mobile*/

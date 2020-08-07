@@ -6,14 +6,6 @@ import { createBrowserHistory } from "history";
 import { connect } from "react-redux";
 
 class MyGoodRecipes extends React.Component {
-  //constructor(props) {
-    //super(props);
-    //this.state = {};
-  //}
-  // foodDetail() {
-  //   this.props.history.push("/FoodDetails");
-  // }
-  // var clean = DOMPurify.sanitize(dirty);
   render() {
     console.log(this.props.recipe);
     return (

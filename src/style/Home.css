@@ -1,69 +1,51 @@
-
-html {
-    width: 80%;
-    margin: 0 auto;
-     height: auto;
-   }
-
-.bgHeader {
-  background-image: url(../images/salad.jpg);
-  height: 150px;
-  width: 100%;
-  display: flex;
+.recGalleryContainer {
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-    text-align: center;
-    vertical-align: center;
-    height: 33%;
-    background-color: rgba(226, 40, 77, 0.6);
-    width: 100%;
-    font-size: 2rem;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
     text-align: center;
 }
 
-.recGalleryFigure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: chartreuse;
+/*Start of creating the overlay so for the img, title, and summary so it can be read*/
+.overlay {
+  background-color:rgba(225, 225,225,0.7);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}/*End of creating the overlay*/
+
+.eggBenedictBreakfast{
+  background-image: url("../images/Egg_Benedict_Breakfast.jpg");
+  width: 75%;
+  background-size: cover;
 }
 
-.recGalleryFigure > img {
-    max-width: 300px;
+.lunchSandwich{
+  background-image: url("../images/Lunch_Sandwich.jpg");
+  width: 75%;
+  background-size: cover;
+}
+
+.dinnerStew{
+  background-image: url("../images/Dinner_Stew.jpg");
+  width: 75%;
+  background-size: cover;
+}
+
+/*Start of the controls of the img, title and summary of the food.*/
+img {
+  max-width: 300px;
+  width: 80%;
+  padding-top: 10px;
 }
 
 ul {
     list-style-type: none;
     text-align: center;
-}
+}/*End of the controls of the img, title and summary of the food*/
 
-@media only screen and (min-width: 800px) {
-    .bgHeader {
-      background-image: url(../images/salad.jpg);
-      height: 150px;
-      background-size: stretch;
-      background-repeat: no-repeat;
-      width: 80%;
-      display: flex;
-      
-      margin: auto;
-    }
-    h1 {
-      text-align: center;
-      vertical-align: center;
-      height: 33%;
-      background-color: rgba(226, 40, 77, 0.6);
-      width: 80%;
-      margin: 0 auto;
-      font-size: 2rem;
-    }
-  
-     }
