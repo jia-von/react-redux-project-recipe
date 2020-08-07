@@ -1,3 +1,4 @@
+//Completed merge August 7, 2020
 import React from "react";
 import PropTypes from "prop-types";
 import "./style/index.css";
@@ -10,14 +11,14 @@ import Nav from "./Component/logic/Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ContactUs from "./Component/displayPages/ContactUs";
 import MyGoodRecipes from "./Component/displayPages/MyGoodRecipes";
-import Footer from "./Component/logic/Footer";
 import recipeReducer from "./reducers/recipeReducer";
 import GirlRec from "./Component/displayPages/GirlRec";
 import PopulateStore from "./Component/logic/PopulateStore";
+import { addRecipe } from "./actions/recipeAction";
+import RecipeSearch from "./Component/displayPages/RecipeSearch";
 
 const store = createStore(recipeReducer);
 store.subscribe(() => console.log(store.getState()));
-
 const Root = (store) => (
   <Provider store={store.store}>
     <Router>

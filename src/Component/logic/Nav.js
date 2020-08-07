@@ -9,6 +9,9 @@ function Nav() {
         <Link to="/Home">
           <li>Home</li>
         </Link>
+        <Link to="/Recipes">
+          <li>Recipes</li>
+        </Link>
         <Link to="/MyGoodRecipes">
           <li>My Good Recipes</li>
         </Link>

@@ -10,19 +10,19 @@ import "../../style/Footer.css";
 const Footer = () => (
   <div className="footer">
     <a href="Home">
-      <FontAwesomeIcon icon={ faHome } />
+      <FontAwesomeIcon icon={faHome} />
+    </a>
+    <a href="Recipes">
+      <FontAwesomeIcon icon={faSearch} />
+    </a>
+    <a href="GirlRec">
+      <FontAwesomeIcon icon={faHamburger} />
     </a>
     <a href="MyGoodRecipes">
-      <FontAwesomeIcon icon={ faSearch } />
-    </a>
-    <a href="MyGoodRecipes">
-      <FontAwesomeIcon icon={ faHamburger } />
-    </a>
-    <a href="MyGoodRecipes">
-      <FontAwesomeIcon icon={ faHeart } />
+      <FontAwesomeIcon icon={faHeart} />
     </a>
     <a href="ContactUs">
-      <FontAwesomeIcon icon={ faQuestion } />
+      <FontAwesomeIcon icon={faQuestion} />
     </a>
   </div>
 );

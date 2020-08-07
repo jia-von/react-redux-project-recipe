@@ -14,7 +14,6 @@ class PopulateStore extends Component {
         this.props.dispatch(addRecipe(res.data.results));
       });
   }
-
   render() {
     return (
       <></>

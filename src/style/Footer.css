@@ -1,16 +1,16 @@
 .footer{
   
     color: #B90000;
-    border-top: 4px solid #B90000;
+    border-top: 1px solid #B90000;
     background-color: #ffffff;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     display: flex;
-    padding: 12px;
+    padding: 10px;
     justify-content: space-evenly;
-    font-size: 35px;  
+    font-size: 20px;  
    
   }
   

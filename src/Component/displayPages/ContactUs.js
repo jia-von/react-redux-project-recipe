@@ -36,10 +36,10 @@ class ContactUs extends React.Component {
         <MainHeader titleHeader="About Us" />
         <div className="contactUsContainer">
           <form onSubmit={this.handleSubmit} className="contactFormHolder">
-            <h2>Contact Us</h2>
             <div>
+              <h2 id = "header2">Get In Touch!</h2>
               <div>
-                <label htmlFor="fullName">Full Name</label>
+                <label htmlFor="fullName">Name</label>
               </div>
               <input
                 type="text"
@@ -86,21 +86,22 @@ class ContactUs extends React.Component {
               <div>
                 <label htmlFor="message">Message</label>
               </div>
-              <input
-                type="textarea"
+              <textarea 
+                type="text"
                 name="message"
                 required
                 value={this.state.message}
                 onChange={(event) => {
                   this.updateItem("message", event.target.value);
                 }}
-              />
+              ></textarea>
             </div>
 
             <div>
-              <button>Calculate</button>
+              <button>submit</button>
             </div>
           </form>
+          
         </div>
         <Footer />
       </>
