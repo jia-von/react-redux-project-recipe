@@ -1,3 +1,6 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 .recGalleryContainer {
   justify-content: center;
@@ -12,10 +15,12 @@
   color: #b90000;
 }
 .eggBenedictBreakfast{
-  background-image: url("../images/Egg_Benedict_Breakfast.jpg");
+  background-image: url("../images/eggsbenny.jpg");
   background-size: cover;
   width: auto;
   display: flex;
+ 
+  
 }
 
 .lunchSandwich{
@@ -34,11 +39,12 @@
 
 /*Start of creating the overlay so for the img, title, and summary so it can be read*/
 .overlay {
-  background-color:rgba(225, 225,225,0.8);
+  background-color: #fff;
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 100%;
+    color: #b90000;
+  
 
 }/*End of creating the overlay*/
 
@@ -55,6 +61,10 @@ ul {
     list-style-type: none;
     text-align: center;
     width: 90%;
-    font: #b90000;
+    color: #b90000;
 }/*End of the controls of the img, title and summary of the food*/
+
+li {
+  color: #b90000;
+}
 
