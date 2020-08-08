@@ -6,6 +6,7 @@ import ourInfo from "../../Information";
 
 class PopulateStore extends Component {
   componentDidMount() {
+
     //   axios
     //     .get(
     //       // The number=2 in the html link is returning us 2 results. If we want more results we just increase that number to what we want.
@@ -15,6 +16,7 @@ class PopulateStore extends Component {
     //       this.props.dispatch(addRecipe(res.data.results));
     //     });
     this.props.dispatch(addRecipe(ourInfo));
+
   }
 
   render() {

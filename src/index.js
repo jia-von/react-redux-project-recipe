@@ -1,3 +1,4 @@
+//Completed merge August 7, 2020
 import React from "react";
 import PropTypes from "prop-types";
 import "./style/index.css";
@@ -27,7 +28,6 @@ const Root = (store) => (
       <Route path="/home" component={Home} />
       <Route path="/mygoodrecipes" component={MyGoodRecipes} />
       <Route path="/contactus" component={ContactUs} />
-
       <Route path="/recipes" component={RecipeSearch} />
       <Route path="/fooddetails" component={FoodDetails} />
       <Route path="/girlRec" component={GirlRec} />

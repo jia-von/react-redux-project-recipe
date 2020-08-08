@@ -1,5 +1,6 @@
+/*Completed merge August 7, 2020*/
 html {
-  background-color: rgb(214, 228, 201);
+  background-color: #fff;
 }
 .GirlRecContainer {
 
@@ -12,17 +13,6 @@ header {
   
   height: 300px;
   border: 2px solid black;
-}
-
-
-
-.imgBinder img {
-  margin: 15px;
-  width: 300px;
-  height: 200px;
-  border: 2px solid black;
-  
-  
 }
 
 h1 {
@@ -39,13 +29,9 @@ h2 {
   color: black;
   text-align: center;
 }
-
+*/
 
 
 @media only screen and (min-width: 700px) {
   .GirlRecContainer {width: 60%;}
-  .imgBinder {
-    display: flex;
-    justify-content: center;
-
-} }
+ }

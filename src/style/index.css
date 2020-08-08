@@ -1,12 +1,25 @@
-.bgHeader {
+/*Start of the html that influences globally on all pages and apps*/
+html {
+  /*width: 80%; wanted to remove so the mobile app look good without padding but the media query doesn't resposne - Jia*/
+  margin: 0 auto;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ /*End of the html that influeces globall on all pages and apps*/
+ 
+
+ /*Start of.bgHeader that will influence all <MainHeader/> component*/
+ .bgHeader {
   background-image: url(../images/salad.jpg);
   height: 150px;
-  
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
+/*End of .bgHeader that will influence all <MainHeader/> component*/
+
+/*Start of h1 that will influence all h1 element in all pages*/
 h1 {
   text-align: center;
   vertical-align: center;
@@ -15,21 +28,18 @@ h1 {
   width: 100%;
   font-size: 2rem;
 }
-html {
- width: 80%;
- margin: 0 auto;
-  height: auto;
-}
+/*End of h1 that will influence all the h1 element in all pages*/
 
+
+/*Start of media query that will influence that app when viewed in mobile*/
 @media only screen and (min-width: 800px) {
+
   .bgHeader {
     background-image: url(../images/salad.jpg);
     height: 150px;
     background-size: stretch;
     background-repeat: no-repeat;
-    width: 80%;
     display: flex;
-    
     margin: auto;
   }
   h1 {
@@ -41,5 +51,5 @@ html {
     margin: 0 auto;
     font-size: 2rem;
   }
-
-   }
+}
+   /*End of media query that will influence that app when viewed in a mobile*/
