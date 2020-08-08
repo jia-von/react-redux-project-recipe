@@ -3,7 +3,7 @@ import "../../style/MyGoodRecipe.css";
 import MainHeader from "../logic/MainHeader";
 import Footer from "../logic/Footer";
 import { connect } from "react-redux";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faHamburger } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { toggleFavorites } from "../../actions/recipeAction";
 
@@ -95,7 +95,7 @@ class RecipeSearch extends React.Component {
                 {indrecipe.favorites ? (
                   <FontAwesomeIcon icon={faHeart} />
                 ) : (
-                  <FontAwesomeIcon icon={faHeart} />
+                  <FontAwesomeIcon icon={faHamburger} />
                 )}{" "}
               </i>
               <figure>
