@@ -9,16 +9,66 @@ import Search from "../logic/Search";
 class RecipeSearch extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      userSearch: "",
+      recipeList: [],
+    };
   }
+
+  search = (event) => {
+    event.preventDefault();
+    //console.log(this.state);
+    // Create an empty Array to hold the recipes that get returned as having the search term in thier title
+    let newArray = [];
+
+    const userInput = event.target.value;
+
+    // Search through the store with the results from the API searching for titles with the searched text
+    // Push the entire recipe to the Array if it matches
+    {
+      this.props.recipe.map((recipe) =>
+        recipe.map((indrecipe) =>
+          indrecipe.title
+            .toLowerCase()
+            .indexOf(this.state.userSearch.toLowerCase()) !== -1
+            ? newArray.push(indrecipe)
+            : null
+        )
+      );
+    }
+    this.setState({ recipeList: [newArray] });
+    this.updateItem("userSearch", "");
+  };
+  updateItem(key, value) {
+    this.setState({ [key]: value });
+  }
+
   render() {
     // if searched state is empty? use this.props.recipe else use this.props.searched
+
+    let recipes = this.state.recipeList
+      ? this.state.recipeList
+      : this.props.recipe;
 
     return (
       <div>
         <MainHeader titleHeader="Recipes" />
-        <Search />
-        {this.props.recipe.map((recipe) =>
+        <form onSubmit={this.search}>
+          <p>Find your new favourite recipe!</p>
+          <input
+            type="text"
+            name="userInput"
+            id="userInput"
+            placeholder="Search... "
+            value={this.state.userSearch}
+            onChange={(event) =>
+              this.updateItem("userSearch", event.target.value)
+            }
+          />
+          <input type="submit" id="submit" />
+        </form>
+
+        {recipes.map((recipe) =>
           recipe.map((indrecipe) => (
             <>
               <h2>{indrecipe.title}</h2>
