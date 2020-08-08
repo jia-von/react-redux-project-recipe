@@ -16,6 +16,8 @@ class PopulateStore extends Component {
     //     });
 
     // Use for testing purposes or when API is down
+    // Add a favorites property
+    ourInfo.map((recipe) => (recipe.favorites = false));
     this.props.dispatch(addRecipes(ourInfo));
   }
 
