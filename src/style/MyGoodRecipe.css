@@ -1,13 +1,11 @@
-
 .topicHeader {
   font-size: large;
   font-weight: bold;
 }
 .topicP {
-  font-size: large;
+  font-size: 16px;
 }
 figure {
-  
   width: 100%;
   margin: 0 auto;
   padding: 30px;
@@ -18,16 +16,12 @@ figcaption {
   flex-direction: column;
   justify-content: flex-start;
   font-size: medium;
-  
 }
 .label {
-  text-decoration: underline;
-  font-size: large;
-  font-weight: bold;
+  font-size: 15px;
   margin-bottom: 15px;
   list-style: none;
   color: black;
-
 }
 ul {
   margin: 0px;
@@ -40,8 +34,6 @@ li {
   color: black;
 }
 
-
-
 @media only screen and (min-width: 800px) {
   figure {
     width: 80%;
@@ -50,5 +42,4 @@ li {
     border-bottom: 1px dotted black;
     display: flex;
   }
-
-   }
+}

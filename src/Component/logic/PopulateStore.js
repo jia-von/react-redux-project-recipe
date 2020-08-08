@@ -1,26 +1,30 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { addRecipe } from "../../actions/recipeAction";
+import { addRecipes } from "../../actions/recipeAction";
 import axios from "axios";
 import ourInfo from "../../Information";
 
 class PopulateStore extends Component {
   componentDidMount() {
+    // Connect to API and dispatch the results to the store
+    /*
+      axios
+        .get(
+          // The number=2 in the html link is returning us 2 results. If we want more results we just increase that number to what we want.
+          "https://api.spoonacular.com/recipes/complexSearch?apiKey=c5413da4ad594941bce9e89fdadec43c&number=2&addRecipeNutrition=false&addRecipeInformation=true&offset=120"
+        )
+        .then((res) => {
+          this.props.dispatch(addRecipe(res.data.results));
+        });
+*/
 
-    //   axios
-    //     .get(
-    //       // The number=2 in the html link is returning us 2 results. If we want more results we just increase that number to what we want.
-    //       "https://api.spoonacular.com/recipes/complexSearch?apiKey=c5413da4ad594941bce9e89fdadec43c&number=2&addRecipeNutrition=false&addRecipeInformation=true&offset=120"
-    //     )
-    //     .then((res) => {
-    //       this.props.dispatch(addRecipe(res.data.results));
-    //     });
-    this.props.dispatch(addRecipe(ourInfo));
-
+    // Use for testing purposes or when API is down
+    // Add a favorites property
+    ourInfo.map((recipe) => (recipe.favorites = false));
+    this.props.dispatch(addRecipes(ourInfo));
   }
 
   render() {
-    // populate ();
     return (
       <></>
       // This code is used to dig into the recipe global state props
