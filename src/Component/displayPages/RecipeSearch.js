@@ -60,6 +60,10 @@ class RecipeSearch extends React.Component {
 
     return (
       <div>
+        <>{console.log(recipes)}</>
+        <> {console.log(this.state.recipeList)}</>
+        <>{console.log(this.props.recipe)} </>
+
         <MainHeader titleHeader="Recipes" />
         {/*  
         Form used to query the global storage of information
