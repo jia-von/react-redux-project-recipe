@@ -8,7 +8,7 @@ const addComment = (commentInput) => {
   };
 };
 */
-const addRecipe = (recipe) => {
+const addRecipes = (recipe) => {
   return {
     type: "ADD_RECIPE",
     value: recipe,
@@ -21,4 +21,4 @@ const searchRecipe = (searched) => {
   };
 };
 
-export { addRecipe, searchRecipe };
+export { addRecipes, searchRecipe };

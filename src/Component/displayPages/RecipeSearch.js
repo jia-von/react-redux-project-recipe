@@ -44,11 +44,10 @@ class RecipeSearch extends React.Component {
   }
 
   render() {
-    // if searched state is empty? use this.props.recipe else use this.props.searched
+    // if recipeList state is empty use this.state.recipeList else use this.props.recipe
 
-    let recipes = this.state.recipeList
-      ? this.state.recipeList
-      : this.props.recipe;
+    let recipes =
+      this.state.recipeList > 0 ? this.state.recipeList : this.props.recipe;
 
     return (
       <div>
@@ -82,19 +81,29 @@ class RecipeSearch extends React.Component {
                     <li>
                       <span className="topicHeader">Ingredients: </span>
                       <span className="topicP">
-                        {indrecipe.analyzedInstructions.map(
-                          (analyzedInstruction) =>
-                            analyzedInstruction.steps.map((stepsInd) =>
-                              stepsInd.ingredients.map((ingredient) => (
-                                <>{ingredient.name} , </>
-                              ))
-                            )
+                        {indrecipe.analyzedInstructions.length > 0 ? (
+                          indrecipe.analyzedInstructions.map(
+                            (analyzedInstruction) =>
+                              analyzedInstruction.steps.map((stepsInd) =>
+                                stepsInd.ingredients.map((ingredient) => (
+                                  <>{ingredient.name}, </>
+                                ))
+                              )
+                          )
+                        ) : (
+                          <>Not Avaialble</>
                         )}
                       </span>
                     </li>
                     <li>
                       <span className="topicHeader">Total Time: </span>
-                      <span className="topicP">{indrecipe.totalTime}</span>
+                      <span className="topicP">
+                        {indrecipe.readyInMinutes ? (
+                          <>{indrecipe.readyInMinutes} minutes</>
+                        ) : (
+                          <>Not Available</>
+                        )}
+                      </span>
                     </li>
                     <li>
                       <span className="topicHeader">Influenced By: </span>
