@@ -1,24 +1,11 @@
-const results = [
+const ourInfo = [
   {
-    vegetarian: true,
-    vegan: true,
-    glutenFree: true,
-    dairyFree: true,
-    veryHealthy: true,
-    cheap: false,
-    veryPopular: true,
-    sustainable: false,
-    weightWatcherSmartPoints: 0,
-    gaps: "no",
-    lowFodmap: false,
     preparationMinutes: 5,
     cookingMinutes: 10,
     aggregateLikes: 508,
-    spoonacularScore: 100.0,
     healthScore: 62.0,
     creditsText: "For the Love of Cooking",
     sourceName: "For the Love of Cooking",
-    pricePerServing: 44.95,
     id: 497380,
     title: "Sautéed Kale with Grape Tomatoes, Garlic, and Parmesan",
     readyInMinutes: 15,
@@ -29,18 +16,6 @@ const results = [
     imageType: "jpg",
     summary:
       "Sautéed Kale with Grape Tomatoes, Garlic, and Parmesan might be just the side dish you are searching for. Watching your figure? This caveman, gluten free, primal, and whole 30 recipe has 41 calories, 2g of protein, and 3g of fat per serving. For 45 cents per serving, this recipe covers 12% of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes around 15 minutes. 508 people have made this recipe and would make it again. A mixture of garlic, water, sea salt and freshly cracked pepper, and a handful of other ingredients are all it takes to make this recipe so scrumptious. All things considered, we decided this recipe deserves a spoonacular score of 100%. This score is outstanding. Try Sautéed Cauliflower & Grape Tomatoes, Spaghetti With Sauteed Chicken And Grape Tomatoes, and Orecchiette with Asparagus, Grape Tomatoes, Spinach, and Parmesan for similar recipes.",
-    cuisines: [],
-    dishTypes: ["side dish"],
-    diets: [
-      "gluten free",
-      "dairy free",
-      "paleolithic",
-      "lacto ovo vegetarian",
-      "primal",
-      "vegan",
-    ],
-    occasions: [],
-    winePairing: {},
     analyzedInstructions: [
       {
         name: "",
@@ -166,17 +141,6 @@ const results = [
     ],
   },
   {
-    vegetarian: true,
-    vegan: true,
-    glutenFree: true,
-    dairyFree: true,
-    veryHealthy: true,
-    cheap: false,
-    veryPopular: true,
-    sustainable: false,
-    weightWatcherSmartPoints: 4,
-    gaps: "no",
-    lowFodmap: false,
     aggregateLikes: 752,
     spoonacularScore: 100.0,
     healthScore: 100.0,
@@ -193,11 +157,6 @@ const results = [
     imageType: "jpg",
     summary:
       "You can never have too many side dish recipes, so give Grilled Vegetables with Miso Sauce a try. This recipe makes 2 servings with 227 calories, 10g of protein, and 11g of fat each. For $2.26 per serving, this recipe covers 34% of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes about 45 minutes. It is perfect for The Fourth Of July. This recipe from Vegetarian Times has 752 fans. Head to the store and pick up bok choy, sesame seeds, rice vinegar, and a few other things to make it today. It is a good option if you're following a gluten free and vegan diet. All things considered, we decided this recipe deserves a spoonacular score of 100%. This score is great. Similar recipes include Miso Grilled Vegetables, Grilled Vegetables with Miso Sabayon, and Grilled Sea Bass with Miso-Mustard Sauce.",
-    cuisines: [],
-    dishTypes: ["side dish"],
-    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
-    occasions: ["father's day", "4th of july", "summer"],
-    winePairing: {},
     analyzedInstructions: [
       {
         name: "To make Vegetables",
@@ -4773,4 +4732,5 @@ const results = [
     ],
   },
 ];
-let newResult = results.filter(pricePerServing);
+
+export default ourInfo;

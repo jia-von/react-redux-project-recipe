@@ -12,6 +12,8 @@ class RecipeSearch extends React.Component {
     this.state = {};
   }
   render() {
+    // if searched state is empty? use this.props.recipe else use this.props.searched
+
     return (
       <div>
         <MainHeader titleHeader="Recipes" />

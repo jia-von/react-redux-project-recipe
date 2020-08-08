@@ -1,9 +1,13 @@
+/**
+ Future Feature for adding comments to individual recipes
+
 const addComment = (commentInput) => {
   return {
     type: "ADD_COMMENT",
     value: commentInput,
   };
 };
+*/
 const addRecipe = (recipe) => {
   return {
     type: "ADD_RECIPE",
@@ -17,4 +21,4 @@ const searchRecipe = (searched) => {
   };
 };
 
-export { addComment, addRecipe, searchRecipe };
+export { addRecipe, searchRecipe };
