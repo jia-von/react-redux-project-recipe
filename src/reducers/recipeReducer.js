@@ -12,12 +12,25 @@ const recipeReducer = (state = [], action) => {
     //   const newState = state.slice();
     //   newState.push(newComment);
     //   return newState;
-    case "ADD_RECIPE":
+    case "ADD_RECIPES":
       // Used to populate the store with API data
 
       const newArray = state.slice();
       newArray.push(action.value);
       return newArray;
+
+    case "TOGGLE_FAVORITE":
+      // Used for user to be able to favorite recipes
+      const id = action.value;
+      const array = state.slice();
+
+      {
+        array.map((recipes) => recipes.map((recipe) => recipe.id)) === id
+          ? recipe.favorites
+          : null;
+      }
+      // console.log(action.value);
+      return state;
 
     case "SEARCH_RECIPE":
       //adds a searched array to the store using the results from a user title search or a individual recipe search

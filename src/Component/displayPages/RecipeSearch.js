@@ -2,9 +2,13 @@ import React from "react";
 import "../../style/MyGoodRecipe.css";
 import MainHeader from "../logic/MainHeader";
 import Footer from "../logic/Footer";
-import { createBrowserHistory } from "history";
 import { connect } from "react-redux";
-import Search from "../logic/Search";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { toggleFavorites } from "../../actions/recipeAction";
+
+//   * solid heart  <i class="fas fa-heart"></i>
+//   * open heart <i class="far fa-heart"></i>
 
 class RecipeSearch extends React.Component {
   constructor(props) {
@@ -39,6 +43,11 @@ class RecipeSearch extends React.Component {
     this.setState({ recipeList: [newArray] });
     this.updateItem("userSearch", "");
   };
+  toggleFavorite(id) {
+    const recipeTitle = id;
+    console.log(recipeTitle);
+    this.props.dispatch(toggleFavorites(recipeTitle));
+  }
   updateItem(key, value) {
     this.setState({ [key]: value });
   }
@@ -52,6 +61,10 @@ class RecipeSearch extends React.Component {
     return (
       <div>
         <MainHeader titleHeader="Recipes" />
+        {/*  
+        Form used to query the global storage of information
+     */}
+
         <form onSubmit={this.search}>
           <p>Find your new favourite recipe!</p>
           <input
@@ -67,10 +80,24 @@ class RecipeSearch extends React.Component {
           <input type="submit" id="submit" />
         </form>
 
+        {/*
+    Render of the results - or on default the entire list of recipes
+ */}
+
         {recipes.map((recipe) =>
           recipe.map((indrecipe) => (
             <>
               <h2>{indrecipe.title}</h2>
+              <i
+                className="fas fa-heart"
+                onClick={() => this.toggleFavorite(indrecipe.id)}
+              >
+                {indrecipe.favorites ? (
+                  <FontAwesomeIcon icon={faHeart} />
+                ) : (
+                  <FontAwesomeIcon icon={faHeart} />
+                )}{" "}
+              </i>
               <figure>
                 <img src={indrecipe.image} alt="Food Recipe To See" />
                 <figcaption>
