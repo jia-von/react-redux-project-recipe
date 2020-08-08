@@ -27,12 +27,13 @@ class RecipeSearch extends React.Component {
     event.preventDefault();
     //console.log(this.state);
     // Create an empty Array to hold the recipes that get returned as having the search term in thier title
-    let newArray = this.props.recipe > 0 ? this.props.recipe : this.state.recipeList;
+    let newArray =
+      this.props.recipe > 0 ? this.props.recipe : this.state.recipeList;
     const userInput = event.target.value;
 
     // Search through the store with the results from the API searching for titles with the searched text
     // Push the entire recipe to the Array if it matches
-    if(newArray.length === 0){
+    if (newArray.length === 0) {
       this.props.recipe.map((recipe) =>
         recipe.map((indrecipe) =>
           indrecipe.title
@@ -58,7 +59,6 @@ class RecipeSearch extends React.Component {
   render() {
     return (
       <div>
-        {/* <>{console.log(recipes)}</> */}
         <> {console.log(this.state.recipeList)}</>
         <>{console.log(this.props.recipe)} </>
 
@@ -107,12 +107,14 @@ class RecipeSearch extends React.Component {
                 <figcaption>
                   <ul>
                     <li className="label">
-                      {indrecipe.summary ? indrecipe.summary.replace(/(<([^>]+)>)/gi, ""):''}
+                      {indrecipe.summary
+                        ? indrecipe.summary.replace(/(<([^>]+)>)/gi, "")
+                        : ""}
                     </li>
                     <li>
                       <span className="topicHeader">Ingredients: </span>
                       <span className="topicP">
-                        {indrecipe.analyzedInstructions.length > 0 ? (
+                        {indrecipe.analyzedInstructions ? (
                           indrecipe.analyzedInstructions.map(
                             (analyzedInstruction) =>
                               analyzedInstruction.steps.map((stepsInd) =>
