@@ -43,11 +43,11 @@ class RecipeSearch extends React.Component {
     this.setState({ recipeList: [newArray] });
     this.updateItem("userSearch", "");
   };
+
   toggleFavorite(id) {
-    const recipeTitle = id;
-    console.log(recipeTitle);
-    this.props.dispatch(toggleFavorites(recipeTitle));
+    this.props.dispatch(toggleFavorites(id));
   }
+
   updateItem(key, value) {
     this.setState({ [key]: value });
   }
