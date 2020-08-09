@@ -1,9 +1,12 @@
+// The ContactUs.js component uses a local state and React to store user information. No Redux-Store is involved. 
+
 import React from "react";
 import "../../style/contactus.css";
 import Footer from "../logic/Footer";
 import MainHeader from "../logic/MainHeader";
 
 class ContactUs extends React.Component {
+  //The start of the local state within this ContactUs.js coponent
   constructor(props) {
     super(props);
     this.state = {
@@ -13,6 +16,9 @@ class ContactUs extends React.Component {
       message: "",
     };
   }
+  //The end of the local state within this ContactUs.js component
+
+  //Event handler that process user input data and store it into the local state of ContactUs.js
   handleSubmit = (event) => {
     event.preventDefault();
     let subject = this.state.subject;
@@ -20,12 +26,15 @@ class ContactUs extends React.Component {
     document.location =
       "mailto:bibhuti@ualberta.ca?subject=" + subject + "&body=" + message;
     this.resetContactForm();
-  };
+  }; //End of the event handler. 
 
+
+  //Method to reset the local to state with empty properties. 
   resetContactForm = () => {
     this.setState({ fullName: "", email: "", message: "", subject: "" });
   };
 
+  //Method to update the local state once the user has input their data. 
   updateItem = (key, value) => {
     this.setState({ [key]: value });
   };

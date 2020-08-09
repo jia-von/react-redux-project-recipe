@@ -1,3 +1,5 @@
+//This is the Footer.js component we is used in Home.js, Recipes.js, GirlRec.js, MyGoodRecipes.js, and ContactUs.js
+
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

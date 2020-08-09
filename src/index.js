@@ -1,4 +1,8 @@
 
+/* index.js is where the Redux Store occurs
+ * 
+ */
+
 import React from "react";
 import PropTypes from "prop-types";
 import "./style/index.css";
@@ -16,7 +20,10 @@ import GirlRec from "./Component/displayPages/GirlRec";
 import PopulateStore from "./Component/logic/PopulateStore";
 import RecipeSearch from "./Component/displayPages/RecipeSearch";
 
+//Store is created
 const store = createStore(recipeReducer);
+
+
 store.subscribe(() => console.log(store.getState()));
 const Root = (store) => (
   <Provider store={store.store}>

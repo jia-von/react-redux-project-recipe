@@ -4,6 +4,8 @@ this API has a limited number of request in a day we can  make for us to make a 
 Therefore, with Warren's help we copied the API information and put into Information.js as a clone of the Spoonacular API
 */ 
 
+//Comment added by Jia on August 9, 2020.
+
 const ourInfo = [
   {
     preparationMinutes: 5,
