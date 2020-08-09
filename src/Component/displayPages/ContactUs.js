@@ -107,7 +107,7 @@ class ContactUs extends React.Component {
             </div>
 
             <div>
-              <button>submit</button>
+              <button>send</button>
             </div>
           </form>
           
