@@ -1,3 +1,9 @@
+/* Due to the nature of our API obtained from 
+https://api.spoonacular.com/recipes/716429/information?apiKey=c5413da4ad594941bce9e89fdadec43c&includeNutrition=true,
+this API has a limited number of request in a day we can  make for us to make a functioning website while coding. 
+Therefore, with Warren's help we copied the API information and put into Information.js as a clone of the Spoonacular API
+*/ 
+
 const ourInfo = [
   {
     preparationMinutes: 5,
@@ -4734,3 +4740,4 @@ const ourInfo = [
 ];
 
 export default ourInfo;
+//Default export of all of the information as a 'live' API 
