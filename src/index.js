@@ -1,4 +1,8 @@
-//Completed merge August 7, 2020
+
+/* index.js is where the Redux Store occurs
+ * 
+ */
+
 import React from "react";
 import PropTypes from "prop-types";
 import "./style/index.css";
@@ -7,23 +11,25 @@ import FoodDetails from "./Component/displayPages/FoodDetails";
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
 import Home from "./Component/displayPages/Home";
-import Nav from "./Component/logic/Nav";
+//import Nav from "./Component/logic/Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ContactUs from "./Component/displayPages/ContactUs";
 import MyGoodRecipes from "./Component/displayPages/MyGoodRecipes";
 import recipeReducer from "./reducers/recipeReducer";
 import GirlRec from "./Component/displayPages/GirlRec";
 import PopulateStore from "./Component/logic/PopulateStore";
-import { addRecipe } from "./actions/recipeAction";
 import RecipeSearch from "./Component/displayPages/RecipeSearch";
 
+//Store is created
 const store = createStore(recipeReducer);
+
+
 store.subscribe(() => console.log(store.getState()));
 const Root = (store) => (
   <Provider store={store.store}>
+    <PopulateStore />
     <Router>
-      <Nav />
-      <PopulateStore />
+      {/* <Nav /> */}
       <Route path="/" exact component={Home} />
       <Route path="/home" component={Home} />
       <Route path="/mygoodrecipes" component={MyGoodRecipes} />

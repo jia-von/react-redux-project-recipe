@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addRecipes } from "../../actions/recipeAction";
-import axios from "axios";
+// Uncomment this import if using the API
+//import axios from "axios";
+
 import ourInfo from "../../Information";
 
 class PopulateStore extends Component {
@@ -21,6 +23,8 @@ class PopulateStore extends Component {
     // Use for testing purposes or when API is down
     // Add a favorites property
     ourInfo.map((recipe) => (recipe.favorites = false));
+
+    // Reference: This code structure was assisted by Warren during a Milestone check-in along with the code in the Information text.
     this.props.dispatch(addRecipes(ourInfo));
   }
 

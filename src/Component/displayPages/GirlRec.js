@@ -10,72 +10,66 @@ import food8 from "../../images/food8.jpg";
 import MainHeader from "../logic/MainHeader";
 import "../../style/GirlRec.css";
 import Footer from "../logic/Footer";
-import social from "../../images/001-github-sign.png";
-
-
 class GirlRec extends React.Component {
-  state = {
-    foodDetails: [],
-  };
+  // state = {
+  //   foodDetails: [],
+  // };
 
-  constructor() {
-    super();
-    this.state = {
-      authors: [
-        {
-          id: 1,
-          title: "Bibu",
-          description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae aliquam vero at, saepe non nesciunt eos corporis expedita veritatis consequatur quam error ducimus suscipit? Quo nam laborum harum voluptates!",
-          socialLink: "http://google.com",
-        },
-        {
-          id: 2,
-          title: "Corinna",
-          description:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptates officia quod dicta ea sapiente itaque! Quia, nisi. Corrupti, error itaque excepturi obcaecati animi unde. Nulla a rem nemo suscipit?",
-          socialLink: "http://google.com",
-        },
-        {
-          id: 3,
-          title: "Jia",
-          description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus esse perspiciatis, tempore autem deserunt, delectus placeat eum est quam sit eaque cumque molestias harum maiores in numquam amet consequuntur.",
-          socialLink: "http://google.com",
-        },
-        {
-          id: 4,
-          title: "Osasenaga",
-          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex esse veritatis quisquam, laborum error quod laboriosam. Quaerat voluptatem perferendis libero non natus culpa asperiores similique facere. Rem excepturi ipsa suscipit.",
-          socialLink: "http://google.com",
-        },
-      ],
-    };
-  }
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //     authors: [
+  //       {
+  //         id: 1,
+  //         title: "Bibu",
+  //         description:
+  //           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae aliquam vero at, saepe non nesciunt eos corporis expedita veritatis consequatur quam error ducimus suscipit? Quo nam laborum harum voluptates!",
+  //         socialLink: "http://google.com",
+  //       },
+  //       {
+  //         id: 2,
+  //         title: "Corinna",
+  //         description:
+  //           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptates officia quod dicta ea sapiente itaque! Quia, nisi. Corrupti, error itaque excepturi obcaecati animi unde. Nulla a rem nemo suscipit?",
+  //         socialLink: "http://google.com",
+  //       },
+  //       {
+  //         id: 3,
+  //         title: "Jia",
+  //         description:
+  //           "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus esse perspiciatis, tempore autem deserunt, delectus placeat eum est quam sit eaque cumque molestias harum maiores in numquam amet consequuntur.",
+  //         socialLink: "http://google.com",
+  //       },
+  //       {
+  //         id: 4,
+  //         title: "Osasenaga",
+  //         description:
+  //           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex esse veritatis quisquam, laborum error quod laboriosam. Quaerat voluptatem perferendis libero non natus culpa asperiores similique facere. Rem excepturi ipsa suscipit.",
+  //         socialLink: "http://google.com",
+  //       },
+  //     ],
+  //   };
+  // }
 
   render() {
-    const { authors } = this.state;
+    // const { authors } = this.state;
     return (
       <div>
-      
-        <MainHeader titleHeader="GOOD GIRL'S FAVES & ABOUT US" />
+        <MainHeader titleHeader="GOOD GIRL'S FAVES" />
         <div className="GirlRecContainer">
           <main>
-
-          {authors.map((author) => (
-            <section>
-            <div className="bindAuthAndTitle">
-              <h2>{author.title}</h2>
-              <p>{author.description}</p>
-            </div>
-            <a href={author.socialLink}>
-              <img src={social} id="githubLogo" alt="GitHub Logo" />
-            </a>
-          </section>
-          ))};
-          
-          <h2>Bibu's Pick</h2>
+            {/* {authors.map((author) => (
+              <section>
+                <div className="bindAuthAndTitle">
+                  <h2>{author.title}</h2>
+                  <p>{author.description}</p>
+                </div>
+                <a href={author.socialLink}>
+                  <img src={social} id="githubLogo" alt="GitHub Logo" />
+                </a>
+              </section>
+            ))}; */}
+            <h2>Bibu's Pick</h2>
             <div className="imgBinder">
               <img src={food1} alt="Bibu's pick"></img>
               <img src={food2} alt="Bibu's pick"></img>
@@ -88,7 +82,6 @@ class GirlRec extends React.Component {
               populate recipes. Features: - Featured Recipe and gallery on main
               page - Search recipes -{" "}
             </p>
-
             <h2>Jia's Pick</h2>
             <div className="imgBinder">
               <img src={food3} alt="Jia's pick"></img>
@@ -102,7 +95,6 @@ class GirlRec extends React.Component {
               populate recipes. Features: - Featured Recipe and gallery on main
               page - Search recipes -{" "}
             </p>
-
             <h2>Osase's's Pick</h2>
             <div className="imgBinder">
               <img src={food5} alt="Osase's pick"></img>
@@ -116,7 +108,6 @@ class GirlRec extends React.Component {
               populate recipes. Features: - Featured Recipe and gallery on main
               page - Search recipes -{" "}
             </p>
-
             <h2>Corinna's Pick</h2>
             <div className="imgBinder">
               <img src={food7} alt="Corinna's pick"></img>
@@ -130,13 +121,11 @@ class GirlRec extends React.Component {
               populate recipes. Features: - Featured Recipe and gallery on main
               page - Search recipes -{" "}
             </p>
-          
           </main>
-          
-          <Footer />
-         </div>
-         </div>
-      );
+        </div>
+        <Footer />
+      </div>
+    );
   }
 }
-  export default GirlRec;
+export default GirlRec;
