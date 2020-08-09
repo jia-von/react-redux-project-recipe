@@ -1,6 +1,5 @@
-
 /* index.js is where the Redux Store occurs
- * 
+ *
  */
 
 import React from "react";
@@ -11,7 +10,6 @@ import FoodDetails from "./Component/displayPages/FoodDetails";
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
 import Home from "./Component/displayPages/Home";
-//import Nav from "./Component/logic/Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ContactUs from "./Component/displayPages/ContactUs";
 import MyGoodRecipes from "./Component/displayPages/MyGoodRecipes";
@@ -23,13 +21,11 @@ import RecipeSearch from "./Component/displayPages/RecipeSearch";
 //Store is created
 const store = createStore(recipeReducer);
 
-
 store.subscribe(() => console.log(store.getState()));
 const Root = (store) => (
   <Provider store={store.store}>
     <PopulateStore />
     <Router>
-      {/* <Nav /> */}
       <Route path="/" exact component={Home} />
       <Route path="/home" component={Home} />
       <Route path="/mygoodrecipes" component={MyGoodRecipes} />

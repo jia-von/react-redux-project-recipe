@@ -39,7 +39,7 @@ class MyGoodRecipes extends React.Component {
   render() {
     return (
       <div>
-        <MainHeader titleHeader="Favorited Recipes" />
+        <MainHeader titleHeader="Your Favorite Eats" />
 
         {/*
     Render of results of favorites

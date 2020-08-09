@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/MyGoodRecipe.css";
+import "../../style/search.css";
 import MainHeader from "../logic/MainHeader";
 import Footer from "../logic/Footer";
 import { connect } from "react-redux";
@@ -31,7 +31,6 @@ class RecipeSearch extends React.Component {
     //console.log(this.state);
     // Create an empty Array to hold the recipes that get returned as having the search term in thier title
 
-
     // Search through the store with the results from the API searching for titles with the searched text
     // Push the entire recipe to the Array if it matches
     let newArray = [];
@@ -45,7 +44,6 @@ class RecipeSearch extends React.Component {
       )
     );
 
-
     this.setState({ recipeList: [newArray] });
     this.updateItem("userSearch", "");
   };
@@ -58,11 +56,10 @@ class RecipeSearch extends React.Component {
     this.setState({ [key]: value });
   }
 
-
   render() {
     return (
       <div>
-        <MainHeader titleHeader="Recipes" />
+        <MainHeader titleHeader="Search Recipes" />
         {/*  
         Form used to query the global storage of information
      */}
@@ -82,14 +79,12 @@ class RecipeSearch extends React.Component {
             // after you finish null checking your dirty data you can just run this search on submit AND change
             // onChange = {this.search}
           />
-          <input type="submit" id="submit" />
-
+          <input type="submit" id="submit" value="Search" />
         </form>
 
         {/*
     Render of the results - or on default the entire list of recipes
  */}
-
 
         {this.state.recipeList.map((recipe) =>
           recipe.map((indrecipe) => (
@@ -103,10 +98,7 @@ class RecipeSearch extends React.Component {
                 {indrecipe.favorites ? (
                   <FontAwesomeIcon icon={faHeart} />
                 ) : (
-
                   <FontAwesomeIcon icon={faOpenHeart} />
-
-
                 )}{" "}
               </i>
               <figure>
@@ -124,13 +116,11 @@ class RecipeSearch extends React.Component {
                     <li>
                       <span className="topicHeader">Ingredients: </span>
                       <span className="topicP">
-
                         {indrecipe.analyzedInstructions ? (
                           indrecipe.analyzedInstructions.map(
                             (analyzedInstruction) =>
                               analyzedInstruction.steps.map((stepsInd) =>
                                 stepsInd.ingredients.map((ingredient) => (
-
                                   <div key={uuid()}>
                                     {ingredient.name ? (
                                       ingredient.name

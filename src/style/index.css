@@ -4,20 +4,22 @@ html {
   margin: 0 auto;
   /*height: auto;*/
   font-family: Arial, Helvetica, sans-serif;
- }
- /*End of the html that influeces globall on all pages and apps*/
- 
+}
+/*End of the html that influeces globall on all pages and apps*/
 
- /*Start of.bgHeader that will influence all <MainHeader/> component*/
- .bgHeader {
-  background-image: url(../images/salad.jpg);
-  /* background-image: url(../images/goodgirlseatlogo.jpg); */
+/*Start of.bgHeader that will influence all <MainHeader/> component*/
+.bgHeader {
+  /* background-image: url(../images/salad.jpg); */
+  background-image: url(../images/goodgirlseatlogo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 150px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-} 
+}
 /*End of .bgHeader that will influence all <MainHeader/> component*/
 
 /*Start of h1 that will influence all h1 element in all pages*/
@@ -25,16 +27,14 @@ h1 {
   text-align: center;
   vertical-align: center;
   height: 33%;
-  background-color: rgba(226, 40, 77, 0.6);
+  background-color: rgb(245, 158, 158);
   width: 100%;
   font-size: 2rem;
 }
 /*End of h1 that will influence all the h1 element in all pages*/
 
-
 /*Start of media query that will influence that app when viewed in mobile*/
 @media only screen and (min-width: 800px) {
-
   .bgHeader {
     background-image: url(../images/salad.jpg);
     height: 150px;
@@ -53,4 +53,4 @@ h1 {
     font-size: 2rem;
   }
 }
-   /*End of media query that will influence that app when viewed in a mobile*/
+/*End of media query that will influence that app when viewed in a mobile*/

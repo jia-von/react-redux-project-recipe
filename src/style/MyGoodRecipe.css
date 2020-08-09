@@ -5,12 +5,7 @@
 .topicP {
   font-size: 16px;
 }
-figure {
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px;
-  border-bottom: 1px dotted black;
-}
+
 figcaption {
   display: flex;
   flex-direction: column;

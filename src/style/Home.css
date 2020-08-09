@@ -1,5 +1,5 @@
-*{
-  font-family: 'Source Sans Pro', sans-serif;
+* {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .recGalleryContainer {
@@ -14,35 +14,37 @@
 .recGalleryContainer h2 {
   color: #b90000;
 }
-.eggBenedictBreakfast{
+.eggBenedictBreakfast {
   background-image: url("../images/eggsbenny.jpg");
   background-size: cover;
-  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
   height: 80vh;
   display: flex;
- 
-  
 }
 
-.lunchSandwich{
+.lunchSandwich {
   background-image: url("../images/burger2.jpg");
   /* source https://www.pexels.com/photo/bread-burger-cheese-delicious-580612/ */
   background-size: cover;
-  /* width: auto; */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
   height: 80vh;
   display: flex;
-  background-position: center;
   padding: 0;
 }
 
-.dinnerStew{
+.dinnerStew {
   background-image: url("../images/lamb.jpg");
   /* source: https://www.pexels.com/photo/close-up-of-meal-served-in-plate-323682/ */
   background-size: cover;
-  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
   height: 80vh;
   display: flex;
-  background-position: center;
   padding: 0;
 }
 
@@ -59,15 +61,12 @@ figure {
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: end;
   width: 100%;
   height: auto;
   margin-top: auto;
   padding: 3%;
-
-
-}/*End of creating the overlay*/
-
-
+} /*End of creating the overlay*/
 
 /*Start of the controls of the img, title and summary of the food.*/
 img {
@@ -77,13 +76,12 @@ img {
 }
 
 ul {
-    list-style-type: none;
-    text-align: center;
-    width: 90%;
-    color: #b90000;
-}/*End of the controls of the img, title and summary of the food*/
+  list-style-type: none;
+  text-align: center;
+  width: 90%;
+  color: #b90000;
+} /*End of the controls of the img, title and summary of the food*/
 
 li {
   color: #b90000;
 }
-

@@ -1,4 +1,4 @@
-// The ContactUs.js component uses a local state and React to store user information. No Redux-Store is involved. 
+// The ContactUs.js component uses a local state and React to store user information. No Redux-Store is involved.
 
 import React from "react";
 import "../../style/contactus.css";
@@ -26,15 +26,14 @@ class ContactUs extends React.Component {
     document.location =
       "mailto:bibhuti@ualberta.ca?subject=" + subject + "&body=" + message;
     this.resetContactForm();
-  }; //End of the event handler. 
+  }; //End of the event handler.
 
-
-  //Method to reset the local to state with empty properties. 
+  //Method to reset the local to state with empty properties.
   resetContactForm = () => {
     this.setState({ fullName: "", email: "", message: "", subject: "" });
   };
 
-  //Method to update the local state once the user has input their data. 
+  //Method to update the local state once the user has input their data.
   updateItem = (key, value) => {
     this.setState({ [key]: value });
   };
@@ -42,11 +41,11 @@ class ContactUs extends React.Component {
   render() {
     return (
       <>
-        <MainHeader titleHeader="About Us" />
+        <MainHeader titleHeader="Contact Us" />
         <div className="contactUsContainer">
           <form onSubmit={this.handleSubmit} className="contactFormHolder">
             <div>
-              <h2 id = "header2">Get In Touch!</h2>
+              <h2 id="header2">Get In Touch!</h2>
               <div>
                 <label htmlFor="fullName">Name</label>
               </div>
@@ -95,7 +94,7 @@ class ContactUs extends React.Component {
               <div>
                 <label htmlFor="message">Message</label>
               </div>
-              <textarea 
+              <textarea
                 type="text"
                 name="message"
                 required
@@ -110,7 +109,6 @@ class ContactUs extends React.Component {
               <button>send</button>
             </div>
           </form>
-          
         </div>
         <Footer />
       </>
