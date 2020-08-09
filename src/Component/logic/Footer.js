@@ -7,6 +7,7 @@ import {
   faHamburger,
   faQuestion,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 // import { faHeart } from "@fortawesome/free-solid-svg-icons";
 // import { faSearch } from "@fortawesome/free-solid-svg-icons";
 // import { faHamburger } from "@fortawesome/free-solid-svg-icons";
@@ -15,21 +16,21 @@ import "../../style/Footer.css";
 
 const Footer = () => (
   <div className="footer">
-    <a href="Home">
+    <Link to="/Home">
       <FontAwesomeIcon icon={faHome} />
-    </a>
-    <a href="Recipes">
+    </Link>
+    <Link to="/Recipes">
       <FontAwesomeIcon icon={faSearch} />
-    </a>
-    <a href="GirlRec">
+    </Link>
+    <Link to="/GirlRec">
       <FontAwesomeIcon icon={faHamburger} />
-    </a>
-    <a href="MyGoodRecipes">
+    </Link>
+    <Link to="/MyGoodRecipes">
       <FontAwesomeIcon icon={faHeart} />
-    </a>
-    <a href="ContactUs">
+    </Link>
+    <Link to="/ContactUs">
       <FontAwesomeIcon icon={faQuestion} />
-    </a>
+    </Link>
   </div>
 );
 

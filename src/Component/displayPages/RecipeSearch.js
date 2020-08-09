@@ -56,7 +56,7 @@ class RecipeSearch extends React.Component {
 
   render() {
     return (
-      <div key={uuid()}>
+      <div>
         <MainHeader titleHeader="Recipes" />
         {/*  
         Form used to query the global storage of information
