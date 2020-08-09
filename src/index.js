@@ -20,9 +20,9 @@ const store = createStore(recipeReducer);
 store.subscribe(() => console.log(store.getState()));
 const Root = (store) => (
   <Provider store={store.store}>
+    <PopulateStore />
     <Router>
       {/* <Nav /> */}
-      <PopulateStore />
       <Route path="/" exact component={Home} />
       <Route path="/home" component={Home} />
       <Route path="/mygoodrecipes" component={MyGoodRecipes} />
