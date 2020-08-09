@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addRecipes } from "../../actions/recipeAction";
-import axios from "axios";
+//import axios from "axios";
 import ourInfo from "../../Information";
 
 class PopulateStore extends Component {

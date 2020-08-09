@@ -10,8 +10,6 @@ import food8 from "../../images/food8.jpg";
 import MainHeader from "../logic/MainHeader";
 import "../../style/GirlRec.css";
 import Footer from "../logic/Footer";
-import social from "../../images/001-github-sign.png";
-
 class GirlRec extends React.Component {
   // state = {
   //   foodDetails: [],

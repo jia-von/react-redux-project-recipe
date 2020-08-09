@@ -6,6 +6,7 @@ import { connect } from "react-redux";
 import { faHeart, faHamburger } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { toggleFavorites } from "../../actions/recipeAction";
+import { v4 as uuid } from "uuid";
 /*
 CITATION: Aaron and Corinna debugged a search issue together. 
 Aaron ended up writing 5 lines of code to fix one bug and make a suggestion about another bug.
@@ -29,7 +30,6 @@ class RecipeSearch extends React.Component {
     // Create an empty Array to hold the recipes that get returned as having the search term in thier title
     let newArray =
       this.props.recipe > 0 ? this.props.recipe : this.state.recipeList;
-    const userInput = event.target.value;
 
     // Search through the store with the results from the API searching for titles with the searched text
     // Push the entire recipe to the Array if it matches
@@ -58,10 +58,7 @@ class RecipeSearch extends React.Component {
 
   render() {
     return (
-      <div>
-        <> {console.log(this.state.recipeList)}</>
-        <>{console.log(this.props.recipe)} </>
-
+      <div key={uuid()}>
         <MainHeader titleHeader="Recipes" />
         {/*  
         Form used to query the global storage of information
@@ -90,8 +87,8 @@ class RecipeSearch extends React.Component {
 
         {this.state.recipeList.map((recipe) =>
           recipe.map((indrecipe) => (
-            <>
-              <h2>{indrecipe.title}</h2>
+            <div className="recipeCard" key={uuid()}>
+              <h2>{indrecipe.title ? indrecipe.title : <>Not Available</>}</h2>
               <i
                 className="fas fa-heart"
                 onClick={() => this.toggleFavorite(indrecipe.id)}
@@ -109,7 +106,7 @@ class RecipeSearch extends React.Component {
                 />
                 <figcaption>
                   <ul>
-                    <li className="label">
+                    <li>
                       {indrecipe.summary
                         ? indrecipe.summary.replace(/(<([^>]+)>)/gi, "")
                         : ""}
@@ -122,14 +119,14 @@ class RecipeSearch extends React.Component {
                             (analyzedInstruction) =>
                               analyzedInstruction.steps.map((stepsInd) =>
                                 stepsInd.ingredients.map((ingredient) => (
-                                  <>
+                                  <div key={uuid()}>
                                     {ingredient.name ? (
                                       ingredient.name
                                     ) : (
                                       <>Not available</>
                                     )}
                                     ,{" "}
-                                  </>
+                                  </div>
                                 ))
                               )
                           )
@@ -163,7 +160,7 @@ class RecipeSearch extends React.Component {
                   </ul>
                 </figcaption>
               </figure>
-            </>
+            </div>
           ))
         )}
         <Footer />

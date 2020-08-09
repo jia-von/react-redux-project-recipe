@@ -1,5 +1,3 @@
-import { v4 as uuid } from "uuid";
-
 const recipeReducer = (state = [], action) => {
   switch (action.type) {
     // Potential feature to add comments to individual recipes. Not completed or working
