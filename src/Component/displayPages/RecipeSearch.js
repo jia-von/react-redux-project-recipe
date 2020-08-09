@@ -103,7 +103,10 @@ class RecipeSearch extends React.Component {
                 )}{" "}
               </i>
               <figure>
-                <img src={indrecipe.image} alt="Food Recipe To See" />
+                <img
+                  src={indrecipe.image ? indrecipe.image : ""}
+                  alt="Food Recipe To See"
+                />
                 <figcaption>
                   <ul>
                     <li className="label">
@@ -119,7 +122,14 @@ class RecipeSearch extends React.Component {
                             (analyzedInstruction) =>
                               analyzedInstruction.steps.map((stepsInd) =>
                                 stepsInd.ingredients.map((ingredient) => (
-                                  <>{ingredient.name}, </>
+                                  <>
+                                    {ingredient.name ? (
+                                      ingredient.name
+                                    ) : (
+                                      <>Not available</>
+                                    )}
+                                    ,{" "}
+                                  </>
                                 ))
                               )
                           )
@@ -142,7 +152,7 @@ class RecipeSearch extends React.Component {
                       <span className="topicHeader">Influenced By: </span>
                       <span className="topicP">
                         <a
-                          href={indrecipe.sourceUrl}
+                          href={indrecipe.sourceUrl ? indrecipe.sourceUrl : ""}
                           rel="noopener noreferrer"
                           target="_blank"
                         >
