@@ -28,22 +28,20 @@ class RecipeSearch extends React.Component {
     event.preventDefault();
     //console.log(this.state);
     // Create an empty Array to hold the recipes that get returned as having the search term in thier title
-    let newArray =
-      this.props.recipe > 0 ? this.props.recipe : this.state.recipeList;
 
     // Search through the store with the results from the API searching for titles with the searched text
     // Push the entire recipe to the Array if it matches
-    if (newArray.length === 0) {
-      this.props.recipe.map((recipe) =>
-        recipe.map((indrecipe) =>
-          indrecipe.title
-            .toLowerCase()
-            .indexOf(this.state.userSearch.toLowerCase()) !== -1
-            ? newArray.push(indrecipe)
-            : null
-        )
-      );
-    }
+    let newArray = [];
+    this.props.recipe.map((recipe) =>
+      recipe.map((indrecipe) =>
+        indrecipe.title
+          .toLowerCase()
+          .indexOf(this.state.userSearch.toLowerCase()) !== -1
+          ? newArray.push(indrecipe)
+          : null
+      )
+    );
+
     this.setState({ recipeList: [newArray] });
     this.updateItem("userSearch", "");
   };
