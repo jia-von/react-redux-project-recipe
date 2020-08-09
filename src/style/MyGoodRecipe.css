@@ -4,6 +4,9 @@
 }
 .topicP {
   font-size: 16px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
 figcaption {
@@ -27,6 +30,35 @@ li {
   font-size: medium;
   list-style: none;
   color: black;
+}
+
+form {
+  background-color: rgb(245, 158, 158);
+  /* border: #b90000 solid 1px; */
+  /* margin-top: 50px; */
+  padding-top: 8px;
+  text-align: center;
+}
+
+p {
+  background-color: none;
+}
+
+#userInput {
+  background-color: rgb(255, 255, 255);
+  border: #b90000 solid 1px;
+  border-radius: 15px;
+  width: 80%;
+}
+
+#submit {
+  all: unset;
+  margin: 20px;
+  background-color: #b90000;
+  padding: 7px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
 }
 
 @media only screen and (min-width: 800px) {

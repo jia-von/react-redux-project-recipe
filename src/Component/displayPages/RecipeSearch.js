@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/search.css";
+import "../../style/MyGoodRecipe.css";
 import MainHeader from "../logic/MainHeader";
 import Footer from "../logic/Footer";
 import { connect } from "react-redux";
@@ -127,7 +127,7 @@ class RecipeSearch extends React.Component {
                                     ) : (
                                       <>Not available</>
                                     )}
-                                    ,{" "}
+                                    ,<>{"    "} </>
                                   </div>
                                 ))
                               )
