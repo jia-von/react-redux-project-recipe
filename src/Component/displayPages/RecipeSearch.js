@@ -127,7 +127,7 @@ class RecipeSearch extends React.Component {
                                     ) : (
                                       <>Not available</>
                                     )}
-                                    ,<>{"    "} </>
+                                    , &nbsp;
                                   </div>
                                 ))
                               )
