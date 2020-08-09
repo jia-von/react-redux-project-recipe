@@ -3,9 +3,7 @@ import "../../style/Home.css"
 import {connect} from "react-redux";
 import React from "react";
 import Footer from "../logic/Footer";
-import Egg_Benedict_Breakfast from "../../images/Egg_Benedict_Breakfast.jpg";
-import Lunch_Sandwich from "../../images/Lunch_Sandwich.jpg";
-import Dinner_Stew from "../../images/Dinner_Stew.jpg";
+
 
 class Home extends React.Component {
   render() {

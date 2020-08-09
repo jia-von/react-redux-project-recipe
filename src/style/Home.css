@@ -1,3 +1,6 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 .recGalleryContainer {
   justify-content: center;
@@ -13,13 +16,12 @@
 }
 .eggBenedictBreakfast{
   background-image: url("../images/eggsbenny.jpg");
-  /* source: https://www.pexels.com/photo/cooked-food-704569/ */
   background-size: cover;
   width: auto;
   height: 80vh;
   display: flex;
-  background-position: center;
-  padding: 0;
+ 
+  
 }
 
 .lunchSandwich{
@@ -78,31 +80,10 @@ ul {
     list-style-type: none;
     text-align: center;
     width: 90%;
-  
-}
+    color: #b90000;
+}/*End of the controls of the img, title and summary of the food*/
+
 li {
-      
-      font-size: medium;
-      list-style: none;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-     
+  color: #b90000;
 }
 
-.foodtitle{
-
-}
-
-
-/*End of the controls of the img, title and summary of the food*/
-
-
-
-
-@media only screen and (min-width: 700px) {
-  .contactUsContainer {width: 60%;
-  margin: auto;}
-  
-} 

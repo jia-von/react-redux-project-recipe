@@ -11,6 +11,7 @@ html {
  /*Start of.bgHeader that will influence all <MainHeader/> component*/
  .bgHeader {
   background-image: url(../images/salad.jpg);
+  /* background-image: url(../images/goodgirlseatlogo.jpg); */
   height: 150px;
   width: 100%;
   display: flex;
