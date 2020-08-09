@@ -6,6 +6,7 @@ import { connect } from "react-redux";
 import { faHeart, faHamburger } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { toggleFavorites } from "../../actions/recipeAction";
+import { v4 as uuid } from "uuid";
 /*
 CITATION: Aaron and Corinna debugged a search issue together. 
 Aaron ended up writing 5 lines of code to fix one bug and make a suggestion about another bug.
@@ -23,8 +24,6 @@ class MyGoodRecipes extends React.Component {
   }
   searchFavorites = () => {
     let userFavoriteArray = [];
-    console.log("working");
-
     this.props.recipe.map((recipe) =>
       recipe.map((indrecipe) =>
         indrecipe.favorites ? userFavoriteArray.push(indrecipe) : null
@@ -37,23 +36,19 @@ class MyGoodRecipes extends React.Component {
     this.props.dispatch(toggleFavorites(id));
   }
 
-  updateItem(key, value) {
-    this.setState({ [key]: value });
-  }
-
   render() {
     return (
       <div>
-        <MainHeader titleHeader="Recipes" />
+        <MainHeader titleHeader="Favorited Recipes" />
 
         {/*
     Render of results of favorites
  */}
-
+        <h3>You will see recipes that you favorite here</h3>
         {/* {this.searchFavorites()} */}
         {this.searchFavorites() ? (
           this.searchFavorites().map((indrecipe) => (
-            <>
+            <div key={uuid}>
               <h2>{indrecipe.title}</h2>
               <i
                 className="fas fa-heart"
@@ -85,14 +80,14 @@ class MyGoodRecipes extends React.Component {
                             (analyzedInstruction) =>
                               analyzedInstruction.steps.map((stepsInd) =>
                                 stepsInd.ingredients.map((ingredient) => (
-                                  <>
+                                  <div key={uuid}>
                                     {ingredient.name ? (
                                       ingredient.name
                                     ) : (
                                       <>Not available</>
                                     )}
                                     ,{" "}
-                                  </>
+                                  </div>
                                 ))
                               )
                           )
@@ -126,7 +121,7 @@ class MyGoodRecipes extends React.Component {
                   </ul>
                 </figcaption>
               </figure>
-            </>
+            </div>
           ))
         ) : (
           <>
