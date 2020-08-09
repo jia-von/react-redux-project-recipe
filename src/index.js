@@ -22,7 +22,7 @@ store.subscribe(() => console.log(store.getState()));
 const Root = (store) => (
   <Provider store={store.store}>
     <Router>
-      <Nav />
+      {/* <Nav /> */}
       <PopulateStore />
       <Route path="/" exact component={Home} />
       <Route path="/home" component={Home} />

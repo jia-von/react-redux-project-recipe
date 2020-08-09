@@ -44,12 +44,12 @@ class MyGoodRecipes extends React.Component {
   render() {
     return (
       <div>
-        <MainHeader titleHeader="Recipes" />
+        <MainHeader titleHeader="Favorited Recipes" />
 
         {/*
     Render of results of favorites
  */}
-
+        <h3>You will see recipes that you favorite here</h3>
         {/* {this.searchFavorites()} */}
         {this.searchFavorites() ? (
           this.searchFavorites().map((indrecipe) => (
