@@ -8,11 +8,12 @@ padding: 30px;
   margin-bottom: 50px;
 }
 
-form {
+.contactFormHolder {
   background-color: #ffffff;
   /* margin: auto;*/
   padding: 25px;
   opacity: 0.85;
+  text-align: left;
 
 }
 

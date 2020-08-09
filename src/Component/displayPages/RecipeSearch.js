@@ -3,7 +3,8 @@ import "../../style/MyGoodRecipe.css";
 import MainHeader from "../logic/MainHeader";
 import Footer from "../logic/Footer";
 import { connect } from "react-redux";
-import { faHeart, faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart as faOpenHeart } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { toggleFavorites } from "../../actions/recipeAction";
 
@@ -77,7 +78,7 @@ class RecipeSearch extends React.Component {
               this.updateItem("userSearch", event.target.value)
             }
           />
-          <input type="submit" id="submit" />
+          <input type="submit" id="submit" value="Search" />
         </form>
 
         {/*
@@ -95,7 +96,7 @@ class RecipeSearch extends React.Component {
                 {indrecipe.favorites ? (
                   <FontAwesomeIcon icon={faHeart} />
                 ) : (
-                  <FontAwesomeIcon icon={faHamburger} />
+                  <FontAwesomeIcon icon={faOpenHeart} />
                 )}{" "}
               </i>
               <figure>

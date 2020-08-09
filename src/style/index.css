@@ -2,7 +2,7 @@
 html {
   /*width: 80%; wanted to remove so the mobile app look good without padding but the media query doesn't resposne - Jia*/
   margin: 0 auto;
-  height: auto;
+  /*height: auto;*/
   font-family: Arial, Helvetica, sans-serif;
  }
  /*End of the html that influeces globall on all pages and apps*/

@@ -12,33 +12,56 @@
   color: #b90000;
 }
 .eggBenedictBreakfast{
-  background-image: url("../images/Egg_Benedict_Breakfast.jpg");
+  background-image: url("../images/eggsbenny.jpg");
+  /* source: https://www.pexels.com/photo/cooked-food-704569/ */
   background-size: cover;
   width: auto;
+  height: 80vh;
   display: flex;
+  background-position: center;
+  padding: 0;
 }
 
 .lunchSandwich{
-  background-image: url("../images/Lunch_Sandwich.jpg");
-  width: auto;
+  background-image: url("../images/burger2.jpg");
+  /* source https://www.pexels.com/photo/bread-burger-cheese-delicious-580612/ */
   background-size: cover;
+  /* width: auto; */
+  height: 80vh;
   display: flex;
+  background-position: center;
+  padding: 0;
 }
 
 .dinnerStew{
-  background-image: url("../images/Dinner_Stew.jpg");
-  width: auto;
+  background-image: url("../images/lamb.jpg");
+  /* source: https://www.pexels.com/photo/close-up-of-meal-served-in-plate-323682/ */
   background-size: cover;
+  width: auto;
+  height: 80vh;
   display: flex;
+  background-position: center;
+  padding: 0;
+}
+
+figure {
+  /* width: 100%;
+  margin: 0 auto; */
+  /* padding: 30px; */
+  /* border-bottom: 1px dotted black; */
 }
 
 /*Start of creating the overlay so for the img, title, and summary so it can be read*/
 .overlay {
-  background-color:rgba(225, 225,225,0.8);
+  background-color: rgba(201, 0, 0, 0.7);
   align-items: center;
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: auto;
+  margin-top: auto;
+  padding: 3%;
+
 
 }/*End of creating the overlay*/
 
@@ -55,6 +78,31 @@ ul {
     list-style-type: none;
     text-align: center;
     width: 90%;
-    font: #b90000;
-}/*End of the controls of the img, title and summary of the food*/
+  
+}
+li {
+      
+      font-size: medium;
+      list-style: none;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+     
+}
 
+.foodtitle{
+
+}
+
+
+/*End of the controls of the img, title and summary of the food*/
+
+
+
+
+@media only screen and (min-width: 700px) {
+  .contactUsContainer {width: 60%;
+  margin: auto;}
+  
+} 

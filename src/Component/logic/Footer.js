@@ -5,7 +5,7 @@ import {
   faHeart,
   faSearch,
   faHamburger,
-  faQuestion,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 // import { faHeart } from "@fortawesome/free-solid-svg-icons";
 // import { faSearch } from "@fortawesome/free-solid-svg-icons";
@@ -28,7 +28,7 @@ const Footer = () => (
       <FontAwesomeIcon icon={faHeart} />
     </a>
     <a href="ContactUs">
-      <FontAwesomeIcon icon={faQuestion} />
+      <FontAwesomeIcon icon={faEnvelope} />
     </a>
   </div>
 );
