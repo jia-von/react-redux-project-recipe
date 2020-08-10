@@ -27,6 +27,8 @@
     margin-left: 0;
     margin-right: 0;
     text-transform: uppercase;   
+    border-bottom: none;
+    padding-bottom: 0;
     
   }
 
