@@ -2,13 +2,21 @@
 
 import React from "react";
 import food1 from "../../images/food1.jpg";
+/* source https://www.bbcgoodfood.com/recipes/chorizo-mozzarella-gnocchi-bake*/
 import food2 from "../../images/food2.jpg";
+/* source https://www.delish.com/cooking/nutrition/g585/30-healthiest-foods/*/
 import food3 from "../../images/food3.jpg";
+/* source https://oursaltykitchen.com/paleo-turkey-meatballs-marinara/*/
 import food4 from "../../images/food4.jpg";
+/* source https://www.researchsnipers.com/37-of-pakistans-population-facing-food-crisis/*/
 import food5 from "../../images/food5.jpg";
+/* source https://sproutright.com/blogs/news/canadas-food-guide-2019*/
 import food6 from "../../images/food6.jpg";
+/* source https://www.industryglobalnews24.com/give-your-heart-some-love-with-vibrant-colorful-foods*/
 import food7 from "../../images/food7.jpg";
+/* source https://www.goodhousekeeping.com/food-recipes/g605/family-style-recipes/*/
 import food8 from "../../images/food8.jpg";
+/* source https://www.bbcgoodfood.com/recipes/chorizo-mozzarella-gnocchi-bake*/
 import MainHeader from "../logic/MainHeader";
 import "../../style/GirlRec.css";
 import Footer from "../logic/Footer";
