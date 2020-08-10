@@ -17,8 +17,8 @@ class Home extends React.Component {
           
 
           <ul className="recipeText">
-            <li class="foodtitle">Classic Eggs Benedict on Avocado Toast</li>
-            <li>The key to this brunch classic is delicious simplicity: poached fresh eggs, Canadian bacon, toasted English muffins, and an authentic hollandaise sauce.</li>
+            <li className="foodtitle">Classic Eggs Benedict on Avocado Toast</li>
+            <li className="foodText">The key to this brunch classic is delicious simplicity: poached fresh eggs, Canadian bacon, toasted English muffins, and an authentic hollandaise sauce.</li>
           </ul>
           </div>
         </figure>{/*End of Egg_Benedict_Breakfast*/}
@@ -28,8 +28,8 @@ class Home extends React.Component {
         <div className="overlay">
 
           <ul>
-            <li class="foodtitle">The Ultimate Good Girl Cheeseburger</li>
-            <li>Meat. Cheese. Bacon. What's not to love? </li>
+            <li className="foodtitle">The Ultimate Good Girl Cheeseburger</li>
+            <li className="foodText">Meat. Cheese. Bacon. What's not to love? </li>
           </ul>
           </div>
         </figure> {/*End of Lunch Sandwich*/}
@@ -38,8 +38,8 @@ class Home extends React.Component {
           <div className="overlay">
 
           <ul>
-            <li class="foodtitle">Roasted Lamb & Butter Glazed Vegetables </li>
-            <li> Slow-roasted lamb in an absolutely mouth-watering, creamy glaze! This is like the best dinner your mom ever made you, only better.</li>
+            <li className="foodtitle">Roasted Lamb & Butter Glazed Vegetables </li>
+            <li className="foodText"> Slow-roasted lamb in an absolutely mouth-watering, creamy glaze! This is like the best dinner your mom ever made you, only better.</li>
           </ul>
           </div>
         </figure> {/*End of Dinner_Stew*/}
