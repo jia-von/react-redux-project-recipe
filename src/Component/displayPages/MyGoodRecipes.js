@@ -44,7 +44,7 @@ class MyGoodRecipes extends React.Component {
         {/*
     Render of results of favorites
  */}
-        <h3>You will see recipes that you favorite here</h3>
+        <h3>All your favorite recipes in one place!</h3>
         {/* {this.searchFavorites()} */}
         {this.searchFavorites() ? (
           this.searchFavorites().map((indrecipe) => (

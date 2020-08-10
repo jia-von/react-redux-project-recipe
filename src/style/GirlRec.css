@@ -4,8 +4,9 @@ html {
 .GirlRecContainer {
 
   margin: auto;
-  padding: 30px;
+  padding: 0 30px 30px 30px;
   height: auto;
+  text-align: center;
  
 }
 header {

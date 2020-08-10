@@ -18,7 +18,7 @@ class GirlRec extends React.Component {
         <MainHeader titleHeader="Our Favorite Eats" />
         <div className="GirlRecContainer">
           <main>
-            <h2>Bibu's Pick</h2>
+            <h2>Bibu Eats</h2>
             <div className="imgBinder">
               <img src={food1} alt="Bibu's pick"></img>
               <img src={food2} alt="Bibu's pick"></img>
@@ -31,7 +31,7 @@ class GirlRec extends React.Component {
               populate recipes. Features: - Featured Recipe and gallery on main
               page - Search recipes -{" "}
             </p>
-            <h2>Jia's Pick</h2>
+            <h2>Jia Eats</h2>
             <div className="imgBinder">
               <img src={food3} alt="Jia's pick"></img>
               <img src={food4} alt="Jia's pick"></img>
@@ -44,7 +44,7 @@ class GirlRec extends React.Component {
               populate recipes. Features: - Featured Recipe and gallery on main
               page - Search recipes -{" "}
             </p>
-            <h2>Osase's's Pick</h2>
+            <h2>Osase Eats</h2>
             <div className="imgBinder">
               <img src={food5} alt="Osase's pick"></img>
               <img src={food6} alt="Osase's pick"></img>
@@ -57,7 +57,7 @@ class GirlRec extends React.Component {
               populate recipes. Features: - Featured Recipe and gallery on main
               page - Search recipes -{" "}
             </p>
-            <h2>Corinna's Pick</h2>
+            <h2>Corinna Eats</h2>
             <div className="imgBinder">
               <img src={food7} alt="Corinna's pick"></img>
               <img src={food8} alt="Corinna's pick"></img>

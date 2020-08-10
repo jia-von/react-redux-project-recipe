@@ -17,11 +17,11 @@ const Footer = () => (
     <Link to="/Home">
       <FontAwesomeIcon icon={faHome} />
     </Link>
-    <Link to="/Recipes">
-      <FontAwesomeIcon icon={faSearch} />
-    </Link>
     <Link to="/GirlRec">
       <FontAwesomeIcon icon={faHamburger} />
+    </Link>
+    <Link to="/Recipes">
+      <FontAwesomeIcon icon={faSearch} />
     </Link>
     <Link to="/MyGoodRecipes">
       <FontAwesomeIcon icon={faHeart} />

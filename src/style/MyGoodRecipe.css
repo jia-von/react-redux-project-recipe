@@ -8,11 +8,19 @@
   flex-flow: wrap;
   justify-content: center;
 }
-
+figure{
+  text-align: center;
+}
 figcaption {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  display: flex;  
+  justify-content:center;
+  
+}
+h3{
+  text-align: center;
+  color: #b90000;
+  font-weight: 400;
+  font-style:italic;
   font-size: medium;
 }
 .label {
