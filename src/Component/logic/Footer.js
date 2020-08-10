@@ -14,21 +14,31 @@ import { Link } from "react-router-dom";
 
 const Footer = () => (
   <div className="footer">
-    <Link to="/Home">
+    <div className="footerIcons">
+    <Link to="/Home">      
       <FontAwesomeIcon icon={faHome} />
-    </Link>
+      <p className= "footerText">Home</p>
+    </Link> </div>
+    <div className="footerIcons"> 
     <Link to="/GirlRec">
       <FontAwesomeIcon icon={faHamburger} />
-    </Link>
+      <p className="footerText">Good Girls</p>
+    </Link></div>
+    <div className="footerIcons"> 
     <Link to="/Recipes">
       <FontAwesomeIcon icon={faSearch} />
-    </Link>
-    <Link to="/MyGoodRecipes">
+      <p className="footerText">Search</p>
+    </Link></div>
+    <div className="footerIcons"> 
+    <Link to="/MyGoodRecipes">      
       <FontAwesomeIcon icon={faHeart} />
-    </Link>
+      <p className="footerText">Faves</p>
+    </Link> </div>
+    <div className="footerIcons">
     <Link to="/ContactUs">
       <FontAwesomeIcon icon={faEnvelope} />
-    </Link>
+      <p className="footerText">Contact</p>
+    </Link></div>
   </div>
 );
 
