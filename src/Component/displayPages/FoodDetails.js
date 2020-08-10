@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import "../../style/FoodDetails.css";
 class FoodDetails extends React.Component {
   goBack() {
@@ -13,4 +13,4 @@ class FoodDetails extends React.Component {
     );
   }
 }
-export default FoodDetails;
+export default FoodDetails;*/

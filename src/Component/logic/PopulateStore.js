@@ -1,3 +1,5 @@
+//This component retrieve data from the API and dispatch it to redux store. - Jia
+
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addRecipes } from "../../actions/recipeAction";

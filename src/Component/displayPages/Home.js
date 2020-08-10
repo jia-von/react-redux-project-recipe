@@ -1,6 +1,7 @@
+//Home.js component is the first page that users see when they get to our website. 
+//fixed the <li class="food"> to <li className=""> - Jia
 import MainHeader from "../logic/MainHeader";
 import "../../style/Home.css"
-import {connect} from "react-redux";
 import React from "react";
 import Footer from "../logic/Footer";
 
@@ -17,7 +18,7 @@ class Home extends React.Component {
           
 
           <ul className="recipeText">
-            <li class="foodtitle">Classic Eggs Benedict on Avocado Toast</li>
+            <li className="foodtitle">Classic Eggs Benedict on Avocado Toast</li>
             <li>The key to this brunch classic is delicious simplicity: poached fresh eggs, Canadian bacon, toasted English muffins, and an authentic hollandaise sauce.</li>
           </ul>
           </div>
@@ -28,7 +29,7 @@ class Home extends React.Component {
         <div className="overlay">
 
           <ul>
-            <li class="foodtitle">The Ultimate Good Girl Cheeseburger</li>
+            <li className="foodtitle">The Ultimate Good Girl Cheeseburger</li>
             <li>Meat. Cheese. Bacon. What's not to love? </li>
           </ul>
           </div>
@@ -38,7 +39,7 @@ class Home extends React.Component {
           <div className="overlay">
 
           <ul>
-            <li class="foodtitle">Roasted Lamb & Butter Glazed Vegetables </li>
+            <li className="foodtitle">Roasted Lamb & Butter Glazed Vegetables </li>
             <li> Slow-roasted lamb in an absolutely mouth-watering, creamy glaze! This is like the best dinner your mom ever made you, only better.</li>
           </ul>
           </div>
@@ -48,4 +49,4 @@ class Home extends React.Component {
           );
           }
         }
-export default connect((state) => {return {recipe: state};})(Home);
+export default (Home);
