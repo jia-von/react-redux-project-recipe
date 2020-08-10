@@ -23,10 +23,17 @@ p {
   margin-bottom: 20px;
   color: black;
   text-align: center;
+  border-bottom: 5px solid #b90000 ;
+  padding-bottom: 20px;
 }
 h2 {
-  color: black;
+  color:white;
   text-align: center;
+  background-color: #b90000;
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+  margin: 20px auto 20px auto;
 }
 
 
@@ -73,6 +80,15 @@ h2 {
   }
   p {
     font-size: x-large;
-    color:  rgba(255, 0, 51, 0.6);;
+    color:  #b90000;
+  }
+  h2 {
+    color:white;
+    text-align: center;
+    background-color: #b90000;
+    width: 80%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 20px auto 20px auto;
   }
  }
