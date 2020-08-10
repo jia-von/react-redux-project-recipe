@@ -61,7 +61,7 @@ figure {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100%;
   height: auto;
   margin-top: auto;
