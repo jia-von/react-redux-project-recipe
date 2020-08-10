@@ -81,11 +81,10 @@ ul {
 li {
   color: #b90000;
 }
-#pHome{
+#pHome {
   color: #b90000;
   font-style: italic;
-  font-weight: 700
-  ;
+  font-weight: 700;
 }
 /* //for desktop */
 @media only screen and (min-width: 700px) {
