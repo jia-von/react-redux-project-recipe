@@ -2,9 +2,9 @@
 https://api.spoonacular.com/recipes/716429/information?apiKey=c5413da4ad594941bce9e89fdadec43c&includeNutrition=true,
 this API has a limited number of request in a day we can  make for us to make a functioning website while coding. 
 Therefore, with Warren's help we copied the API information and put into Information.js as a clone of the Spoonacular API
-*/ 
+*/
 
-//Comment added by Jia on August 9, 2020.
+//Comment added by Jia on August 9, 2020. results
 
 const ourInfo = [
   {
@@ -4739,7 +4739,23331 @@ const ourInfo = [
       },
     ],
   },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 0,
+    aggregateLikes: 1117,
+    spoonacularScore: 100.0,
+    healthScore: 59.0,
+    creditsText: "Minimalist Baker",
+    sourceName: "Minimalist Baker",
+    pricePerServing: 45.34,
+    id: 500398,
+    title: "Chocolate Covered Pretzel Peanut Butter",
+    readyInMinutes: 15,
+    servings: 10,
+    sourceUrl:
+      "http://minimalistbaker.com/chocolate-covered-pretzel-peanut-butter/",
+    image: "https://spoonacular.com/recipeImages/500398-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Chocolate Covered Pretzel Peanut Butter might be just the condiment you are searching for. For <b>56 cents per serving</b>, this recipe <b>covers 16%</b> of your daily requirements of vitamins and minerals. This recipe makes 10 servings with <b>381 calories</b>, <b>16g of protein</b>, and <b>30g of fat</b> each. If you have dairy-free semisweet, lightly peanuts, pretzels, and a few other ingredients on hand, you can make it. This recipe is liked by 1117 foodies and cooks. From preparation to the plate, this recipe takes approximately <b>15 minutes</b>. It is a good option if you\'re following a <b>vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 89%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/peanut-butter-pie-with-chocolate-covered-pretzel-crust-540052">Peanut Butter Pie with Chocolate Covered Pretzel Crust</a>, <a href="https://spoonacular.com/recipes/double-chocolate-covered-pretzel-peanut-butter-cookies-72034">Double Chocolate Covered Pretzel Peanut Butter Cookies</a>, and <a href="https://spoonacular.com/recipes/peanut-butter-stuffed-chocolate-covered-pretzel-cookies-n-cream-549775">Peanut Butter Stuffed Chocolate Covered Pretzel Cookies ‘N’ Cream</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Place pretzels in a food processor and blend until it resembles meal.",
+            ingredients: [
+              {
+                id: 19047,
+                name: "pretzels",
+                localizedName: "pretzels",
+                image: "pretzels.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Remove and set aside.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Place peanuts in the food processor and blend until creamy and smooth, scraping sides down as needed. If it's having trouble processing, you can add a bit of neutral oil (such as canola). It shouldn't take more than 8-10 minutes.",
+            ingredients: [
+              {
+                id: 16091,
+                name: "peanuts",
+                localizedName: "peanuts",
+                image: "peanuts.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add pretzels back in and mix to combine. Taste and then add salt to taste - I used lightly salted peanuts so I only added another 1/2 tsp.Last, add chocolate in a pulse a few times to combine. It should get melty immediately from the warmth of the peanut butter.",
+            ingredients: [
+              {
+                id: 16092,
+                name: "salted peanuts",
+                localizedName: "salted peanuts",
+                image: "peanuts.png",
+              },
+              {
+                id: 16098,
+                name: "peanut butter",
+                localizedName: "peanut butter",
+                image: "peanut-butter.png",
+              },
+              {
+                id: 19081,
+                name: "chocolate",
+                localizedName: "chocolate",
+                image: "milk-chocolate.jpg",
+              },
+              {
+                id: 19047,
+                name: "pretzels",
+                localizedName: "pretzels",
+                image: "pretzels.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Transfer to a jar or container and keep at room temperature for up to several weeks.Best on toast, pancakes, bananas, waffles and baked goods.",
+            ingredients: [
+              {
+                id: 0,
+                name: "pancakes",
+                localizedName: "pancakes",
+                image: "",
+              },
+              {
+                id: 9040,
+                name: "banana",
+                localizedName: "banana",
+                image: "bananas.jpg",
+              },
+              {
+                id: 18070,
+                name: "toast",
+                localizedName: "toast",
+                image: "toast",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 37364,
+    spoonacularScore: 100.0,
+    healthScore: 76.0,
+    creditsText: "Oh She Glows",
+    sourceName: "Oh She Glows",
+    pricePerServing: 230.17,
+    id: 622895,
+    title: "Roasted Buddha Bowl",
+    readyInMinutes: 45,
+    servings: 3,
+    sourceUrl: "http://ohsheglows.com/2013/03/05/roasted-buddha-bowl/",
+    image: "https://spoonacular.com/recipeImages/622895-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Roasted Buddha Bowl might be just the main course you are searching for. This gluten free and vegan recipe serves 3 and costs <b>$2.3 per serving</b>. One serving contains <b>458 calories</b>, <b>23g of protein</b>, and <b>20g of fat</b>. 37363 people were impressed by this recipe. If you have broccoli, lemon juice, oil, and a few other ingredients on hand, you can make it. To use up the water you could follow this main course with the <a href="https://spoonacular.com/recipes/watermelon-peach-slushies-507207">Watermelon-Peach Slushies</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Similar recipes include <a href="https://spoonacular.com/recipes/roasted-vegetable-quinoa-buddha-bowl-876872">Roasted Vegetable Quinoa Buddha Bowl</a>, <a href="https://spoonacular.com/recipes/tandoori-roasted-chickpea-+-squash-buddha-bowl-821306">Tandoori Roasted Chickpea + Squash Buddha Bowl</a>, and <a href="https://spoonacular.com/recipes/the-buddha-bowl-537280">The Buddha Bowl</a>.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 400F and line two large baking sheets with parchment paper.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Place chopped broccoli and cauliflower onto one baking sheet.",
+            ingredients: [
+              {
+                id: 11135,
+                name: "cauliflower",
+                localizedName: "cauliflower",
+                image: "cauliflower.jpg",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step: "Drizzle with 2 tsp oil and mix with hands until coated.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step: "Sprinkle with salt and pepper. Set aside.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Place a couple paper towels on the other baking sheet and spread out the drained and rinsed chickpeas.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 405895,
+                name: "paper towels",
+                localizedName: "paper towels",
+                image: "paper-towels.jpg",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Place 2 more paper towels on top and roll the chickpeas around until completely dry.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 405895,
+                name: "paper towels",
+                localizedName: "paper towels",
+                image: "paper-towels.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Drizzle with 1 tsp oil and roll around the chickpeas with your hands until they are all coated.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step: "Sprinkle with salt and pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 9,
+            step:
+              "Roast the broccoli, cauliflower and chickpeas for 15 minutes at 400F. After 15 minutes, give the chickpea pan a gentle shake to roll them around in the pan. Roast both pans for another 10-15 minutes or until the broccoli and cauliflower are cooked through and the chickpeas are golden in colour.",
+            ingredients: [
+              {
+                id: 11135,
+                name: "cauliflower",
+                localizedName: "cauliflower",
+                image: "cauliflower.jpg",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 0,
+                name: "shake",
+                localizedName: "shake",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 45,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 10,
+            step:
+              "Meanwhile, prepare the dressing by adding all dressing ingredients into a blender and blending on high speed until smooth.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+          {
+            number: 11,
+            step:
+              "When the vegetables and chickpeas are ready, remove from oven and place into a large mixing bowl.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 405907,
+                name: "mixing bowl",
+                localizedName: "mixing bowl",
+                image: "mixing-bowl.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 12,
+            step:
+              "Add your desired amount of dressing on top and toss until coated. Season to taste.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 13,
+            step:
+              "Serve over a warm bed of grains with more dressing drizzled on top.For nutritional info see: Buddha Bowl (without dressing) and Cashew Lemon Tahini Dressing.Notes: The leftover dressing should keep for 5 days in the fridge in a sealed container. The dressing will thicken as it stands (especially when chilled) so you can add more water to thin out as necessary. Need a nut-free dressing? Try this Lemon Tahini dressing on for size.The first time I made this dish I was so hungry (and the dish was so tasty!) I ate almost the entire dish straight from the mixing bowl with a fork. My camera wasnt quick enough for me this time! Thats when I came up with the name Buddha Bowl because I was rocking a Buhhda-like belly the rest of the day. Note to self: if you eat an entire head of cauliflower in one sitting you will pay the consequences. Carry on.Share on Facebook | Twitter | Pinterest | Goolge+ | Stumble Upon",
+            ingredients: [
+              {
+                id: 11135,
+                name: "cauliflower",
+                localizedName: "cauliflower",
+                image: "cauliflower.jpg",
+              },
+              {
+                id: 12087,
+                name: "cashews",
+                localizedName: "cashews",
+                image: "cashews.jpg",
+              },
+              {
+                id: 0,
+                name: "grains",
+                localizedName: "grains",
+                image: "",
+              },
+              {
+                id: 12698,
+                name: "tahini",
+                localizedName: "tahini",
+                image: "tahini-paste.png",
+              },
+              {
+                id: 9150,
+                name: "lemon",
+                localizedName: "lemon",
+                image: "lemon.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 405907,
+                name: "mixing bowl",
+                localizedName: "mixing bowl",
+                image: "mixing-bowl.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: true,
+    preparationMinutes: 5,
+    cookingMinutes: 15,
+    aggregateLikes: 699,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Eating Well",
+    sourceName: "Eating Well",
+    pricePerServing: 148.79,
+    id: 697465,
+    title: "Tofu with Thai Curry Sauce",
+    readyInMinutes: 20,
+    servings: 4,
+    sourceUrl:
+      "http://www.eatingwell.com/recipes/tofu_with_thai_curry_sauce.html",
+    image: "https://spoonacular.com/recipeImages/697465-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Tofu with Thai Curry Sauce is ready <b>in roughly 20 minutes</b> and is definitely a spectacular <b>gluten free, fodmap friendly, and vegan</b> option for lovers of Asian food. For <b>$1.49 per serving</b>, this recipe <b>covers 21%</b> of your daily requirements of vitamins and minerals. This recipe makes 4 servings with <b>108 calories</b>, <b>9g of protein</b>, and <b>5g of fat</b> each. 698 people have made this recipe and would make it again. It works well as a side dish. A mixture of cilantro, olive oil, salt, and a handful of other ingredients are all it takes to make this recipe so scrumptious. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/noodles-in-thai-curry-sauce-with-tofu-37080">Noodles In Thai Curry Sauce With Tofu</a>, <a href="https://spoonacular.com/recipes/thai-tofu-w-red-curry-sauce-over-coconut-scallion-rice-110536">Thai Tofu W/Red Curry Sauce over Coconut Scallion Rice</a>, and <a href="https://spoonacular.com/recipes/thai-curry-tofu-471423">Thai Curry Tofu</a> for similar recipes.',
+    cuisines: ["Thai", "Asian"],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "lacto ovo vegetarian",
+      "fodmap friendly",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["chenin blanc", "gewurztraminer", "riesling"],
+      pairingText:
+        "Chenin Blanc, Gewurztraminer, and Riesling are my top picks for Thai. The best wine for Asian food depends on the cuisine and dish - of course - but these acidic whites pair with a number of traditional meals, spicy or not. The Dry Creek Vineyard Dry Chenin Blanc, Wine with a 5 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
+      productMatches: [
+        {
+          id: 430261,
+          title: "Dry Creek Vineyard Dry Chenin Blanc, Wine",
+          description:
+            "This beautiful wine is wonderfully consistent vintage after vintage. We receive superior Chenin Blanc fruit from the Wilson Ranch in Clarksburg, allowing us to produce an expressive, nuanced and delicious wine. At first swirl, aromatics of white pear, pineapple and banana spring forward from the glass. On the palate, the wine is refreshing with flavors of ripe tangerine and peaches. The mouthfeel is lively, but rich and has a subtle creaminess. 100% stainless steel fermentation guarantees the fresh fruit character fans of this wine have come to appreciate over the years. This is the quintessential summer sipper and the perfect wine to pair with fresh oysters!",
+          price: "$15.0",
+          imageUrl: "https://spoonacular.com/productImages/430261-312x231.jpg",
+          averageRating: 1.0,
+          ratingCount: 2.0,
+          score: 0.8571428571428572,
+          link:
+            "https://www.amazon.com/Dry-Creek-Vineyard-Chenin-Clarksburg/dp/B01N30XOBY?tag=spoonacular-20",
+        },
+      ],
+    },
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 34,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 30,
+    aggregateLikes: 28251,
+    spoonacularScore: 100.0,
+    healthScore: 81.0,
+    creditsText: "Two Peas and Their Pod",
+    sourceName: "Two Peas and Their Pod",
+    pricePerServing: 403.08,
+    id: 548298,
+    title: "Grilled Pesto Potatoes",
+    readyInMinutes: 40,
+    servings: 2,
+    sourceUrl: "http://www.twopeasandtheirpod.com/grilled-pesto-potatoes/",
+    image: "https://spoonacular.com/recipeImages/548298-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Grilled Pesto Potatoes is a <b>gluten free</b> condiment. One serving contains <b>1072 calories</b>, <b>22g of protein</b>, and <b>73g of fat</b>. This recipe serves 2 and costs $4.03 per serving. It can be enjoyed any time, but it is especially good for <b>The Fourth Of July</b>. From preparation to the plate, this recipe takes around <b>40 minutes</b>. 28251 person have made this recipe and would make it again. If you have extra virgin olive oil, basil leaves, parmesan-reggiano cheese, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/pesto-grilled-potatoes-551240">pesto grilled potatoes</a>, <a href="https://spoonacular.com/recipes/grilled-sweet-potatoes-zucchini-and-yellow-squash-with-pesto-and-feta-670263">Grilled Sweet Potatoes, Zucchini, and Yellow Squash with Pesto and Feta</a>, and <a href="https://spoonacular.com/recipes/grilled-jarlsberg-with-shaved-asparagus-and-arugula-pesto-+-grilled-cheese-kit-giveaway-252107">Grilled Jarlsberg with Shaved Asparagus and Arugula Pesto + Grilled Cheese Kit Giveaway!</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free"],
+    occasions: ["father's day", "4th of july", "summer"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Combine the basil, garlic, and pine nuts in a food processor or blender and pulse until coarsely chopped. With the machine running, slowly add the olive oil and process until smooth.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 12147,
+                name: "pine nuts",
+                localizedName: "pine nuts",
+                image: "pine-nuts.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add the cheese and pulse until combined. Season with salt and pepper, to taste.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step: "In a medium bowl, combine potatoes and pesto.",
+            ingredients: [
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Mix until potatoes are well covered. Spray a large piece of aluminum foil with cooking spray.",
+            ingredients: [
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Add the potatoes and wrap in a foil packet. Wrap another piece of foil around the packet so it is sturdy enough to grill.",
+            ingredients: [
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 10018364,
+                name: "wrap",
+                localizedName: "wrap",
+                image: "flour-tortilla.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step: "Preheat the grill to medium-high heat.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Place the potato packet on the grill. Cook for 15 minutes and then flip the packet. Cook for an additional 15 minutes, or until potatoes are tender and slightly crisp. Carefully remove the potatoes from the packet and serve warm.",
+            ingredients: [
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+            ],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 15,
+    aggregateLikes: 376,
+    spoonacularScore: 100.0,
+    healthScore: 94.0,
+    creditsText: "Go Dairy Free",
+    sourceName: "Go Dairy Free",
+    pricePerServing: 42.62,
+    id: 248458,
+    title: "Almond Garlic Mashed Potatoes",
+    readyInMinutes: 25,
+    servings: 8,
+    sourceUrl:
+      "http://www.godairyfree.org/recipes/almond-garlic-mashed-potatoes",
+    image: "https://spoonacular.com/recipeImages/248458-312x231.jpeg",
+    imageType: "jpeg",
+    summary:
+      'Need a <b>gluten free, whole 30, and vegan side dish</b>? Almond Garlic Mashed Potatoes could be a tremendous recipe to try. For <b>70 cents per serving</b>, this recipe <b>covers 17%</b> of your daily requirements of vitamins and minerals. This recipe makes 8 servings with <b>204 calories</b>, <b>8g of protein</b>, and <b>3g of fat</b> each. 376 people have tried and liked this recipe. It is perfect for <b>Thanksgiving</b>. A mixture of so yummy dairy free almond plus almondmilk, salt and pepper, ground cumin, and a handful of other ingredients are all it takes to make this recipe so yummy. From preparation to the plate, this recipe takes roughly <b>25 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 84%</b>. This score is amazing. Similar recipes include <a href="https://spoonacular.com/recipes/bennigans-garlic-mashed-potatoes-it-is-easy-to-make-garlic-mashed-potatoes-601482">Bennigan’s Garlic Mashed Potatoes – it is easy to make garlic mashed potatoes</a>, <a href="https://spoonacular.com/recipes/johnny-garlics-famous-garlic-and-rosemary-mashed-potatoes-314104">Johnny Garlic\'s Famous Garlic and Rosemary Mashed Potatoes</a>, and <a href="https://spoonacular.com/recipes/garlic-mashed-potatoes-44343">Garlic Mashed Potatoes</a>.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free"],
+    occasions: ["thanksgiving", "christmas"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Boil the potatoes until soft, drain and place back on medium burner.Mash potatoes with potato masher and gradually add almond milk and spices.Smash cloves of garlic and add to mixture. I let them cook for another 3-4 minutes to really integrate the ingredients.",
+            ingredients: [
+              {
+                id: 93607,
+                name: "almond milk",
+                localizedName: "almond milk",
+                image: "almond-milk.png",
+              },
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 1002011,
+                name: "clove",
+                localizedName: "clove",
+                image: "cloves.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 2035,
+                name: "spices",
+                localizedName: "spices",
+                image: "spices.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404763,
+                name: "potato masher",
+                localizedName: "potato masher",
+                image: "potato-masher.jpg",
+              },
+            ],
+            length: {
+              number: 4,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Add salt and pepper to your liking. That’s it!!!",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 302,
+    spoonacularScore: 100.0,
+    healthScore: 74.0,
+    creditsText: "101 Cookbooks",
+    sourceName: "101 Cookbooks",
+    pricePerServing: 85.44,
+    id: 29081,
+    title: "Braised Broccoli With Orange And Parmesan Recipe",
+    readyInMinutes: 5,
+    servings: 4,
+    sourceUrl:
+      "http://www.101cookbooks.com/archives/braised-broccoli-with-orange-and-parmesan-recipe.html",
+    image: "https://spoonacular.com/recipeImages/29081-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Braised Broccoli With Orange And Parmesan Recipe is a <b>gluten free and primal</b> side dish. This recipe makes 4 servings with <b>175 calories</b>, <b>9g of protein</b>, and <b>8g of fat</b> each. For <b>85 cents per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. A mixture of canned tomatoes, pepper flakes, extra virgin olive oil, and a handful of other ingredients are all it takes to make this recipe so tasty. This recipe is liked by 302 foodies and cooks. From preparation to the plate, this recipe takes roughly <b>5 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Similar recipes include <a href="https://spoonacular.com/recipes/pan-braised-carrots-with-orange-and-rosemary-recipe-119123">Pan Braised Carrots with Orange and Rosemary Recipe</a>, <a href="https://spoonacular.com/recipes/rainbow-broccoli-parmesan-recipe-29469">Rainbow Broccoli Parmesan Recipe</a>, and <a href="https://spoonacular.com/recipes/oven-roasted-broccoli-with-spicy-breadcrumbs-and-parmesan-recipe-29675">Oven Roasted Broccoli With Spicy Breadcrumbs And Parmesan Recipe</a>.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "primal"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 748,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Gimme Some Oven",
+    sourceName: "Gimme Some Oven",
+    pricePerServing: 161.44,
+    id: 526949,
+    title: "Hummus Mashed Potatoes",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl: "http://www.gimmesomeoven.com/hummus-mashed-potatoe/",
+    image: "https://spoonacular.com/recipeImages/526949-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Hummus Mashed Potatoes could satisfy your middl eastern craving in around <b>45 minutes</b>. Watching your figure? This gluten free and vegan recipe has <b>331 calories</b>, <b>12g of protein</b>, and <b>15g of fat</b> per serving. This recipe serves 6 and costs $1.61 per serving. It can be enjoyed any time, but it is especially good for <b>Thanksgiving</b>. A mixture of favorite hummus, olive oil, yukon gold potatoes, and a handful of other ingredients are all it takes to make this recipe so yummy. This recipe from Gimme Some Oven has 748 fans. It works well as an affordable side dish. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/hummus-mashed-potatoes-249926">Hummus Mashed Potatoes</a>, <a href="https://spoonacular.com/recipes/healthy-hummus-mashed-potatoes-250631">Healthy Hummus Mashed Potatoes</a>, and <a href="https://spoonacular.com/recipes/old-fashioned-mashed-potatoes-make-home-made-mashed-potatoes-at-home-it-is-easy-to-do-so-with-this-599385">Old-Fashioned Mashed Potatoes – make home made mashed potatoes at home, it is easy to do so with this</a> for similar recipes.',
+    cuisines: ["Middle Eastern"],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["thanksgiving", "christmas"],
+    winePairing: {
+      pairedWines: ["sparkling rose", "sparkling wine"],
+      pairingText:
+        "Sparkling rosé and Sparkling Wine are my top picks for Hummus. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. One wine you could try is Santa Margherita Sparkling rosé ( half-bottle). It has 4.3 out of 5 stars and a bottle costs about 20 dollars.",
+      productMatches: [
+        {
+          id: 477502,
+          title: "Santa Margherita Sparkling Rose ( half-bottle)",
+          description:
+            "Elegant perfumes of strawberries and citrus lead to an attractive palate with mixed berry fruits that linger on the finish. This wine is wonderful on its own, and pairs well with savory appetizers, complex  seafood dishes and anything spicy. The elegant mousse will refresh your palate for the next bite and contrasting the bubbles with something soft or creamy can elevate  your next meal. Open a bottle along with goat cheese souffle, scallops with roasted garlic and pesto, or a slow-cooked spicy red chicken curry. It also brings a delightful sparkle to a festive brunch or your favorite rich dessert.  Blend: 55% Chardonnay, 40% Glera and 5% Malbec ",
+          price: "$19.99",
+          imageUrl: "https://spoonacular.com/productImages/477502-312x231.jpg",
+          averageRating: 0.86,
+          ratingCount: 5.0,
+          score: 0.7975,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsanta-margherita-sparkling-rose-375ml-half-bottle%2F528620",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Peel the potatoes if you woud like, and cut them into large chunks, roughly the same size. Immediately add to a large stockpot and fill with water until the potatoes are covered. Bring to a boil over high heat. Then reduce heat to medium and simmer for 20-30 minutes, or until a fork will go gently through the potatoes.",
+            ingredients: [
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Remove from heat and drain the water.Then return pot to the burner and use a potato masher to mash the potatoes until smooth. Then turn off heat, and add in butter, hummus salt and pepper. Stir until combined. Season with additional salt and pepper if needed. Then top with garnishes if desired.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 1001,
+                name: "butter",
+                localizedName: "butter",
+                image: "butter-sliced.jpg",
+              },
+              {
+                id: 16158,
+                name: "hummus",
+                localizedName: "hummus",
+                image: "hummus.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404763,
+                name: "potato masher",
+                localizedName: "potato masher",
+                image: "potato-masher.jpg",
+              },
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 3,
+    aggregateLikes: 75,
+    spoonacularScore: 100.0,
+    healthScore: 90.0,
+    creditsText: "A Family Feast ",
+    sourceName: "A Family Feast ",
+    pricePerServing: 66.47,
+    id: 719172,
+    title: "Garlicky Tuscan Kale",
+    readyInMinutes: 13,
+    servings: 4,
+    sourceUrl: "http://www.afamilyfeast.com/garlicky-tuscan-kale/",
+    image: "https://spoonacular.com/recipeImages/719172-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Garlicky Tuscan Kale might be just the side dish you are searching for. For <b>29 cents per serving</b>, this recipe <b>covers 12%</b> of your daily requirements of vitamins and minerals. One serving contains <b>62 calories</b>, <b>2g of protein</b>, and <b>5g of fat</b>. A few people made this recipe, and 74 would say it hit the spot. From preparation to the plate, this recipe takes around <b>13 minutes</b>. It is a good option if you\'re following a <b>gluten free, whole 30, and vegan</b> diet. Head to the store and pick up tuscan kale, coconut oil, extra virgin olive oil, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/garlicky-kale-248759">Garlicky Kale</a>, <a href="https://spoonacular.com/recipes/garlicky-kale-14910">Garlicky Kale</a>, and <a href="https://spoonacular.com/recipes/garlicky-kale-644387">Garlicky Kale</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Take each leaf of kale and run a sharp knife down both sides of rib, starting at fat end and sliding the knife down. Repeat for the entire bunch and discard ribs. Then roughly cut the leaves into large pieces and place in a colander and run cold water over leaves. Do not shake out excess water, just leave the leaves in the colander in your sink.",
+            ingredients: [
+              {
+                id: 0,
+                name: "shake",
+                localizedName: "shake",
+                image: "",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+              {
+                id: 23236,
+                name: "ribs",
+                localizedName: "ribs",
+                image: "ribs.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404639,
+                name: "colander",
+                localizedName: "colander",
+                image: "colander.jpg",
+              },
+              {
+                id: 404745,
+                name: "knife",
+                localizedName: "knife",
+                image: "chefs-knife.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Heat a large saut pan over medium high heat and add both oils.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step: "Add garlic and cook for one minute, stirring often.",
+            ingredients: [
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Place the kale into the hot pan with whatever water is still stuck to the leaves.Cook for one minute, flip and cook for one minute more.Flavor with a few drops of hot sauce. Salt and pepper to taste and serve.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 6168,
+                name: "hot sauce",
+                localizedName: "hot sauce",
+                image: "hot-sauce-or-tabasco.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 236,
+    spoonacularScore: 100.0,
+    healthScore: 84.0,
+    creditsText: "The Lemon Bowl",
+    sourceName: "The Lemon Bowl",
+    pricePerServing: 203.58,
+    id: 482626,
+    title: "Ginger Berry Fruit Smoothie",
+    readyInMinutes: 10,
+    servings: 2,
+    sourceUrl:
+      "http://thelemonbowl.com/2011/11/ginger-berry-fruit-smoothie.html",
+    image: "https://spoonacular.com/recipeImages/482626-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Ginger Berry Fruit Smoothie is a <b>gluten free, primal, and vegetarian</b> morn meal. One portion of this dish contains approximately <b>8g of protein</b>, <b>1g of fat</b>, and a total of <b>204 calories</b>. This recipe serves 2. For <b>$2.04 per serving</b>, this recipe <b>covers 24%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up skim milk, ginger root, spinach, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>10 minutes</b>. Several people made this recipe, and 236 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/ginger-berry-smoothie-766452">Ginger Berry Smoothie</a>, <a href="https://spoonacular.com/recipes/berry-banana-fruit-smoothie-265532">Berry-Banana Fruit Smoothie</a>, and <a href="https://spoonacular.com/recipes/four-berry-blast-fruit-smoothie-643241">Four-Berry Blast Fruit Smoothie</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "lacto ovo vegetarian", "primal"],
+    occasions: [],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Place all ingredients in blender and puree until smooth.Feel free to add additional honey to sweeten if necessary.",
+            ingredients: [
+              {
+                id: 19296,
+                name: "honey",
+                localizedName: "honey",
+                image: "honey.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 16,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 40,
+    aggregateLikes: 186,
+    spoonacularScore: 100.0,
+    healthScore: 89.0,
+    creditsText: "Spice Up the Curry",
+    sourceName: "Spice Up the Curry",
+    pricePerServing: 289.54,
+    id: 600888,
+    title: "Chana Palak | Chole Palak |Spinach chickpeas curry",
+    readyInMinutes: 50,
+    servings: 2,
+    sourceUrl: "http://www.spiceupthecurry.com/chana-palak-recipe-chole-palak/",
+    image: "https://spoonacular.com/recipeImages/600888-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Chana Palak | Chole Palak |Spinach chickpeas curry is ready <b>in approximately 50 minutes</b> and is definitely a tremendous <b>gluten free and vegan</b> option for lovers of Indian food. This recipe makes 2 servings with <b>506 calories</b>, <b>22g of protein</b>, and <b>20g of fat</b> each. For <b>$3.53 per serving</b>, this recipe <b>covers 45%</b> of your daily requirements of vitamins and minerals. Plenty of people made this recipe, and 185 would say it hit the spot. It works well as a pretty expensive main course. A mixture of salt, chilies or, coriander powder, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the ginger paste you could follow this main course with the <a href="https://spoonacular.com/recipes/caramelized-pineapple-macadamia-coconut-frozen-dessert-469821">Caramelized Pineapple Macadamia Coconut Frozen Dessert</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is awesome. Similar recipes include <a href="https://spoonacular.com/recipes/palak-chole-how-to-make-palak-chole-spinach-chickpeas-486681">palak chole , how to make palak chole | spinach chickpeas</a>, <a href="https://spoonacular.com/recipes/aloo-palak-aloo-palak-gravy-potato-spinach-curry-600768">Aloo Palak | Aloo palak gravy | potato spinach curry</a>, and <a href="https://spoonacular.com/recipes/spinach-chickpea-palak-chana-rice-661287">Spinach Chickpea - Palak Chana Rice</a>.',
+    cuisines: ["Indian", "Asian"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["sparkling rose", "riesling", "gruener veltliner"],
+      pairingText:
+        "Sparkling rosé, Riesling, and Gruener Veltliner are great choices for Indian. The best wine for Indian food will depending on the dish, of course, but these picks can be served chilled and have some sweetness to complement the spiciness and complex flavors of a wide variety of traditional dishes. One wine you could try is Sophora Sparkling rosé. It has 4 out of 5 stars and a bottle costs about 15 dollars.",
+      productMatches: [
+        {
+          id: 459589,
+          title: "Sophora Sparkling Rose",
+          description:
+            "Gold Medal Winner: 2014 Los Angeles International Wine CompetitionThis sparkling Rose made from Chardonnay and Pinot Noir has an attractive pink blush color and luscious palate with a lasting, refreshing mousse. Delightful floral aromas and juicy red berry, cherry and pink grapefruit flavors with a balanced acidity and a creamy, decadent finish.",
+          price: "$14.99",
+          imageUrl: "https://spoonacular.com/productImages/459589-312x231.jpg",
+          averageRating: 0.8,
+          ratingCount: 13.0,
+          score: 0.775,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsophora-sparkling-rose%2F130441",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Wash chickpeas under running cold water till water runs clear. Soak them for 8-10 hours or overnight.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 600,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Drain and then pressure cook it with 1½ cups of water and salt for 1 whistle on high + 20 minutes on medium-low heat. Or cook it till they are soft.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Let the pressure go down by itself.While chickpeas are cooking blanch tomato and spinach. For that, bring about 5-6 cups of water to a rolling boil.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step: "Add salt to it, then add spinach, cook for 3 minutes.",
+            ingredients: [
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Drain all the water and run cold water to it so it stops cooking.Now let the water comes to a boil again. Make a cross at the bottom of the tomato. Blanch it into water for 4-5 minutes or till the skin will start to comes off. Immediately drop into cold water to stop cooking. Peel the skin off.Now first make cashew powder into grinder. After that, puree the tomato. And then puree spinach with green chilies. By this time chole should be cooked.Now heat the oil in a pan on medium heat. Once hot add cumin seeds.",
+            ingredients: [
+              {
+                id: 31015,
+                name: "green chili pepper",
+                localizedName: "green chili pepper",
+                image: "chili-peppers-green.jpg",
+              },
+              {
+                id: 2014,
+                name: "cumin seeds",
+                localizedName: "cumin seeds",
+                image: "ground-cumin.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 12087,
+                name: "cashews",
+                localizedName: "cashews",
+                image: "cashews.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step: "Let them sizzle a bit.Then add chopped onion.",
+            ingredients: [
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step: "Add some salt and let it cook till it becomes light brown.",
+            ingredients: [
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step:
+              "Add ginger paste, garlic paste. Cook for a minute or till the raw smell of ginger garlic goes away.",
+            ingredients: [
+              {
+                id: 10111215,
+                name: "garlic paste",
+                localizedName: "garlic paste",
+                image: "garlic-paste.png",
+              },
+              {
+                id: 93754,
+                name: "ginger paste",
+                localizedName: "ginger paste",
+                image: "ginger-garlic-paste.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 9,
+            step: "Add pureed tomato. Cook till moisture evaporates.",
+            ingredients: [
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 10,
+            step: "Add coriander powder, garam masala and kasoori methi.",
+            ingredients: [
+              {
+                id: 1002013,
+                name: "ground coriander",
+                localizedName: "ground coriander",
+                image: "ground-coriander.jpg",
+              },
+              {
+                id: 93663,
+                name: "garam masala",
+                localizedName: "garam masala",
+                image: "garam-masala.jpg",
+              },
+              {
+                id: 98963,
+                name: "dried fenugreek leaves",
+                localizedName: "dried fenugreek leaves",
+                image: "methi.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 11,
+            step: "Mix and cook for a minute.Now",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 12,
+            step:
+              "Add pureed spinach and mix well.Once curry comes a boil, sprinkle cashew nut powder.",
+            ingredients: [
+              {
+                id: 12087,
+                name: "cashews",
+                localizedName: "cashews",
+                image: "cashews.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 2015,
+                name: "curry powder",
+                localizedName: "curry powder",
+                image: "curry-powder.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 13,
+            step: "Mix it properly.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 14,
+            step: "Add cooked chana and mix.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 15,
+            step:
+              "Add water if needed to adjust the gravy consistency. I have added ½ cup of water.",
+            ingredients: [
+              {
+                id: 6997,
+                name: "gravy",
+                localizedName: "gravy",
+                image: "gravy.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 16,
+            step: "Let it simmer for 5 minutes.Chana palak is ready to serve.",
+            ingredients: [],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 8,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 726,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "The Comfort of Cooking",
+    sourceName: "The Comfort of Cooking",
+    pricePerServing: 159.18,
+    id: 590710,
+    title: "Grilled Ratatouille Pasta",
+    readyInMinutes: 45,
+    servings: 5,
+    sourceUrl:
+      "http://www.thecomfortofcooking.com/2012/08/grilled-ratatouille-pasta.html",
+    image: "https://spoonacular.com/recipeImages/590710-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many side dish recipes, so give Grilled Ratatouille Pastan a try. One serving contains <b>312 calories</b>, <b>9g of protein</b>, and <b>12g of fat</b>. This vegan recipe serves 5 and costs <b>$1.23 per serving</b>. 726 people were impressed by this recipe. <b>The Fourth Of July</b> will be even more special with this recipe. Head to the store and pick up salt and pepper, eggplant, parsley, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is awesome. Try <a href="https://spoonacular.com/recipes/grilled-tuna-with-grilled-ratatouille-couscous-and-deconstructed-pesto-384478">Grilled Tuna with Grilled Ratatouille Couscous and Deconstructed Pesto</a>, <a href="https://spoonacular.com/recipes/ratatouille-pasta-103612">Ratatouille Pasta</a>, and <a href="https://spoonacular.com/recipes/ratatouille-pasta-760844">Ratatouille Pasta</a> for similar recipes.',
+    cuisines: ["Mediterranean", "French", "European"],
+    dishTypes: ["side dish"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["father's day", "4th of july", "summer"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a medium pot of boiling salted water, cook pasta according to package instructions.",
+            ingredients: [
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Drain pasta and return to pot; place away from heat.",
+            ingredients: [
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Heat a grill or grill pan to medium-high; lightly oil hot grill. Working in batches if necessary, lightly brush vegetables with 2 tablespoons oil, season with salt and pepper, and grill, turning occasionally, until browned and tender.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404648,
+                name: "grill pan",
+                localizedName: "grill pan",
+                image: "grill-pan.jpg",
+              },
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Transfer vegetables to a cutting board and let cool slightly.Roughly chop vegetables and add to pasta.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404716,
+                name: "cutting board",
+                localizedName: "cutting board",
+                image: "cutting-board.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Add 2 tablespoons each oil and vinegar, or to taste. Season with salt and pepper, sprinkle with parsley, and serve warm or cold.Enjoy!",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11297,
+                name: "parsley",
+                localizedName: "parsley",
+                image: "parsley.jpg",
+              },
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 5,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 20,
+    aggregateLikes: 817,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Peanut Butter and Peepers",
+    sourceName: "Peanut Butter and Peepers",
+    pricePerServing: 182.58,
+    id: 510702,
+    title: "Roasted Squash and Mexican Black Bean Salad #SundaySupper",
+    readyInMinutes: 30,
+    servings: 1,
+    sourceUrl:
+      "http://www.peanutbutterandpeppers.com/2013/11/17/roasted-squash-and-mexican-black-bean-salad-sundaysupper/",
+    image: "https://spoonacular.com/recipeImages/510702-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'com/recipes/mexican-black-bean-and-butternut-squash-soup-531287">Mexican Black Bean and Butternut Squash Soup</a>, and <a href="https://spoonacular.com/recipes/roasted-butternut-squash-black-bean-chili-704024">Roasted Butternut Squash Black Bean Chili</a> for similar recipes.',
+    cuisines: ["Mexican"],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["pinot noir", "riesling", "sparkling rose"],
+      pairingText:
+        "Mexican works really well with Pinot Noir, Riesling, and Sparkling rosé. Acidic white wines like riesling or low-tannin reds like pinot noir can work well with Mexican dishes. Sparkling rosé is a safe pairing too. One wine you could try is Melville Sandy's Pinot Noir. It has 4.4 out of 5 stars and a bottle costs about 45 dollars.",
+      productMatches: [
+        {
+          id: 453946,
+          title: "Melville Sandy's Pinot Noir",
+          description:
+            "With a hue reminiscent of dark red rose petal, rich and savory aromatics of shitaki mushroom, miso glaze and toasted nori come through initially. Decadent spice notes of cinnamon, sage and lavender are intertwined with impressions of dried apricot, red currants, baked apples and orange zest. Tender and velvety on the palate with generous tannins that frame the wine’s radiant and voluptuous finish.",
+          price: "$44.99",
+          imageUrl: "https://spoonacular.com/productImages/453946-312x231.jpg",
+          averageRating: 0.8800000000000001,
+          ratingCount: 6.0,
+          score: 0.8273684210526318,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmelville-sandys-pinot-noir-2015%2F348327",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 375 degrees FLine baking sheet with parchment paper",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add squash to baking sheet and spray with cooking spray and sprinkle with salt and pepper; mix well.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Place in oven and back for 10 minutes. Flip the squash and bake for about 10 minutes more or until squash is fork tender.Meanwhile in a bowl, add lettuce, black beans, corn, cooked squash, jicama, tomato and avocado. Top with avocado and lime juice.",
+            ingredients: [
+              {
+                id: 16015,
+                name: "black beans",
+                localizedName: "black beans",
+                image: "black-beans.jpg",
+              },
+              {
+                id: 9160,
+                name: "lime juice",
+                localizedName: "lime juice",
+                image: "lime-juice.png",
+              },
+              {
+                id: 9037,
+                name: "avocado",
+                localizedName: "avocado",
+                image: "avocado.jpg",
+              },
+              {
+                id: 11252,
+                name: "lettuce",
+                localizedName: "lettuce",
+                image: "iceberg-lettuce.jpg",
+              },
+              {
+                id: 11603,
+                name: "jicama",
+                localizedName: "jicama",
+                image: "jicama.jpg",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 11168,
+                name: "corn",
+                localizedName: "corn",
+                image: "corn.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 5,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 30,
+    cookingMinutes: 40,
+    aggregateLikes: 1171,
+    spoonacularScore: 100.0,
+    healthScore: 86.0,
+    creditsText: "Simply Sugar and Gluten Free",
+    sourceName: "Simply Sugar and Gluten Free",
+    pricePerServing: 63.17,
+    id: 539793,
+    title: "Maggie’s Quinoa & Adzuki Bean Veggie Burgers",
+    readyInMinutes: 70,
+    servings: 8,
+    sourceUrl:
+      "http://simplysugarandglutenfree.com/maggies-quinoa-adzuki-bean-veggie-burgers/",
+    image: "https://spoonacular.com/recipeImages/539793-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Maggie’s Quinoa & Adzuki Bean Veggie Burgers might be just the <b>American</b> recipe you are searching for. Watching your figure? This gluten free and vegan recipe has <b>203 calories</b>, <b>9g of protein</b>, and <b>5g of fat</b> per serving. This recipe serves 8 and costs 63 cents per serving. This recipe is liked by 1171 foodies and cooks. Head to the store and pick up adzuki beans, carrots, garlic, and a few other things to make it today. From preparation to the plate, this recipe takes around <b>1 hour and 10 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/red-quinoa-and-black-bean-veggie-burgers-557407">Red Quinoan and Black Bean Veggie Burgers</a>, <a href="https://spoonacular.com/recipes/black-bean-quinoa-veggie-burgers-550116">Black Bean Quinoa Veggie Burgers</a>, and <a href="https://spoonacular.com/recipes/dining-with-the-doc-black-bean-quinoa-veggie-burgers-721577">Dining with the Doc: Black Bean & Quinoa Veggie Burgers</a> for similar recipes.',
+    cuisines: ["American"],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Add the onion, garlic, and carrot to the bowl of a food processor fitted with a steel blade. Pulse several times and then process until finely chopped.",
+            ingredients: [
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add the cooked quinoa, adzuki beans, salsa, mustard, Herbamare, black pepper, and flaxseed meal mixture. Process until combined and smooth.Cover and chill burger mixture for 30 minutes.Preheat the oven to 350 degrees F. Line two baking sheets with silpats or parchment paper. Lightly oil both sheets to prevent burgers from sticking. (Very important!)Using a standard ice cream scoop, transfer the bean burger mixture to the prepared baking sheets. Use wet hands to press the burgers flat.",
+            ingredients: [
+              {
+                id: 20137,
+                name: "cooked quinoa",
+                localizedName: "cooked quinoa",
+                image: "cooked-quinoa.png",
+              },
+              {
+                id: 12220,
+                name: "ground flaxseed",
+                localizedName: "ground flaxseed",
+                image: "flax-seeds.png",
+              },
+              {
+                id: 16002,
+                name: "adzuki beans",
+                localizedName: "adzuki beans",
+                image: "Azuki-beans.jpg",
+              },
+              {
+                id: 1002030,
+                name: "black pepper",
+                localizedName: "black pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 0,
+                name: "bean burger",
+                localizedName: "bean burger",
+                image: "veggie-burger-patty.png",
+              },
+              {
+                id: 19095,
+                name: "ice cream",
+                localizedName: "ice cream",
+                image: "vanilla-ice-cream.png",
+              },
+              {
+                id: 2046,
+                name: "mustard",
+                localizedName: "mustard",
+                image: "regular-mustard.jpg",
+              },
+              {
+                id: 6164,
+                name: "salsa",
+                localizedName: "salsa",
+                image: "salsa.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404742,
+                name: "ice cream scoop",
+                localizedName: "ice cream scoop",
+                image: "ice-cream-scoop.jpg",
+              },
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 350.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Bake for 35 - 40 minutes, flipping the burgers after 25 minutes.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 65,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Serve warm. Leftovers can be covered and refrigerated for several days.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 60,
+    aggregateLikes: 1801,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "The Roasted Root",
+    sourceName: "The Roasted Root",
+    pricePerServing: 453.21,
+    id: 620173,
+    title: "Garlicky Spaghetti Squash with Chicken, Mushrooms, and Kale",
+    readyInMinutes: 70,
+    servings: 2,
+    sourceUrl:
+      "http://www.theroastedroot.net/garlicky-spaghetti-squash-chicken-mushrooms-kale/",
+    image: "https://spoonacular.com/recipeImages/620173-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give Garlicky Spaghetti Squash with Chicken, Mushrooms, and Kale a try. This recipe serves 2 and costs $4.03 per serving. One serving contains <b>444 calories</b>, <b>24g of protein</b>, and <b>20g of fat</b>. 1801 person have made this recipe and would make it again. A mixture of olive oil, chicken breast, thyme, and a handful of other ingredients are all it takes to make this recipe so delicious. To use up the lemon zest you could follow this main course with the <a href="https://spoonacular.com/recipes/orange-marmalade-cookies-with-orange-zest-icing-589746">Orange Marmalade Cookies with Orange Zest Icing</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>1 hour and 10 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/spaghetti-squash-with-garlicky-kale-and-chickpeas-619035">Spaghetti Squash with Garlicky Kale and Chickpeas</a>, <a href="https://spoonacular.com/recipes/spaghetti-squash-with-garlicky-kale-pesto-and-sun-dried-tomatoes-495628">Spaghetti Squash with Garlicky Kale Pesto and Sun-Dried Tomatoes</a>, and <a href="https://spoonacular.com/recipes/spaghetti-squash-with-mushrooms-and-kale-15203">Spaghetti Squash With Mushrooms And Kale</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "paleolithic", "primal"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Roast the spaghetti squash and set aside until ready to use",
+            ingredients: [
+              {
+                id: 11492,
+                name: "spaghetti squash",
+                localizedName: "spaghetti squash",
+                image: "spaghetti-squash.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "In a medium-sized non-stick skillet, add the oil and heat to medium.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add the minced garlic and mushrooms. Saut for 5 minutes, stirring frequently, until garlic is very fragrant and mushrooms have browned.",
+            ingredients: [
+              {
+                id: 0,
+                name: "minced garlic",
+                localizedName: "minced garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add the strips of raw chicken, and cook about 30 seconds before adding the chopped kale leaves. Cook 3 to 5 minutes, or until chicken is cooked through.",
+            ingredients: [
+              {
+                id: 5006,
+                name: "whole chicken",
+                localizedName: "whole chicken",
+                image: "whole-chicken.jpg",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Add the lemon zest, salt, and cayenne pepper. Stir well and cook an additional minute.",
+            ingredients: [
+              {
+                id: 2031,
+                name: "cayenne pepper",
+                localizedName: "cayenne pepper",
+                image: "chili-powder.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Remove from heat.Strip the spaghetti squash into spaghetti strands and place in a medium-sized serving bowl.",
+            ingredients: [
+              {
+                id: 11492,
+                name: "spaghetti squash",
+                localizedName: "spaghetti squash",
+                image: "spaghetti-squash.jpg",
+              },
+              {
+                id: 11420420,
+                name: "spaghetti",
+                localizedName: "spaghetti",
+                image: "spaghetti.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Add the chicken/mushroom/kale mixture and toss everything together.",
+            ingredients: [
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+              {
+                id: 5006,
+                name: "whole chicken",
+                localizedName: "whole chicken",
+                image: "whole-chicken.jpg",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step: "Serve with fresh grated parmesan cheese and enjoy.",
+            ingredients: [
+              {
+                id: 1032,
+                name: "grated parmesan cheese",
+                localizedName: "grated parmesan cheese",
+                image: "parmesan.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 0,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 4,
+    aggregateLikes: 3278,
+    spoonacularScore: 100.0,
+    healthScore: 52.0,
+    creditsText: "A Family Feast ",
+    sourceName: "A Family Feast ",
+    pricePerServing: 39.09,
+    id: 595166,
+    title: "Lemon Ginger Broccoli",
+    readyInMinutes: 14,
+    servings: 8,
+    sourceUrl: "https://www.afamilyfeast.com/lemon-ginger-broccoli/",
+    image: "https://spoonacular.com/recipeImages/595166-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Lemon Ginger Broccoli is a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> recipe with 8 servings. One portion of this dish contains roughly <b>3g of protein</b>, <b>2g of fat</b>, and a total of <b>51 calories</b>. For <b>39 cents per serving</b>, this recipe <b>covers 13%</b> of your daily requirements of vitamins and minerals. It works well as an inexpensive side dish. Plenty of people made this recipe, and 3278 would say it hit the spot. If you have soy sauce, lemon juice, fructose, and a few other ingredients on hand, you can make it. It is brought to you by A Family Feast . From preparation to the plate, this recipe takes around <b>14 minutes</b>. Overall, this recipe earns an <b>improvable spoonacular score of 0%</b>. Users who liked this recipe also liked <a href="https://spoonacular.com/recipes/broccoli-soup-with-ginger-and-lemon-704849">Broccoli Soup with Ginger and Lemon</a>, <a href="https://spoonacular.com/recipes/lemon-ginger-chicken-with-broccoli-111042">Lemon-Ginger Chicken With Broccoli</a>, and <a href="https://spoonacular.com/recipes/meyer-lemon-meringue-pie-with-ginger-lemon-cookie-crust-522425">Meyer Lemon Meringue Pie with Ginger Lemon Cookie Crust</a>.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "To prepare the sauce, combine the soy sauce, lemon juice, lemon zest, freshly grated ginger, sesame oil, hot oil and fructose in a small bowl.",
+            ingredients: [
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 4058,
+                name: "sesame oil",
+                localizedName: "sesame oil",
+                image: "sesame-oil.png",
+              },
+              {
+                id: 16124,
+                name: "soy sauce",
+                localizedName: "soy sauce",
+                image: "soy-sauce.jpg",
+              },
+              {
+                id: 0,
+                name: "fructose",
+                localizedName: "fructose",
+                image: "",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Whisk to combine.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Steam the broccoli for about 3-4 minutes until tender but still crisp.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 4,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step: "Drain well.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "In a large bowl, combine the broccoli and sauce and toss to coat the broccoli.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step: "Serve hot, warm or at room temperature.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 16,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 45,
+    cookingMinutes: 0,
+    aggregateLikes: 1956,
+    spoonacularScore: 100.0,
+    healthScore: 92.0,
+    creditsText: "Foodnetwork",
+    sourceName: "Foodnetwork",
+    pricePerServing: 197.2,
+    id: 748529,
+    title: "Orecchiette with Broccoli and Pecorino",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl:
+      "http://www.foodnetwork.com/recipes/giada-de-laurentiis/orecchiette-with-broccoli-and-pecorino.html",
+    image: "https://spoonacular.com/recipeImages/748529-312x231.jpeg",
+    imageType: "jpeg",
+    summary:
+      'You can never have too many main course recipes, so give Orecchiette with Broccoli and Pecorino a try. This recipe serves 6 and costs $1.97 per serving. One serving contains <b>621 calories</b>, <b>21g of protein</b>, and <b>27g of fat</b>. Plenty of people made this recipe, and 1956 would say it hit the spot. Head to the store and pick up kosher salt, pecorino, parsley, and a few other things to make it today. To use up the pine nuts you could follow this main course with the <a href="https://spoonacular.com/recipes/pear-cake-with-pine-nuts-167404">Pear Cake with Pine Nuts</a> as a dessert. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/orecchiette-with-leeks-peas-and-pecorino-18289">Orecchiette with Leeks, Peas, and Pecorino</a>, <a href="https://spoonacular.com/recipes/orecchiette-ai-broccoletti-orecchiette-pasta-with-broccoli-rabe-481288">Orecchiette ai broccoletti (Orecchiette Pasta with Broccoli Rabe)</a>, and <a href="https://spoonacular.com/recipes/orecchiette-with-broccoli-rabe-orecchiette-con-cime-di-rapa-154346">Orecchiette with Broccoli Rabe (Orecchiette con Cime di Rapa)</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["pescatarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat the oven to 500 degrees F. Bring a large pot of salted water to a boil over high heat.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 500.0,
+                  unit: "Fahrenheit",
+                },
+              },
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Spread out the broccoli florets on a rimmed baking sheet and toss them with 1/4 cup of the olive oil and the salt.",
+            ingredients: [
+              {
+                id: 10011090,
+                name: "broccoli florets",
+                localizedName: "broccoli florets",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Transfer to the preheated oven and roast for 10 minutes, stirring halfway through.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Meanwhile, add the orecchiette to the boiling water and cook until al dente, 9 to 10 minutes.",
+            ingredients: [
+              {
+                id: 10820420,
+                name: "orecchiette",
+                localizedName: "orecchiette",
+                image: "orecchiette.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 9,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Drain well, reserving 1 cup of the pasta water for the sauce.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "While the pasta cooks, heat a large skillet over medium heat.",
+            ingredients: [
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Add the remaining 1/4 cup olive oil, the anchovy paste and the garlic to the hot pan. Cook, mashing up the anchovy paste with a wooden spoon, until the anchovy has dissolved into the oil and the garlic has become softened and aromatic, about 3 minutes.",
+            ingredients: [
+              {
+                id: 10015002,
+                name: "anchovy paste",
+                localizedName: "anchovy paste",
+                image: "anchovy-paste.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 15001,
+                name: "anchovies",
+                localizedName: "anchovies",
+                image: "anchovies.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404732,
+                name: "wooden spoon",
+                localizedName: "wooden spoon",
+                image: "wooden-spoon.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 8,
+            step:
+              "Add the pasta, the roasted broccoli, and the parsley, red pepper flakes, pecorino, lemon zest, raisins and pine nuts to the skillet. Stir well to combine.",
+            ingredients: [
+              {
+                id: 1032009,
+                name: "red pepper flakes",
+                localizedName: "red pepper flakes",
+                image: "red-pepper-flakes.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 12147,
+                name: "pine nuts",
+                localizedName: "pine nuts",
+                image: "pine-nuts.png",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 1038,
+                name: "pecorino",
+                localizedName: "pecorino",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 11297,
+                name: "parsley",
+                localizedName: "parsley",
+                image: "parsley.jpg",
+              },
+              {
+                id: 9299,
+                name: "raisins",
+                localizedName: "raisins",
+                image: "raisins.jpg",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 9,
+            step: "Add pasta water as needed to loosen the sauce.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 128,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "VeganYumYum",
+    sourceName: "VeganYumYum",
+    pricePerServing: 551.16,
+    id: 37670,
+    title: "Chili Almond Asparagus",
+    readyInMinutes: 5,
+    servings: 1,
+    sourceUrl: "http://veganyumyum.com/2009/05/chili-almond-asparagus/",
+    image: "https://spoonacular.com/recipeImages/37670-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Chili Almond Asparagus is ready <b>in about 5 minutes</b> and is definitely a super <b>gluten free and vegan</b> option for lovers of American food. This recipe makes 1 servings with <b>484 calories</b>, <b>19g of protein</b>, and <b>33g of fat</b> each. For <b>$5.51 per serving</b>, this recipe <b>covers 47%</b> of your daily requirements of vitamins and minerals. <b>The Super Bowl</b> will be even more special with this recipe. 128 people have made this recipe and would make it again. Head to the store and pick up sesame oil, powdered soup stock, carrots, and a few other things to make it today. To use up the almonds you could follow this main course with the <a href="https://spoonacular.com/recipes/fresh-cherry-clafouti-with-almonds-257216">Fresh Cherry Clafouti with Almonds</a> as a dessert. Plenty of people really liked this main course. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/almond-asparagus-115592">Almond Asparagus</a>, <a href="https://spoonacular.com/recipes/asparagus-and-almond-soup-115433">Asparagus and Almond Soup</a>, and <a href="https://spoonacular.com/recipes/lemon-almond-asparagus-426579">Lemon Almond Asparagus</a> for similar recipes.',
+    cuisines: ["American"],
+    dishTypes: [],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["super bowl"],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 20,
+    aggregateLikes: 10374,
+    spoonacularScore: 100.0,
+    healthScore: 79.0,
+    creditsText: "Foodnetwork",
+    sourceName: "Foodnetwork",
+    pricePerServing: 150.95,
+    id: 755130,
+    title: "Vegetable Noodle Soup",
+    readyInMinutes: 30,
+    servings: 4,
+    sourceUrl:
+      "http://www.foodnetwork.com/recipes/food-network-kitchens/vegetable-noodle-soup-recipe.html",
+    image: "https://spoonacular.com/recipeImages/755130-312x231.jpeg",
+    imageType: "jpeg",
+    summary:
+      'Vegetable Noodle Soup might be just the soup you are searching for. One serving contains <b>167 calories</b>, <b>7g of protein</b>, and <b>9g of fat</b>. For <b>$1.14 per serving</b>, this recipe <b>covers 12%</b> of your daily requirements of vitamins and minerals. 10374 people have made this recipe and would make it again. <b>Autumn</b> will be even more special with this recipe. Head to the store and pick up chicken broth, carrot, celery, and a few other things to make it today. From preparation to the plate, this recipe takes approximately <b>30 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 98%</b>. This score is tremendous. Similar recipes include <a href="https://spoonacular.com/recipes/vegetable-noodle-soup-497389">Vegetable Noodle Soup</a>, <a href="https://spoonacular.com/recipes/vegetable-curry-noodle-soup-602639">Vegetable Curry Noodle Soup</a>, and <a href="https://spoonacular.com/recipes/chicken-vegetable-noodle-soup-501406">Chicken, vegetable & noodle soup</a>.',
+    cuisines: [],
+    dishTypes: ["soup"],
+    diets: [],
+    occasions: ["fall", "winter"],
+    winePairing: {
+      pairedWines: [],
+      pairingText:
+        "No one wine will suit every pasta dish. Pasta in a tomato-based sauce will usually work well with a medium-bodied red, such as a montepulciano or chianti. Pasta with seafood or pesto will fare better with a light-bodied white, such as a pinot grigio. Cheese-heavy pasta can pair well with red or white - you might try a sangiovese wine for hard cheeses and a chardonnay for soft cheeses. We may be able to make a better recommendation if you ask again with a specific pasta dish.",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Heat the olive oil in a medium saucepan over medium heat; add all the vegetables, garlic and onion. Season with the salt, and cook until tender, about 6 minutes.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+            length: {
+              number: 6,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Add the pasta and cook until slightly toasted and golden, about 2 minutes.",
+            ingredients: [
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add broth, and bring to a boil over high heat. Cook, covered, until pasta is just tender, about 8 minutes.",
+            ingredients: [
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 8,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Stir in whatever herb suits you (or your young eater) and lemon juice. Season with pepper and additional salt, to taste. Fill thermos, pack in a lunch sack with crackers and cheese sticks and send off to school.",
+            ingredients: [
+              {
+                id: 98970,
+                name: "string cheese",
+                localizedName: "string cheese",
+                image: "string-cheese.png",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 18621,
+                name: "crackers",
+                localizedName: "crackers",
+                image: "crackers.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 17,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 713,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Naturally Ella",
+    sourceName: "Naturally Ella",
+    pricePerServing: 157.52,
+    id: 616030,
+    title: "Quick Red Lentil and Spinach Curry",
+    readyInMinutes: 45,
+    servings: 3,
+    sourceUrl:
+      "http://naturallyella.com/2014/10/01/quick-red-lentil-and-spinach-curry/",
+    image: "https://spoonacular.com/recipeImages/616030-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Quick Red Lentil and Spinach Curry could satisfy your Indian craving in about <b>45 minutes</b>. One serving contains <b>572 calories</b>, <b>19g of protein</b>, and <b>12g of fat</b>. For <b>$1.65 per serving</b>, you get a main course that serves 3. 713 people have tried and liked this recipe. If you have baby spinach, brown rice, water, and a few other ingredients on hand, you can make it. To use up the cooked brown rice you could follow this main course with the <a href="https://spoonacular.com/recipes/breakfast-rice-pudding-547155">Breakfast Rice Pudding</a> as a dessert. It is a good option if you\'re following a <b>gluten free and vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/spinach-red-lentil-and-bean-curry-487174">Spinach, Red Lentil, and Bean Curry</a>, <a href="https://spoonacular.com/recipes/lentil-potato-spinach-curry-19885">Lentil, Potato & Spinach Curry</a>, and <a href="https://spoonacular.com/recipes/one-pot-red-lentil-sweet-potato-stew-928497">One-Pot Red Lentil Sweet Potato Stew</a> for similar recipes.',
+    cuisines: ["Indian", "Asian"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["sparkling rose", "riesling", "gruener veltliner"],
+      pairingText:
+        "Indian works really well with Sparkling rosé, Riesling, and Gruener Veltliner. The best wine for Indian food will depending on the dish, of course, but these picks can be served chilled and have some sweetness to complement the spiciness and complex flavors of a wide variety of traditional dishes. You could try Ruffino Sparkling rosé. Reviewers quite like it with a 4.4 out of 5 star rating and a price of about 13 dollars per bottle.",
+      productMatches: [
+        {
+          id: 477996,
+          title: "Ruffino Sparkling Rose",
+          description:
+            "Ruffino Sparkling Rosé is fresh and fragrant with notes of strawberry and slight hints of rose petals. On the palate this wine has elegant bubbles and refreshing acidity, offering alluring flavors of delicate red berries and white fruits that linger through the finish.Ruffino Sparkling Rosé is enjoyable on its own as an aperitif, but also as a food companion, pairing well with a variety of dishes including grilled fish, roasted chicken, and mixed greens salads.",
+          price: "$12.99",
+          imageUrl: "https://spoonacular.com/productImages/477996-312x231.jpg",
+          averageRating: 0.8800000000000001,
+          ratingCount: 39.0,
+          score: 0.8715254237288137,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fruffino-sparkling-rose%2F430682",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a skillet with high sides, whisk together coconut milk, water and curry paste. Bring to a boil, reduce to a simmer, and add red lentils.",
+            ingredients: [
+              {
+                id: 12118,
+                name: "coconut milk",
+                localizedName: "coconut milk",
+                image: "coconut-milk.png",
+              },
+              {
+                id: 93605,
+                name: "curry paste",
+                localizedName: "curry paste",
+                image: "chili-paste.png",
+              },
+              {
+                id: 10016069,
+                name: "red lentils",
+                localizedName: "red lentils",
+                image: "red-lentils.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Let simmer for 22 to 25 minutes, just until the red lentils are tender but still hold their shape.",
+            ingredients: [
+              {
+                id: 10016069,
+                name: "red lentils",
+                localizedName: "red lentils",
+                image: "red-lentils.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 22,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step: "Remove pot from heat and stir in spinach until wilted.",
+            ingredients: [
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Serve curry over cooked grain, with a dollop of yogurt, if desired.",
+            ingredients: [
+              {
+                id: 1116,
+                name: "yogurt",
+                localizedName: "yogurt",
+                image: "plain-yogurt.jpg",
+              },
+              {
+                id: 2015,
+                name: "curry powder",
+                localizedName: "curry powder",
+                image: "curry-powder.jpg",
+              },
+              {
+                id: 0,
+                name: "grains",
+                localizedName: "grains",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 50,
+    aggregateLikes: 558,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "BBC Good Food",
+    sourceName: "BBC Good Food",
+    pricePerServing: 119.06,
+    id: 212401,
+    title: "Butternut squash salad",
+    readyInMinutes: 65,
+    servings: 4,
+    sourceUrl:
+      "https://www.bbcgoodfood.com/recipes/1572649/butternut-squash-salad",
+    image: "https://spoonacular.com/recipeImages/212401-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Butternut squash salad requires approximately <b>1 hour and 5 minutes</b> from start to finish. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>320 calories</b>, <b>12g of protein</b>, and <b>7g of fat</b> per serving. This recipe serves 4. For <b>$1.19 per serving</b>, this recipe <b>covers 35%</b> of your daily requirements of vitamins and minerals. It is brought to you by BBC Good Food. It works well as an affordable main course. A mixture of cranberries, pumpkin seeds, brown rice, and a handful of other ingredients are all it takes to make this recipe so delicious. 558 people have tried and liked this recipe. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. <a href="https://spoonacular.com/recipes/2ways2percent-butternut-squash-pizza-and-creamy-butternut-squash-puree-with-scallops-and-bacon-620004">2ways2percent: Butternut Squash Pizzan and Creamy Butternut Squash Puree with Scallops and Bacon</a>, <a href="https://spoonacular.com/recipes/butternut-squash-butternut-squash-pear-and-yogurt-soup-482112">Butternut Squash : Butternut Squash, Pear and Yogurt Soup</a>, and <a href="https://spoonacular.com/recipes/butternut-squash-salad-586646">Butternut Squash Salad</a> are very similar to this recipe.',
+    cuisines: [],
+    dishTypes: [
+      "side dish",
+      "lunch",
+      "salad",
+      "main course",
+      "main dish",
+      "dinner",
+    ],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["chardonnay", "gruener veltliner", "sauvignon blanc"],
+      pairingText:
+        "Chardonnay, Gruener Veltliner, and Sauvignon Blanc are my top picks for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The NV Mindbender Chardonnay with a 4.4 out of 5 star rating seems like a good match. It costs about 12 dollars per bottle.",
+      productMatches: [
+        {
+          id: 428583,
+          title: "NV Mindbender Chardonnay",
+          description:
+            "Lightly Oaked, the Mindbender Chardonnay is a sophisticated style of Chardonnay, that is full of the best elements of this classic grape varietal. The aromatics are complex and welcoming with floral and citrus tones mixed with hints of honeysuckle and butterscotch. The good percentage of oak aging brings a lovely vanilla note. The Mindbender Chardonnay is here to make you see Chardonnay in a new and innovative way. The Mindbender Chardonnay is a sophisticated style of Chardonnay, that is full of the best elements of this classic grape varietal. Visually it is golden straw in color. The aromatics are complex and welcoming with floral and citrus tones mixed with hints of honeysuckle and butterscotch. The well-rounded flavors carry the butterscotch throughout lending a smooth, creamy aspect while the citrus flavors bring freshness and brightness to the body. The good percentage of oak aging brings a lovely vanilla note. The finish is rounded out with a depth of ripe fruit flavors such as apricots, melons and peaches with a spritz of lime.",
+          price: "$12.0",
+          imageUrl: "https://spoonacular.com/productImages/428583-312x231.jpg",
+          averageRating: 0.8800000000000001,
+          ratingCount: 4.0,
+          score: 0.8030769230769232,
+          link:
+            "https://www.amazon.com/Mindbender-California-Chardonnay-White-Wine/dp/B00GB87SJQ?tag=spoonacular-20",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Heat oven to 200C/180C fan/gas",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 200.0,
+                  unit: "Celsius",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Spread the squash over a large baking sheet, drizzle over the oil and bake for 30 mins or until tender.",
+            ingredients: [
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Meanwhile, cook the rice and lentils in boiling salted water for 20 mins, adding the broccoli for the final 4 mins of cooking.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 24,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Drain well, then stir in the cranberries and pumpkin seeds with some seasoning.",
+            ingredients: [
+              {
+                id: 12014,
+                name: "pumpkin seeds",
+                localizedName: "pumpkin seeds",
+                image: "pumpkin-seeds.jpg",
+              },
+              {
+                id: 9078,
+                name: "cranberries",
+                localizedName: "cranberries",
+                image: "cranberries.jpg",
+              },
+              {
+                id: 1042027,
+                name: "seasoning",
+                localizedName: "seasoning",
+                image: "seasoning.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Add the squash, pour over the lemon juice and serve.",
+            ingredients: [
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 10,
+    aggregateLikes: 60401,
+    spoonacularScore: 100.0,
+    healthScore: 74.0,
+    creditsText: "Well Plated",
+    sourceName: "Well Plated",
+    pricePerServing: 253.98,
+    id: 792863,
+    title: "Asian Noodle Salad",
+    readyInMinutes: 20,
+    servings: 10,
+    sourceUrl: "http://www.wellplated.com/asian-noodle-salad/",
+    image: "https://spoonacular.com/recipeImages/792863-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Asian Noodle Salad might be just the side dish you are searching for. For <b>94 cents per serving</b>, this recipe <b>covers 13%</b> of your daily requirements of vitamins and minerals. One serving contains <b>224 calories</b>, <b>6g of protein</b>, and <b>8g of fat</b>. 60401 person have made this recipe and would make it again. It is a good option if you\'re following a <b>dairy free and vegetarian</b> diet. From preparation to the plate, this recipe takes around <b>20 minutes</b>. If you have creamy peanut butter, olive oil, honey, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 98%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/asian-noodle-salad-94238">Asian Noodle Salad</a>, <a href="https://spoonacular.com/recipes/asian-noodle-salad-478799">Asian Noodle Salad</a>, and <a href="https://spoonacular.com/recipes/asian-noodle-salad-733101">Asian Noodle Salad</a> for similar recipes.',
+    cuisines: ["Asian"],
+    dishTypes: ["salad"],
+    diets: ["dairy free"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["chenin blanc", "gewurztraminer", "riesling"],
+      pairingText:
+        "Asian works really well with Chenin Blanc, Gewurztraminer, and Riesling. The best wine for Asian food depends on the cuisine and dish - of course - but these acidic whites pair with a number of traditional meals, spicy or not. One wine you could try is Habit Chenin Blanc. It has 4 out of 5 stars and a bottle costs about 29 dollars.",
+      productMatches: [
+        {
+          id: 456041,
+          title: "Habit Chenin Blanc",
+          description:
+            "Classic old-world style Chenin with white flowers, white peach, nutmeg and wet stone. Loads of minerality, green papaya, lean stone fruit and racy acidity.A super food friendly wine that is an insane pairing with oysters and roast chicken.",
+          price: "$28.99",
+          imageUrl: "https://spoonacular.com/productImages/456041-312x231.jpg",
+          averageRating: 0.8,
+          ratingCount: 5.0,
+          score: 0.7375,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fhabit-chenin-blanc-2013%2F141562",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Bring a large pot of salted water to a boil. Cook the noodles until al dente,according to package directions.",
+            ingredients: [
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Drain and rinse briefly with cool water to remove the excess starch and stop the cooking, then transfer to a large serving bowl.",
+            ingredients: [
+              {
+                id: 10020027,
+                name: "starch",
+                localizedName: "starch",
+                image: "",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add the broccoli cole slaw and carrots.While the pasta cooks,whisk together the olive oil,rice vinegar, honey, peanut butter, soy sauce, Sriarcha, ginger, and garlic.",
+            ingredients: [
+              {
+                id: 16098,
+                name: "peanut butter",
+                localizedName: "peanut butter",
+                image: "peanut-butter.png",
+              },
+              {
+                id: 1022053,
+                name: "rice vinegar",
+                localizedName: "rice vinegar",
+                image: "rice-vinegar.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 16124,
+                name: "soy sauce",
+                localizedName: "soy sauce",
+                image: "soy-sauce.jpg",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+              {
+                id: 19296,
+                name: "honey",
+                localizedName: "honey",
+                image: "honey.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step: "Pour over the noodle mixture and toss to combine.",
+            ingredients: [
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Add thepeanuts and cilantro and toss once more.",
+            ingredients: [
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Serve chilled or at room temperature with additional Sriracha sauce as desired.",
+            ingredients: [
+              {
+                id: 1016168,
+                name: "sriracha",
+                localizedName: "sriracha",
+                image: "hot-sauce-or-tabasco.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 2,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 300,
+    cookingMinutes: 300,
+    aggregateLikes: 546,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Feasting at Home",
+    sourceName: "Feasting at Home",
+    pricePerServing: 116.34,
+    id: 481762,
+    title: "My Favorite Broccoli",
+    readyInMinutes: 600,
+    servings: 4,
+    sourceUrl:
+      "http://www.feastingathome.com/2013/01/my-favorite-broccoli.html",
+    image: "https://spoonacular.com/recipeImages/481762-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'My Favorite Broccoli might be just the side dish you are searching for. This recipe serves 4 and costs $1.16 per serving. Watching your figure? This caveman, gluten free, primal, and whole 30 recipe has <b>140 calories</b>, <b>6g of protein</b>, and <b>10g of fat</b> per serving. From preparation to the plate, this recipe takes approximately <b>10 hours</b>. Plenty of people made this recipe, and 546 would say it hit the spot. If you have lemon zest, chili flakes- optional, two of kosher salt, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/favorite-broccoli-salad-401251">Favorite Broccoli Salad</a>, <a href="https://spoonacular.com/recipes/my-favorite-broccoli-cheese-soup-543864">My Favorite Broccoli Cheese Soup</a>, and <a href="https://spoonacular.com/recipes/my-favorite-broccoli-cheese-soup-690719">My Favorite Broccoli Cheese Soup</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Tear or cut broccoli florets into roughly the same size pieces, to ensure even doneness. Steam in a steamer basket until fork tender, about 5 minutes covered. Remember to only fill the water up to the basket ( you don't want the water touching the broccoli). Bring to a boil, cover and steam on high heat for 5 minutes. Test for doneness.",
+            ingredients: [
+              {
+                id: 10011090,
+                name: "broccoli florets",
+                localizedName: "broccoli florets",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404767,
+                name: "steamer basket",
+                localizedName: "steamer basket",
+                image: "steamer.jpg",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Place in a large bowl, sprinkle with a generous pinch of kosher salt, cracked pepper, lemon zest. Finish with a little drizzle of truffle oil. If you are using a good quality truffle oil you may not need very much and supplement with a little drizzle of olive oil. Gently toss and taste for salt.",
+            ingredients: [
+              {
+                id: 0,
+                name: "cracked pepper",
+                localizedName: "cracked pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 1082047,
+                name: "kosher salt",
+                localizedName: "kosher salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 1024053,
+                name: "truffle oil",
+                localizedName: "truffle oil",
+                image: "truffle-oil.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step: "Serve immediately.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 20,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 20,
+    cookingMinutes: 25,
+    aggregateLikes: 773,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "My San Francisco Kitchen",
+    sourceName: "My San Francisco Kitchen",
+    pricePerServing: 173.38,
+    id: 516377,
+    title: "Southwest Quinoa Salad",
+    readyInMinutes: 45,
+    servings: 2,
+    sourceUrl: "http://www.mysanfranciscokitchen.com/southwest-quinoa-salad/",
+    image: "https://spoonacular.com/recipeImages/516377-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Southwest Quinoa Salad might be just the main course you are searching for. This gluten free and vegan recipe serves 2 and costs <b>$1.73 per serving</b>. One serving contains <b>732 calories</b>, <b>22g of protein</b>, and <b>33g of fat</b>. 766 people have made this recipe and would make it again. Head to the store and pick up salt and pepper, jalepeño, cilantro, and a few other things to make it today. To use up the quinoa you could follow this main course with the <a href="https://spoonacular.com/recipes/quinoa-pudding-129583">Quinoa Pudding</a> as a dessert. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/southwest-quinoa-salad-795427">Southwest Quinoa Salad</a>, <a href="https://spoonacular.com/recipes/southwest-quinoa-salad-601863">Southwest Quinoa Salad</a>, and <a href="https://spoonacular.com/recipes/southwest-quinoa-salad-101885">Southwest Quinoa Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Bring 2 cups of water to boil in a medium pot.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add quinoa and cover.Lower the heat and simmer for about 25 minutes, until all of the water is absorbed.In the mean time, add olive oil, lime juice, jalapeño, salt and pepper to a salad dressing cruet or small bowl and shake or whisk together well.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 4114,
+                name: "salad dressing",
+                localizedName: "salad dressing",
+                image: "italian-dressing.jpg",
+              },
+              {
+                id: 9160,
+                name: "lime juice",
+                localizedName: "lime juice",
+                image: "lime-juice.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 0,
+                name: "shake",
+                localizedName: "shake",
+                image: "",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 25,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Place the dressing in the refrigerator to chill.Once done, remove the lid and allow quinoa to cool for about 15 minutes.",
+            ingredients: [
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 15,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add pistachios, black beans, red bell pepper, corn, red onion and cilantro.",
+            ingredients: [
+              {
+                id: 11821,
+                name: "red pepper",
+                localizedName: "red pepper",
+                image: "red-pepper.jpg",
+              },
+              {
+                id: 16015,
+                name: "black beans",
+                localizedName: "black beans",
+                image: "black-beans.jpg",
+              },
+              {
+                id: 12151,
+                name: "pistachio nuts",
+                localizedName: "pistachio nuts",
+                image: "pistachios.jpg",
+              },
+              {
+                id: 10011282,
+                name: "red onion",
+                localizedName: "red onion",
+                image: "red-onion.png",
+              },
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+              {
+                id: 11168,
+                name: "corn",
+                localizedName: "corn",
+                image: "corn.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Drizzle with chili lime vinaigrette and toss everything together.",
+            ingredients: [
+              {
+                id: 4135,
+                name: "vinaigrette",
+                localizedName: "vinaigrette",
+                image: "vinaigrette.jpg",
+              },
+              {
+                id: 11819,
+                name: "chili pepper",
+                localizedName: "chili pepper",
+                image: "red-chili.jpg",
+              },
+              {
+                id: 9159,
+                name: "lime",
+                localizedName: "lime",
+                image: "lime.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 6,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 20,
+    cookingMinutes: 0,
+    aggregateLikes: 3429,
+    spoonacularScore: 100.0,
+    healthScore: 90.0,
+    creditsText: "Eating Well",
+    sourceName: "Eating Well",
+    pricePerServing: 264.48,
+    id: 696100,
+    title: "Green Salad with Strawberries & Goat Cheese",
+    readyInMinutes: 20,
+    servings: 4,
+    sourceUrl:
+      "http://www.eatingwell.com/recipes/green_salad_with_strawberries_goat_cheese.html",
+    image: "https://spoonacular.com/recipeImages/696100-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Green Salad with Strawberries & Goat Cheese might be just the side dish you are searching for. One serving contains <b>203 calories</b>, <b>6g of protein</b>, and <b>16g of fat</b>. This gluten free, fodmap friendly, and vegetarian recipe serves 4 and costs <b>$2.27 per serving</b>. 3429 people have made this recipe and would make it again. From preparation to the plate, this recipe takes around <b>20 minutes</b>. If you have goat cheese, brown sugar, salt, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/french-in-a-flash-spinach-salad-with-strawberries-and-goat-cheese-200046">French in a Flash: Spinach Salad with Strawberries and Goat Cheese</a>, <a href="https://spoonacular.com/recipes/baby-kale-salad-with-strawberries-goat-cheese-and-strawberry-mint-vinaigrette-512613">Baby Kale Salad with Strawberries, Goat Cheese, and Strawberry-Mint Vinaigrette</a>, and <a href="https://spoonacular.com/recipes/green-bean-goat-cheese-and-green-olives-salad-551414">Green Bean, Goat Cheese and Green Olives Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free", "lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 11,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 525,
+    aggregateLikes: 1836,
+    spoonacularScore: 100.0,
+    healthScore: 88.0,
+    creditsText: "Foodnetwork",
+    sourceName: "Foodnetwork",
+    pricePerServing: 115.55,
+    id: 739072,
+    title: "Coconut Lime Black Beans",
+    readyInMinutes: 530,
+    servings: 4,
+    sourceUrl:
+      "http://www.foodnetwork.com/recipes/damaris-phillips/coconut-lime-black-beans.html",
+    image: "https://spoonacular.com/recipeImages/739072-312x231.jpeg",
+    imageType: "jpeg",
+    summary:
+      'Need a <b>gluten free and vegan side dish</b>? Coconut Lime Black Beans could be a great recipe to try. This recipe makes 4 servings with <b>170 calories</b>, <b>9g of protein</b>, and <b>4g of fat</b> each. For <b>94 cents per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. 1836 people have made this recipe and would make it again. From preparation to the plate, this recipe takes about <b>8 hours and 50 minutes</b>. Head to the store and pick up salt and pepper, coconut oil, juice of lime, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 92%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/black-beans-and-coconut-lime-rice-36213">Black Beans and Coconut-Lime Rice</a>, <a href="https://spoonacular.com/recipes/black-beans-with-lime-148649">Black Beans with Lime</a>, and <a href="https://spoonacular.com/recipes/avocado-lime-black-beans-21737">Avocado-lime Black Beans</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Soak the beans overnight in cold water to cover.",
+            ingredients: [
+              {
+                id: 0,
+                name: "beans",
+                localizedName: "beans",
+                image: "kidney-beans.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "Drain the beans and transfer them to a large saucepan. Cover with 3 cups cold water, the coconut water and 2 teaspoons salt, set over medium heat and bring to a boil. Boil for 2 minutes, then turn the heat down to low, cover and cook until tender; depending upon the age of the beans, this will take between 30 and 45 minutes (older beans take longer).",
+            ingredients: [
+              {
+                id: 12119,
+                name: "coconut water",
+                localizedName: "coconut water",
+                image: "coconut-water.jpg",
+              },
+              {
+                id: 0,
+                name: "beans",
+                localizedName: "beans",
+                image: "kidney-beans.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+            length: {
+              number: 47,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "When tender, add the coconut oil and lime juice and season with salt and pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 4047,
+                name: "coconut oil",
+                localizedName: "coconut oil",
+                image: "oil-coconut.jpg",
+              },
+              {
+                id: 9160,
+                name: "lime juice",
+                localizedName: "lime juice",
+                image: "lime-juice.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step: "Pour into a serving dish and garnish with the green onions.",
+            ingredients: [
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 30,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 2126,
+    spoonacularScore: 100.0,
+    healthScore: 93.0,
+    creditsText: "Eat Good 4 Life",
+    sourceName: "Eat Good 4 Life",
+    pricePerServing: 238.1,
+    id: 553419,
+    title: "Peanut and coconut noodles",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl: "http://www.eatgood4life.com/peanut-and-coconut-noodles/",
+    image: "https://spoonacular.com/recipeImages/553419-312x231.png",
+    imageType: "png",
+    summary:
+      'Peanut and coconut noodles might be just the main course you are searching for. One serving contains <b>612 calories</b>, <b>29g of protein</b>, and <b>22g of fat</b>. This vegan recipe serves 4 and costs <b>$1.77 per serving</b>. This recipe from Eat Good 4 Life has 2126 fans. Head to the store and pick up broccoli slaw, spaghetti, soy sauce, and a few other things to make it today. To use up the coconut oil you could follow this main course with the <a href="https://spoonacular.com/recipes/dark-chocolate-raspberry-coconut-oatmeal-cookies-made-with-coconut-oil-809865">Dark Chocolate Raspberry Coconut Oatmeal Cookies (made with coconut oil!)</a> as a dessert. From preparation to the plate, this recipe takes around <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/thai-coconut-peanut-chicken-noodles-551360">thai coconut peanut chicken noodles</a>, <a href="https://spoonacular.com/recipes/spicy-peanut-coconut-and-prawn-noodles-474337">Spicy Peanut Coconut and Prawn Noodles</a>, and <a href="https://spoonacular.com/recipes/peanut-butter-coconut-tofu-with-noodles-610255">Peanut butter coconut tofu with noodles</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Prepare spaghetti according to package instructions.In a large skillet add the coconut oil and sliced pepper. Cook for 3-5 minutes.",
+            ingredients: [
+              {
+                id: 4047,
+                name: "coconut oil",
+                localizedName: "coconut oil",
+                image: "oil-coconut.jpg",
+              },
+              {
+                id: 11420420,
+                name: "spaghetti",
+                localizedName: "spaghetti",
+                image: "spaghetti.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Add the garlic cloves and broccoli slaw and cook for another 3 minutes or so.",
+            ingredients: [
+              {
+                id: 11741,
+                name: "broccoli slaw",
+                localizedName: "broccoli slaw",
+                image: "slaw-mix.png",
+              },
+              {
+                id: 10211215,
+                name: "whole garlic cloves",
+                localizedName: "whole garlic cloves",
+                image: "garlic.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add the coconut cream, pasta water, curry paste, soy sauce and peanut butter. With a wire whisk, whisk until the peanut butter dissolves and the sauce is properly combined with the veggies.",
+            ingredients: [
+              {
+                id: 12115,
+                name: "coconut cream",
+                localizedName: "coconut cream",
+                image: "coconut-cream.jpg",
+              },
+              {
+                id: 16098,
+                name: "peanut butter",
+                localizedName: "peanut butter",
+                image: "peanut-butter.png",
+              },
+              {
+                id: 93605,
+                name: "curry paste",
+                localizedName: "curry paste",
+                image: "chili-paste.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 16124,
+                name: "soy sauce",
+                localizedName: "soy sauce",
+                image: "soy-sauce.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Add the fresh spinach and chopped peanuts and incorporate well. Turn heat off and toss the cooked pasta with the sauce.",
+            ingredients: [
+              {
+                id: 20421,
+                name: "cooked pasta",
+                localizedName: "cooked pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 16091,
+                name: "peanuts",
+                localizedName: "peanuts",
+                image: "peanuts.png",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Serve while still warm.Note: I used 1/4 cup of the reserved pasta water because I used coconut cream. If you use coconut milk you may need just 1-2 tbsp of the reserved pasta water.Recipe adapted from Momtastic",
+            ingredients: [
+              {
+                id: 12115,
+                name: "coconut cream",
+                localizedName: "coconut cream",
+                image: "coconut-cream.jpg",
+              },
+              {
+                id: 12118,
+                name: "coconut milk",
+                localizedName: "coconut milk",
+                image: "coconut-milk.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 961,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "The Full Helping",
+    sourceName: "The Full Helping",
+    pricePerServing: 225.26,
+    id: 668348,
+    title: "Vegan Eggplant Rollatini",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl: "http://www.choosingraw.com/vegan-eggplant-rollatini/",
+    image: "https://spoonacular.com/recipeImages/668348-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Vegan Eggplant Rollatini might be just the side dish you are searching for. This recipe makes 4 servings with <b>145 calories</b>, <b>12g of protein</b>, and <b>3g of fat</b> each. For <b>$1.88 per serving</b>, this recipe <b>covers 21%</b> of your daily requirements of vitamins and minerals. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. A mixture of pepper, basil, oregano, and a handful of other ingredients are all it takes to make this recipe so tasty. Plenty of people made this recipe, and 961 would say it hit the spot. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/eggplant-rollatini-23601">Eggplant Rollatini</a>, <a href="https://spoonacular.com/recipes/eggplant-rollatini-326733">Eggplant Rollatini</a>, and <a href="https://spoonacular.com/recipes/eggplant-rollatini-103902">Eggplant Rollatini</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Heat oven to 400 degrees Farenheit. Roast eggplant till browning (about 20-30 min) flipping slices halfway through.",
+            ingredients: [
+              {
+                id: 11209,
+                name: "eggplant",
+                localizedName: "eggplant",
+                image: "eggplant.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "While eggplant cooks, transfer tofu to a bowl and crumble it with hands.",
+            ingredients: [
+              {
+                id: 11209,
+                name: "eggplant",
+                localizedName: "eggplant",
+                image: "eggplant.png",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add the nutritional yeast, salt, pepper, garlic, basil, oregano, and spinach.",
+            ingredients: [
+              {
+                id: 93690,
+                name: "nutritional yeast",
+                localizedName: "nutritional yeast",
+                image: "nutritional-yeast.png",
+              },
+              {
+                id: 2027,
+                name: "oregano",
+                localizedName: "oregano",
+                image: "oregano.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "Mix it well with hands, crumbling through fingers till it resembles a bowl of crumbly ricotta cheese.",
+            ingredients: [
+              {
+                id: 1036,
+                name: "ricotta cheese",
+                localizedName: "ricotta cheese",
+                image: "ricotta.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "When eggplant is finished, transfer slices to a cutting board (wait for them to cool, of course) and add about 3 tbsp of the ricotta mixture to the end of one side.",
+            ingredients: [
+              {
+                id: 11209,
+                name: "eggplant",
+                localizedName: "eggplant",
+                image: "eggplant.png",
+              },
+              {
+                id: 1036,
+                name: "ricotta cheese",
+                localizedName: "ricotta cheese",
+                image: "ricotta.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404716,
+                name: "cutting board",
+                localizedName: "cutting board",
+                image: "cutting-board.jpg",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Roll up from that side, and place seam down in a baking dish of choice till youve finished all slices.",
+            ingredients: [
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404646,
+                name: "baking pan",
+                localizedName: "baking pan",
+                image: "roasting-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Reduce oven to 350 degrees. Smother the eggplant rolls with tomato sauce, and bake, uncovered, for about 20-25 minutes, or until hot.",
+            ingredients: [
+              {
+                id: 11549,
+                name: "tomato sauce",
+                localizedName: "tomato sauce",
+                image: "tomato-sauce-or-pasta-sauce.jpg",
+              },
+              {
+                id: 11209,
+                name: "eggplant",
+                localizedName: "eggplant",
+                image: "eggplant.png",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 25,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 8,
+            step:
+              "Serve with sides of choice.My salad, as mentioned above, was made of baby romaine, roast baby beets, steamed snap peas, and my smoky avocado dressing:The quinoa cous cous mix was simply grains, water, salt, pepper, raisins, and a touch of almond milk at the end:But it was the burst of Italian flavor in the rollatini that served as the star of the meal. My cousin exclaimed that shed never have guessed it wasnt cheese!Indeed, these are a great dish to pull the ole, bet you never would have guessed it was vegan! trick on people with. Theyre a dead ringer for the real thing.Hope you give these guys a try soonfor family, for friends, or just for you.xoTagged with  avocado  cumin  dinner for two  easy  eggplant  quick  tofu  tomato",
+            ingredients: [
+              {
+                id: 93607,
+                name: "almond milk",
+                localizedName: "almond milk",
+                image: "almond-milk.png",
+              },
+              {
+                id: 10111080,
+                name: "baby beets",
+                localizedName: "baby beets",
+                image: "baby-beets.jpg",
+              },
+              {
+                id: 20028,
+                name: "couscous",
+                localizedName: "couscous",
+                image: "couscous-cooked.jpg",
+              },
+              {
+                id: 10011300,
+                name: "sugar snap peas",
+                localizedName: "sugar snap peas",
+                image: "sugar-snap-peas.jpg",
+              },
+              {
+                id: 11209,
+                name: "eggplant",
+                localizedName: "eggplant",
+                image: "eggplant.png",
+              },
+              {
+                id: 9037,
+                name: "avocado",
+                localizedName: "avocado",
+                image: "avocado.jpg",
+              },
+              {
+                id: 9299,
+                name: "raisins",
+                localizedName: "raisins",
+                image: "raisins.jpg",
+              },
+              {
+                id: 10111251,
+                name: "romaine",
+                localizedName: "romaine",
+                image: "romaine",
+              },
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 0,
+                name: "grains",
+                localizedName: "grains",
+                image: "",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 1002014,
+                name: "cumin",
+                localizedName: "cumin",
+                image: "ground-cumin.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 738,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Skinny Taste",
+    sourceName: "Skinny Taste",
+    pricePerServing: 166.59,
+    id: 836027,
+    title:
+      "Chickpea Tomato Soup with Rosemary (Instant Pot, Slow Cooker and Stove Top)",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl: "http://www.skinnytaste.com/chickpea-tomato-soup-with-rosemary/",
+    image: "https://spoonacular.com/recipeImages/836027-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Chickpea Tomato Soup with Rosemary (Instant Pot, Slow Cooker and Stove Top) is a <b>gluten free</b> main course. For <b>$1.29 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. One serving contains <b>224 calories</b>, <b>14g of protein</b>, and <b>6g of fat</b>. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. 736 people have tried and liked this recipe. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Head to the store and pick up garlic cloves, carrots, rosemary sprig, and a few other things to make it today. To use up the celery you could follow this main course with the <a href="https://spoonacular.com/recipes/pistachio-shortbread-cookies-557632">Pistachio Shortbread Cookies</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/turkey-meatball-stroganoff-instant-pot-slow-cooker-or-stove-top-828450">Turkey Meatball Stroganoff (Instant Pot, Slow Cooker or Stove Top)</a>, <a href="https://spoonacular.com/recipes/italian-pulled-pork-ragu-instant-pot-slow-cooker-stove-835489">Italian Pulled Pork Ragu (Instant Pot, Slow Cooker, Stove)</a>, and <a href="https://spoonacular.com/recipes/chunky-beef-cabbage-and-tomato-soup-instant-pot-or-stove-top-838722">Chunky Beef, Cabbage and Tomato Soup (Instant Pot or Stove Top)</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["soup"],
+    diets: ["gluten free"],
+    occasions: ["fall", "winter"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Crock Pot Version",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404718,
+                name: "slow cooker",
+                localizedName: "slow cooker",
+                image: "slow-cooker.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Heat oil in a large nonstick skillet over medium heat.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add the carrots, celery, onion, garlic and saute until tender and fragrant, about 6 to 8 minutes.",
+            ingredients: [
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 11143,
+                name: "celery",
+                localizedName: "celery",
+                image: "celery.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 6,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Transfer to the crock pot along with the broth, tomatoes, chickpeas, parmesan cheese, and pepper.",
+            ingredients: [
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404718,
+                name: "slow cooker",
+                localizedName: "slow cooker",
+                image: "slow-cooker.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Add the rosemary, bay leaves and basil, cover and cook on low for 6 hours.When done add the spinach.",
+            ingredients: [
+              {
+                id: 2004,
+                name: "bay leaves",
+                localizedName: "bay leaves",
+                image: "bay-leaves.jpg",
+              },
+              {
+                id: 2036,
+                name: "rosemary",
+                localizedName: "rosemary",
+                image: "rosemary.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 360,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step:
+              "Remove bay leaves, rosemary sprig and season to taste with salt and black pepper. Ladle soup into bowls and top with extra parmesan cheese if desired.Stove Top Version",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 2004,
+                name: "bay leaves",
+                localizedName: "bay leaves",
+                image: "bay-leaves.jpg",
+              },
+              {
+                id: 2036,
+                name: "rosemary",
+                localizedName: "rosemary",
+                image: "rosemary.jpg",
+              },
+              {
+                id: 0,
+                name: "soup",
+                localizedName: "soup",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404794,
+                name: "stove",
+                localizedName: "stove",
+                image: "oven.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+              {
+                id: 404630,
+                name: "ladle",
+                localizedName: "ladle",
+                image: "ladle.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step: "Heat oil in a large pot or Dutch oven over medium heat.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404667,
+                name: "dutch oven",
+                localizedName: "dutch oven",
+                image: "dutch-oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Add the carrots, celery, onion, garlic and saute until tender and fragrant, about 6 to 8 minutes.",
+            ingredients: [
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 11143,
+                name: "celery",
+                localizedName: "celery",
+                image: "celery.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 6,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 9,
+            step:
+              "Add the broth, tomatoes, chickpeas, parmesan cheese, and pepper.",
+            ingredients: [
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 10,
+            step:
+              "Add the rosemary, basil and bay leaves, cover and cook on low 30 minutes.",
+            ingredients: [
+              {
+                id: 2004,
+                name: "bay leaves",
+                localizedName: "bay leaves",
+                image: "bay-leaves.jpg",
+              },
+              {
+                id: 2036,
+                name: "rosemary",
+                localizedName: "rosemary",
+                image: "rosemary.jpg",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 11,
+            step:
+              "Add the spinach, cover and simmer until wilted, about 2 minutes.",
+            ingredients: [
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 12,
+            step:
+              "Remove the bay leaves, rosemary sprig, and season to taste with salt and black pepper. Ladle soup into bowls and top with extra parmesan cheese if desired.Instant Pot Version",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 2004,
+                name: "bay leaves",
+                localizedName: "bay leaves",
+                image: "bay-leaves.jpg",
+              },
+              {
+                id: 2036,
+                name: "rosemary",
+                localizedName: "rosemary",
+                image: "rosemary.jpg",
+              },
+              {
+                id: 0,
+                name: "soup",
+                localizedName: "soup",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 414093,
+                name: "instant pot",
+                localizedName: "instant pot",
+                image: "",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+              {
+                id: 404630,
+                name: "ladle",
+                localizedName: "ladle",
+                image: "ladle.jpg",
+              },
+            ],
+          },
+          {
+            number: 13,
+            step:
+              "Follow same recipe as above except cook 15 minutes high pressure, natural release.",
+            ingredients: [],
+            equipment: [],
+            length: {
+              number: 15,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 15,
+    aggregateLikes: 656,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "BBC Good Food",
+    sourceName: "BBC Good Food",
+    pricePerServing: 146.63,
+    id: 210778,
+    title: "Courgette, broccoli & gremolata pasta",
+    readyInMinutes: 30,
+    servings: 4,
+    sourceUrl:
+      "https://www.bbcgoodfood.com/recipes/1396633/courgette-broccoli-and-gremolata-pasta",
+    image: "https://spoonacular.com/recipeImages/210778-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Courgette, broccoli & gremolata pasta might be a good recipe to expand your main course recipe box. This dairy free recipe serves 4 and costs <b>$1.47 per serving</b>. One serving contains <b>423 calories</b>, <b>16g of protein</b>, and <b>3g of fat</b>. 656 people were impressed by this recipe. This recipe from BBC Good Food requires garlic cloves, courgettes, pasta bows, and broccoli. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. With a spoonacular <b>score of 100%</b>, this dish is spectacular. Users who liked this recipe also liked <a href="https://spoonacular.com/recipes/broccoli-with-spicy-gremolata-29409">Broccoli With Spicy Gremolata</a>, <a href="https://spoonacular.com/recipes/creamy-courgette-pasta-501148">Creamy courgette pasta</a>, and <a href="https://spoonacular.com/recipes/courgette-ricotta-pasta-217198">Courgette & ricotta pasta</a>.',
+    cuisines: [],
+    dishTypes: ["side dish", "lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free"],
+    occasions: [],
+    winePairing: {
+      pairedWines: [],
+      pairingText:
+        "No one wine will suit every pasta dish. Pasta in a tomato-based sauce will usually work well with a medium-bodied red, such as a montepulciano or chianti. Pasta with seafood or pesto will fare better with a light-bodied white, such as a pinot grigio. Cheese-heavy pasta can pair well with red or white - you might try a sangiovese wine for hard cheeses and a chardonnay for soft cheeses. We may be able to make a better recommendation if you ask again with a specific pasta dish.",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "To make the gremolata, mix the garlic, lemon zest and juice with the parsley and some seasoning.",
+            ingredients: [
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 1042027,
+                name: "seasoning",
+                localizedName: "seasoning",
+                image: "seasoning.png",
+              },
+              {
+                id: 11297,
+                name: "parsley",
+                localizedName: "parsley",
+                image: "parsley.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1019016,
+                name: "juice",
+                localizedName: "juice",
+                image: "apple-juice.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "Bring a large pan of salted water to the boil, add the broccoli and cook for 2-3 mins until just tender. Use a slotted spoon to remove, then set aside. Bring the water back to the boil, add the pasta and cook following pack instructions.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404636,
+                name: "slotted spoon",
+                localizedName: "slotted spoon",
+                image: "slotted-spoon.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Heat the olive oil in a frying pan, add the courgettes and cook over a high heat for 3-4 mins until starting to turn golden, tip in the broccoli and continue to cook for 1 min until warmed through.",
+            ingredients: [
+              {
+                id: 11477,
+                name: "zucchini",
+                localizedName: "zucchini",
+                image: "zucchini.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Drain the pasta, reserving about 2 tbsp of the cooking water, then add pasta and cooking water to the pan with the vegetables and the gremolata.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step: "Mix well and serve.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "GAPS_FULL",
+    lowFodmap: false,
+    aggregateLikes: 69,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Summer Tomato",
+    sourceName: "Summer Tomato",
+    pricePerServing: 157.95,
+    id: 14913,
+    title: "Super Easy Kale With Pecans Recipe",
+    readyInMinutes: 10,
+    servings: 1,
+    sourceUrl:
+      "http://summertomato.com/quick-fix-super-easy-kale-with-pecans-recipe/",
+    image: "https://spoonacular.com/recipeImages/14913-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many side dish recipes, so give Super Easy Kale With Pecans Recipe a try. This recipe serves 1 and costs $1.58 per serving. One portion of this dish contains approximately <b>8g of protein</b>, <b>33g of fat</b>, and a total of <b>363 calories</b>. 69 people have made this recipe and would make it again. It is a good option if you\'re following a <b>caveman, gluten free, primal, and whole 30</b> diet. Head to the store and pick up extra virgin olive oil, garlic clove, sea salt, and a few other things to make it today. From preparation to the plate, this recipe takes approximately <b>10 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/super-easy-gingerbread-recipe-64462">Super Easy Gingerbread Recipe</a>, <a href="https://spoonacular.com/recipes/coconut-chicken-super-quick-super-easy-super-yum-572829">Coconut Chicken: Super Quick -Super Easy- Super Yum</a>, and <a href="https://spoonacular.com/recipes/super-easy-super-moist-chocolate-cupcakes-246930">Super Easy, Super Moist Chocolate Cupcakes</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 0,
+    aggregateLikes: 2970,
+    spoonacularScore: 100.0,
+    healthScore: 65.0,
+    creditsText: "The Roasted Root",
+    sourceName: "The Roasted Root",
+    pricePerServing: 316.69,
+    id: 512647,
+    title: "Pineapple Rosé Sangria",
+    readyInMinutes: 5,
+    servings: 4,
+    sourceUrl: "http://www.theroastedroot.net/pineapple-rose-sangria/",
+    image: "https://spoonacular.com/recipeImages/512647-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Pineapple Rosé Sangria could satisfy your Mexican craving in roughly <b>5 minutes</b>. Watching your figure? This caveman, gluten free, primal, and whole 30 recipe has <b>200 calories</b>, <b>4g of protein</b>, and <b>2g of fat</b> per serving. This recipe serves 4 and costs $3.18 per serving. It works well as a rather expensive beverage. Head to the store and pick up blackberries, rosé, raspberries, and a few other things to make it today. Several people made this recipe, and 2970 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/ros-sangria-with-pineapple-and-guava-185517">Rosé Sangria with Pineapple and Guava</a>, <a href="https://spoonacular.com/recipes/rose-sangria-298523">Rose Sangria</a>, and <a href="https://spoonacular.com/recipes/ros-sangria-605092">Rosé Sangria</a> for similar recipes.',
+    cuisines: ["Mexican"],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["pinot noir", "riesling", "sparkling rose"],
+      pairingText:
+        "Pinot Noir, Riesling, and Sparkling rosé are my top picks for Mexican. Acidic white wines like riesling or low-tannin reds like pinot noir can work well with Mexican dishes. Sparkling rosé is a safe pairing too. One wine you could try is Gary Farrell Russian River Pinot Noir. It has 4 out of 5 stars and a bottle costs about 42 dollars.",
+      productMatches: [
+        {
+          id: 438237,
+          title: "Gary Farrell Russian River Pinot Noir",
+          description:
+            "The 2007 Russian River Selection shows tremendous concentration and power from this blockbuster vintage. Intense aromas of dark fruits, particularly cherries and plums, are matched with warm spices and a leathery earthiness. The palate shows great depth, weight and acidity with a seductive texture which leads to a balanced finish that confirms the nose. The 2007 Russian River Selection Pinot Noir shows wonderful balanced acidity and generous fruit that will pair beautifully with grilled rosemary pork tenderloin.",
+          price: "$41.99",
+          imageUrl: "https://spoonacular.com/productImages/438237-312x231.jpg",
+          averageRating: 0.8,
+          ratingCount: 58.0,
+          score: 0.7942857142857144,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fgary-farrell-russian-river-pinot-noir-2007%2F102829",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Add all ingredients to a large pitcher and serve in pretty glasses over ice",
+            ingredients: [
+              {
+                id: 10014412,
+                name: "ice",
+                localizedName: "ice",
+                image: "ice-cubes.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 16,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 1526,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Food52",
+    sourceName: "Food52",
+    pricePerServing: 391.95,
+    id: 15079,
+    title: "One Pot Kale And Quinoa Pilaf",
+    readyInMinutes: 45,
+    servings: 2,
+    sourceUrl:
+      "http://www.food52.com/recipes/2434_one_pot_kale_and_quinoa_pilaf",
+    image: "https://spoonacular.com/recipeImages/15079-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give One Pot Kale And Quinoa Pilaf a try. This gluten free and vegetarian recipe serves 2 and costs <b>$3.92 per serving</b>. One portion of this dish contains roughly <b>25g of protein</b>, <b>29g of fat</b>, and a total of <b>620 calories</b>. A mixture of water, pine nuts, scallions, and a handful of other ingredients are all it takes to make this recipe so flavorful. To use up the quinoa you could follow this main course with the <a href="https://spoonacular.com/recipes/quinoa-pudding-129583">Quinoa Pudding</a> as a dessert. 1526 people have made this recipe and would make it again. From preparation to the plate, this recipe takes around <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Similar recipes include <a href="https://spoonacular.com/recipes/one-pot-kale-and-quinoa-pilaf-14982">One Pot Kale And Quinoa Pilaf</a>, <a href="https://spoonacular.com/recipes/meat-lite-quinoa-pilaf-with-sweet-potatoes-kale-and-bacon-15473">Meat Lite: Quinoa Pilaf with Sweet Potatoes, Kale, and Bacon</a>, and <a href="https://spoonacular.com/recipes/instant-pot-make-ahead-detox-quinoa-breakfast-bowls-920674">Instant Pot Make-Ahead Detox Quinoa Breakfast Bowls</a>.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 5,
+    gaps: "no",
+    lowFodmap: true,
+    aggregateLikes: 1025,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Oh She Glows",
+    sourceName: "Oh She Glows",
+    pricePerServing: 248.43,
+    id: 15472,
+    title: "Classic Green Monster",
+    readyInMinutes: 45,
+    servings: 1,
+    sourceUrl: "http://ohsheglows.com/2011/01/13/classic-green-monster/",
+    image: "https://spoonacular.com/recipeImages/15472-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Classic Green Monster is a <b>gluten free, dairy free, and fodmap friendly</b> main course. One portion of this dish contains about <b>23g of protein</b>, <b>22g of fat</b>, and a total of <b>430 calories</b>. For <b>$2.48 per serving</b>, this recipe <b>covers 40%</b> of your daily requirements of vitamins and minerals. This recipe serves 1. <b>Halloween</b> will be even more special with this recipe. 1025 people found this recipe to be tasty and satisfying. From preparation to the plate, this recipe takes about <b>45 minutes</b>. A mixture of protein powder, spinach, ground flax, and a handful of other ingredients are all it takes to make this recipe so scrumptious. To use up the nut butter you could follow this main course with the <a href="https://spoonacular.com/recipes/peanut-butter-oatmeal-chocolate-chip-cookies-523731">Peanut Butter Oatmeal Chocolate Chip Cookies</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. Similar recipes are <a href="https://spoonacular.com/recipes/go-to-green-monster-15479">‘go-to’ Green Monster</a>, <a href="https://spoonacular.com/recipes/green-monster-2-523266">Green Monster #2</a>, and <a href="https://spoonacular.com/recipes/green-monster-601244">Green Monster</a>.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "fodmap friendly"],
+    occasions: ["halloween"],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 488,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Vegetarian Times",
+    sourceName: "Vegetarian Times",
+    pricePerServing: 105.63,
+    id: 758513,
+    title: "Braised Cavolo Nero Kale",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl:
+      "http://www.vegetariantimes.com/recipe/braised-cavolo-nero-kale/",
+    image: "https://spoonacular.com/recipeImages/758513-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Need a <b>caveman, gluten free, primal, and whole 30 side dish</b>? Braised Cavolo Nero Kale could be a great recipe to try. For <b>$1.06 per serving</b>, this recipe <b>covers 28%</b> of your daily requirements of vitamins and minerals. One serving contains <b>212 calories</b>, <b>8g of protein</b>, and <b>12g of fat</b>. 488 people were impressed by this recipe. From preparation to the plate, this recipe takes about <b>45 minutes</b>. A mixture of carrots, pepper flakes, olive oil, and a handful of other ingredients are all it takes to make this recipe so tasty. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/cavolo-nero-kale-14878">Cavolo Nero Kale</a>, <a href="https://spoonacular.com/recipes/zuppa-di-cavolo-nero-cannellini-e-salsicce-kale-white-bean-and-sausage-soup-153006">Zuppa di Cavolo Nero, Cannellini, e Salsicce: Kale, White Bean, and Sausage Soup</a>, and <a href="https://spoonacular.com/recipes/cavolo-nero-with-cilantro-80761">Cavolo Nero with Cilantro</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Heat oil in Dutch oven over medium-high heat. Sauté onion 7 to 9 minutes, or until golden.",
+            ingredients: [
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404667,
+                name: "dutch oven",
+                localizedName: "dutch oven",
+                image: "dutch-oven.jpg",
+              },
+            ],
+            length: {
+              number: 7,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Add carrots, and cook 2 to 3 minutes more.",
+            ingredients: [
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add kale and 1/2 cup water, cover, and cook 2 to 3 minutes, or until kale has wilted. Stir in red pepper flakes and garlic, and cook 1 to 2 minutes more.",
+            ingredients: [
+              {
+                id: 1032009,
+                name: "red pepper flakes",
+                localizedName: "red pepper flakes",
+                image: "red-pepper-flakes.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step: "Add 1 1/4 cups water, and bring to a simmer.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Cover, reduce heat to medium-low, and simmer 40 minutes, or until kale is tender, adding more water if necessary.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 40,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step:
+              "Uncover pot, increase heat to medium-high, and cook 3 minutes, or until most of liquid has evaporated. Season with salt and pepper, if desired.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 13,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 1230,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Love & Lemons",
+    sourceName: "Love & Lemons",
+    pricePerServing: 307.33,
+    id: 926698,
+    title: "Rainbow Bowls with Almond-Ginger Dressing",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl:
+      "https://www.loveandlemons.com/rainbow-bowls-almond-ginger-dressing/",
+    image: "https://spoonacular.com/recipeImages/926698-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Rainbow Bowls w/ Almond-Ginger Dressing might be just the main course you are searching for. This recipe makes 4 servings with <b>538 calories</b>, <b>21g of protein</b>, and <b>21g of fat</b> each. For <b>$3.08 per serving</b>, this recipe <b>covers 37%</b> of your daily requirements of vitamins and minerals. 1230 people have made this recipe and would make it again. It is a good option if you\'re following a <b>vegan</b> diet. Head to the store and pick up optional: a squirt of sriracha, carrot, scallions, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/rainbow-bowls-w-almond-ginger-dressing-794469">Rainbow Bowls w/ Almond-Ginger Dressing</a>, <a href="https://spoonacular.com/recipes/rainbow-chicken-salad-with-almond-honey-mustard-dressing-601739">Rainbow Chicken Salad with Almond Honey Mustard Dressing</a>, and <a href="https://spoonacular.com/recipes/rainbow-fruit-spinach-salad-with-honey-ginger-lime-dressing-879907">Rainbow Fruit & Spinach Salad with Honey Ginger Lime Dressing</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Make the dressing: In a small bowl, combine the almond butter, lime juice, tamari, ginger and garlic.",
+            ingredients: [
+              {
+                id: 12195,
+                name: "almond butter",
+                localizedName: "almond butter",
+                image: "almond-butter.jpg",
+              },
+              {
+                id: 9160,
+                name: "lime juice",
+                localizedName: "lime juice",
+                image: "lime-juice.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+              {
+                id: 10116124,
+                name: "tamari",
+                localizedName: "tamari",
+                image: "soy-sauce.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Whisk until smooth.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add the Almond Cashewmilk and whisk to combine. (At this point, the dressing might taste a little salty & strong but once it's tossed with all of the vegetables, the flavors will become more balanced). Chill until ready to use. If it separates, give it a little stir before using.In a large bowl, combine the pepper, cucumber, carrot, cherry tomatoes, kale, cabbage, basil, scallions, edamame, hemp seeds and brown rice noodles.",
+            ingredients: [
+              {
+                id: 99038,
+                name: "brown rice pasta",
+                localizedName: "brown rice pasta",
+                image: "brown-rice-vermicelli.png",
+              },
+              {
+                id: 10311529,
+                name: "cherry tomato",
+                localizedName: "cherry tomato",
+                image: "cherry-tomatoes.png",
+              },
+              {
+                id: 99088,
+                name: "cashew milk",
+                localizedName: "cashew milk",
+                image: "cashew-milk.png",
+              },
+              {
+                id: 93602,
+                name: "hemp seeds",
+                localizedName: "hemp seeds",
+                image: "shelled-hemp-seeds.png",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 11206,
+                name: "cucumber",
+                localizedName: "cucumber",
+                image: "cucumber.jpg",
+              },
+              {
+                id: 11109,
+                name: "cabbage",
+                localizedName: "cabbage",
+                image: "cabbage.jpg",
+              },
+              {
+                id: 11212,
+                name: "edamame",
+                localizedName: "edamame",
+                image: "edamame.png",
+              },
+              {
+                id: 12061,
+                name: "almonds",
+                localizedName: "almonds",
+                image: "almonds.jpg",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Add the dressing and toss. Taste and season with more tamari, if desired.",
+            ingredients: [
+              {
+                id: 10116124,
+                name: "tamari",
+                localizedName: "tamari",
+                image: "soy-sauce.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 18,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 1009,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Foodie Crush",
+    sourceName: "Foodie Crush",
+    pricePerServing: 244.41,
+    id: 615619,
+    title: "Kale Salad with Butternut Squash, Chickpeas and Tahini Dressing",
+    readyInMinutes: 45,
+    servings: 2,
+    sourceUrl:
+      "http://www.foodiecrush.com/2014/10/kale-salad-with-butternut-squash-chickpeas-and-tahini-dressing/",
+    image: "https://spoonacular.com/recipeImages/615619-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Kale Salad with Butternut Squash, Chickpeas and Tahini Dressing is a <b>gluten free, dairy free, and vegetarian</b> main course. For <b>$2.44 per serving</b>, this recipe <b>covers 41%</b> of your daily requirements of vitamins and minerals. One serving contains <b>667 calories</b>, <b>19g of protein</b>, and <b>38g of fat</b>. Plenty of people made this recipe, and 1009 would say it hit the spot. Head to the store and pick up cayenne pepper, cilantro, wine vinegar, and a few other things to make it today. To use up the honey you could follow this main course with the <a href="https://spoonacular.com/recipes/honey-gingerbread-133051">Honey Gingerbread</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/butternut-squash-lentil-kale-salad-with-tahini-dressing-494979">Butternut Squash, Lentil & Kale Salad with Tahini Dressing</a>, <a href="https://spoonacular.com/recipes/roasted-butternut-squash-salad-with-chickpeas-kale-and-pearl-couscous-616432">Roasted Butternut Squash Salad with Chickpeas, Kale, and Pearl Couscous</a>, and <a href="https://spoonacular.com/recipes/roasted-butternut-squash-over-farro-and-chickpeas-with-toasted-cumin-yogurt-dressing-509318">Roasted Butternut Squash over Farro and Chickpeas with Toasted Cumin Yogurt Dressing</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Prepare the kale by cutting out the tough ribs of the kale and discard. Thinly slice the kale into ribbons and add to a large bowl.",
+            ingredients: [
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+              {
+                id: 23236,
+                name: "ribs",
+                localizedName: "ribs",
+                image: "ribs.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add the chopped cilantro and toss to combine.Preheat the oven to 400 degrees F.",
+            ingredients: [
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add the diced butternut squash and rinsed chickpeas to a baking sheet lined with foil.",
+            ingredients: [
+              {
+                id: 11485,
+                name: "butternut squash",
+                localizedName: "butternut squash",
+                image: "butternut-squash.jpg",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Drizzle with the extra virgin olive oil, curry powder and cayenne.",
+            ingredients: [
+              {
+                id: 1034053,
+                name: "extra virgin olive oil",
+                localizedName: "extra virgin olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 2015,
+                name: "curry powder",
+                localizedName: "curry powder",
+                image: "curry-powder.jpg",
+              },
+              {
+                id: 2031,
+                name: "ground cayenne pepper",
+                localizedName: "ground cayenne pepper",
+                image: "chili-powder.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Mix with your hands until the squash and chickpeas are well coated.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Sprinkle with kosher salt and bake for 15-20 minutes or until squash is tender and chickpeas are lightly browned. Meanwhile add the dressing ingredients to a small mason jar. Shake to mix and taste for more seasoning if desired.",
+            ingredients: [
+              {
+                id: 1082047,
+                name: "kosher salt",
+                localizedName: "kosher salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 1042027,
+                name: "seasoning",
+                localizedName: "seasoning",
+                image: "seasoning.png",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+              {
+                id: 0,
+                name: "shake",
+                localizedName: "shake",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 405938,
+                name: "canning jar",
+                localizedName: "canning jar",
+                image: "mason-jar.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step:
+              "Transfer the butternut squash and chickpeas to the bowl of kale.",
+            ingredients: [
+              {
+                id: 11485,
+                name: "butternut squash",
+                localizedName: "butternut squash",
+                image: "butternut-squash.jpg",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Add the candied pecans and drizzle with the tahini dressing. Toss to coat. Allow to rest for 10 to 30 minutes before serving so kale softens and flavors meld.",
+            ingredients: [
+              {
+                id: 93783,
+                name: "candied pecans",
+                localizedName: "candied pecans",
+                image: "pecans.jpg",
+              },
+              {
+                id: 12698,
+                name: "tahini",
+                localizedName: "tahini",
+                image: "tahini-paste.png",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 8,
+    gaps: "no",
+    lowFodmap: true,
+    preparationMinutes: 15,
+    cookingMinutes: 0,
+    aggregateLikes: 800,
+    spoonacularScore: 100.0,
+    healthScore: 77.0,
+    creditsText: "Pale Omg",
+    sourceName: "Pale Omg",
+    pricePerServing: 479.88,
+    id: 509419,
+    title: "Ginger Citrus Salmon with Cucumber and Orange Salsa",
+    readyInMinutes: 15,
+    servings: 2,
+    sourceUrl: "http://paleomg.com/ginger-citrus-salmon-cucumber-orange-salsa/",
+    image: "https://spoonacular.com/recipeImages/509419-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Ginger Citrus Salmon with Cucumber and Orange Salsa might be just the main course you are searching for. Watching your figure? This caveman, gluten free, dairy free, and primal recipe has <b>371 calories</b>, <b>36g of protein</b>, and <b>18g of fat</b> per serving. This recipe serves 2 and costs $4.74 per serving. From preparation to the plate, this recipe takes about <b>15 minutes</b>. This recipe is liked by 800 foodies and cooks. A mixture of ginger, jalapeno, fish sauce, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the orange zest you could follow this main course with the <a href="https://spoonacular.com/recipes/orange-infused-dark-chocolate-ice-cream-with-toasted-walnuts-539769">Orange-Infused Dark Chocolate Ice Cream with Toasted Walnuts</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/salmon-with-ginger-citrus-salsa-158635">Salmon with Ginger-Citrus Salsa</a>, <a href="https://spoonacular.com/recipes/cucumber-citrus-salsa-22913">Cucumber Citrus Salsa</a>, and <a href="https://spoonacular.com/recipes/grilled-fish-tacos-with-cucumber-citrus-salsa-3650">Grilled Fish Tacos With Cucumber Citrus Salsa</a> for similar recipes.',
+    cuisines: ["Mexican"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "primal",
+      "fodmap friendly",
+      "pescatarian",
+    ],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["chardonnay", "pinot noir", "sauvignon blanc"],
+      pairingText:
+        "Chardonnay, Pinot Noir, and Sauvignon Blanc are great choices for Salmon. To decide on white or red, you should consider your seasoning and sauces. Chardonnay is a great friend to buttery, creamy dishes, while sauvignon blanc can complement herb or citrus-centric dishes. A light-bodied, low-tannin red such as the pinot noir goes great with broiled or grilled salmon. The Flowers Sonoma Coast Chardonnay ( half-bottle) with a 4.2 out of 5 star rating seems like a good match. It costs about 19 dollars per bottle.",
+      productMatches: [
+        {
+          id: 480820,
+          title: "Flowers Sonoma Coast Chardonnay ( half-bottle)",
+          description:
+            "Medium yellow in color. Aromas of straw, lemon verbena and honeysuckle mingle with layers of lemon meringue and lychee. Upon entry are flavors of lemon curd, honeydew, and hints of star fruit and wet stone, balanced with a touch of fine grained tannin. The crisp finish is countered with a spicy note of white pepper and lingers with coastal minerality",
+          price: "$18.98",
+          imageUrl: "https://spoonacular.com/productImages/480820-312x231.jpg",
+          averageRating: 0.8400000000000001,
+          ratingCount: 6.0,
+          score: 0.7873684210526317,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fflowers-sonoma-coast-chardonnay-375ml-half-bottle-2016%2F414725",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Chop all your salsa ingredients, toss all ingredients together in a bowl, then place in refrigerator.",
+            ingredients: [
+              {
+                id: 6164,
+                name: "salsa",
+                localizedName: "salsa",
+                image: "salsa.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Heat up a medium skillet over medium heat and add your coconut milk, coconut aminos, fish sauce, fresh ginger and orange zest.Once the coconut milk begins to slightly bubble, add your salmon filets to the sauce.Cook salmon for about 2-4 minutes per side or until cooked to preference.Plate salmon then top with salsa, making sure some of the coconut milk makes it over the salmon!Boom sauce!!",
+            ingredients: [
+              {
+                id: 98929,
+                name: "coconut aminos",
+                localizedName: "coconut aminos",
+                image: "dark-sauce.jpg",
+              },
+              {
+                id: 10115076,
+                name: "salmon fillets",
+                localizedName: "salmon fillets",
+                image: "salmon.png",
+              },
+              {
+                id: 12118,
+                name: "coconut milk",
+                localizedName: "coconut milk",
+                image: "coconut-milk.png",
+              },
+              {
+                id: 10211216,
+                name: "fresh ginger",
+                localizedName: "fresh ginger",
+                image: "ginger.png",
+              },
+              {
+                id: 9216,
+                name: "orange zest",
+                localizedName: "orange zest",
+                image: "orange-zest.png",
+              },
+              {
+                id: 6179,
+                name: "fish sauce",
+                localizedName: "fish sauce",
+                image: "asian-fish-sauce.jpg",
+              },
+              {
+                id: 15076,
+                name: "salmon",
+                localizedName: "salmon",
+                image: "salmon.png",
+              },
+              {
+                id: 6164,
+                name: "salsa",
+                localizedName: "salsa",
+                image: "salsa.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 4,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 405,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Nutritious Eats",
+    sourceName: "Nutritious Eats",
+    pricePerServing: 85.76,
+    id: 558994,
+    title:
+      "Holiday Appetizer: Roasted Broccoli & Carrots and Herb Marinated Olives",
+    readyInMinutes: 45,
+    servings: 8,
+    sourceUrl:
+      "http://www.nutritiouseats.com/holiday-appetizer-roasted-broccoli-carrots-and-herb-marinated-olives/",
+    image: "https://spoonacular.com/recipeImages/558994-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Holiday Appetizer: Roasted Broccoli & Carrots and Herb Marinated Olives is a <b>caveman, gluten free, primal, and whole 30</b> side dish. One serving contains <b>119 calories</b>, <b>5g of protein</b>, and <b>5g of fat</b>. This recipe serves 8 and costs 84 cents per serving. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Several people made this recipe, and 405 would say it hit the spot. If you have salt, big bunches of broccoli- - 1 to 1 1/ lb, a couple springs of herbs- thyme, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Similar recipes include <a href="https://spoonacular.com/recipes/marinated-broccoli-appetizer-110293">Marinated Broccoli Appetizer</a>, <a href="https://spoonacular.com/recipes/herb-marinated-olives-599058">Herb-Marinated Olives</a>, and <a href="https://spoonacular.com/recipes/herb-marinated-olives-598839">Herb-Marinated Olives</a>.',
+    cuisines: [],
+    dishTypes: [
+      "antipasti",
+      "starter",
+      "snack",
+      "appetizer",
+      "antipasto",
+      "hor d'oeuvre",
+    ],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Preheat oven to 400 degrees.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Cut your carrots and broccoli (should be about 8 cups raw veggies).",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Place on cookie sheet and toss with olive oil, salt, pepper.Roast for 18 to 20 minutes. Half way through the cooking time add the garlic.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 10118192,
+                name: "cookies",
+                localizedName: "cookies",
+                image: "shortbread-cookies.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+            length: {
+              number: 18,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Remove from oven, add herbs, lemon zest, juice of the wedge of lemon.",
+            ingredients: [
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 1002044,
+                name: "herbs",
+                localizedName: "herbs",
+                image: "mixed-fresh-herbs.jpg",
+              },
+              {
+                id: 1019016,
+                name: "juice",
+                localizedName: "juice",
+                image: "apple-juice.jpg",
+              },
+              {
+                id: 9150,
+                name: "lemon",
+                localizedName: "lemon",
+                image: "lemon.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step: "Transfer to a serving bowl.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step: "Drain the olives.",
+            ingredients: [
+              {
+                id: 9195,
+                name: "olives",
+                localizedName: "olives",
+                image: "olives-mixed.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step: "Mix all ingredients in a bowl.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Let olives marinate for a couple hours or overnight before serving.",
+            ingredients: [
+              {
+                id: 9195,
+                name: "olives",
+                localizedName: "olives",
+                image: "olives-mixed.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 19,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 4458,
+    spoonacularScore: 100.0,
+    healthScore: 95.0,
+    creditsText: "Pale Omg",
+    sourceName: "Pale Omg",
+    pricePerServing: 705.39,
+    id: 509571,
+    title: "4th of July Spinach and Artichoke Dip (two ways!)",
+    readyInMinutes: 10,
+    servings: 2,
+    sourceUrl: "http://paleomg.com/4th-july-spinach-artichoke-dip/",
+    image: "https://spoonacular.com/recipeImages/509571-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      '4th of July Spinach and Artichoke Dip (two ways!) is a <b>gluten free, primal, and vegetarian</b> hor d\'oeuvre. This recipe serves 2 and costs $7.05 per serving. One serving contains <b>1078 calories</b>, <b>30g of protein</b>, and <b>85g of fat</b>. 4458 people have tried and liked this recipe. It is perfect for <b>The Super Bowl</b>. Head to the store and pick up olive oil, garlic powder, basil, and a few other things to make it today. From preparation to the plate, this recipe takes around <b>10 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/avocado-spinach-and-artichoke-dip-926734">Avocado Spinach and Artichoke Dip</a>, <a href="https://spoonacular.com/recipes/baked-spinach-artichoke-dip-928247">Baked Spinach & Artichoke Dip</a>, and <a href="https://spoonacular.com/recipes/skillet-spinach-bacon-artichoke-dip-916091">Skillet Spinach Bacon Artichoke Dip</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: [],
+    diets: ["gluten free", "lacto ovo vegetarian", "primal"],
+    occasions: ["super bowl"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Add frozen spinach and artichokes to large saucepan over medium heat and sprinkle with just a bit of salt.While your spinach thaws and artichokes warm up, pull out your handy dandy food processor.",
+            ingredients: [
+              {
+                id: 11463,
+                name: "frozen spinach",
+                localizedName: "frozen spinach",
+                image: "spinach-frozen.jpg",
+              },
+              {
+                id: 11007,
+                name: "artichoke",
+                localizedName: "artichoke",
+                image: "artichokes.png",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Place cashews in food processor and turn on. Grind until your cashews become a flour then begin to pour in your olive oil until you get a creamy consistency. Kind of like a super creamy cashew butter.Once your spinach is completely thawed and it’s all good and warm, drain the excess water from your saucepan and add spinach and artichoke to a large bowl.",
+            ingredients: [
+              {
+                id: 12088,
+                name: "cashew butter",
+                localizedName: "cashew butter",
+                image: "nut-butter.png",
+              },
+              {
+                id: 11007,
+                name: "artichoke",
+                localizedName: "artichoke",
+                image: "artichokes.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 12087,
+                name: "cashews",
+                localizedName: "cashews",
+                image: "cashews.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 20081,
+                name: "all purpose flour",
+                localizedName: "all purpose flour",
+                image: "flour.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add your creamy cashews and seasons to the bowl and mix thoroughly.",
+            ingredients: [
+              {
+                id: 12087,
+                name: "cashews",
+                localizedName: "cashews",
+                image: "cashews.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Serve with sweet potato chips or veggies!Follow all steps above.",
+            ingredients: [
+              {
+                id: 0,
+                name: "sweet potato chips",
+                localizedName: "sweet potato chips",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Add goat cheese to your cashews and spinach and artichoke mixture.",
+            ingredients: [
+              {
+                id: 1159,
+                name: "goat cheese",
+                localizedName: "goat cheese",
+                image: "goat-cheese.jpg",
+              },
+              {
+                id: 11007,
+                name: "artichoke",
+                localizedName: "artichoke",
+                image: "artichokes.png",
+              },
+              {
+                id: 12087,
+                name: "cashews",
+                localizedName: "cashews",
+                image: "cashews.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "Mix well to combine.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step: "Serve with sweet potato chips or veggies!",
+            ingredients: [
+              {
+                id: 0,
+                name: "sweet potato chips",
+                localizedName: "sweet potato chips",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 360,
+    aggregateLikes: 5686,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Two Peas and Their Pod",
+    sourceName: "Two Peas and Their Pod",
+    pricePerServing: 149.35,
+    id: 548128,
+    title: "Slow Cooker Lentil Chili",
+    readyInMinutes: 370,
+    servings: 8,
+    sourceUrl: "http://www.twopeasandtheirpod.com/slow-cooker-lentil-chili/",
+    image: "https://spoonacular.com/recipeImages/548128-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Slow Cooker Lentil Chili might be just the <b>American</b> recipe you are searching for. This main course has <b>361 calories</b>, <b>23g of protein</b>, and <b>2g of fat</b> per serving. This recipe serves 8 and costs $1.49 per serving. <b>The Super Bowl</b> will be even more special with this recipe. Many people made this recipe, and 5686 would say it hit the spot. From preparation to the plate, this recipe takes roughly <b>6 hours and 10 minutes</b>. A mixture of tomato sauce, carrot, cumin, and a handful of other ingredients are all it takes to make this recipe so yummy. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Try <a href="https://spoonacular.com/recipes/slow-cooker-vegetarian-lentil-chili-soup-625958">Slow Cooker Vegetarian Lentil Chili Soup</a>, <a href="https://spoonacular.com/recipes/pressure-cooker-lentil-chili-821251">Pressure Cooker Lentil Chili</a>, and <a href="https://spoonacular.com/recipes/slow-cooker-red-lentil-dal-573776">Slow Cooker Red Lentil Dal</a> for similar recipes.',
+    cuisines: ["American"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["super bowl"],
+    winePairing: {
+      pairedWines: ["cava", "grenache", "shiraz"],
+      pairingText:
+        "Cava, Grenache, and Shiraz are great choices for Chili. These juicy reds don't have too much tannin (important for spicy foods), but a sparkling wine like cava can tame the heat even better. One wine you could try is Avinyo Cava Reserva. It has 4.8 out of 5 stars and a bottle costs about 17 dollars.",
+      productMatches: [
+        {
+          id: 437804,
+          title: "Avinyo Cava Reserva",
+          description:
+            "Bright white fruits combine with toast notes. On the palate the wine is fresh and vibrant.",
+          price: "$16.99",
+          imageUrl: "https://spoonacular.com/productImages/437804-312x231.jpg",
+          averageRating: 0.96,
+          ratingCount: 5.0,
+          score: 0.8975,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Favinyo-cava-reserva-2013%2F161369",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Place all ingredients in a slow cooker. Stir well to combine.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404718,
+                name: "slow cooker",
+                localizedName: "slow cooker",
+                image: "slow-cooker.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Cover and cook on High for 4 hours or low for 6 hours.",
+            ingredients: [],
+            equipment: [],
+            length: {
+              number: 600,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Serve warm. Note-we use a 6 quart slow cooker. This chili freezes well. Top with your favorite chili toppings, if desired.",
+            ingredients: [
+              {
+                id: 11819,
+                name: "chili pepper",
+                localizedName: "chili pepper",
+                image: "red-chili.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404718,
+                name: "slow cooker",
+                localizedName: "slow cooker",
+                image: "slow-cooker.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 6,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 20,
+    cookingMinutes: 20,
+    aggregateLikes: 1279,
+    spoonacularScore: 100.0,
+    healthScore: 94.0,
+    creditsText: "Oh My Veggies",
+    sourceName: "Oh My Veggies",
+    pricePerServing: 163.26,
+    id: 495290,
+    title: "Kale and Delicata Squash Salad with Citrus-Maple Vinaigrette",
+    readyInMinutes: 40,
+    servings: 4,
+    sourceUrl:
+      "http://ohmyveggies.com/recipe-kale-delicata-salad-citrus-maple-vinaigrette/",
+    image: "https://spoonacular.com/recipeImages/495290-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Need a <b>vegan main course</b>? Kale and Delicata Squash Salad with Citrus-Maple Vinaigrette could be a super recipe to try. One serving contains <b>406 calories</b>, <b>12g of protein</b>, and <b>15g of fat</b>. This recipe serves 4 and costs $2.97 per serving. From preparation to the plate, this recipe takes about <b>40 minutes</b>. 1279 people have made this recipe and would make it again. Head to the store and pick up orange zest, wine vinegar, kale leaves, and a few other things to make it today. To use up the olive oil you could follow this main course with the <a href="https://spoonacular.com/recipes/sauteed-banana-granola-and-yogurt-parfait-624619">Sauteed Banana, Granolan and Yogurt Parfait</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/detox-roasted-delicata-squash-pardina-lentil-and-kale-salad-with-maple-pear-balsamic-vinaigrette-703103">Detox Roasted Delicata Squash, Pardina Lentil, and Kale Salad with Maple-Pear Balsamic Vinaigrette</a>, <a href="https://spoonacular.com/recipes/kale-butternut-squash-and-apple-salad-with-maple-vinaigrette-+-weekly-menu-730249">Kale, Butternut Squash, and Apple Salad with Maple Vinaigrette + Weekly Menu</a>, and <a href="https://spoonacular.com/recipes/delicata-squash-salad-with-kale-and-cranberry-beans-15184">Delicata Squash Salad With Kale And Cranberry Beans</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 400ºF.Toss the delicata squash with a tablespoon of olive oil and transfer it to a baking sheet. Season with salt and pepper and bake for about 20 minutes, or until tender and just beginning to brown.While the squash is cooking, whisk together the remaining olive oil, orange juice, vinegar, maple syrup, orange zest, and cayenne pepper (if using). Season with salt and pepper to taste.",
+            ingredients: [
+              {
+                id: 11643,
+                name: "delicata squash",
+                localizedName: "delicata squash",
+                image: "delicata-squash.jpg",
+              },
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 2031,
+                name: "cayenne pepper",
+                localizedName: "cayenne pepper",
+                image: "chili-powder.jpg",
+              },
+              {
+                id: 9206,
+                name: "orange juice",
+                localizedName: "orange juice",
+                image: "orange-juice.jpg",
+              },
+              {
+                id: 19911,
+                name: "maple syrup",
+                localizedName: "maple syrup",
+                image: "maple-syrup.png",
+              },
+              {
+                id: 9216,
+                name: "orange zest",
+                localizedName: "orange zest",
+                image: "orange-zest.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Fahrenheit",
+                },
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Place the kale leaves in a large bowl and massage them until they're wilted and the bitterness is gone.",
+            ingredients: [
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Transfer the kale leaves to a large serving platter. Top with the squash, pomegranate seeds, wheat berries, and pepitas.",
+            ingredients: [
+              {
+                id: 9286,
+                name: "pomegranate seeds",
+                localizedName: "pomegranate seeds",
+                image: "pomegranate-seeds.jpg",
+              },
+              {
+                id: 98872,
+                name: "wheatberries",
+                localizedName: "wheatberries",
+                image: "wheat-berries.jpg",
+              },
+              {
+                id: 12014,
+                name: "pumpkin seeds",
+                localizedName: "pumpkin seeds",
+                image: "pumpkin-seeds.jpg",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step: "Serve with the vinaigrette.",
+            ingredients: [
+              {
+                id: 4135,
+                name: "vinaigrette",
+                localizedName: "vinaigrette",
+                image: "vinaigrette.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "GAPS_FULL",
+    lowFodmap: false,
+    aggregateLikes: 24150,
+    spoonacularScore: 100.0,
+    healthScore: 79.0,
+    creditsText: "Fifteen Spatulas",
+    sourceName: "Fifteen Spatulas",
+    pricePerServing: 319.18,
+    id: 558625,
+    title: "Grilled Artichoke Pesto Zucchini Bites",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl:
+      "http://www.fifteenspatulas.com/grilled-artichoke-pesto-zucchini-bites-and-a-50-oxo-goodie-bag-giveaway/",
+    image: "https://spoonacular.com/recipeImages/558625-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many condiment recipes, so give Grilled Artichoke Pesto Zucchini Bites a try. One serving contains <b>334 calories</b>, <b>10g of protein</b>, and <b>28g of fat</b>. This gluten free and primal recipe serves 4 and costs <b>$2.51 per serving</b>. Many people made this recipe, and 24150 would say it hit the spot. It will be a hit at your <b>The Fourth Of July</b> event. Head to the store and pick up lemon zest, walnuts, garlic, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/pesto-artichoke-and-havarti-grilled-cheese-682130">Pesto, Artichoke, and Havarti Grilled Cheese</a>, <a href="https://spoonacular.com/recipes/roasted-asparagus-grilled-cheese-with-artichoke-arugula-pesto-589689">Roasted Asparagus Grilled Cheese with Artichoke & Arugula Pesto</a>, and <a href="https://spoonacular.com/recipes/grilled-zucchini-pizza-bites-745896">Grilled Zucchini Pizza Bites</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "primal"],
+    occasions: ["father's day", "4th of july", "summer"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Cut the stem off the zucchinis, then use a mandolin to slice them into long thin ribbons. They should be about 1/8 inch thick, if they're too thin they won't stand up on the own, but if they're too thick, they won't be flexible enough to roll. Give each one a little sprinkle on both sides with salt and pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11477,
+                name: "zucchini",
+                localizedName: "zucchini",
+                image: "zucchini.jpg",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "Heat the grill to high, and do a quick sear of the zucchini. Since they are really thin, they should only be on the grill for about 30-60 seconds, just enough to take the raw edge off and give them some pretty little grill marks.",
+            ingredients: [
+              {
+                id: 11477,
+                name: "zucchini",
+                localizedName: "zucchini",
+                image: "zucchini.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Remove the grilled zucchini ribbons to a plate.In a food processor, throw in the artichoke hearts, lemon zest, lemon juice, garlic, parsley, walnuts, and a big pinch of salt and pepper.",
+            ingredients: [
+              {
+                id: 99242,
+                name: "artichoke hearts",
+                localizedName: "artichoke hearts",
+                image: "artichoke-hearts.png",
+              },
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 11477,
+                name: "zucchini",
+                localizedName: "zucchini",
+                image: "zucchini.jpg",
+              },
+              {
+                id: 11297,
+                name: "parsley",
+                localizedName: "parsley",
+                image: "parsley.jpg",
+              },
+              {
+                id: 12155,
+                name: "walnuts",
+                localizedName: "walnuts",
+                image: "walnuts.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Let the food processor run for a good 20 seconds, until everything is chopped up, and be sure to stop and scrape down the sides from time to time. With the food processor running, stream in the olive oil. Scrape the pesto out into a bowl, and stir in the grated parmesan. Taste it to check for proper seasoning.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 1042027,
+                name: "seasoning",
+                localizedName: "seasoning",
+                image: "seasoning.png",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Place a spoonful of artichoke pesto into each zucchini ribbon, and roll it up into a little roll. The artichoke pesto is sticky so it should stick together well.",
+            ingredients: [
+              {
+                id: 11007,
+                name: "artichoke",
+                localizedName: "artichoke",
+                image: "artichokes.png",
+              },
+              {
+                id: 11477,
+                name: "zucchini",
+                localizedName: "zucchini",
+                image: "zucchini.jpg",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "Serve and enjoy!",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 20,
+    cookingMinutes: 30,
+    aggregateLikes: 425,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Healthy Seasonal Recipes",
+    sourceName: "Healthy Seasonal Recipes",
+    pricePerServing: 91.2,
+    id: 524237,
+    title: "grilled potato salad with ramps",
+    readyInMinutes: 50,
+    servings: 7,
+    sourceUrl:
+      "http://www.healthyseasonalrecipes.com/grilled-potato-salad-ramps/",
+    image: "https://spoonacular.com/recipeImages/524237-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many side dish recipes, so give grilled potato salad with ramps a try. This recipe serves 7 and costs 54 cents per serving. One serving contains <b>161 calories</b>, <b>5g of protein</b>, and <b>4g of fat</b>. From preparation to the plate, this recipe takes about <b>50 minutes</b>. This recipe is liked by 425 foodies and cooks. It can be enjoyed any time, but it is especially good for <b>The Fourth Of July</b>. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. If you have pepper, coarse grain mustard, potatoes, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/warm-potato-salad-with-grainy-mustard-bacon-ramps-502189">Warm Potato Salad with Grainy Mustard, Bacon & Ramps</a>, <a href="https://spoonacular.com/recipes/potato-salad-w-sun-dried-tomatoes-kalamata-olives-caramelized-leeks-ramps-427255">Potato Salad w Sun Dried Tomatoes, Kalamatan Olives & Caramelized Leeks & Ramps</a>, and <a href="https://spoonacular.com/recipes/grilled-halibut-with-roasted-ramps-and-vinaigrette-596817">Grilled Halibut with Roasted Ramps and Vinaigrette</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["father's day", "4th of july", "summer"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat grill to medium. Toss potatoes, 2 teaspoons oil and ¼ teaspoon salt in a large bowl.",
+            ingredients: [
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Cut four two feet long sheets of foil.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Spread two out on work surface forming a double layer of foil. Coat foil with cooking spray.",
+            ingredients: [
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Spread half of the potatoes out on one side of the foil. Fold and seal the foil into a packet about 8 by 10-inches big. Repeat with the other double layer of foil, cooking spray and the remaining potatoes.",
+            ingredients: [
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Place packets on grill and cook until the potatoes are tender, turning and rotating packets occasionally, 35 to 45 minutes total.  Meanwhile, whisk 4 teaspoons oil, the remaining ¼ teaspoon salt, vinegar, maple syrup, mustard and pepper in the bowl.  Carefully open potato packets and toss potatoes with the dressing. Allow to cool while you prepare the ramps.",
+            ingredients: [
+              {
+                id: 19911,
+                name: "maple syrup",
+                localizedName: "maple syrup",
+                image: "maple-syrup.png",
+              },
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 2046,
+                name: "mustard",
+                localizedName: "mustard",
+                image: "regular-mustard.jpg",
+              },
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 93793,
+                name: "ramps",
+                localizedName: "ramps",
+                image: "ramson-or-wild-leeks.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 35,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step:
+              "Brush the remaining ½ teaspoon oil over the ramps (or scallions) with a pastry brush. Grill ramps quickly turning frequently, until wilted and starting to char in spots, 2 to 4 minutes. Chop into small pieces.",
+            ingredients: [
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 93793,
+                name: "ramps",
+                localizedName: "ramps",
+                image: "ramson-or-wild-leeks.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404764,
+                name: "pastry brush",
+                localizedName: "pastry brush",
+                image: "pastry-brush.jpg",
+              },
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+            ],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step: "Add chopped ramps to salad and toss to coat.",
+            ingredients: [
+              {
+                id: 93793,
+                name: "ramps",
+                localizedName: "ramps",
+                image: "ramson-or-wild-leeks.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step: "Serve warm.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 40,
+    aggregateLikes: 63,
+    spoonacularScore: 100.0,
+    healthScore: 95.0,
+    creditsText: "Taste of Home",
+    sourceName: "Taste of Home",
+    pricePerServing: 84.31,
+    id: 369952,
+    title: "Spinach Lentil Stew",
+    readyInMinutes: 50,
+    servings: 6,
+    sourceUrl: "http://www.tasteofhome.com/recipes/spinach-lentil-stew",
+    image: "https://spoonacular.com/recipeImages/369952-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many soup recipes, so give Spinach Lentil Stew a try. Watching your figure? This gluten free and dairy free recipe has <b>188 calories</b>, <b>11g of protein</b>, and <b>3g of fat</b> per serving. This recipe serves 6. For <b>84 cents per serving</b>, this recipe <b>covers 27%</b> of your daily requirements of vitamins and minerals. A couple people made this recipe, and 63 would say it hit the spot. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. A mixture of onion, salt, vegetable oil, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes roughly <b>50 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Similar recipes include <a href="https://spoonacular.com/recipes/indian-summer-stew-butternut-squash-coconut-and-lentil-stew-286739">Indian Summer Stew: Butternut Squash, Coconut, and Lentil Stew</a>, <a href="https://spoonacular.com/recipes/lentil-and-egg-stew-898481">Lentil and Egg Stew</a>, and <a href="https://spoonacular.com/recipes/red-lentil-stew-521575">Red Lentil Stew</a>.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free"],
+    occasions: ["fall", "winter"],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "In a large saucepan, saute onion in oil until tender.",
+            ingredients: [
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Add garlic; cook 1 minute longer.",
+            ingredients: [
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add the water, lentils, bouillon, Worcestershire sauce, salt, thyme, pepper and bay leaf; bring to a boil. Reduce heat; cover and simmer for 20 minutes.",
+            ingredients: [
+              {
+                id: 6971,
+                name: "worcestershire sauce",
+                localizedName: "worcestershire sauce",
+                image: "dark-sauce.jpg",
+              },
+              {
+                id: 2004,
+                name: "bay leaves",
+                localizedName: "bay leaves",
+                image: "bay-leaves.jpg",
+              },
+              {
+                id: 1006008,
+                name: "bouillon",
+                localizedName: "bouillon",
+                image: "",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 2049,
+                name: "thyme",
+                localizedName: "thyme",
+                image: "thyme.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add the carrots, tomatoes and spinach; return to a boil. Reduce heat; cover and simmer 15-20 minutes longer or until lentils are tender. Stir in vinegar. Discard bay leaf.",
+            ingredients: [
+              {
+                id: 2004,
+                name: "bay leaves",
+                localizedName: "bay leaves",
+                image: "bay-leaves.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "GAPS_FULL",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 373,
+    spoonacularScore: 100.0,
+    healthScore: 80.0,
+    creditsText: "Little Leopard Book",
+    sourceName: "Little Leopard Book",
+    pricePerServing: 259.36,
+    id: 560575,
+    title: "Strawberry Peach Guacamole",
+    readyInMinutes: 10,
+    servings: 3,
+    sourceUrl:
+      "http://littleleopardbook.com/2013/06/02/strawberry-peach-guacamole/",
+    image: "https://spoonacular.com/recipeImages/560575-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Strawberry Peach Guacamole could satisfy your Mexican craving in roughly <b>10 minutes</b>. Watching your figure? This caveman, gluten free, primal, and whole 30 recipe has <b>386 calories</b>, <b>6g of protein</b>, and <b>30g of fat</b> per serving. For <b>$2.59 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. It works well as a rather cheap hor d\'oeuvre for <b>Mother\'s Day</b>. Plenty of people made this recipe, and 373 would say it hit the spot. A mixture of peaches, tomato, juice of lemon, and a handful of other ingredients are all it takes to make this recipe so scrumptious. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Similar recipes include <a href="https://spoonacular.com/recipes/honey-glazed-chicken-quesadillas-with-peach-guacamole-799141">Honey Glazed Chicken Quesadillas with Peach Guacamole</a>, <a href="https://spoonacular.com/recipes/strawberry-guacamole-765521">Strawberry Guacamole</a>, and <a href="https://spoonacular.com/recipes/strawberry-guacamole-494199">Strawberry Guacamole</a>.',
+    cuisines: ["Mexican"],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: ["mother's day"],
+    winePairing: {
+      pairedWines: ["pinot noir", "riesling", "sparkling rose"],
+      pairingText:
+        "Pinot Noir, Riesling, and Sparkling rosé are great choices for Mexican. Acidic white wines like riesling or low-tannin reds like pinot noir can work well with Mexican dishes. Sparkling rosé is a safe pairing too. You could try Dutton-Goldfield Dutton Ranch Pinot Noir. Reviewers quite like it with a 4.2 out of 5 star rating and a price of about 43 dollars per bottle.",
+      productMatches: [
+        {
+          id: 438099,
+          title: "Dutton-Goldfield Dutton Ranch Pinot Noir",
+          description:
+            "The ripening season was classic Russian River, with warm days and cool nights—and with no major heat spells, the fruit ripening was perfect to give lush tannins, bright berry fruit and bright acidity. The wine shows rich, dense black cherry and blackberry fruit and nuances of strawberry, raspberry, and nutmeg in the nose. In the mouth, the first impression is fresh berry fruit, then the soft, broad tannins carry notes of marionberries, nutmeg and sandalwood through a lingering finish. Thanks partially to the moderate alcohol and bright acidity, the finish lingers with fresh cherry fruit and creamy berry compote.\nThis wine has a broad range of food pairings, whether alone with some well chosen cheeses, richer fish preparations or a good old steak on the barbeque.",
+          price: "$42.99",
+          imageUrl: "https://spoonacular.com/productImages/438099-312x231.jpg",
+          averageRating: 0.8400000000000001,
+          ratingCount: 10.0,
+          score: 0.8077419354838711,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fdutton-goldfield-dutton-ranch-pinot-noir-2014%2F154141",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Begin by mashing the avocados together in a medium bowl, then add the tomatoes, strawberries and peaches.",
+            ingredients: [
+              {
+                id: 9316,
+                name: "strawberries",
+                localizedName: "strawberries",
+                image: "strawberries.png",
+              },
+              {
+                id: 9037,
+                name: "avocado",
+                localizedName: "avocado",
+                image: "avocado.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 9236,
+                name: "peach",
+                localizedName: "peach",
+                image: "peach.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Mix all of the ingredients together then juice the lemon into the guacamole and add the fresh basil.",
+            ingredients: [
+              {
+                id: 2044,
+                name: "fresh basil",
+                localizedName: "fresh basil",
+                image: "fresh-basil.jpg",
+              },
+              {
+                id: 1009037,
+                name: "guacamole",
+                localizedName: "guacamole",
+                image: "guacamole.jpg",
+              },
+              {
+                id: 1019016,
+                name: "juice",
+                localizedName: "juice",
+                image: "apple-juice.jpg",
+              },
+              {
+                id: 9150,
+                name: "lemon",
+                localizedName: "lemon",
+                image: "lemon.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 14,
+    cookingMinutes: 1,
+    aggregateLikes: 4269,
+    spoonacularScore: 100.0,
+    healthScore: 80.0,
+    creditsText: "Gimme Some Oven",
+    sourceName: "Gimme Some Oven",
+    pricePerServing: 96.25,
+    id: 618830,
+    title: "Asian Broccoli Salad with Peanut Sauce",
+    readyInMinutes: 15,
+    servings: 6,
+    sourceUrl:
+      "http://www.gimmesomeoven.com/asian-broccoli-salad-peanut-sauce/",
+    image: "https://spoonacular.com/recipeImages/618830-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Asian Broccoli Salad with Peanut Sauce might be just the side dish you are searching for. One serving contains <b>261 calories</b>, <b>13g of protein</b>, and <b>17g of fat</b>. This recipe serves 6 and costs 96 cents per serving. Plenty of people made this recipe, and 4269 would say it hit the spot. A mixture of peanuts, thinly- green onions, water, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes roughly <b>15 minutes</b>. It is a good option if you\'re following a <b>dairy free and vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Similar recipes include <a href="https://spoonacular.com/recipes/asian-vegetable-noodle-salad-with-spicy-peanut-sauce-911897">Asian Vegetable Noodle Salad with Spicy Peanut Sauce</a>, <a href="https://spoonacular.com/recipes/asian-broccoli-with-peanut-butter-110074">Asian Broccoli With Peanut Butter</a>, and <a href="https://spoonacular.com/recipes/deep-fried-tofu-with-asian-plum-sauce-or-thai-peanut-sauce-113467">Deep Fried Tofu With Asian Plum Sauce or Thai Peanut Sauce</a>.',
+    cuisines: ["Asian"],
+    dishTypes: ["salad"],
+    diets: ["dairy free", "lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["chenin blanc", "gewurztraminer", "riesling"],
+      pairingText:
+        "Chenin Blanc, Gewurztraminer, and Riesling are great choices for Asian. The best wine for Asian food depends on the cuisine and dish - of course - but these acidic whites pair with a number of traditional meals, spicy or not. You could try Lubanzi Chenin Blanc. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 16 dollars per bottle.",
+      productMatches: [
+        {
+          id: 484336,
+          title: "Lubanzi Chenin Blanc",
+          description:
+            "The 2019 Chenin Blanc is a wine filled with vibrancy and luminosity. A lively pale yellow- green tinge in the glass followed by a wonderfully aromatic nose with hints of green melon, passionfruit, lemon zest and green apple, indicates all the delicious qualities present in this unique South African Chenin Blanc. The creamy palate perfectly balanced with a zesty acidity makes your mouth water and a sense of longing to fill your glass and watch the perfect African sunset. The lingering miner alit y of this wine expresses the true terroir of the Swartland.",
+          price: "$15.99",
+          imageUrl: "https://spoonacular.com/productImages/484336-312x231.jpg",
+          averageRating: 0.86,
+          ratingCount: 5.0,
+          score: 0.7975,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flubanzi-chenin-blanc-2019%2F604774",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "To Make The Broccoli Salad",
+        steps: [
+          {
+            number: 1,
+            step: "Heat a large pot of water until it is boiling.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add in the broccoli florets and boil for 30 seconds. Use a strainer to transfer them into a bowl of ice water, which will immediately halt the cooking process.",
+            ingredients: [
+              {
+                id: 10011090,
+                name: "broccoli florets",
+                localizedName: "broccoli florets",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 405600,
+                name: "sieve",
+                localizedName: "sieve",
+                image: "strainer.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Drain. Then add the remaining ingredients and toss until combined.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+      {
+        name:
+          "Serve immediately, garnished with sesame seeds if desired.To Make The Peanut Sauce",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Whisk all ingredients together until combined. If the dressing is too thick, whisk inhot water a tablespoonat a time until it reaches the consistency you desire.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 17,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 1225,
+    spoonacularScore: 100.0,
+    healthScore: 66.0,
+    creditsText: "101 Cookbooks",
+    sourceName: "101 Cookbooks",
+    pricePerServing: 153.79,
+    id: 14981,
+    title: "Kale Pasta",
+    readyInMinutes: 10,
+    servings: 4,
+    sourceUrl: "http://www.101cookbooks.com/archives/winter-pasta-recipe.html",
+    image: "https://spoonacular.com/recipeImages/14981-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Need a <b>vegetarian main course</b>? Kale Pasta could be an amazing recipe to try. This recipe makes 4 servings with <b>567 calories</b>, <b>17g of protein</b>, and <b>24g of fat</b> each. For <b>$1.54 per serving</b>, this recipe <b>covers 26%</b> of your daily requirements of vitamins and minerals. 1225 people were glad they tried this recipe. Head to the store and pick up ml extra virgin olive oil, pasta water, garlic, and a few other things to make it today. To use up the fine grain sea salt you could follow this main course with the <a href="https://spoonacular.com/recipes/whole-grain-strawberry-oat-crumble-764983">Whole Grain Strawberry Oat Crumble</a> as a dessert. From preparation to the plate, this recipe takes around <b>10 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is awesome. Try <a href="https://spoonacular.com/recipes/my-go-to-spiralized-diet-pasta-baked-chicken-and-kale-zucchini-pasta-563801">My Go-To Spiralized Diet Pasta: Baked Chicken and Kale Zucchini Pasta</a>, <a href="https://spoonacular.com/recipes/pasta-week-kale-pasta-15093">Pasta Week: Kale Pasta</a>, and <a href="https://spoonacular.com/recipes/pasta-puttanesca-with-kale-637">Pasta Puttanesca With Kale</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: [],
+    diets: ["lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {
+      pairedWines: [],
+      pairingText:
+        "No one wine will suit every pasta dish. Pasta in a tomato-based sauce will usually work well with a medium-bodied red, such as a montepulciano or chianti. Pasta with seafood or pesto will fare better with a light-bodied white, such as a pinot grigio. Cheese-heavy pasta can pair well with red or white - you might try a sangiovese wine for hard cheeses and a chardonnay for soft cheeses. We may be able to make a better recommendation if you ask again with a specific pasta dish.",
+      productMatches: [],
+    },
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 5,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 45,
+    aggregateLikes: 1599,
+    spoonacularScore: 100.0,
+    healthScore: 95.0,
+    creditsText: "Olgas Flavor Factory",
+    sourceName: "Olgas Flavor Factory",
+    pricePerServing: 242.79,
+    id: 608080,
+    title: "Roasted Tomato Sauce",
+    readyInMinutes: 60,
+    servings: 3,
+    sourceUrl:
+      "http://www.olgasflavorfactory.com/uncategorized/roasted-tomato-sauce/",
+    image: "https://spoonacular.com/recipeImages/608080-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many sauce recipes, so give Roasted Tomato Sauce a try. For <b>$2.39 per serving</b>, this recipe <b>covers 26%</b> of your daily requirements of vitamins and minerals. This recipe makes 3 servings with <b>291 calories</b>, <b>6g of protein</b>, and <b>19g of fat</b> each. This recipe from Olgas Flavor Factory has 1599 fans. A mixture of garlic cloves, olive oil, salt, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is a good option if you\'re following a <b>caveman, gluten free, primal, and whole 30</b> diet. From preparation to the plate, this recipe takes roughly <b>1 hour</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/grilled-skirt-steak-with-sweet-roasted-tomato-sauce-and-roasted-shrimp-black-bean-and-orzo-salad-344181">Grilled Skirt Steak with Sweet Roasted Tomato Sauce and Roasted Shrimp, Black Bean and Orzo Salad</a>, <a href="https://spoonacular.com/recipes/roasted-tomato-sauce-22494">Roasted-Tomato Sauce</a>, and <a href="https://spoonacular.com/recipes/roasted-tomato-sauce-84583">Roasted Tomato Sauce</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["sauce"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat the oven to 450 degrees Fahrenheit. Take the seeds out of all the tomatoes. Here's an tip about an easy way to seed tomatoes.If you'd like, blanch the tomatoes in boiling water for a few seconds, then plunge them in ice water to peel off the skin. I don't bother taking the skin off, because it disintegrates after I puree the sauce at the end anyway.Coarsely chop the tomatoes and place them on a rimmed baking sheet.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 93818,
+                name: "seeds",
+                localizedName: "seeds",
+                image: "sunflower-seeds.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 450.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Drizzle with olive oil, season with salt and pepper and add the minced garlic and the thyme. Nestle the thyme in the tomatoes; it you leave them on top, the herbs will burn. Roast the tomatoes in the oven for 45 minutes to an hour, until the tomatoes are tender and are golden and charred in spots.Puree the tomatoes in a food processor to your desisted consistency.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 0,
+                name: "minced garlic",
+                localizedName: "minced garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 1002044,
+                name: "herbs",
+                localizedName: "herbs",
+                image: "mixed-fresh-herbs.jpg",
+              },
+              {
+                id: 2049,
+                name: "thyme",
+                localizedName: "thyme",
+                image: "thyme.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 45,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add fresh herbs and drizzle in more olive oil. Store in the refrigerator.",
+            ingredients: [
+              {
+                id: 10111297,
+                name: "fresh herbs",
+                localizedName: "fresh herbs",
+                image: "mixed-fresh-herbs.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 15,
+    aggregateLikes: 586,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "A Family Feast ",
+    sourceName: "A Family Feast ",
+    pricePerServing: 133.04,
+    id: 594863,
+    title: "Broccoli Rabe",
+    readyInMinutes: 30,
+    servings: 3,
+    sourceUrl: "http://www.afamilyfeast.com/broccoli-rabe/",
+    image: "https://spoonacular.com/recipeImages/594863-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Broccoli Rabe is a <b>caveman, gluten free, primal, and whole 30</b> side dish. This recipe makes 3 servings with <b>141 calories</b>, <b>6g of protein</b>, and <b>10g of fat</b> each. For <b>$1.33 per serving</b>, this recipe <b>covers 20%</b> of your daily requirements of vitamins and minerals. This recipe from A Family Feast  has 586 fans. If you have pepper flakes, extra virgin olive oil, lemon juice, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is awesome. Try <a href="https://spoonacular.com/recipes/pasta-with-pancetta-broccoli-or-broccoli-rabe-and-pine-nuts-92246">Pasta With Pancetta, Broccoli or Broccoli Rabe and Pine Nuts</a>, <a href="https://spoonacular.com/recipes/broccoli-and-broccoli-rabe-with-roasted-red-peppers-10313">Broccoli And Broccoli Rabe With Roasted Red Peppers</a>, and <a href="https://spoonacular.com/recipes/broccoli-rabe-92194">Broccoli Rabe</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Bring a medium pan of water to a boil and add trimmed broccoli rabe. Cook 2 minutes, remove broccoli and plunge into ice water bath. Once cooled, drain the broccoli rabe.In a 12” skillet over medium heat, add olive oil and heat until hot and add onions.  Sauté onions 2-3 minutes.",
+            ingredients: [
+              {
+                id: 11096,
+                name: "broccoli rabe",
+                localizedName: "broccoli rabe",
+                image: "broccoli-rabe.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Add garlic and pepper flakes and cook one more minute.",
+            ingredients: [
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add lemon zest, drained broccoli rabe, salt and pepper and cook just until broccoli is tender (1-2 minutes).",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11096,
+                name: "broccoli rabe",
+                localizedName: "broccoli rabe",
+                image: "broccoli-rabe.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step: "Remove from heat, add lemon juice and serve immediately.",
+            ingredients: [
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 22,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 2,
+    aggregateLikes: 473,
+    spoonacularScore: 100.0,
+    healthScore: 82.0,
+    creditsText: "Busy But Healthy",
+    sourceName: "Busy But Healthy",
+    pricePerServing: 491.74,
+    id: 558652,
+    title: "Broccoli Slaw Chicken Salad",
+    readyInMinutes: 7,
+    servings: 1,
+    sourceUrl: "http://www.busybuthealthy.com/broccoli-slaw-chicken-salad/",
+    image: "https://spoonacular.com/recipeImages/558652-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give Broccoli Slaw Chicken Salad a try. One serving contains <b>725 calories</b>, <b>31g of protein</b>, and <b>51g of fat</b>. For <b>$4.92 per serving</b>, this recipe <b>covers 46%</b> of your daily requirements of vitamins and minerals. It will be a hit at your <b>The Fourth Of July</b> event. 473 people have made this recipe and would make it again. From preparation to the plate, this recipe takes around <b>7 minutes</b>. Head to the store and pick up dijon mustard, ginger, garlic, and a few other things to make it today. To use up the avocado you could follow this main course with the <a href="https://spoonacular.com/recipes/chocolate-avocado-mousse-quick-dark-chocolate-avocado-mousse-486646">chocolate avocado mousse | quick dark chocolate avocado mousse</a> as a dessert. It is a good option if you\'re following a <b>gluten free and dairy free</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/broccoli-slaw-and-kale-salad-with-chicken-534162">Broccoli Slaw and Kale Salad with Chicken</a>, <a href="https://spoonacular.com/recipes/grilled-chicken-broccoli-slaw-salad-with-ginger-dressing-556734">Grilled Chicken Broccoli Slaw Salad with Ginger Dressing</a>, and <a href="https://spoonacular.com/recipes/broccoli-slaw-salad-619901">Broccoli Slaw Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free", "dairy free"],
+    occasions: ["father's day", "4th of july", "summer"],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a microwave safe bowl, add the brocolli slaw and 1-2 Tbsp water. Cover with paper towel and microwave for 2 min until the slaw has softened a bit.Meanwhile, mix together all the dressing ingredients in a small bowl.Once the broccoli slaw is done, drain any water that may have settled at the bottom of the bowl.To the warm slaw, add in the dressing, chicken and snap peas (or whatever other veggies you like)",
+            ingredients: [
+              {
+                id: 11741,
+                name: "broccoli slaw",
+                localizedName: "broccoli slaw",
+                image: "slaw-mix.png",
+              },
+              {
+                id: 10011300,
+                name: "sugar snap peas",
+                localizedName: "sugar snap peas",
+                image: "sugar-snap-peas.jpg",
+              },
+              {
+                id: 5006,
+                name: "whole chicken",
+                localizedName: "whole chicken",
+                image: "whole-chicken.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 405895,
+                name: "paper towels",
+                localizedName: "paper towels",
+                image: "paper-towels.jpg",
+              },
+              {
+                id: 404762,
+                name: "microwave",
+                localizedName: "microwave",
+                image: "microwave.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Garnish with sliced avocado if you wish.",
+            ingredients: [
+              {
+                id: 9037,
+                name: "avocado",
+                localizedName: "avocado",
+                image: "avocado.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 17,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 75,
+    cookingMinutes: 10,
+    aggregateLikes: 17272,
+    spoonacularScore: 100.0,
+    healthScore: 96.0,
+    pricePerServing: 234.4,
+    id: 735809,
+    title: "Homemade Vegan Calzones with Sun-Dried Tomato & Pesto Spread",
+    readyInMinutes: 85,
+    servings: 3,
+    sourceUrl: "http://www.veganinsanity.com/recipes/vegan-calzones/",
+    image: "https://spoonacular.com/recipeImages/735809-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Homemade Vegan Calzones with Sun-Dried Tomato & Pesto Spread might be just the main course you are searching for. This vegan recipe serves 3 and costs <b>$2.34 per serving</b>. One serving contains <b>613 calories</b>, <b>21g of protein</b>, and <b>26g of fat</b>. 17272 people have made this recipe and would make it again. From preparation to the plate, this recipe takes around <b>1 hour and 25 minutes</b>. A mixture of tomato, salt, olive oil, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the raw cashews you could follow this main course with the <a href="https://spoonacular.com/recipes/banana-coconut-and-cashew-cream-tart-49562">Banana, Coconut, And Cashew-cream Tart</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/easy-vegan-sun-dried-tomato-pesto-911250">Easy Vegan Sun Dried Tomato Pesto</a>, <a href="https://spoonacular.com/recipes/sun-dried-tomato-pesto-pasta-with-zoodles-914788">Sun Dried Tomato Pesto Pasta with Zoodles</a>, and <a href="https://spoonacular.com/recipes/artichoke-and-sun-dried-tomato-pasta-926592">Artichoke and Sun Dried Tomato Pasta</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Add the flour, yeast, salt, sugar and oil to a large mixing bowl.",
+            ingredients: [
+              {
+                id: 20081,
+                name: "all purpose flour",
+                localizedName: "all purpose flour",
+                image: "flour.png",
+              },
+              {
+                id: 19335,
+                name: "sugar",
+                localizedName: "sugar",
+                image: "sugar-in-bowl.png",
+              },
+              {
+                id: 18375,
+                name: "yeast",
+                localizedName: "yeast",
+                image: "yeast-granules.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 405907,
+                name: "mixing bowl",
+                localizedName: "mixing bowl",
+                image: "mixing-bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Mix until combined.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Add the water, as needed, until the dough is soft and has come together nicely. Form into a ball.",
+            ingredients: [
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "Place the dough ball in a well-oiled bowl and cover with a clean dish towel. Allow to rise, until it has doubled in size, which can take up to 1 hour (it was 40 minutes for me).",
+            ingredients: [
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+            ],
+            equipment: [
+              {
+                id: 221439,
+                name: "kitchen towels",
+                localizedName: "kitchen towels",
+                image: "dish-towel.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 100,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Add all ingredients to a high-powered blender or food processor and blend/processed until smooth, adding a bit of water, if needed.Preheat oven to 500F.Divide the dough into 3 or 4 portions. and roll each one into a thin layer. Be careful not to make them too thick!",
+            ingredients: [
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 500.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Spread the sauce on each calzone, without going all the way to the edges.",
+            ingredients: [
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step:
+              'Add the "toppings" - veggies and vegan cheese - on one side of the calzone.Fold into a semicircle and seal the edges.Poke a few holes into each calzone, brush with a bit of oil, and sprinkle some dried basil on top (or fresh!).Cook for about 10 minutes, or until the bottoms have browned nicely.Enjoy!',
+            ingredients: [
+              {
+                id: 93701,
+                name: "vegan cheese",
+                localizedName: "vegan cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 2003,
+                name: "dried basil",
+                localizedName: "dried basil",
+                image: "basil.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+    sourceName: null,
+    creditsText: null,
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 15,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 13689,
+    spoonacularScore: 100.0,
+    healthScore: 84.0,
+    creditsText: "Skinny Ms",
+    sourceName: "Skinny Ms",
+    pricePerServing: 437.49,
+    id: 702624,
+    title: "Slow Cooker Momma’s Roadhouse Chili",
+    readyInMinutes: 45,
+    servings: 3,
+    sourceUrl: "http://skinnyms.com/slow-cooker-mommas-roadhouse-chili/",
+    image: "https://spoonacular.com/recipeImages/702624-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Slow Cooker Momma’s Roadhouse Chili could satisfy your American craving in roughly <b>45 minutes</b>. One serving contains <b>643 calories</b>, <b>62g of protein</b>, and <b>6g of fat</b>. This recipe serves 3 and costs $4.37 per serving. A mixture of water, ground turkey, sea salt, and a handful of other ingredients are all it takes to make this recipe so delicious. To use up the sea salt you could follow this main course with the <a href="https://spoonacular.com/recipes/raspberry-sea-salt-brownies-494161">Raspberry Sea Salt Brownies</a> as a dessert. Plenty of people really liked this main course. It can be enjoyed any time, but it is especially good for <b>The Super Bowl</b>. 13689 people have made this recipe and would make it again. It is a good option if you\'re following a <b>gluten free and dairy free</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Similar recipes include <a href="https://spoonacular.com/recipes/slow-cooker-chili-112593">Slow Cooker Chili</a>, <a href="https://spoonacular.com/recipes/slow-cooker-chili-543988">Slow Cooker Chili</a>, and <a href="https://spoonacular.com/recipes/slow-cooker-chili-165848">Slow-Cooker Chili</a>.',
+    cuisines: ["American"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free"],
+    occasions: ["super bowl"],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Cook turkey and onion in a skillet on medium heat, breaking up into small chunks. Cook until no longer pink.",
+            ingredients: [
+              {
+                id: 5165,
+                name: "whole turkey",
+                localizedName: "whole turkey",
+                image: "turkey-raw-whole.jpg",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Drain off fat and discard.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Add cooked meat and all other ingredients to slow cooker, cook on low 6-8 hours.  4-6 quart slow cooker recommended.",
+            ingredients: [
+              {
+                id: 1065062,
+                name: "meat",
+                localizedName: "meat",
+                image: "whole-chicken.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404718,
+                name: "slow cooker",
+                localizedName: "slow cooker",
+                image: "slow-cooker.jpg",
+              },
+            ],
+            length: {
+              number: 480,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add diced onions and cheddar cheese, if desired.Note: If you prefer spicier chili use our recipe for Turkey Sausage in place of using just ground turkey.",
+            ingredients: [
+              {
+                id: 1009,
+                name: "cheddar cheese",
+                localizedName: "cheddar cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 7955,
+                name: "turkey sausage",
+                localizedName: "turkey sausage",
+                image: "chicken-or-turkey-sausage.jpg",
+              },
+              {
+                id: 5662,
+                name: "ground turkey",
+                localizedName: "ground turkey",
+                image: "meat-ground.jpg",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 11819,
+                name: "chili pepper",
+                localizedName: "chili pepper",
+                image: "red-chili.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 838,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Vegetarian Times",
+    sourceName: "Vegetarian Times",
+    pricePerServing: 203.46,
+    id: 762273,
+    title: "Quinoa and Wild Rice Stuffed Squash",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl:
+      "http://www.vegetariantimes.com/recipe/quinoa-and-wild-rice-stuffed-squash/",
+    image: "https://spoonacular.com/recipeImages/762273-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Quinoan and Wild Rice Stuffed Squash might be just the side dish you are searching for. For <b>$2.03 per serving</b>, this recipe <b>covers 32%</b> of your daily requirements of vitamins and minerals. One serving contains <b>476 calories</b>, <b>12g of protein</b>, and <b>8g of fat</b>. Plenty of people made this recipe, and 838 would say it hit the spot. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. Head to the store and pick up water, sage, vegetable oil, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/quinoa-and-wild-rice-stuffed-squash-105977">Quinoan and Wild Rice Stuffed Squash</a>, <a href="https://spoonacular.com/recipes/wild-rice-stuffed-squash-408278">Wild Rice Stuffed Squash</a>, and <a href="https://spoonacular.com/recipes/baked-apples-stuffed-with-wild-rice-and-quinoa-758818">Baked Apples Stuffed with Wild Rice and Quinoa</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 350°F. Arrange squash halves cut side down in baking dish or roasting pan.",
+            ingredients: [
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404629,
+                name: "roasting pan",
+                localizedName: "roasting pan",
+                image: "roasting-pan.jpg",
+              },
+              {
+                id: 404646,
+                name: "baking pan",
+                localizedName: "baking pan",
+                image: "roasting-pan.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 350.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Bake until tender, 25 to 30 minutes. Meanwhile, make filling. In large saucepan, bring 4 cups water to boil.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+            length: {
+              number: 25,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add wild rice and  1/2 teaspoon salt. Reduce heat, cover and simmer until rice is tender, about 40 minutes.",
+            ingredients: [
+              {
+                id: 20088,
+                name: "wild rice",
+                localizedName: "wild rice",
+                image: "rice-wild-uncooked.png",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 40,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Drain if necessary.In another large saucepan, bring remaining 2 cups of water to boil.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Add quinoa. Reduce heat and simmer until water is absorbed and quinoa is tender, about 12 minutes.In large, deep skillet, heat oil over medium heat.",
+            ingredients: [
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 12,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step:
+              "Add green onions, celery and sage, and cook, stirring often, until vegetables begin to soften, about 3 minutes.",
+            ingredients: [
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 11143,
+                name: "celery",
+                localizedName: "celery",
+                image: "celery.jpg",
+              },
+              {
+                id: 99226,
+                name: "sage",
+                localizedName: "sage",
+                image: "fresh-sage.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step:
+              "Add dried fruits and nuts and cook, stirring often, until heated through. Using a fork, fluff quinoa and wild rice, then add both to skillet.",
+            ingredients: [
+              {
+                id: 20088,
+                name: "wild rice",
+                localizedName: "wild rice",
+                image: "rice-wild-uncooked.png",
+              },
+              {
+                id: 9431,
+                name: "fruit",
+                localizedName: "fruit",
+                image: "mixed-fresh-fruit.jpg",
+              },
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 12135,
+                name: "nuts",
+                localizedName: "nuts",
+                image: "nuts-mixed.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Add orange juice and mix until heated through. Season with salt. To serve, remove squash from oven and arrange on serving platter. Spoon filling into each squash cavity and serve.",
+            ingredients: [
+              {
+                id: 9206,
+                name: "orange juice",
+                localizedName: "orange juice",
+                image: "orange-juice.jpg",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 2,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 10,
+    aggregateLikes: 1059,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Happy Herbivore",
+    sourceName: "Happy Herbivore",
+    pricePerServing: 267.52,
+    id: 262825,
+    title: "African Kale & Yam Soup",
+    readyInMinutes: 20,
+    servings: 2,
+    sourceUrl:
+      "http://happyherbivore.com/recipe/african-kale-sweet-potato-soup/",
+    image: "https://spoonacular.com/recipeImages/262825-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe African Kale & Yam Soup could satisfy your African craving in approximately <b>20 minutes</b>. For <b>$2.68 per serving</b>, you get a main course that serves 2. Watching your figure? This gluten free and vegan recipe has <b>402 calories</b>, <b>13g of protein</b>, and <b>3g of fat</b> per serving. This recipe is liked by 1059 foodies and cooks. It will be a hit at your <b>Autumn</b> event. A mixture of vegetable broth, cinnamon, onion, and a handful of other ingredients are all it takes to make this recipe so scrumptious. To use up the cinnamon you could follow this main course with the <a href="https://spoonacular.com/recipes/cinnamon-fudge-836311">Cinnamon Fudge</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/north-african-chickpea-and-kale-soup-158497">North African Chickpean and Kale Soup</a>, <a href="https://spoonacular.com/recipes/african-peanut-and-yam-soup-46362">African Peanut And Yam Soup</a>, and <a href="https://spoonacular.com/recipes/african-peanut-soup-495056">African Peanut Soup</a> for similar recipes.',
+    cuisines: ["African"],
+    dishTypes: ["soup"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["fall", "winter"],
+    winePairing: {
+      pairedWines: ["pinotage", "chenin blanc", "riesling"],
+      pairingText:
+        "Pinotage, Chenin Blanc, and Riesling are my top picks for African. The best wine for African dishes will depend on the dish, but a fruity, aromatic white wine is a safe bet for spicy dishes while pinotage would be a traditional match for South African cuisine. The MAN Family Wines Pinotage with a 4 out of 5 star rating seems like a good match. It costs about 10 dollars per bottle.",
+      productMatches: [
+        {
+          id: 493222,
+          title: "MAN Family Wines Pinotage",
+          description:
+            "A blend of 86% Pinotage, 12% Shiraz and 2% Viognier.\nPacked with full red-berry flavours, touches of cinnamon and nutmeg spices, and soft tannins, this wine should pair well with most red meats or poultry. The sweet fruit flavours of Pinotage make it an ideal match for spicy curries. A modern-style of Pinotage. Serve at a cool room temperature.",
+          price: "$9.99",
+          imageUrl: "https://spoonacular.com/productImages/493222-312x231.jpg",
+          averageRating: 0.8,
+          ratingCount: 8.0,
+          score: 0.76,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fman-family-wines-pinotage-2018%2F581371",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Slice red onion into thin slices. Line a medium pot with 1/4 cup of water and cook onions over high heat until translucent, about 3 minutes.",
+            ingredients: [
+              {
+                id: 10011282,
+                name: "red onion",
+                localizedName: "red onion",
+                image: "red-onion.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Add broth, yam, 3/4 cup water and bring to a boil. Once boiling, reduce to medium and cook until potatoes are almost fork tender, about 3 minutes. Immediately add kale and remaining ingredients and cook, stirring frequently, until kale is dark green and soft, about 3 more minutes. Set aside for 5-10 minutes, allowing flavors to merge.Nutritional Information",
+            ingredients: [
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+              {
+                id: 11601,
+                name: "yam",
+                localizedName: "yam",
+                image: "sweet-potato.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 16,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+      {
+        name: "Serving Size 1Servings Per Batch",
+        steps: [
+          {
+            number: 1,
+            step: "2Amount Per Serving",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step: "Calories",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step: "311Fat",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step: "80g",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Carbohydrate",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "90gDietary Fiber11.30gSugars4gProtein9.70g",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 5,
+    gaps: "no",
+    lowFodmap: true,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 113,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Running to the Kitchen",
+    sourceName: "Running to the Kitchen",
+    pricePerServing: 461.49,
+    id: 588460,
+    title: "Coconut cashew crusted salmon",
+    readyInMinutes: 10,
+    servings: 2,
+    sourceUrl:
+      "http://www.runningtothekitchen.com/2011/12/coconut-cashew-crusted-salmon/",
+    image: "https://spoonacular.com/recipeImages/588460-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give Coconut cashew crusted salmon a try. One serving contains <b>315 calories</b>, <b>35g of protein</b>, and <b>11g of fat</b>. This recipe serves 2 and costs $4.61 per serving. A mixture of cilantro, salt & pepper, alaskan king salmon, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the sugar you could follow this main course with the <a href="https://spoonacular.com/recipes/whole-wheat-refined-sugar-free-sugar-cookies-557184">Whole Wheat Refined Sugar Free Sugar Cookies</a> as a dessert. This recipe is liked by 113 foodies and cooks. From preparation to the plate, this recipe takes roughly <b>10 minutes</b>. It is a good option if you\'re following a <b>gluten free, dairy free, fodmap friendly, and pescatarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/cashew-crusted-salmon-88360">Cashew Crusted Salmon</a>, <a href="https://spoonacular.com/recipes/cashew-crusted-salmon-with-bok-choy-736719">Cashew-Crusted Salmon with Bok Choy</a>, and <a href="https://spoonacular.com/recipes/crispy-cashew-coconut-crusted-chicken-tenders-with-mango-honey-dip-719959">Crispy Cashew Coconut Crusted Chicken Tenders with Mango Honey Dip</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: [],
+    diets: ["gluten free", "dairy free", "fodmap friendly", "pescatarian"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["chardonnay", "pinot noir", "sauvignon blanc"],
+      pairingText:
+        "Salmon can be paired with Chardonnay, Pinot Noir, and Sauvignon Blanc. To decide on white or red, you should consider your seasoning and sauces. Chardonnay is a great friend to buttery, creamy dishes, while sauvignon blanc can complement herb or citrus-centric dishes. A light-bodied, low-tannin red such as the pinot noir goes great with broiled or grilled salmon. The De Wetshof Lesca Chardonnay with a 4.7 out of 5 star rating seems like a good match. It costs about 16 dollars per bottle.",
+      productMatches: [
+        {
+          id: 446900,
+          title: "De Wetshof Lesca Chardonnay",
+          description:
+            "A classical, lightly structured, steely dry wine with strong lemony, yeastly flavours and a lingering nutter aftertaste.",
+          price: "$15.99",
+          imageUrl: "https://spoonacular.com/productImages/446900-312x231.jpg",
+          averageRating: 0.9400000000000001,
+          ratingCount: 5.0,
+          score: 0.8775000000000001,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fde-wetshof-lesca-chardonnay-2000%2F28048",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 425 degrees. Line a baking sheet with parchment, aluminum foil or a silpat.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Combine coconut, cashews and breadcrumbs in a dish and mix together.Season salmon with salt & pepper and spray with cooking spray.Coat salmon in coconut, cashew, breadcrumb mixture and lay on baking sheet. Spray again lightly with cooking spray before putting it in the oven.",
+            ingredients: [
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 18079,
+                name: "breadcrumbs",
+                localizedName: "breadcrumbs",
+                image: "breadcrumbs.jpg",
+              },
+              {
+                id: 12087,
+                name: "cashews",
+                localizedName: "cashews",
+                image: "cashews.jpg",
+              },
+              {
+                id: 12104,
+                name: "coconut",
+                localizedName: "coconut",
+                image: "coconut.jpg",
+              },
+              {
+                id: 15076,
+                name: "salmon",
+                localizedName: "salmon",
+                image: "salmon.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              'Bake for 12-15 minutes until cooked to your desired "doneness" (I prefer salmon more on the rare side and baked mine for 12 minutes)While salmon bakes, whisk together lime juice and sugar in a small bowl.',
+            ingredients: [
+              {
+                id: 9160,
+                name: "lime juice",
+                localizedName: "lime juice",
+                image: "lime-juice.png",
+              },
+              {
+                id: 15076,
+                name: "salmon",
+                localizedName: "salmon",
+                image: "salmon.png",
+              },
+              {
+                id: 19335,
+                name: "sugar",
+                localizedName: "sugar",
+                image: "sugar-in-bowl.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 27,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add diced vegetables, fruit and cilantro and toss to combine. (This can be made ahead of time as the flavors get better as it sits)Top baked salmon with salsa.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+              {
+                id: 15076,
+                name: "salmon",
+                localizedName: "salmon",
+                image: "salmon.png",
+              },
+              {
+                id: 9431,
+                name: "fruit",
+                localizedName: "fruit",
+                image: "mixed-fresh-fruit.jpg",
+              },
+              {
+                id: 6164,
+                name: "salsa",
+                localizedName: "salsa",
+                image: "salsa.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 2,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 804,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Blender Babes",
+    sourceName: "Blender Babes",
+    pricePerServing: 194.55,
+    id: 581237,
+    title: "Migraine Be Gone Green Juice",
+    readyInMinutes: 45,
+    servings: 2,
+    sourceUrl:
+      "http://www.blenderbabes.com/lifestyle-diet/dairy-free/migraine-be-gone-green-juice/",
+    image: "https://spoonacular.com/recipeImages/581237-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Migraine Be Gone Green Juice is a <b>caveman, gluten free, primal, and whole 30</b> beverage. One serving contains <b>115 calories</b>, <b>4g of protein</b>, and <b>1g of fat</b>. This recipe serves 2 and costs $1.95 per serving. Plenty of people made this recipe, and 804 would say it hit the spot. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Head to the store and pick up ice, kale, ginger root, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/cucumber-endive-kale-green-apple-ginger-and-meyer-lemon-juice-green-juice-552180">Cucumber, Endive, Kale, Green Apple, Ginger, and Meyer Lemon Juice (Green Juice )</a>, <a href="https://spoonacular.com/recipes/grilled-green-tomatoes-with-burrata-and-green-juice-715258">Grilled Green Tomatoes with Burratan and Green Juice</a>, and <a href="https://spoonacular.com/recipes/the-mean-green-juice-536789">The Mean Green Juice</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Place all ingredients into the blender and secure lid.For Blendtec: Press the Whole Juice button.For Vitamix: Select VARIABLE, speed #",
+            ingredients: [
+              {
+                id: 1019016,
+                name: "juice",
+                localizedName: "juice",
+                image: "apple-juice.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Turn machine on and slowly increase speed to VARIABLE, speed #10, then flip it to high. Blend for 60 seconds.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 494,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Vegetarian Times",
+    sourceName: "Vegetarian Times",
+    pricePerServing: 110.77,
+    id: 757880,
+    title: "Black Soybean and Hoisin Lettuce Wraps",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl:
+      "http://www.vegetariantimes.com/recipe/black-soybean-and-%e2%80%a8hoisin-lettuce-wraps/",
+    image: "https://spoonacular.com/recipeImages/757880-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Black Soybean and Hoisin Lettuce Wraps might be just the hor d\'oeuvre you are searching for. This gluten free and dairy free recipe serves 6 and costs <b>$1.11 per serving</b>. One serving contains <b>186 calories</b>, <b>14g of protein</b>, and <b>9g of fat</b>. This recipe is liked by 494 foodies and cooks. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Head to the store and pick up sriracha sauce, bell pepper, ginger, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/hoisin-pork-and-boston-lettuce-wraps-271706">Hoisin Pork and Boston Lettuce Wraps</a>, <a href="https://spoonacular.com/recipes/30-minute-hoisin-shrimp-lettuce-wraps-895080">30 Minute Hoisin Shrimp Lettuce Wraps</a>, and <a href="https://spoonacular.com/recipes/lettuce-wraps-with-hoisin-peanut-sauce-229500">Lettuce Wraps with Hoisin-Peanut Sauce</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Heat oil in skillet over medium-high heat.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add mushrooms and bell pepper, and sauté 8 to 10 minutes, or until mushrooms have released their juices and begin to brown.",
+            ingredients: [
+              {
+                id: 10211821,
+                name: "bell pepper",
+                localizedName: "bell pepper",
+                image: "bell-pepper-orange.png",
+              },
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 8,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step: "Add garlic and ginger, and sauté 30 seconds.",
+            ingredients: [
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "Add soybeans, hoisin, vinegar, and sriracha, and sauté 2 to 3 minutes, or until soybeans are heated through and mixture is well combined.",
+            ingredients: [
+              {
+                id: 16409,
+                name: "soybeans",
+                localizedName: "soybeans",
+                image: "soy-beans.png",
+              },
+              {
+                id: 1016168,
+                name: "sriracha",
+                localizedName: "sriracha",
+                image: "hot-sauce-or-tabasco.png",
+              },
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+              {
+                id: 6175,
+                name: "hoisin sauce",
+                localizedName: "hoisin sauce",
+                image: "dark-sauce.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Remove from heat, and scoop 1/4 cup soybean mixture into each lettuce leaf.",
+            ingredients: [
+              {
+                id: 93623,
+                name: "lettuce leaf",
+                localizedName: "lettuce leaf",
+                image: "iceberg-lettuce",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Sprinkle each wrap with green onions, and serve immediately.",
+            ingredients: [
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 10018364,
+                name: "wrap",
+                localizedName: "wrap",
+                image: "flour-tortilla.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 13,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 9128,
+    spoonacularScore: 100.0,
+    healthScore: 79.0,
+    creditsText: "Picky Palate",
+    sourceName: "Picky Palate",
+    pricePerServing: 160.39,
+    id: 249502,
+    title: "Quinoa and Brown Rice Black Bean Fiesta Bowl",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl:
+      "http://picky-palate.com/2013/03/20/quinoa-and-brown-rice-black-bean-fiesta-bowl/",
+    image: "https://spoonacular.com/recipeImages/249502-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Quinoan and Brown Rice Black Bean Fiesta Bowl might be just the main course you are searching for. This gluten free recipe serves 6 and costs <b>$2.56 per serving</b>. One portion of this dish contains around <b>26g of protein</b>, <b>19g of fat</b>, and a total of <b>642 calories</b>. This recipe is liked by 9128 foodies and cooks. If you have quinoa, beans, brown rice, and a few other ingredients on hand, you can make it. To use up the brown rice you could follow this main course with the <a href="https://spoonacular.com/recipes/brown-rice-pudding-247325">Brown Rice Pudding</a> as a dessert. From preparation to the plate, this recipe takes around <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Try <a href="https://spoonacular.com/recipes/5-minute-brown-rice-and-black-bean-bowl-521464">5-Minute Brown Rice And Black Bean Bowl</a>, <a href="https://spoonacular.com/recipes/tex-mex-black-bean-quinoa-bowl-666622">Tex-Mex Black Bean & Quinoa Bowl</a>, and <a href="https://spoonacular.com/recipes/quinoa-and-brown-rice-bowl-with-vegetables-and-tahini-356563">Quinoan and Brown Rice Bowl with Vegetables and Tahini</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Cook quinoa according to package directions.",
+            ingredients: [
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "Transfer to a large bowl. Cook brown rice according to package directions.",
+            ingredients: [
+              {
+                id: 20040,
+                name: "brown rice",
+                localizedName: "brown rice",
+                image: "uncooked-brown-rice.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step: "Transfer to a large bowl.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Place mustard, yogurt, water and worcestershire sauce into a small saucepan over medium low heat. Stir until warm.",
+            ingredients: [
+              {
+                id: 6971,
+                name: "worcestershire sauce",
+                localizedName: "worcestershire sauce",
+                image: "dark-sauce.jpg",
+              },
+              {
+                id: 2046,
+                name: "mustard",
+                localizedName: "mustard",
+                image: "regular-mustard.jpg",
+              },
+              {
+                id: 1116,
+                name: "yogurt",
+                localizedName: "yogurt",
+                image: "plain-yogurt.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step: "Remove from heat.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Place celery seed, paprika, curry powder, garlic salt, salt and pepper into a small bowl, stir to combine.In each serving bowl layer the following: brown rice, quinoa, a few spoonfuls of mustard sauce, black beans, cucumber, tomato, a few spoonfuls of salsa, cabbage, a few pinches of seasoning and diced avocado. I like to stir my bowl all together to mix in the sauce and seasonings. You may find you enjoy more sauce and or seasonings in your bowl.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 2015,
+                name: "curry powder",
+                localizedName: "curry powder",
+                image: "curry-powder.jpg",
+              },
+              {
+                id: 16015,
+                name: "black beans",
+                localizedName: "black beans",
+                image: "black-beans.jpg",
+              },
+              {
+                id: 2007,
+                name: "celery seed",
+                localizedName: "celery seed",
+                image: "celery-seed.jpg",
+              },
+              {
+                id: 1062047,
+                name: "garlic salt",
+                localizedName: "garlic salt",
+                image: "garlic-salt.jpg",
+              },
+              {
+                id: 20040,
+                name: "brown rice",
+                localizedName: "brown rice",
+                image: "uncooked-brown-rice.png",
+              },
+              {
+                id: 1042027,
+                name: "seasoning",
+                localizedName: "seasoning",
+                image: "seasoning.png",
+              },
+              {
+                id: 11206,
+                name: "cucumber",
+                localizedName: "cucumber",
+                image: "cucumber.jpg",
+              },
+              {
+                id: 9037,
+                name: "avocado",
+                localizedName: "avocado",
+                image: "avocado.jpg",
+              },
+              {
+                id: 11109,
+                name: "cabbage",
+                localizedName: "cabbage",
+                image: "cabbage.jpg",
+              },
+              {
+                id: 2046,
+                name: "mustard",
+                localizedName: "mustard",
+                image: "regular-mustard.jpg",
+              },
+              {
+                id: 2028,
+                name: "paprika",
+                localizedName: "paprika",
+                image: "paprika.jpg",
+              },
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 6164,
+                name: "salsa",
+                localizedName: "salsa",
+                image: "salsa.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step: "Add what you like. I also prefer my bowl slightly warm.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 16,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 1802,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Nutrition Stripped ",
+    sourceName: "Nutrition Stripped ",
+    pricePerServing: 500.97,
+    id: 537929,
+    title: "Nourish Bowl",
+    readyInMinutes: 10,
+    servings: 1,
+    sourceUrl: "http://nutritionstripped.com/nourish-bowl/",
+    image: "https://spoonacular.com/recipeImages/537929-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Nourish Bowl might be just the main course you are searching for. This recipe makes 1 servings with <b>682 calories</b>, <b>39g of protein</b>, and <b>32g of fat</b> each. For <b>$5.03 per serving</b>, this recipe <b>covers 45%</b> of your daily requirements of vitamins and minerals. 1802 people have made this recipe and would make it again. A mixture of squeezed lemon, hemp seeds, roasted brussels sprouts, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the avocado you could follow this main course with the <a href="https://spoonacular.com/recipes/chocolate-avocado-mousse-quick-dark-chocolate-avocado-mousse-486646">chocolate avocado mousse | quick dark chocolate avocado mousse</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>10 minutes</b>. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/fall-nourish-bowl-831500">Fall Nourish Bowl</a>, <a href="https://spoonacular.com/recipes/autumn-nourish-bowl-926209">Autumn Nourish Bowl</a>, and <a href="https://spoonacular.com/recipes/exciting-news-plus-the-nourish-+-glow-miracle-bowl-470795">Exciting News! Plus, The Nourish + Glow Miracle Bowl</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: [],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              'Start by filling a large salad bowl with the dark leafy greens.Next, top with all the remaining vegetables, sweet potatoes, and hemp seeds; piling them in their own "spot" in the bowl (as pictured).You can arrange each ingredient in a pile and then wait to stir everything together, or you can simply top the dark leafy greens with all the remaining ingredients at the same time and stir thoroughly.The nutritional yeast + the hummus + the apple cider vinegar makes for a thick and creamy dressing on it\'s own.',
+            ingredients: [
+              {
+                id: 2048,
+                name: "apple cider vinegar",
+                localizedName: "apple cider vinegar",
+                image: "apple-cider-vinegar.jpg",
+              },
+              {
+                id: 93690,
+                name: "nutritional yeast",
+                localizedName: "nutritional yeast",
+                image: "nutritional-yeast.png",
+              },
+              {
+                id: 11507,
+                name: "sweet potato",
+                localizedName: "sweet potato",
+                image: "sweet-potato.png",
+              },
+              {
+                id: 21052,
+                name: "greens",
+                localizedName: "greens",
+                image: "mixed-greens-or-mesclun.jpg",
+              },
+              {
+                id: 93602,
+                name: "hemp seeds",
+                localizedName: "hemp seeds",
+                image: "shelled-hemp-seeds.png",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 16158,
+                name: "hummus",
+                localizedName: "hummus",
+                image: "hummus.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Serve and enjoy!",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 18,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 25,
+    aggregateLikes: 1039,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Minimalist Baker",
+    sourceName: "Minimalist Baker",
+    pricePerServing: 263.54,
+    id: 675516,
+    title: "Chickpea Shawarma Sandwich",
+    readyInMinutes: 30,
+    servings: 2,
+    sourceUrl: "http://minimalistbaker.com/chickpea-shawarma-sandwich/",
+    image: "https://spoonacular.com/recipeImages/675516-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Chickpea Shawarma Sandwich is ready <b>in approximately 30 minutes</b> and is definitely an outstanding <b>dairy free</b> option for lovers of middl eastern food. For <b>$2.55 per serving</b>, this recipe <b>covers 38%</b> of your daily requirements of vitamins and minerals. This main course has <b>675 calories</b>, <b>29g of protein</b>, and <b>17g of fat</b> per serving. This recipe is liked by 1039 foodies and cooks. A mixture of almond milk to, optional: vegan pita, tomato, and a handful of other ingredients are all it takes to make this recipe so yummy. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Try <a href="https://spoonacular.com/recipes/shawarma-djaj-chicken-shawarma-lebanon-middle-east-102838">Shawarma Djaj -- Chicken Shawarma (Lebanon -- Middle East)</a>, <a href="https://spoonacular.com/recipes/chickpea-sandwich-313932">Chickpea Sandwich</a>, and <a href="https://spoonacular.com/recipes/avocado-and-chickpea-sandwich-669451">Avocado and Chickpea Sandwich</a> for similar recipes.',
+    cuisines: ["Middle Eastern"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 400 degrees F and line a large baking sheet with foil or parchment paper.In a small mixing bowl toss rinsed and dried chickpeas with oil and spices and spread on baking sheet.",
+            ingredients: [
+              {
+                id: 16056,
+                name: "dried chickpeas",
+                localizedName: "dried chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 2035,
+                name: "spices",
+                localizedName: "spices",
+                image: "spices.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 405907,
+                name: "mixing bowl",
+                localizedName: "mixing bowl",
+                image: "mixing-bowl.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Bake for 25 minutes, or until slightly crispy and golden brown. Once slightly cooled, sample and adjust seasonings as desired (I added a bit more sea salt, cumin and garlic powder for extra flavor).While the chickpeas are roasting, prepare your sauce by adding hummus, lemon juice, dill and garlic to a mixing bowl and whisking to combine.",
+            ingredients: [
+              {
+                id: 1022020,
+                name: "garlic powder",
+                localizedName: "garlic powder",
+                image: "garlic-powder.png",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 1042027,
+                name: "seasoning",
+                localizedName: "seasoning",
+                image: "seasoning.png",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 1012047,
+                name: "sea salt",
+                localizedName: "sea salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 16158,
+                name: "hummus",
+                localizedName: "hummus",
+                image: "hummus.jpg",
+              },
+              {
+                id: 1002014,
+                name: "cumin",
+                localizedName: "cumin",
+                image: "ground-cumin.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 2045,
+                name: "dill",
+                localizedName: "dill",
+                image: "dill.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 405907,
+                name: "mixing bowl",
+                localizedName: "mixing bowl",
+                image: "mixing-bowl.jpg",
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 25,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add enough water or almond milk to thin so its pourable (~2-3 Tbsp).Taste and adjust seasonings as needed.",
+            ingredients: [
+              {
+                id: 93607,
+                name: "almond milk",
+                localizedName: "almond milk",
+                image: "almond-milk.png",
+              },
+              {
+                id: 1042027,
+                name: "seasoning",
+                localizedName: "seasoning",
+                image: "seasoning.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "Add more garlic for more zing, salt for savoriness, lemon juice for freshness, and dill for a more intense herb flavor. I found mine didnt need anything else.To serve, warm pitas or flatbread in the microwave for 15 -30 seconds (or the still warm oven for 1 minute) and top with desired amount of chickpeas, sauce, and vegetables of choice.Best when fresh, though leftover chickpeas and sauce will keep well stored separately in the refrigerator for 3-4 days.",
+            ingredients: [
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 10018413,
+                name: "flatbread",
+                localizedName: "flatbread",
+                image: "pita-bread.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 18413,
+                name: "pita",
+                localizedName: "pita",
+                image: "pita-bread.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 2045,
+                name: "dill",
+                localizedName: "dill",
+                image: "dill.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404762,
+                name: "microwave",
+                localizedName: "microwave",
+                image: "microwave.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 30,
+    cookingMinutes: 480,
+    aggregateLikes: 9158,
+    spoonacularScore: 100.0,
+    healthScore: 81.0,
+    creditsText: "Eating Well",
+    sourceName: "Eating Well",
+    pricePerServing: 193.39,
+    id: 695061,
+    title: "Irish Lamb Stew",
+    readyInMinutes: 510,
+    servings: 8,
+    sourceUrl: "http://www.eatingwell.com/recipes/irish_lamb_stew.html",
+    image: "https://spoonacular.com/recipeImages/695061-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Irish Lamb Stew might be just the <b>European</b> recipe you are searching for. This recipe makes 8 servings with <b>185 calories</b>, <b>18g of protein</b>, and <b>4g of fat</b> each. For <b>$1.93 per serving</b>, this recipe <b>covers 24%</b> of your daily requirements of vitamins and minerals. It works well as a budget friendly main course. If you have carrots, parsley leaves, chicken broth, and a few other ingredients on hand, you can make it. To use up the celery you could follow this main course with the <a href="https://spoonacular.com/recipes/pistachio-shortbread-cookies-557632">Pistachio Shortbread Cookies</a> as a dessert. From preparation to the plate, this recipe takes approximately <b>8 hours and 30 minutes</b>. 9157 people have made this recipe and would make it again. <b>st. patrick day</b> will be even more special with this recipe. It is a good option if you\'re following a <b>gluten free, dairy free, and whole 30</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Try <a href="https://spoonacular.com/recipes/irish-lamb-stew-421513">Irish Lamb Stew</a>, <a href="https://spoonacular.com/recipes/irish-lamb-stew-477531">Irish Lamb Stew</a>, and <a href="https://spoonacular.com/recipes/irish-stew-with-lamb-279541">Irish Stew with Lamb</a> for similar recipes.',
+    cuisines: ["European", "Irish"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free"],
+    occasions: ["fall", "winter", "st patricks day"],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 574,
+    spoonacularScore: 100.0,
+    healthScore: 73.0,
+    creditsText: "Jelly Toast Blog",
+    sourceName: "Jelly Toast Blog",
+    pricePerServing: 173.14,
+    id: 503534,
+    title: "grape mango kale smoothie {smoothie saturday}",
+    readyInMinutes: 10,
+    servings: 2,
+    sourceUrl:
+      "http://jellytoastblog.com/2014/05/grape-mango-kale-smoothie-smoothie-saturday.html/",
+    image: "https://spoonacular.com/recipeImages/503534-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Grape mango kale smoothie {smoothie saturday} might be just the morn meal you are searching for. This recipe serves 2 and costs $1.73 per serving. One serving contains <b>149 calories</b>, <b>4g of protein</b>, and <b>1g of fat</b>. 574 people have tried and liked this recipe. From preparation to the plate, this recipe takes roughly <b>10 minutes</b>. A mixture of kale, grapes, juice of lemon, and a handful of other ingredients are all it takes to make this recipe so delicious. It is a good option if you\'re following a <b>caveman, gluten free, primal, and whole 30</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/blueberry-peach-kale-chia-smoothie-smoothie-saturday-503717">blueberry peach kale chia smoothie (smoothie saturday)</a>, <a href="https://spoonacular.com/recipes/mango-romaine-smoothie-smoothie-saturday-602938">mango romaine smoothie {smoothie saturday}</a>, and <a href="https://spoonacular.com/recipes/pineapple-strawberry-smoothie-smoothie-saturday-606132">pineapple strawberry smoothie {smoothie saturday}</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Place all ingredients in a blender (I used my Blendtec) and blend until smooth.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 7537,
+    spoonacularScore: 100.0,
+    healthScore: 87.0,
+    creditsText: "Deliciously Organic",
+    sourceName: "Deliciously Organic",
+    pricePerServing: 375.78,
+    id: 550637,
+    title: "Beef and Broccoli Stir-Fry",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl:
+      "http://deliciouslyorganic.net/beef-and-broccoli-stir-fry-paleo-grain-free/",
+    image: "https://spoonacular.com/recipeImages/550637-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Beef and Broccoli Stir-Fry might be just the main course you are searching for. One serving contains <b>438 calories</b>, <b>43g of protein</b>, and <b>21g of fat</b>. This caveman, gluten free, dairy free, and primal recipe serves 4 and costs <b>$3.76 per serving</b>. A mixture of arrowroot flour, sirloin, sesame seeds, and a handful of other ingredients are all it takes to make this recipe so scrumptious. To use up the sesame seeds you could follow this main course with the <a href="https://spoonacular.com/recipes/sesame-banana-bread-80347">Sesame Banana Bread</a> as a dessert. Many people made this recipe, and 7537 would say it hit the spot. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Try <a href="https://spoonacular.com/recipes/beef-and-broccoli-stir-fry-923258">Beef and Broccoli Stir-Fry</a>, <a href="https://spoonacular.com/recipes/easy-beef-and-broccoli-with-venison-stir-fry-923457">Easy Beef and Broccoli with Venison Stir Fry</a>, and <a href="https://spoonacular.com/recipes/chicken-and-broccoli-stir-fry-915113">Chicken and Broccoli Stir-Fry</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Toss together the sirloin, tamari and sherry in a small bowl.",
+            ingredients: [
+              {
+                id: 23625,
+                name: "sirloin steak",
+                localizedName: "sirloin steak",
+                image: "sirloin-steak.png",
+              },
+              {
+                id: 10214106,
+                name: "sherry",
+                localizedName: "sherry",
+                image: "dry-sherry.png",
+              },
+              {
+                id: 10116124,
+                name: "tamari",
+                localizedName: "tamari",
+                image: "soy-sauce.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Let sirloin marinate for 20 minutes at room temperature.",
+            ingredients: [
+              {
+                id: 23625,
+                name: "sirloin steak",
+                localizedName: "sirloin steak",
+                image: "sirloin-steak.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Whisk the garlic, ginger, and 1 teaspoon of the coconut oil in a small bowl.",
+            ingredients: [
+              {
+                id: 4047,
+                name: "coconut oil",
+                localizedName: "coconut oil",
+                image: "oil-coconut.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Whisk together sherry, chicken broth, tamari, sesame oil, garlic, arrowroot and honey in another small bowl.",
+            ingredients: [
+              {
+                id: 6194,
+                name: "chicken broth",
+                localizedName: "chicken broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 4058,
+                name: "sesame oil",
+                localizedName: "sesame oil",
+                image: "sesame-oil.png",
+              },
+              {
+                id: 20003,
+                name: "arrowroot",
+                localizedName: "arrowroot",
+                image: "white-powder.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 10214106,
+                name: "sherry",
+                localizedName: "sherry",
+                image: "dry-sherry.png",
+              },
+              {
+                id: 10116124,
+                name: "tamari",
+                localizedName: "tamari",
+                image: "soy-sauce.jpg",
+              },
+              {
+                id: 19296,
+                name: "honey",
+                localizedName: "honey",
+                image: "honey.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Pour 2 tablespoons of water in a small bowl and set near the stove along with a lid for your skillet. (If you don't have a lid, use a few pieces of foil.)",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+              {
+                id: 404794,
+                name: "stove",
+                localizedName: "stove",
+                image: "oven.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Heat a large 12-inch skillet over medium heat for 2 minutes.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step: "Add 2 tablespoons of coconut oil to pan and swirl to coat.",
+            ingredients: [
+              {
+                id: 4047,
+                name: "coconut oil",
+                localizedName: "coconut oil",
+                image: "oil-coconut.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Place sirloin in one single layer in skillet and don't stir (meat should sizzle - if it doesn't the pan isn't hot enough). Cook sirloin for about 1-2 minutes until bottom side is brown. Turn, using tongs, and cook until brown on the bottom, about 1-2 minutes.",
+            ingredients: [
+              {
+                id: 23625,
+                name: "sirloin steak",
+                localizedName: "sirloin steak",
+                image: "sirloin-steak.png",
+              },
+              {
+                id: 1065062,
+                name: "meat",
+                localizedName: "meat",
+                image: "whole-chicken.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+              {
+                id: 404641,
+                name: "tongs",
+                localizedName: "tongs",
+                image: "tongs.jpg",
+              },
+            ],
+            length: {
+              number: 4,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 9,
+            step: "Transfer sirloin to a clean bowl.",
+            ingredients: [
+              {
+                id: 23625,
+                name: "sirloin steak",
+                localizedName: "sirloin steak",
+                image: "sirloin-steak.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 10,
+            step:
+              "Add remaining 1 tablespoon of coconut oil to now empty skillet and heat until just shimmering.",
+            ingredients: [
+              {
+                id: 4047,
+                name: "coconut oil",
+                localizedName: "coconut oil",
+                image: "oil-coconut.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 11,
+            step:
+              "Add broccoli and carrots. Stir continuously for about 1 minute.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 12,
+            step:
+              "Add 2 tablespoons of water and quickly cover skillet with lid. Leave lid on skillet for about 30 seconds.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 13,
+            step:
+              "Remove lid, and let cook, stirring continuously, until all of the water has evaporated.Make a well in the center of the vegetables and add the ginger-and-garlic mixture. Stir ginger and garlic mixture in the middle of the pan for about 45 seconds and then combine with the rest of the vegetables.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 14,
+            step:
+              "Add sirloin slices (and any accumulated juices) and garlic sauce to pan. Toss until sauce begins to thicken and ingredients are well coated.",
+            ingredients: [
+              {
+                id: 23625,
+                name: "sirloin steak",
+                localizedName: "sirloin steak",
+                image: "sirloin-steak.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 15,
+            step: "Sprinkle with sesame seeds if using.",
+            ingredients: [
+              {
+                id: 12023,
+                name: "sesame seeds",
+                localizedName: "sesame seeds",
+                image: "sesame-seeds.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 16,
+            step: "Serve immediately.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 16,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 20,
+    cookingMinutes: 10,
+    aggregateLikes: 1450,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Cookie and Kate",
+    sourceName: "Cookie and Kate",
+    pricePerServing: 391.59,
+    id: 793705,
+    title: "Double Tomato Pesto Spaghetti with Zucchini Noodles",
+    readyInMinutes: 30,
+    servings: 4,
+    sourceUrl:
+      "http://cookieandkate.com/2016/double-tomato-pesto-spaghetti-with-zucchini-noodles/",
+    image: "https://spoonacular.com/recipeImages/793705-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Double Tomato Pesto Spaghetti with Zucchini Noodles might be just the main course you are searching for. One serving contains <b>582 calories</b>, <b>13g of protein</b>, and <b>36g of fat</b>. This vegan recipe serves 4 and costs <b>$3.45 per serving</b>. Plenty of people made this recipe, and 1450 would say it hit the spot. If you have grain spaghetti, walnuts, garlic cloves, and a few other ingredients on hand, you can make it. To use up the olive oil you could follow this main course with the <a href="https://spoonacular.com/recipes/sauteed-banana-granola-and-yogurt-parfait-624619">Sauteed Banana, Granolan and Yogurt Parfait</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/zucchini-noodles-zoodles-with-sundried-tomato-pesto-498115">Zucchini Noodles (Zoodles!) with Sundried Tomato Pesto</a>, <a href="https://spoonacular.com/recipes/zucchini-pesto-noodles-798719">Zucchini Pesto Noodles</a>, and <a href="https://spoonacular.com/recipes/zucchini-noodles-with-pesto-548539">Zucchini Noodles with Pesto</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Bring a large pot of salted water to boil for the spaghetti. Cook the pasta until al dente, according to package directions.",
+            ingredients: [
+              {
+                id: 11420420,
+                name: "spaghetti",
+                localizedName: "spaghetti",
+                image: "spaghetti.jpg",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Drain and transfer to a large serving bowl. Spiralize the zucchini with a spiralizer (here's how), or turn the zucchini into noodles with a julienne peeler, or grate the zucchini the long way on a large box grater.Toast the walnuts: In a medium skillet over medium heat, cook the walnuts, stirring occasionally, until they smell nice and fragrant, about 7 minutes. Set aside to cool.Cook the cherry tomatoes: In a large saucepan over medium-high heat, combine the cherry tomatoes, olive oil and a pinch of salt. Cover the pot and cook, stirring occasionally, until the tomatoes have burst open and they are cooking in their own juices, about 7 to 8 minutes. Set aside.In a food processor, combine the walnuts, half of the cooked tomatoes, sun-dried tomatoes, garlic, lemon zest, 1 tablespoon lemon juice, red pepper flakes,  teaspoon salt and several twists of freshly ground black pepper. Blend until the mixture is pretty smooth, then season to taste with additional lemon juice, salt and/or pepper until the flavors really sing. Blend again.",
+            ingredients: [
+              {
+                id: 1002030,
+                name: "ground black pepper",
+                localizedName: "ground black pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 11955,
+                name: "sun dried tomatoes",
+                localizedName: "sun dried tomatoes",
+                image: "sundried-tomatoes.jpg",
+              },
+              {
+                id: 1032009,
+                name: "red pepper flakes",
+                localizedName: "red pepper flakes",
+                image: "red-pepper-flakes.jpg",
+              },
+              {
+                id: 10311529,
+                name: "cherry tomato",
+                localizedName: "cherry tomato",
+                image: "cherry-tomatoes.png",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 11477,
+                name: "zucchini",
+                localizedName: "zucchini",
+                image: "zucchini.jpg",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 12155,
+                name: "walnuts",
+                localizedName: "walnuts",
+                image: "walnuts.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 18070,
+                name: "toast",
+                localizedName: "toast",
+                image: "toast",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404778,
+                name: "box grater",
+                localizedName: "box grater",
+                image: "grater.jpg",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+              {
+                id: 404693,
+                name: "peeler",
+                localizedName: "peeler",
+                image: "peeler.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+            length: {
+              number: 14,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Pour the pesto over the spaghetti and toss to combine. If you'll be consuming this dish in one sitting, go ahead and toss in all of the zucchini noodles now, too. (If you plan on having leftovers, store the zucchini noodles separately from the rest, as they leach water when they're exposed to saltI just pile the noodles on top of my individual bowls and wait to stir them in when I'm ready to eat. Hope that makes sense.)",
+            ingredients: [
+              {
+                id: 10111477,
+                name: "zucchini noodles",
+                localizedName: "zucchini noodles",
+                image: "zoodles.jpg",
+              },
+              {
+                id: 11420420,
+                name: "spaghetti",
+                localizedName: "spaghetti",
+                image: "spaghetti.jpg",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Pour the rest of the cherry tomatoes on top of the dish, and sprinkle the basil over them. Toss gently, and divide the mixture into bowls. Top individual bowls with Parmesan or nutritional yeast, if you'd like, and a light drizzle of olive oil.",
+            ingredients: [
+              {
+                id: 93690,
+                name: "nutritional yeast",
+                localizedName: "nutritional yeast",
+                image: "nutritional-yeast.png",
+              },
+              {
+                id: 10311529,
+                name: "cherry tomato",
+                localizedName: "cherry tomato",
+                image: "cherry-tomatoes.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step: "Serve immediately.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 480,
+    aggregateLikes: 10094,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Julies Eats and Treats",
+    sourceName: "Julies Eats and Treats",
+    pricePerServing: 243.79,
+    id: 519237,
+    title: "Crock Pot Beef Stew",
+    readyInMinutes: 495,
+    servings: 4,
+    sourceUrl:
+      "http://www.julieseatsandtreats.com/2013/09/crock-pot-beef-stew-2/",
+    image: "https://spoonacular.com/recipeImages/519237-312x231.png",
+    imageType: "png",
+    summary:
+      'Crock Pot Beef Stew is a <b>dairy free</b> main course. This recipe makes 4 servings with <b>582 calories</b>, <b>69g of protein</b>, and <b>18g of fat</b> each. For <b>$2.44 per serving</b>, this recipe <b>covers 42%</b> of your daily requirements of vitamins and minerals. <b>Autumn</b> will be even more special with this recipe. This recipe is liked by 10093 foodies and cooks. If you have paprika, garlic, onion flakes, and a few other ingredients on hand, you can make it. To use up the all purpose flour you could follow this main course with the <a href="https://spoonacular.com/recipes/cinnamon-sugar-soda-bread-588531">Cinnamon sugar soda bread</a> as a dessert. From preparation to the plate, this recipe takes about <b>8 hours and 15 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. Similar recipes include <a href="https://spoonacular.com/recipes/the-best-crock-pot-beef-stew-574146">The Best Crock Pot Beef Stew</a>, <a href="https://spoonacular.com/recipes/beef-stew-in-the-crock-pot-868572">Beef Stew in the Crock Pot</a>, and <a href="https://spoonacular.com/recipes/crock-pot-beef-stew-557384">Crock Pot Beef Stew</a>.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free"],
+    occasions: ["fall", "winter"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a gallon size zip lock bag mix together flour, salt and pepper. Dump in the meat and shake until coated.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 20081,
+                name: "all purpose flour",
+                localizedName: "all purpose flour",
+                image: "flour.png",
+              },
+              {
+                id: 0,
+                name: "shake",
+                localizedName: "shake",
+                image: "",
+              },
+              {
+                id: 1065062,
+                name: "meat",
+                localizedName: "meat",
+                image: "whole-chicken.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "Place in crock pot. Stir in garlic, paprika, Worcestershire sauce, onion, beef broth, potatoes and carrots. Cover and cook on low for 8-10 hours.",
+            ingredients: [
+              {
+                id: 6971,
+                name: "worcestershire sauce",
+                localizedName: "worcestershire sauce",
+                image: "dark-sauce.jpg",
+              },
+              {
+                id: 6008,
+                name: "beef broth",
+                localizedName: "beef broth",
+                image: "beef-broth.png",
+              },
+              {
+                id: 11352,
+                name: "potato",
+                localizedName: "potato",
+                image: "potatoes-yukon-gold.png",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 2028,
+                name: "paprika",
+                localizedName: "paprika",
+                image: "paprika.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404718,
+                name: "slow cooker",
+                localizedName: "slow cooker",
+                image: "slow-cooker.jpg",
+              },
+            ],
+            length: {
+              number: 600,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 5135,
+    spoonacularScore: 100.0,
+    healthScore: 77.0,
+    creditsText: "Vegetarian Times",
+    sourceName: "Vegetarian Times",
+    pricePerServing: 86.57,
+    id: 758870,
+    title: "Bow Ties with Broccoli Pesto",
+    readyInMinutes: 45,
+    servings: 9,
+    sourceUrl:
+      "http://www.vegetariantimes.com/recipe/bow-ties-with-broccoli-pesto/",
+    image: "https://spoonacular.com/recipeImages/758870-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Need a <b>vegan side dish</b>? Bow Ties with Broccoli Pesto could be a super recipe to try. For <b>87 cents per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. One serving contains <b>251 calories</b>, <b>7g of protein</b>, and <b>11g of fat</b>. Plenty of people made this recipe, and 5135 would say it hit the spot. Head to the store and pick up broccoli florets, blanched hazelnuts, garlic cloves, and a few other things to make it today. From preparation to the plate, this recipe takes around <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/bow-ties-with-artichoke-pesto-319593">Bow Ties with Artichoke Pesto</a>, <a href="https://spoonacular.com/recipes/bow-ties-with-walnut-herb-pesto-394150">Bow Ties with Walnut-Herb Pesto</a>, and <a href="https://spoonacular.com/recipes/creamy-pesto-chicken-bow-ties-739991">Creamy Pesto Chicken Bow Ties</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Toast hazelnuts in skillet 3 to 5 minutes, or until golden, shaking skillet often. Cool, coarsely chop, and set aside.",
+            ingredients: [
+              {
+                id: 12120,
+                name: "hazelnuts",
+                localizedName: "hazelnuts",
+                image: "hazelnuts.jpg",
+              },
+              {
+                id: 18070,
+                name: "toast",
+                localizedName: "toast",
+                image: "toast",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Meanwhile, bring large pot of water to a boil. Cook broccoli in boiling water 2 to 3 minutes, or until tender.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step: "Remove with slotted spoon.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404636,
+                name: "slotted spoon",
+                localizedName: "slotted spoon",
+                image: "slotted-spoon.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step: "Drain, and rinse under cold water.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Drain again.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Pulse hazelnuts, broccoli, parsley, oil, mint, lemon juice, lemon zest, capers (if using), and garlic in food processor until smooth. Season with salt and pepper, if desired.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 12120,
+                name: "hazelnuts",
+                localizedName: "hazelnuts",
+                image: "hazelnuts.jpg",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 11297,
+                name: "parsley",
+                localizedName: "parsley",
+                image: "parsley.jpg",
+              },
+              {
+                id: 2054,
+                name: "capers",
+                localizedName: "capers",
+                image: "capers.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 2064,
+                name: "mint",
+                localizedName: "mint",
+                image: "mint.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Cook farfalle according to package directions in broccoli cooking water. Reserve 1/4 cup cooking water before draining. Toss farfalle with pesto and pasta cooking water.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 10120420,
+                name: "farfalle",
+                localizedName: "farfalle",
+                image: "farfalle.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step:
+              "Garnish with toasted hazelnuts, if using,and drizzle with olive oil, if desired.",
+            ingredients: [
+              {
+                id: 12120,
+                name: "hazelnuts",
+                localizedName: "hazelnuts",
+                image: "hazelnuts.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 8,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 30,
+    cookingMinutes: 50,
+    aggregateLikes: 6888,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Eating Well",
+    sourceName: "Eating Well",
+    pricePerServing: 181.87,
+    id: 695016,
+    title: "Vegetarian Quinoa & Squash Casserole",
+    readyInMinutes: 80,
+    servings: 6,
+    sourceUrl: "http://www.eatingwell.com/recipes/quinoa_squash_casserole.html",
+    image: "https://spoonacular.com/recipeImages/695016-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Vegetarian Quinoa & Squash Casserole might be just the main course you are searching for. This recipe serves 6 and costs $1.78 per serving. Watching your figure? This gluten free and vegan recipe has <b>444 calories</b>, <b>17g of protein</b>, and <b>13g of fat</b> per serving. If you have paprika, canned tomatoes, squash, and a few other ingredients on hand, you can make it. To use up the ground cumin you could follow this main course with the <a href="https://spoonacular.com/recipes/moroccan-chocolate-mousse-752536">Moroccan Chocolate Mousse</a> as a dessert. <b>Autumn</b> will be even more special with this recipe. From preparation to the plate, this recipe takes around <b>1 hour and 20 minutes</b>. Plenty of people made this recipe, and 6888 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/vegetarian-stew-with-quinoa-butternut-squash-coconut-milk-584619">Vegetarian Stew with Quinoa, Butternut Squash & Coconut Milk</a>, <a href="https://spoonacular.com/recipes/butternut-squash-broccoli-quinoa-casserole-680650">Butternut Squash Broccoli Quinoa Casserole</a>, and <a href="https://spoonacular.com/recipes/quinoa-with-butternut-squash-cranberries-pistachios-quinoa-stuffing-527037">Quinoa with Butternut Squash, Cranberries & Pistachios (Quinoa “Stuffing”)</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["fall", "winter"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Preheat oven to 450F.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 450.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Heat 2 tablespoons oil in a large ovenproof skillet over medium heat.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add onion and cook, stirring occasionally, until tender and browned, 9 to 11 minutes.",
+            ingredients: [
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 9,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add garlic, paprika, 2 teaspoons cumin, coriander, cayenne and allspice and cook for 30 seconds. Stir in chickpeas, tomatoes, spinach, quinoa (or couscous), raisins, water and 1/4 teaspoon salt. Cook, stirring, for 5 minutes.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 1012013,
+                name: "coriander",
+                localizedName: "coriander",
+                image: "ground-coriander.jpg",
+              },
+              {
+                id: 2001,
+                name: "allspice",
+                localizedName: "allspice",
+                image: "allspice-ground.jpg",
+              },
+              {
+                id: 20028,
+                name: "couscous",
+                localizedName: "couscous",
+                image: "couscous-cooked.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 2031,
+                name: "ground cayenne pepper",
+                localizedName: "ground cayenne pepper",
+                image: "chili-powder.jpg",
+              },
+              {
+                id: 2028,
+                name: "paprika",
+                localizedName: "paprika",
+                image: "paprika.jpg",
+              },
+              {
+                id: 9299,
+                name: "raisins",
+                localizedName: "raisins",
+                image: "raisins.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 1002014,
+                name: "cumin",
+                localizedName: "cumin",
+                image: "ground-cumin.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Remove from heat.If thawed squash is watery, place in a fine-mesh sieve and gently press to extract excess liquid.",
+            ingredients: [
+              {
+                id: 0,
+                name: "extract",
+                localizedName: "extract",
+                image: "",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 405600,
+                name: "sieve",
+                localizedName: "sieve",
+                image: "strainer.png",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Transfer to a medium bowl and stir in the remaining 1 tablespoon oil, 1/2 teaspoon cumin and 1/4 teaspoon salt.",
+            ingredients: [
+              {
+                id: 1002014,
+                name: "cumin",
+                localizedName: "cumin",
+                image: "ground-cumin.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Spread the squash evenly over the chickpea mixture.Cover the pan and bake until steaming hot, about 45 minutes for quinoa (15 minutes for couscous).",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 20028,
+                name: "couscous",
+                localizedName: "couscous",
+                image: "couscous-cooked.jpg",
+              },
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 10011485,
+                name: "squash",
+                localizedName: "squash",
+                image: "butternut-squash.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 60,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 8,
+            step: "Let cool for 5 minutes.",
+            ingredients: [],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 9,
+            step: "Serve sprinkled with cilantro.",
+            ingredients: [
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 68,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Just One Cookbook",
+    sourceName: "Just One Cookbook",
+    pricePerServing: 163.46,
+    id: 540774,
+    title: "Massaged Kale Salad with Mango",
+    readyInMinutes: 10,
+    servings: 2,
+    sourceUrl:
+      "http://www.justonecookbook.com/recipes/massaged-kale-salad-with-mango/",
+    image: "https://spoonacular.com/recipeImages/540774-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many side dish recipes, so give Massaged Kale Salad with Mango a try. This recipe serves 2 and costs $1.26 per serving. One serving contains <b>224 calories</b>, <b>5g of protein</b>, and <b>15g of fat</b>. A mixture of pepper, champagne mango, kosher salt, and a handful of other ingredients are all it takes to make this recipe so yummy. This recipe is liked by 68 foodies and cooks. From preparation to the plate, this recipe takes approximately <b>10 minutes</b>. It is a good option if you\'re following a <b>caveman, gluten free, primal, and whole 30</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/massaged-kale-and-mango-salad-474201">Massaged Kale and Mango Salad</a>, <a href="https://spoonacular.com/recipes/massaged-kale-salad-509865">Massaged Kale Salad</a>, and <a href="https://spoonacular.com/recipes/massaged-kale-salad-695396">Massaged Kale Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Combine all ingredients except for mango in a large bowl.Using your hands massage the kale until soft, about 1 minute.",
+            ingredients: [
+              {
+                id: 9176,
+                name: "mango",
+                localizedName: "mango",
+                image: "mango.jpg",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Add chopped mango, toss all together, and serve.",
+            ingredients: [
+              {
+                id: 9176,
+                name: "mango",
+                localizedName: "mango",
+                image: "mango.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 20,
+    aggregateLikes: 727,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Jo Cooks",
+    sourceName: "Jo Cooks",
+    pricePerServing: 177.28,
+    id: 559249,
+    title: "Creamed Spinach",
+    readyInMinutes: 35,
+    servings: 4,
+    sourceUrl: "http://www.jocooks.com/healthy-eating/creamed-spinach/",
+    image: "https://spoonacular.com/recipeImages/559249-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Creamed Spinach is a <b>vegetarian</b> side dish. This recipe makes 4 servings with <b>142 calories</b>, <b>7g of protein</b>, and <b>9g of fat</b> each. For <b>$1.77 per serving</b>, this recipe <b>covers 28%</b> of your daily requirements of vitamins and minerals. A mixture of spinach, onion, milk, and a handful of other ingredients are all it takes to make this recipe so scrumptious. This recipe from Jo Cooks has 727 fans. From preparation to the plate, this recipe takes around <b>35 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Try <a href="https://spoonacular.com/recipes/healthy-creamed-spinach-less-cream-more-spinach-just-as-good-514074">Healthy Creamed Spinach: Less cream, more spinach, just as good</a>, <a href="https://spoonacular.com/recipes/creamed-spinach-164665">Creamed Spinach</a>, and <a href="https://spoonacular.com/recipes/creamed-spinach-769266">Creamed Spinach</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a pot with boiling water add the cleaned spinach and leave it in there for no more than 30 seconds, you just want to scald it. Take out the spinach and drain the water.",
+            ingredients: [
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add the spinach to a food processor and pulse it only a couple times, you don't want it to turn into a puree.In a medium pan over medium-high heat, heat the olive oil.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Mix in the onions and garlic; cook for 2 minutes until soft.",
+            ingredients: [
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step: "Add the flour and mix well.",
+            ingredients: [
+              {
+                id: 20081,
+                name: "all purpose flour",
+                localizedName: "all purpose flour",
+                image: "flour.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Add the milk, mix well and",
+            ingredients: [
+              {
+                id: 1077,
+                name: "milk",
+                localizedName: "milk",
+                image: "milk.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "Add the chopped spinach and warm through.",
+            ingredients: [
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step: "Add the salt and pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step:
+              "Mix well. Cook until liquid reduces by half, roughly 3 to 4 minutes.",
+            ingredients: [],
+            equipment: [],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 9,
+            step: "Serve with some freshly grated Parmesan cheese, if desired.",
+            ingredients: [
+              {
+                id: 1032,
+                name: "grated parmesan cheese",
+                localizedName: "grated parmesan cheese",
+                image: "parmesan.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 6,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 2040,
+    spoonacularScore: 100.0,
+    healthScore: 54.0,
+    creditsText: "Food Faith Fitness",
+    sourceName: "Food Faith Fitness",
+    pricePerServing: 38.0,
+    id: 509481,
+    title:
+      "Hummus with Jalapeno and Lime {Gluten free, Low fat + Super Simple}",
+    readyInMinutes: 10,
+    servings: 4,
+    sourceUrl: "http://www.foodfaithfitness.com/hummus-recipe-jalapeno-lime/",
+    image: "https://spoonacular.com/recipeImages/509481-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Hummus with Jalapeno and Lime {Gluten free, Low fat + Super Simple} might be just the <b>middl eastern</b> recipe you are searching for. One serving contains <b>225 calories</b>, <b>10g of protein</b>, and <b>8g of fat</b>. This recipe serves 4 and costs 38 cents per serving. It works well as an inexpensive hor d\'oeuvre. 2040 people have tried and liked this recipe. A mixture of jalapeno, cilantro, garlic, and a handful of other ingredients are all it takes to make this recipe so tasty. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. From preparation to the plate, this recipe takes approximately <b>10 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/gluten-free-peach-cobbler-ice-cream-super-simple-608258">Gluten Free Peach Cobbler Ice Cream {Super Simple}</a>, <a href="https://spoonacular.com/recipes/pumpkin-pie-chia-pudding-gluten-free-+-super-simple-679193">Pumpkin Pie Chia Pudding {Gluten Free + Super Simple}</a>, and <a href="https://spoonacular.com/recipes/hazelnut-paleo-brownies-for-two-gluten-free-+-super-simple-629230">Hazelnut Paleo Brownies for Two {Gluten Free + Super Simple}</a> for similar recipes.',
+    cuisines: ["Middle Eastern"],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Place all ingredients, up to the olive oil and water in a food processor and blend until smooth.With the machine running, stream in the Olive oil and water and continue processing until super creamy and smooth.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Spread on ALL THE THINGS.",
+            ingredients: [
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 0,
+    aggregateLikes: 72,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Clean and Delicious",
+    sourceName: "Clean and Delicious",
+    pricePerServing: 184.4,
+    id: 521480,
+    title: "Clean Eating Sweet Kale Smoothie",
+    readyInMinutes: 5,
+    servings: 1,
+    sourceUrl:
+      "http://cleananddelicious.com/2014/04/23/clean-eating-sweet-green-smoothie/",
+    image: "https://spoonacular.com/recipeImages/521480-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Clean Eating Sweet Kale Smoothie might be just the morn meal you are searching for. One serving contains <b>242 calories</b>, <b>8g of protein</b>, and <b>13g of fat</b>. This recipe serves 1 and costs $1.84 per serving. A mixture of almond butter, mango, ½-frozen banana, and a handful of other ingredients are all it takes to make this recipe so flavorful. A few people made this recipe, and 72 would say it hit the spot. It is a good option if you\'re following a <b>gluten free, dairy free, and whole 30</b> diet. From preparation to the plate, this recipe takes roughly <b>5 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Try <a href="https://spoonacular.com/recipes/clean-eating-stuffed-peppers-clean-eating-freezer-meals-cookbook-giveaway-618466">Clean Eating Stuffed Peppers {Clean Eating Freezer Meals Cookbook Giveaway}</a>, <a href="https://spoonacular.com/recipes/clean-eating-turkey-and-kale-soup-521577">Clean Eating Turkey And Kale Soup</a>, and <a href="https://spoonacular.com/recipes/clean-eating-kale-and-pomegranate-salad-521732">Clean Eating Kale And Pomegranate Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Blend kale and almond milk in the blender for 30 seconds or until the kale has broken down a bit. ",
+            ingredients: [
+              {
+                id: 93607,
+                name: "almond milk",
+                localizedName: "almond milk",
+                image: "almond-milk.png",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add in the banana, mango, almond butter and cinnamon and blend until you have a rich, creamy, amazing, delicious smoothie!",
+            ingredients: [
+              {
+                id: 12195,
+                name: "almond butter",
+                localizedName: "almond butter",
+                image: "almond-butter.jpg",
+              },
+              {
+                id: 2010,
+                name: "cinnamon",
+                localizedName: "cinnamon",
+                image: "cinnamon.jpg",
+              },
+              {
+                id: 0,
+                name: "smoothie",
+                localizedName: "smoothie",
+                image: "",
+              },
+              {
+                id: 9040,
+                name: "banana",
+                localizedName: "banana",
+                image: "bananas.jpg",
+              },
+              {
+                id: 9176,
+                name: "mango",
+                localizedName: "mango",
+                image: "mango.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 18,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 45,
+    aggregateLikes: 926,
+    spoonacularScore: 100.0,
+    healthScore: 97.0,
+    creditsText: "Queen of Quinoa",
+    sourceName: "Queen of Quinoa",
+    pricePerServing: 165.25,
+    id: 505174,
+    title: "Quinoa Stuffed Sweet Potatoes",
+    readyInMinutes: 50,
+    servings: 2,
+    sourceUrl:
+      "http://www.queenofquinoa.me/2012/12/quinoa-stuffed-sweet-potatoes/",
+    image: "https://spoonacular.com/recipeImages/505174-312x231.gif",
+    imageType: "gif",
+    summary:
+      'You can never have too many side dish recipes, so give Quinoa Stuffed Sweet Potatoes a try. One serving contains <b>488 calories</b>, <b>11g of protein</b>, and <b>27g of fat</b>. This recipe serves 2 and costs $1.33 per serving. 926 people have tried and liked this recipe. If you have sweet potatoes, garlic, shallot, and a few other ingredients on hand, you can make it. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. From preparation to the plate, this recipe takes about <b>50 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/quinoa-stuffed-sweet-potatoes-702077">Quinoa Stuffed Sweet Potatoes</a>, <a href="https://spoonacular.com/recipes/honey-lime-quinoa-stuffed-sweet-potatoes-543771">Honey-Lime Quinoa Stuffed Sweet Potatoes</a>, and <a href="https://spoonacular.com/recipes/grilled-tex-mex-quinoa-stuffed-sweet-potatoes-skins-549921">Grilled Tex-Mex Quinoa Stuffed Sweet Potatoes Skins</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat the oven to 400 degrees F. Puncture the sweet potatoes with a fork and place them in a baking dish.",
+            ingredients: [
+              {
+                id: 11507,
+                name: "sweet potato",
+                localizedName: "sweet potato",
+                image: "sweet-potato.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404646,
+                name: "baking pan",
+                localizedName: "baking pan",
+                image: "roasting-pan.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Bake until soft, and knife slides into the flesh easily, about 35 – 45 minutes depending on the size.Meanwhile, prepare the quinoa mixture by heating the oil in a saute pan over medium heat.",
+            ingredients: [
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404745,
+                name: "knife",
+                localizedName: "knife",
+                image: "chefs-knife.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 45,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Saute the garlic and shallot until fragrant, about 3 – 5 minutes.",
+            ingredients: [
+              {
+                id: 11677,
+                name: "shallot",
+                localizedName: "shallot",
+                image: "shallots.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add the cooked quinoa and hazelnuts, drizzle with lemon juice and season with salt and pepper. Turn down to low and stir occasionally until the sweet potatoes are done.When the sweet potatoes are soft, remove them from the oven and let them cool for a few minutes. Once cooled, transfer them to a plate, split them open with a sharp knife and spoon the quinoa into the center.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11507,
+                name: "sweet potato",
+                localizedName: "sweet potato",
+                image: "sweet-potato.png",
+              },
+              {
+                id: 20137,
+                name: "cooked quinoa",
+                localizedName: "cooked quinoa",
+                image: "cooked-quinoa.png",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 12120,
+                name: "hazelnuts",
+                localizedName: "hazelnuts",
+                image: "hazelnuts.jpg",
+              },
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404745,
+                name: "knife",
+                localizedName: "knife",
+                image: "chefs-knife.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step: "Serve immediately.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 13,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 20,
+    cookingMinutes: 30,
+    aggregateLikes: 256,
+    spoonacularScore: 100.0,
+    healthScore: 84.0,
+    creditsText: "Cookie and Kate",
+    sourceName: "Cookie and Kate",
+    pricePerServing: 274.57,
+    id: 580771,
+    title:
+      "Roasted Brussels Sprouts and Crispy Baked Tofu with Honey-Sesame Glaze",
+    readyInMinutes: 50,
+    servings: 4,
+    sourceUrl:
+      "http://cookieandkate.com/2014/roasted-brussels-sprouts-and-crispy-baked-tofu-with-honey-sesame-glaze/",
+    image: "https://spoonacular.com/recipeImages/580771-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Roasted Brussels Sprouts and Crispy Baked Tofu with Honey-Sesame Glaze is a <b>gluten free, dairy free, and vegetarian</b> side dish. One serving contains <b>507 calories</b>, <b>19g of protein</b>, and <b>14g of fat</b>. This recipe serves 4 and costs $2.75 per serving. It can be enjoyed any time, but it is especially good for <b>Christmas</b>. Many people made this recipe, and 256 would say it hit the spot. From preparation to the plate, this recipe takes approximately <b>50 minutes</b>. Head to the store and pick up rice vinegar, sesame oil, grain sea salt, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/roasted-brussels-sprouts-with-bacon-and-tabasco-honey-glaze-683904">Roasted Brussels Sprouts with Bacon and Tabasco Honey Glaze</a>, <a href="https://spoonacular.com/recipes/crispy-sesame-brussels-sprouts-with-creamy-curry-dipping-sauce-509775">Crispy Sesame Brussels Sprouts with Creamy Curry Dipping Sauce</a>, and <a href="https://spoonacular.com/recipes/fried-brussels-sprouts-with-sriracha-and-honey-glaze-626931">Fried Brussels Sprouts with Srirachan and Honey Glaze</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian"],
+    occasions: ["christmas"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Prep work: Position your oven racks in the lower third and upper third of the oven. Preheat oven to 400 degrees Fahrenheit. Bring a large pot of water to boil for the rice. Rinse the rice in a fine mesh colander under running water and set aside.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404639,
+                name: "colander",
+                localizedName: "colander",
+                image: "colander.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Fahrenheit",
+                },
+              },
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Drain the tofu and use your palms to gently squeeze out some of the water. Slice the tofu in half lengthwise so you have two one-inch thick slabs.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Transfer the tofu to a plate lined with a lint-free tea towel or paper towels. Fold the towel over one tofu slab, then place the other slab on top (see photo). Top with more towel and place something heavy on top to help the tofu drain.Trim the nubby ends and any discolored leaves off the Brussels sprouts, then cut the sprouts in halves lengthwise. Toss the sprouts with a light, even layer of olive oil. On a large baking sheet, arrange the sprouts in an even layer, flat sides down, and sprinkle with sea salt.",
+            ingredients: [
+              {
+                id: 11098,
+                name: "brussels sprouts",
+                localizedName: "brussels sprouts",
+                image: "brussels-sprouts.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 1012047,
+                name: "sea salt",
+                localizedName: "sea salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 11001,
+                name: "sprouts",
+                localizedName: "sprouts",
+                image: "alfalfa-sprouts.png",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+              {
+                id: 14355,
+                name: "tea",
+                localizedName: "tea",
+                image: "tea-bags.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 405895,
+                name: "paper towels",
+                localizedName: "paper towels",
+                image: "paper-towels.jpg",
+              },
+              {
+                id: 221439,
+                name: "kitchen towels",
+                localizedName: "kitchen towels",
+                image: "dish-towel.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Transfer the drained tofu to a cutting board. Slice three long columns and five rows on each slab.",
+            ingredients: [
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404716,
+                name: "cutting board",
+                localizedName: "cutting board",
+                image: "cutting-board.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Whisk together 1 tablespoon olive oil and tamari, then drizzle it over the tofu and toss to coat.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 10116124,
+                name: "tamari",
+                localizedName: "tamari",
+                image: "soy-sauce.jpg",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Sprinkle 1 tablespoon arrowroot starch over the tofu, and toss the tofu until the starch is evenly incorporated (no powdery spots remaining). Arrange the tofu in an even layer on a baking sheet (I lined mine with parchment paper for easier cleanup).To cook the rice: Once the water is boiling, add the rice.",
+            ingredients: [
+              {
+                id: 20003,
+                name: "arrowroot",
+                localizedName: "arrowroot",
+                image: "white-powder.jpg",
+              },
+              {
+                id: 10020027,
+                name: "starch",
+                localizedName: "starch",
+                image: "",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Let the rice boil for 30 minutes, then remove from heat and drain the rice.",
+            ingredients: [
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 8,
+            step:
+              "Transfer the drained rice back to the cooking pot and cover for 5 minutes.",
+            ingredients: [
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+      {
+        name:
+          "Remove lid, add a dash of sea salt and use a fork to fluff the rice. Set aside until you're ready to serve.To bake the sprouts and tofu",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Transfer the pan of Brussels sprouts to the lower oven rack, and the pan of tofu to the top rack.",
+            ingredients: [
+              {
+                id: 11098,
+                name: "brussels sprouts",
+                localizedName: "brussels sprouts",
+                image: "brussels-sprouts.jpg",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Bake for 25 to 30 minutes, tossing the contents of each pan halfway through cooking, until the sprouts and tofu are deeply golden on the edges.To make the glaze: In a small saucepan, whisk together the glaze ingredients (start with 1 teaspoon chili garlic sauce or sriracha and add more to taste). Bring the glaze to a gentle boil over medium heat, stirring often and reducing heat as necessary, until the glaze is reduced by about half (about 10 minutes).",
+            ingredients: [
+              {
+                id: 93749,
+                name: "chili garlic sauce",
+                localizedName: "chili garlic sauce",
+                image: "chili-garlic-sauce.jpg",
+              },
+              {
+                id: 1016168,
+                name: "sriracha",
+                localizedName: "sriracha",
+                image: "hot-sauce-or-tabasco.png",
+              },
+              {
+                id: 11001,
+                name: "sprouts",
+                localizedName: "sprouts",
+                image: "alfalfa-sprouts.png",
+              },
+              {
+                id: 0,
+                name: "glaze",
+                localizedName: "glaze",
+                image: "",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 35,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+      {
+        name: "Remove from heat.To toast the sesame seeds",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Pour the sesame seeds into a small pan. Toast for about 4 to 5 minutes over medium-low heat, shaking the pan frequently to prevent burning, until the seeds are turning golden and starting to make popping noises.To assemble: Divide rice onto four plates. Top each plate with sprouts and tofu and drizzle with glaze. Finish each plate with a very generous sprinkling of sesame seeds and a small handful of chopped cilantro.",
+            ingredients: [
+              {
+                id: 12023,
+                name: "sesame seeds",
+                localizedName: "sesame seeds",
+                image: "sesame-seeds.png",
+              },
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+              {
+                id: 11001,
+                name: "sprouts",
+                localizedName: "sprouts",
+                image: "alfalfa-sprouts.png",
+              },
+              {
+                id: 0,
+                name: "glaze",
+                localizedName: "glaze",
+                image: "",
+              },
+              {
+                id: 93818,
+                name: "seeds",
+                localizedName: "seeds",
+                image: "sunflower-seeds.jpg",
+              },
+              {
+                id: 18070,
+                name: "toast",
+                localizedName: "toast",
+                image: "toast",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+              {
+                id: 16213,
+                name: "tofu",
+                localizedName: "tofu",
+                image: "tofu.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 4,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 25,
+    aggregateLikes: 2835,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Half Baked Harvest",
+    sourceName: "Half Baked Harvest",
+    pricePerServing: 865.77,
+    id: 549469,
+    title: "30 Minute Sweet Asian Chili Pork, Ginger and Tangerine Stir Fry",
+    readyInMinutes: 30,
+    servings: 4,
+    sourceUrl:
+      "http://www.halfbakedharvest.com/30-minute-sweet-asian-chili-pork-ginger-tangerine-stir-fry/",
+    image: "https://spoonacular.com/recipeImages/549469-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe 30 Minute Sweet Asian Chili Pork, Ginger and Tangerine Stir Fry could satisfy your American craving in about <b>30 minutes</b>. This recipe makes 4 servings with <b>542 calories</b>, <b>38g of protein</b>, and <b>17g of fat</b> each. For <b>$8.66 per serving</b>, this recipe <b>covers 54%</b> of your daily requirements of vitamins and minerals. Many people really liked this main course. 2835 people have made this recipe and would make it again. It is a good option if you\'re following a <b>gluten free and dairy free</b> diet. It will be a hit at your <b>The Super Bowl</b> event. If you have ground cloves, green onions, soy sauce, and a few other ingredients on hand, you can make it. To use up the cinnamon you could follow this main course with the <a href="https://spoonacular.com/recipes/cinnamon-fudge-836311">Cinnamon Fudge</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/quick-15-minute-stir-fry-chicken-and-veggies-927330">Quick 15 Minute Stir-Fry Chicken and Veggies</a>, <a href="https://spoonacular.com/recipes/quick-10-minute-shrimp-teriyaki-stir-fry-919987">Quick 10 Minute Shrimp Teriyaki Stir-Fry</a>, and <a href="https://spoonacular.com/recipes/20-minute-sweet-spicy-pork-ramen-stir-fry-704492">20 Minute Sweet & Spicy Pork Ramen Stir Fry</a> for similar recipes.',
+    cuisines: ["Asian"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free"],
+    occasions: ["super bowl"],
+    winePairing: {
+      pairedWines: ["cava", "grenache", "shiraz"],
+      pairingText:
+        "Cava, Grenache, and Shiraz are my top picks for Chili. These juicy reds don't have too much tannin (important for spicy foods), but a sparkling wine like cava can tame the heat even better. The Segura Viudas Cava Brut rosé with a 4.3 out of 5 star rating seems like a good match. It costs about 10 dollars per bottle.",
+      productMatches: [
+        {
+          id: 486534,
+          title: "Segura Viudas Cava Brut Rose",
+          description:
+            "Youthful fruity aromas of strawberry, redcurrant and pomegranate lead to a refreshing palate full of cherry fruit and a light acidity. A soft finish on the back of the palate gives a lovely, approachable balance to this Cava.Blend: 90% Trepat; 10% Grenacha",
+          price: "$9.99",
+          imageUrl: "https://spoonacular.com/productImages/486534-312x231.jpg",
+          averageRating: 0.86,
+          ratingCount: 11.0,
+          score: 0.8305882352941176,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsegura-viudas-cava-brut-rose%2F532949",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "To make the toasted sesame seeds and rice.",
+            ingredients: [
+              {
+                id: 12023,
+                name: "sesame seeds",
+                localizedName: "sesame seeds",
+                image: "sesame-seeds.png",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "Heat the sesame seeds in a small skillet over medium heat, shaking the pan occasionally for about 5 minutes.",
+            ingredients: [
+              {
+                id: 12023,
+                name: "sesame seeds",
+                localizedName: "sesame seeds",
+                image: "sesame-seeds.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step: "Remove the seeds when they darken and become fragrant.",
+            ingredients: [
+              {
+                id: 93818,
+                name: "seeds",
+                localizedName: "seeds",
+                image: "sunflower-seeds.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "Add the water to a medium size pot. Bring to a low boil and then add the rice and sesame oil. Stir to combine and then place the lid on the pot and turn the heat down to the lowest setting possible. Allow the rice to cook ten minutes on low and then turn the heat off completely and let the rice sit on the stove (covered) for another 20 minutes (don't take any peeks inside!). After 20 minutes remove the lid and fluff the rice with a fork and stir in 1-2 tablespoons toasted sesame seeds. Note that rice can cook differently for everyone, this is just what works for me.While the rice cooks make the stir fry.",
+            ingredients: [
+              {
+                id: 12023,
+                name: "sesame seeds",
+                localizedName: "sesame seeds",
+                image: "sesame-seeds.png",
+              },
+              {
+                id: 4058,
+                name: "sesame oil",
+                localizedName: "sesame oil",
+                image: "sesame-oil.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404794,
+                name: "stove",
+                localizedName: "stove",
+                image: "oven.jpg",
+              },
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+            length: {
+              number: 50,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Heat a very large skillet over high heat and add the sesame  oil. When the skillet is hot, but not smoking (if it starts to smoke, turn heat down a bit and wait 5 minutes before adding the pork) add the pork in a single layer (you may need to do this in 2 batches if your skillet is smaller) and allow it to cook for 2-3 minutes, so it can get a nice caramelization on it. Then toss it around and cook another 2-3 minutes, or until the pork is browned an just getting crispy on the edges.",
+            ingredients: [
+              {
+                id: 12023,
+                name: "sesame seeds",
+                localizedName: "sesame seeds",
+                image: "sesame-seeds.png",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 11,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step:
+              "Remove the pork from skillet and set aside.If needed add another tablespoon of sesame oil to the skillet and throw in the red peppers. Stir fry the peppers for 3-5 minutes, until they just begin to soften.",
+            ingredients: [
+              {
+                id: 11821,
+                name: "red pepper",
+                localizedName: "red pepper",
+                image: "red-pepper.jpg",
+              },
+              {
+                id: 4058,
+                name: "sesame oil",
+                localizedName: "sesame oil",
+                image: "sesame-oil.png",
+              },
+              {
+                id: 10111333,
+                name: "peppers",
+                localizedName: "peppers",
+                image: "green-pepper.jpg",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step:
+              "Add the pork back to the skillet along with the ginger and stir fry 30 seconds.",
+            ingredients: [
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Add the sweet thai chile sauce, soy sauce, ground cloves, cinnamon and pepper. Allow the mixture to bubble and reduce, about 5 minutes, or until the sauce has thickened and coats the pork nicely. When the sauce is to your liking add the bok choy and toss well, cooking for another minute.",
+            ingredients: [
+              {
+                id: 2011,
+                name: "ground clove",
+                localizedName: "ground clove",
+                image: "cloves.jpg",
+              },
+              {
+                id: 11670,
+                name: "thai chili",
+                localizedName: "thai chili",
+                image: "thai-chiles.jpg",
+              },
+              {
+                id: 16124,
+                name: "soy sauce",
+                localizedName: "soy sauce",
+                image: "soy-sauce.jpg",
+              },
+              {
+                id: 11116,
+                name: "bok choy",
+                localizedName: "bok choy",
+                image: "bok-choy.jpg",
+              },
+              {
+                id: 2010,
+                name: "cinnamon",
+                localizedName: "cinnamon",
+                image: "cinnamon.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 9,
+            step: "Remove from the heat and stir in the tangerines.",
+            ingredients: [
+              {
+                id: 1019218,
+                name: "tangerine",
+                localizedName: "tangerine",
+                image: "mandarin-or-tangerines-or-clementines.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 10,
+            step:
+              "Serve the stir fry over the rice and garnish with green onions and toasted sesame seeds.",
+            ingredients: [
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 12023,
+                name: "sesame seeds",
+                localizedName: "sesame seeds",
+                image: "sesame-seeds.png",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 11,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 872,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Serious Eats",
+    sourceName: "Serious Eats",
+    pricePerServing: 221.29,
+    id: 198944,
+    title: "Dinner Tonight: Moroccan Spinach and Chickpeas",
+    readyInMinutes: 45,
+    servings: 2,
+    sourceUrl:
+      "http://www.seriouseats.com/recipes/2010/10/moroccan-spinach-and-chickpeas-recipe.html",
+    image: "https://spoonacular.com/recipeImages/198944-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Dinner Tonight: Moroccan Spinach and Chickpeas is a <b>vegan</b> main course. This recipe serves 2. One portion of this dish contains about <b>15g of protein</b>, <b>26g of fat</b>, and a total of <b>433 calories</b>. For <b>$2.21 per serving</b>, this recipe <b>covers 36%</b> of your daily requirements of vitamins and minerals. This recipe is liked by 872 foodies and cooks. A mixture of wine vinegar, freshly cracked pepper, paprika, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the ground cumin you could follow this main course with the <a href="https://spoonacular.com/recipes/moroccan-chocolate-mousse-752536">Moroccan Chocolate Mousse</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/dinner-tonight-pasta-with-spinach-chickpeas-and-bacon-31979">Dinner Tonight: Pasta with Spinach, Chickpeas, and Bacon</a>, <a href="https://spoonacular.com/recipes/dinner-tonight-popcorn-chickpeas-31405">Dinner Tonight: Popcorn Chickpeas</a>, and <a href="https://spoonacular.com/recipes/dinner-tonight-chickpeas-and-chorizo-31866">Dinner Tonight: Chickpeas and Chorizo</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Pour half of the oil into a large saucepan over medium heat.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add the spinach and a pinch of salt. Stir constantly, and cook until the leaves just wilt, about 4 minutes.",
+            ingredients: [
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 4,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Drain contents in a colander. Rinse out saucepan and dry with paper towel.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 405895,
+                name: "paper towels",
+                localizedName: "paper towels",
+                image: "paper-towels.jpg",
+              },
+              {
+                id: 404639,
+                name: "colander",
+                localizedName: "colander",
+                image: "colander.jpg",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Add 1 tablespoon of remaining oil to the saucepan and return it to medium heat. Toss in the bread cubes. Cook, stirring often, until browned all over, about 5 minutes.",
+            ingredients: [
+              {
+                id: 10018064,
+                name: "bread cubes",
+                localizedName: "bread cubes",
+                image: "croutons.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Add the rest of the olive oil along with the garlic, cumin, and red pepper flakes. Cook, stirring often, until fragrant, about 1 minute (If garlic begins to burn, remove contents from pan immediately).",
+            ingredients: [
+              {
+                id: 1032009,
+                name: "red pepper flakes",
+                localizedName: "red pepper flakes",
+                image: "red-pepper-flakes.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1002014,
+                name: "cumin",
+                localizedName: "cumin",
+                image: "ground-cumin.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step: "Transfer the bread mixture to a food processor.",
+            ingredients: [
+              {
+                id: 18064,
+                name: "bread",
+                localizedName: "bread",
+                image: "white-bread.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step: "Pour in the vinegar and process into a paste.",
+            ingredients: [
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step:
+              "Add the paste back to the saucepan along with the tomato sauce and chickpeas. Turn the heat to medium, and cook until the chickpeas have absorbed the flavors, about 5 minutes. Quickly chop the drained spinach, and then add it to the saucepan. Season mixture with salt and pepper. As soon as the chickpeas and spinach are warm, turn off the heat.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11549,
+                name: "tomato sauce",
+                localizedName: "tomato sauce",
+                image: "tomato-sauce-or-pasta-sauce.jpg",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 9,
+            step: "Serve with sprinkling smoked paprika and fresh lemon juice.",
+            ingredients: [
+              {
+                id: 1012028,
+                name: "smoked paprika",
+                localizedName: "smoked paprika",
+                image: "paprika.jpg",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 10,
+    aggregateLikes: 297,
+    spoonacularScore: 100.0,
+    healthScore: 83.0,
+    creditsText: "Kitchen Confidante",
+    sourceName: "Kitchen Confidante",
+    pricePerServing: 326.73,
+    id: 496916,
+    title: "Steamed Cod with Ginger and Scallions",
+    readyInMinutes: 15,
+    servings: 4,
+    sourceUrl:
+      "http://kitchenconfidante.com/simple-sundays-steamed-cod-with-ginger-and-scallions-recipe",
+    image: "https://spoonacular.com/recipeImages/496916-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give Steamed Cod with Ginger and Scallions a try. This recipe makes 4 servings with <b>156 calories</b>, <b>32g of protein</b>, and <b>1g of fat</b> each. For <b>$2.9 per serving</b>, this recipe <b>covers 16%</b> of your daily requirements of vitamins and minerals. This recipe is liked by 297 foodies and cooks. A mixture of rice vinegar, cod fillets, soy sauce ginger, and a handful of other ingredients are all it takes to make this recipe so delicious. To use up the rice vinegar you could follow this main course with the <a href="https://spoonacular.com/recipes/red-velvet-mug-cake-189954">Red Velvet Mug Cake</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 98%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/steamed-cod-with-ginger-and-scallions-598227">Steamed Cod with Ginger and Scallions</a>, <a href="https://spoonacular.com/recipes/steamed-cod-with-ginger-and-scallions-86133">Steamed Cod With Ginger and Scallions</a>, and <a href="https://spoonacular.com/recipes/steamed-cod-with-ginger-and-scallions-2328">Steamed Cod With Ginger And Scallions</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "pescatarian"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["pinot grigio", "gruener veltliner", "pinot noir"],
+      pairingText:
+        "Pinot Grigio, Gruener Veltliner, and Pinot Noir are my top picks for Cod. Fish is as diverse as wine, so it's hard to pick wines that go with every fish. A crisp white wine, such as a pinot grigio or Grüner Veltliner, will suit any delicately flavored white fish. Meaty, strongly flavored fish such as salmon and tuna can even handle a light red wine, such as a pinot noir. You could try Argento Pinot Grigio. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 11 dollars per bottle.",
+      productMatches: [
+        {
+          id: 470708,
+          title: "Argento Pinot Grigio",
+          description:
+            "This elegant Pinot Grigio offers the most delicate aromas of flowers and tropical fruits. Light and clean, with peach and white pear flavors, notes of chamomile and a fresh and bright finish.",
+          price: "$10.99",
+          imageUrl: "https://spoonacular.com/productImages/470708-312x231.jpg",
+          averageRating: 0.86,
+          ratingCount: 5.0,
+          score: 0.7975,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fargento-pinot-grigio-2018%2F538942",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a deep sided saute pan, swirl together the rice vinegar (or stock), soy sauce, and ginger. Slice the cod into 4 fillets of the same size and season both sides of the fish with salt and pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 1022053,
+                name: "rice vinegar",
+                localizedName: "rice vinegar",
+                image: "rice-vinegar.png",
+              },
+              {
+                id: 16124,
+                name: "soy sauce",
+                localizedName: "soy sauce",
+                image: "soy-sauce.jpg",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+              {
+                id: 1006615,
+                name: "stock",
+                localizedName: "stock",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 10115261,
+                name: "fish",
+                localizedName: "fish",
+                image: "fish-fillet.jpg",
+              },
+              {
+                id: 15015,
+                name: "cod",
+                localizedName: "cod",
+                image: "cod-fillet.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Place the fillets in the pan and place over medium heat. Bring the liquid to a gentle boil, then cover and lower heat to a simmer. Cook for about 8 minutes, periodically spooning the liquid over the fillets.Meanwhile, slice the scallions into three inch pieces crosswise. Take the green portions and thinly slice lengthwise. When the cod has steamed for about 8 minutes, Scatter the scallions over the fillets and cover again. Cook for an additional 2 minutes, or until the fish is cooked through and opaque.",
+            ingredients: [
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 10115261,
+                name: "fish",
+                localizedName: "fish",
+                image: "fish-fillet.jpg",
+              },
+              {
+                id: 15015,
+                name: "cod",
+                localizedName: "cod",
+                image: "cod-fillet.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 18,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Serve immediately. I love this over rice noodles (which cook very quickly, 5 minutes or less) or steamed rice.",
+            ingredients: [
+              {
+                id: 20133,
+                name: "rice noodles",
+                localizedName: "rice noodles",
+                image: "dried-rice-noodles.jpg",
+              },
+              {
+                id: 10220445,
+                name: "cooked rice",
+                localizedName: "cooked rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 5,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 539,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Vegetarian Times",
+    sourceName: "Vegetarian Times",
+    pricePerServing: 126.43,
+    id: 758873,
+    title: "Chickpea and Feta Salad",
+    readyInMinutes: 45,
+    servings: 8,
+    sourceUrl: "http://www.vegetariantimes.com/recipe/chickpea-and-feta-salad/",
+    image: "https://spoonacular.com/recipeImages/758873-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Chickpean and Feta Salad might be just the side dish you are searching for. This recipe makes 8 servings with <b>205 calories</b>, <b>9g of protein</b>, and <b>8g of fat</b> each. For <b>$1.26 per serving</b>, this recipe <b>covers 27%</b> of your daily requirements of vitamins and minerals. 539 people have tried and liked this recipe. From preparation to the plate, this recipe takes around <b>45 minutes</b>. A mixture of lemon juice, feta cheese, romaine lettuce, and a handful of other ingredients are all it takes to make this recipe so yummy. It is a good option if you\'re following a <b>gluten free and vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/chickpea-feta-salad-199550">Chickpea-Feta Salad</a>, <a href="https://spoonacular.com/recipes/feta-chickpea-salad-557872">Feta Chickpea Salad</a>, and <a href="https://spoonacular.com/recipes/chickpea-feta-and-olive-salad-98727">Chickpea, Feta, and Olive Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Whisk together lemon juice and oil in bowl. Stir in leek, and season with salt and pepper, if desired. Set aside.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 11246,
+                name: "leek",
+                localizedName: "leek",
+                image: "leeks.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Roll 7 or 8 spinach leaves into tight cylinder, then slice into thin strips. Repeat with remaining spinach leaves.",
+            ingredients: [
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Combine spinach, chickpeas, carrots, bell pepper, and sunflower seeds in large bowl. Stir in leek mixture, and toss to coat. Season with salt and pepper, if desired.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 12036,
+                name: "sunflower seeds",
+                localizedName: "sunflower seeds",
+                image: "sunflower-seeds.jpg",
+              },
+              {
+                id: 10211821,
+                name: "bell pepper",
+                localizedName: "bell pepper",
+                image: "bell-pepper-orange.png",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 11246,
+                name: "leek",
+                localizedName: "leek",
+                image: "leeks.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Divide romaine among 8 plates, top with chickpea salad, and arrange tomatoes around salad, if using.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 10111251,
+                name: "romaine",
+                localizedName: "romaine",
+                image: "romaine",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Garnish each serving with 1 Tbs. feta, and drizzle with balsamic vinegar.",
+            ingredients: [
+              {
+                id: 2069,
+                name: "balsamic vinegar",
+                localizedName: "balsamic vinegar",
+                image: "balsamic-vinegar.jpg",
+              },
+              {
+                id: 1019,
+                name: "feta cheese",
+                localizedName: "feta cheese",
+                image: "feta.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 25,
+    aggregateLikes: 7744,
+    spoonacularScore: 100.0,
+    healthScore: 75.0,
+    creditsText: "The Lemon Bowl",
+    sourceName: "The Lemon Bowl",
+    pricePerServing: 87.65,
+    id: 482623,
+    title: "Roasted Vegetables with Tahini Lemon Sauce",
+    readyInMinutes: 35,
+    servings: 6,
+    sourceUrl:
+      "http://thelemonbowl.com/2012/11/roasted-vegetables-with-tahini-lemon-sauce.html",
+    image: "https://spoonacular.com/recipeImages/482623-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Roasted Vegetables with Tahini Lemon Sauce might be just the side dish you are searching for. For <b>88 cents per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains roughly <b>4g of protein</b>, <b>5g of fat</b>, and a total of <b>114 calories</b>. This recipe serves 6. Plenty of people made this recipe, and 7743 would say it hit the spot. A mixture of cauliflower, garlic clove, water, and a handful of other ingredients are all it takes to make this recipe so tasty. It is a good option if you\'re following a <b>caveman, gluten free, primal, and whole 30</b> diet. From preparation to the plate, this recipe takes about <b>35 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/wild-rice-salad-with-roasted-vegetables-and-lemon-tahini-dressing-38355">Wild Rice Salad With Roasted Vegetables And Lemon-tahini Dressing</a>, <a href="https://spoonacular.com/recipes/roasted-cauliflower-in-lemon-tahini-sauce-760077">Roasted Cauliflower in Lemon-Tahini Sauce</a>, and <a href="https://spoonacular.com/recipes/roasted-chicken-with-spring-vegetables-and-lemon-honey-sauce-115174">Roasted Chicken With Spring Vegetables and Lemon-Honey Sauce</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Pre-heat oven to 400.Toss cauliflower and sweet potato with olive oil, salt and pepper then spread out in an even layer on foil-lined baking sheet. Roast for 20-25 minutes or until browned.In a small bowl, whisk together tahini, lemon juice/zest, garlic and salt. Slowly add in the hot water until desired consistency is reached. Stir in parsley and set aside.When vegetables are done roasting, serve on a platter and drizzle with tahini lemon parsley sauce.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11507,
+                name: "sweet potato",
+                localizedName: "sweet potato",
+                image: "sweet-potato.png",
+              },
+              {
+                id: 11135,
+                name: "cauliflower",
+                localizedName: "cauliflower",
+                image: "cauliflower.jpg",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11297,
+                name: "parsley",
+                localizedName: "parsley",
+                image: "parsley.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 12698,
+                name: "tahini",
+                localizedName: "tahini",
+                image: "tahini-paste.png",
+              },
+              {
+                id: 9150,
+                name: "lemon",
+                localizedName: "lemon",
+                image: "lemon.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 25,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Serve warm or at room temp.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 8,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 66,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Hummusapien",
+    sourceName: "Hummusapien",
+    pricePerServing: 156.11,
+    id: 584440,
+    title: "Raspberry, Walnut & Avocado Kale Salad",
+    readyInMinutes: 10,
+    servings: 4,
+    sourceUrl:
+      "http://www.hummusapien.com/raspberry-walnut-avocado-kale-salad/",
+    image: "https://spoonacular.com/recipeImages/584440-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Raspberry, Walnut & Avocado Kale Salad might be just the side dish you are searching for. Watching your figure? This caveman, gluten free, primal, and vegan recipe has <b>269 calories</b>, <b>5g of protein</b>, and <b>24g of fat</b> per serving. For <b>$1.19 per serving</b>, this recipe <b>covers 19%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up champagne wine vinegar, raspberries, salt, and a few other things to make it today. A few people made this recipe, and 66 would say it hit the spot. From preparation to the plate, this recipe takes about <b>10 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is super. Try <a href="https://spoonacular.com/recipes/raspberry-walnut-avocado-kale-salad-583949">Raspberry, Walnut & Avocado Kale Salad</a>, <a href="https://spoonacular.com/recipes/raspberry-avocado-salad-with-raspberry-vinaigrette-21766">Raspberry-avocado Salad With Raspberry Vinaigrette</a>, and <a href="https://spoonacular.com/recipes/apple-walnut-kale-salad-511709">Apple Walnut Kale Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Place chopped kale in a large bowl.",
+            ingredients: [
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Sprinkle with salt and massage salt into leaves with hands until they turn a bit darker in color.",
+            ingredients: [
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step: "Whisk together the dressing ingredients.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Pour over top of salad and massage dressing into leaves for about a minute.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Add red onion, walnuts, avocado, raspberries and feta. Toss to combine.",
+            ingredients: [
+              {
+                id: 9302,
+                name: "raspberries",
+                localizedName: "raspberries",
+                image: "raspberries.jpg",
+              },
+              {
+                id: 10011282,
+                name: "red onion",
+                localizedName: "red onion",
+                image: "red-onion.png",
+              },
+              {
+                id: 9037,
+                name: "avocado",
+                localizedName: "avocado",
+                image: "avocado.jpg",
+              },
+              {
+                id: 12155,
+                name: "walnuts",
+                localizedName: "walnuts",
+                image: "walnuts.jpg",
+              },
+              {
+                id: 1019,
+                name: "feta cheese",
+                localizedName: "feta cheese",
+                image: "feta.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "Sprinkle with salt and pepper to taste.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 17,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 171,
+    spoonacularScore: 100.0,
+    healthScore: 91.0,
+    creditsText: "Real Simple",
+    sourceName: "Real Simple",
+    pricePerServing: 332.12,
+    id: 38235,
+    title: "Linguine With Asparagus And Pine Nuts",
+    readyInMinutes: 11,
+    servings: 4,
+    sourceUrl:
+      "http://www.realsimple.com/food-recipes/browse-all-recipes/linguine-asparagus-pine-nuts-00000000031206/index.html",
+    image: "https://spoonacular.com/recipeImages/38235-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give Linguine With Asparagus And Pine Nuts a try. For <b>$3.32 per serving</b>, this recipe <b>covers 34%</b> of your daily requirements of vitamins and minerals. This recipe makes 4 servings with <b>625 calories</b>, <b>25g of protein</b>, and <b>26g of fat</b> each. 171 person have tried and liked this recipe. A mixture of pine nuts, garlic, kosher salt and pepper, and a handful of other ingredients are all it takes to make this recipe so scrumptious. To use up the olive oil you could follow this main course with the <a href="https://spoonacular.com/recipes/sauteed-banana-granola-and-yogurt-parfait-624619">Sauteed Banana, Granolan and Yogurt Parfait</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>11 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Similar recipes are <a href="https://spoonacular.com/recipes/linguine-with-red-peppers-green-onions-and-pine-nuts-153451">Linguine with Red Peppers, Green Onions and Pine Nuts</a>, <a href="https://spoonacular.com/recipes/linguine-with-squash-noodles-and-pine-nuts-recipe-105428">Linguine with Squash Noodles and Pine Nuts Recipe</a>, and <a href="https://spoonacular.com/recipes/garlicky-linguine-with-crab-red-bell-pepper-and-pine-nuts-186124">Garlicky Linguine with Crab, Red Bell Pepper and Pine Nuts</a>.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 25,
+    cookingMinutes: 0,
+    aggregateLikes: 918,
+    spoonacularScore: 100.0,
+    healthScore: 90.0,
+    creditsText: "Eating Well",
+    sourceName: "Eating Well",
+    pricePerServing: 83.59,
+    id: 697063,
+    title: "Shrimp with Broccoli",
+    readyInMinutes: 25,
+    servings: 4,
+    sourceUrl: "http://www.eatingwell.com/recipes/shrimp_with_broccoli.html",
+    image: "https://spoonacular.com/recipeImages/697063-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'One serving contains <b>72 calories</b>, <b>4g of protein</b>, and <b>4g of fat</b>. For <b>49 cents per serving</b>, this recipe <b>covers 14%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up garlic, basil, lemon juice, and a few other things to make it today. 918 people were impressed by this recipe. It is a good option if you\'re following a <b>gluten free, dairy free, and vegetarian</b> diet. From preparation to the plate, this recipe takes approximately <b>25 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/garlic-shrimp-with-broccoli-858600">Garlic Shrimp with Broccoli</a>, <a href="https://spoonacular.com/recipes/shrimp-broccoli-with-pasta-401185">Shrimp & Broccoli with Pasta</a>, and <a href="https://spoonacular.com/recipes/shrimp-and-broccoli-lo-mein-770495">Shrimp and Broccoli Lo Mein</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Combine clam juice (or broth), cornstarch and half the garlic in a small bowl; whisk until smooth. Set aside.",
+            ingredients: [
+              {
+                id: 14187,
+                name: "clam juice",
+                localizedName: "clam juice",
+                image: "clam-juice.png",
+              },
+              {
+                id: 20027,
+                name: "corn starch",
+                localizedName: "corn starch",
+                image: "white-powder.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Heat 1 1/2 teaspoons oil in a large nonstick skillet over medium-high heat.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add the remaining garlic and crushed red pepper to taste; cook, stirring, until fragrant but not browned, about 30 seconds.",
+            ingredients: [
+              {
+                id: 1032009,
+                name: "red pepper flakes",
+                localizedName: "red pepper flakes",
+                image: "red-pepper-flakes.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step: "Add shrimp and 1/8 teaspoon salt.",
+            ingredients: [
+              {
+                id: 15152,
+                name: "shrimp",
+                localizedName: "shrimp",
+                image: "shrimp.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Saute until the shrimp are pink, about 3 minutes.",
+            ingredients: [
+              {
+                id: 15152,
+                name: "shrimp",
+                localizedName: "shrimp",
+                image: "shrimp.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step: "Transfer to a bowl.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step: "Add the remaining 1 1/2 teaspoons oil to the pan.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Add broccoli and the remaining 1/8 teaspoon salt; cook, stirring, for 1 minute.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 9,
+            step:
+              "Add water, cover and cook until the broccoli is crisp-tender, about 3 minutes.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 10,
+            step: "Transfer to the bowl with the shrimp.",
+            ingredients: [
+              {
+                id: 15152,
+                name: "shrimp",
+                localizedName: "shrimp",
+                image: "shrimp.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 11,
+            step:
+              "Add the reserved clam juice mixture to the pan and cook, stirring, over medium-high heat, until thickened, 3 to 4 minutes. Stir in basil (or parsley) and season with lemon juice and pepper.",
+            ingredients: [
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 14187,
+                name: "clam juice",
+                localizedName: "clam juice",
+                image: "clam-juice.png",
+              },
+              {
+                id: 11297,
+                name: "parsley",
+                localizedName: "parsley",
+                image: "parsley.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 3,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 12,
+            step: "Add the shrimp and broccoli; heat through.",
+            ingredients: [
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 15152,
+                name: "shrimp",
+                localizedName: "shrimp",
+                image: "shrimp.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 13,
+            step: "Serve immediately, with lemon wedges.",
+            ingredients: [
+              {
+                id: 1029150,
+                name: "lemon wedge",
+                localizedName: "lemon wedge",
+                image: "lemon-wedge.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 11,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 700,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Picky Eater Blog",
+    sourceName: "Picky Eater Blog",
+    pricePerServing: 172.99,
+    id: 516621,
+    title: "Lasagna Rolls with a Pomodoro Sauce",
+    readyInMinutes: 40,
+    servings: 4,
+    sourceUrl: "http://pickyeaterblog.com/lasagna-rolls-with-a-pomodoro-sauce/",
+    image: "https://spoonacular.com/recipeImages/516621-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Lasagna Rolls with a Pomodoro Sauce might be just the <b>Mediterranean</b> recipe you are searching for. Watching your figure? This vegetarian recipe has <b>425 calories</b>, <b>26g of protein</b>, and <b>14g of fat</b> per serving. For <b>$1.73 per serving</b>, this recipe <b>covers 34%</b> of your daily requirements of vitamins and minerals. Plenty of people made this recipe, and 700 would say it hit the spot. From preparation to the plate, this recipe takes approximately <b>40 minutes</b>. Head to the store and pick up onion, olive oil, oregano, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is awesome. Try <a href="https://spoonacular.com/recipes/lasagna-rolls-with-roasted-red-pepper-sauce-224077">Lasagna Rolls with Roasted Red Pepper Sauce</a>, <a href="https://spoonacular.com/recipes/lasagna-rolls-with-roasted-red-pepper-sauce-484390">Lasagna Rolls with Roasted Red Pepper Sauce</a>, and <a href="https://spoonacular.com/recipes/lasagna-rolls-up-with-garlic-parmesan-cream-sauce-915111">Lasagna Rolls Up with Garlic Parmesan Cream Sauce</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Cook noodles according to package directions, drain and lay out the noodles flat (on foil or parchment paper) so they don't stick together.",
+            ingredients: [
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Heat oil in a large nonstick skillet over medium heat.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add onion, garlic, and the red pepper - sauté 5 minutes or until tender.",
+            ingredients: [
+              {
+                id: 11821,
+                name: "red pepper",
+                localizedName: "red pepper",
+                image: "red-pepper.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add the spinach and all of your spices. Simmer for 10 minutes.",
+            ingredients: [
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 2035,
+                name: "spices",
+                localizedName: "spices",
+                image: "spices.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Add one of the jars of sauce to your veggie mixture - simmer for 5 minutes.",
+            ingredients: [
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step:
+              "Mix the ricotta and mozzarella cheese in a bowl. You can either add the cheese directly into the pan with the veggie mixture or keep the two separate (depending on what you prefer). I kept the two separate. To assemble, place cooked noodles on a flat surface.",
+            ingredients: [
+              {
+                id: 1026,
+                name: "mozzarella",
+                localizedName: "mozzarella",
+                image: "mozzarella.png",
+              },
+              {
+                id: 20421,
+                name: "cooked pasta",
+                localizedName: "cooked pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 1036,
+                name: "ricotta cheese",
+                localizedName: "ricotta cheese",
+                image: "ricotta.png",
+              },
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Spread 1/8 cup cheese and 1/8 cup veggie mixture over each noodle.",
+            ingredients: [
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step:
+              "Roll up the noodles, jelly-roll fashion, starting with the short side.",
+            ingredients: [
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 19297,
+                name: "jelly",
+                localizedName: "jelly",
+                image: "grape-jelly.jpg",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 9,
+            step:
+              "Place the rolls, seam sides down, in a small baking dish that has been smeared with 1/4 cup of sauce.",
+            ingredients: [
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404646,
+                name: "baking pan",
+                localizedName: "baking pan",
+                image: "roasting-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 10,
+            step:
+              "Pour the remaining sauce over each roll and top each roll with 1 Tbsp shredded mozzarella cheese.",
+            ingredients: [
+              {
+                id: 1001026,
+                name: "shredded mozzarella",
+                localizedName: "shredded mozzarella",
+                image: "shredded-cheese-white.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 11,
+            step:
+              "Bake at 450 degrees for 10 minutes, or until the cheese on top has melted and is golden brown.",
+            ingredients: [
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: true,
+    preparationMinutes: 2,
+    cookingMinutes: 0,
+    aggregateLikes: 690,
+    spoonacularScore: 100.0,
+    healthScore: 72.0,
+    creditsText: "The Roasted Root",
+    sourceName: "The Roasted Root",
+    pricePerServing: 205.82,
+    id: 512641,
+    title: "Strawberry Banana Kale Stem Smoothie",
+    readyInMinutes: 2,
+    servings: 2,
+    sourceUrl:
+      "http://www.theroastedroot.net/strawberry-banana-kale-stem-smoothie/",
+    image: "https://spoonacular.com/recipeImages/512641-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Need a <b>gluten free, dairy free, fodmap friendly, and whole 30 morn meal</b>? Strawberry Banana Kale Stem Smoothie could be a super recipe to try. This recipe serves 2 and costs $2.06 per serving. One serving contains <b>248 calories</b>, <b>6g of protein</b>, and <b>9g of fat</b>. Plenty of people made this recipe, and 690 would say it hit the spot. Head to the store and pick up almond milk, strawberries, ice cubes, and a few other things to make it today. <b>Mother\'s Day</b> will be even more special with this recipe. From preparation to the plate, this recipe takes about <b>2 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/orange-creamsicle-kale-stem-smoothie-giveaway-607874">orange creamsicle kale stem smoothie {giveaway}</a>, <a href="https://spoonacular.com/recipes/low-calorie-strawberry-banana-kale-smoothie-602969">Low Calorie Strawberry Banana Kale Smoothie</a>, and <a href="https://spoonacular.com/recipes/kale-stem-pesto-446355">kale stem pesto</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "fodmap friendly"],
+    occasions: ["mother's day"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Put it all in a blender and blend until smooth.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 17,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 35,
+    cookingMinutes: 60,
+    aggregateLikes: 16909,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Ceara's Kitchen",
+    sourceName: "Ceara's Kitchen",
+    pricePerServing: 382.1,
+    id: 677668,
+    title: "Vegan Stuffed Peppers",
+    readyInMinutes: 95,
+    servings: 4,
+    sourceUrl: "http://www.cearaskitchen.com/vegan-stuffed-peppers/",
+    image: "https://spoonacular.com/recipeImages/677668-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Vegan Stuffed Peppers might be just the main course you are searching for. This recipe makes 4 servings with <b>591 calories</b>, <b>23g of protein</b>, and <b>17g of fat</b> each. For <b>$3.82 per serving</b>, this recipe <b>covers 43%</b> of your daily requirements of vitamins and minerals. Several people made this recipe, and 16909 would say it hit the spot. If you have vegetable broth, pepper flakes, onion, and a few other ingredients on hand, you can make it. To use up the corn you could follow this main course with the <a href="https://spoonacular.com/recipes/candy-corn-pecan-pie-157261">Candy Corn Pecan Pie</a> as a dessert. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is awesome. Try <a href="https://spoonacular.com/recipes/vegan-cauliflower-stuffed-poblano-peppers-794470">Vegan Cauliflower Stuffed Poblano Peppers</a>, <a href="https://spoonacular.com/recipes/spinach-bulgur-wheat-stuffed-red-peppers-vegan-19827">Spinach & Bulgur Wheat Stuffed Red Peppers {vegan}</a>, and <a href="https://spoonacular.com/recipes/cheesy-pumpkin-quinoa-stuffed-peppers-vegan-and-gluten-free-le-creuset-giveaway-pepperparty-480877">Cheesy Pumpkin Quinoa Stuffed Peppers (Vegan and Gluten Free!) & Le Creuset Giveaway! #PepperParty</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Simmer wild rice on medium-low heat with vegetable broth, plain tomato sauce, herbs, mushrooms and red onion untill rice is fully cooked. When cooked, stir and mix in kidney beans and corn.Pre-heat oven to 350F/180C. When rice is cooking, prepare a casserole dish (see photo) by adding tomato sauce and spices to the bottom of the casserole dish. Prepare bell peppers by removing the seeds and white insides. Leave the tops of the pepper intact (see photo). Fill the peppers by adding the rice mixture to the peppers (you will have a bit of rice mixture left over). Arrange the stuffed peppers side by side in the pan. Cover and bake in the oven for 55 minutes. For the final 5 minutes remove the lid of the casserole dish and broil the stuffed peppers until the tops of the peppers just begins to blacken (being careful not to burn the peppers!).Smother the stuffed peppers in the thick tomato sauce from the bottom of the pan and top off with preferred garnish. Enjoy!",
+            ingredients: [
+              {
+                id: 6615,
+                name: "vegetable broth",
+                localizedName: "vegetable broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 10211821,
+                name: "bell pepper",
+                localizedName: "bell pepper",
+                image: "bell-pepper-orange.png",
+              },
+              {
+                id: 16033,
+                name: "kidney beans",
+                localizedName: "kidney beans",
+                image: "kidney-beans.jpg",
+              },
+              {
+                id: 11549,
+                name: "tomato sauce",
+                localizedName: "tomato sauce",
+                image: "tomato-sauce-or-pasta-sauce.jpg",
+              },
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+              {
+                id: 10011282,
+                name: "red onion",
+                localizedName: "red onion",
+                image: "red-onion.png",
+              },
+              {
+                id: 20088,
+                name: "wild rice",
+                localizedName: "wild rice",
+                image: "rice-wild-uncooked.png",
+              },
+              {
+                id: 10111333,
+                name: "peppers",
+                localizedName: "peppers",
+                image: "green-pepper.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 2035,
+                name: "spices",
+                localizedName: "spices",
+                image: "spices.png",
+              },
+              {
+                id: 1002044,
+                name: "herbs",
+                localizedName: "herbs",
+                image: "mixed-fresh-herbs.jpg",
+              },
+              {
+                id: 93818,
+                name: "seeds",
+                localizedName: "seeds",
+                image: "sunflower-seeds.jpg",
+              },
+              {
+                id: 11168,
+                name: "corn",
+                localizedName: "corn",
+                image: "corn.png",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404635,
+                name: "casserole dish",
+                localizedName: "casserole dish",
+                image: "casserole-dish.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 350.0,
+                  unit: "Fahrenheit",
+                },
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 60,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 797,
+    spoonacularScore: 100.0,
+    healthScore: 71.0,
+    creditsText: "Skinny Taste",
+    sourceName: "Skinny Taste",
+    pricePerServing: 203.57,
+    id: 979015,
+    title: "Chickpea Avocado Salad",
+    readyInMinutes: 15,
+    servings: 2,
+    sourceUrl: "https://www.skinnytaste.com/chickpea-avocado-salad/",
+    image: "https://spoonacular.com/recipeImages/979015-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Chickpean Avocado Salad can be made <b>in about 15 minutes</b>. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>180 calories</b>, <b>6g of protein</b>, and <b>10g of fat</b> per serving. For <b>$1.66 per serving</b>, you get a side dish that serves 2. It is brought to you by Skinny Taste. Head to the store and pick up pepper, cherry tomatoes, extra virgin olive oil, and a few other things to make it today. 797 people found this recipe to be scrumptious and satisfying. Taking all factors into account, this recipe <b>earns a spoonacular score of 98%</b>, which is outstanding. If you like this recipe, take a look at these similar recipes: <a href="https://spoonacular.com/recipes/chickpea-avocado-salad-472073">Chickpean Avocado Salad</a>, <a href="https://spoonacular.com/recipes/avocado-chickpea-salad-577608">Avocado Chickpea Salad</a>, and <a href="https://spoonacular.com/recipes/avocado-and-chickpea-salad-31622">Avocado And Chickpea Salad</a>.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Divide the lettuce, chickpeas, cucumbers, tomatoes and avocado in two bowls.",
+            ingredients: [
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 11206,
+                name: "cucumber",
+                localizedName: "cucumber",
+                image: "cucumber.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 9037,
+                name: "avocado",
+                localizedName: "avocado",
+                image: "avocado.jpg",
+              },
+              {
+                id: 11252,
+                name: "lettuce",
+                localizedName: "lettuce",
+                image: "iceberg-lettuce.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Season with salt and pepper to taste and drizzle each with olive oil and vinegar or lemon juice.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 35,
+    aggregateLikes: 73,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Prevention Rd",
+    sourceName: "Prevention Rd",
+    pricePerServing: 195.98,
+    id: 723373,
+    title: "Easy Tuscan Bean Soup",
+    readyInMinutes: 50,
+    servings: 5,
+    sourceUrl: "http://preventionrd.com/2016/03/easy-tuscan-bean-soup/",
+    image: "https://spoonacular.com/recipeImages/723373-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Easy Tuscan Bean Soup might be just the main course you are searching for. This recipe makes 5 servings with <b>354 calories</b>, <b>18g of protein</b>, and <b>7g of fat</b> each. For <b>$1.96 per serving</b>, this recipe <b>covers 38%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up pepper flakes, garlic, celery, and a few other things to make it today. To use up the salt you could follow this main course with the <a href="https://spoonacular.com/recipes/apple-turnovers-recipe-48175">Apple Turnovers Recipe</a> as a dessert. It will be a hit at your <b>Autumn</b> event. A few people made this recipe, and 73 would say it hit the spot. From preparation to the plate, this recipe takes around <b>50 minutes</b>. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Try <a href="https://spoonacular.com/recipes/easy-tuscan-bean-soup-838551">Easy Tuscan Bean Soup</a>, <a href="https://spoonacular.com/recipes/easy-tuscan-bean-soup-616802">Easy Tuscan Bean Soup</a>, and <a href="https://spoonacular.com/recipes/tuscan-white-bean-soup-with-broccoli-rabe-a-completely-different-twist-on-vegetable-soup-626800">Tuscan White Bean Soup with Broccoli Rabe – a Completely Different Twist on Vegetable Soup</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["soup"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["fall", "winter"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Heat olive oil in a Dutch oven or stock pot over medium-high heat. Once hot, add the diced onions, carrots, and celery; cook 5 minutes or until softened.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 11143,
+                name: "celery",
+                localizedName: "celery",
+                image: "celery.jpg",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 1006615,
+                name: "stock",
+                localizedName: "stock",
+                image: "chicken-broth.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404667,
+                name: "dutch oven",
+                localizedName: "dutch oven",
+                image: "dutch-oven.jpg",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Add the diced zucchini and cook an additional 4 minutes.",
+            ingredients: [
+              {
+                id: 11477,
+                name: "zucchini",
+                localizedName: "zucchini",
+                image: "zucchini.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 4,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add the garlic, red pepper flakes, thyme, and rosemary; cook for 30-60 seconds or until fragrant. Stir in the broth, beans, and tomatoes and bring to a boil. Reduce heat to low, stir in the kale, cover and allow to simmer for 15 minutes.Using an immersion blender (or standard blender blending just a portion of the soup), partially puree the soup to create a thick, creamy texture or to desired consistency.Stir in the salt, pepper, sugar, and vinegar. Cook an additional 2-3 minutes and serve hot.",
+            ingredients: [
+              {
+                id: 1032009,
+                name: "red pepper flakes",
+                localizedName: "red pepper flakes",
+                image: "red-pepper-flakes.jpg",
+              },
+              {
+                id: 2036,
+                name: "rosemary",
+                localizedName: "rosemary",
+                image: "rosemary.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 0,
+                name: "beans",
+                localizedName: "beans",
+                image: "kidney-beans.jpg",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 19335,
+                name: "sugar",
+                localizedName: "sugar",
+                image: "sugar-in-bowl.png",
+              },
+              {
+                id: 2049,
+                name: "thyme",
+                localizedName: "thyme",
+                image: "thyme.jpg",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 0,
+                name: "soup",
+                localizedName: "soup",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404776,
+                name: "immersion blender",
+                localizedName: "immersion blender",
+                image: "immersion-blender.png",
+              },
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+            length: {
+              number: 18,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 5,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 834,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    pricePerServing: 215.79,
+    id: 8370,
+    title: "Broccoli And Arugula Soup",
+    readyInMinutes: 45,
+    servings: 1,
+    sourceUrl: "http://goop.com/newsletter/15/en/",
+    image: "https://spoonacular.com/recipeImages/8370-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Broccoli And Arugula Soup might be just the main course you are searching for. This recipe makes 1 servings with <b>376 calories</b>, <b>19g of protein</b>, and <b>17g of fat</b> each. For <b>$2.16 per serving</b>, this recipe <b>covers 43%</b> of your daily requirements of vitamins and minerals. <b>Autumn</b> will be even more special with this recipe. 834 people have made this recipe and would make it again. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Head to the store and pick up olive oil, broccoli, onion, and a few other things to make it today. To use up the lemon you could follow this main course with the <a href="https://spoonacular.com/recipes/lemon-shortbread-cookies-with-lemon-icing-a-tribute-to-aunt-roxanne-487814">Lemon Shortbread Cookies with Lemon Icing {A Tribute to Aunt Roxanne}</a> as a dessert. It is a good option if you\'re following a <b>caveman, gluten free, primal, and whole 30</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Similar recipes include <a href="https://spoonacular.com/recipes/broccoli-and-arugula-soup-8488">Broccoli And Arugula Soup</a>, <a href="https://spoonacular.com/recipes/broccoli-and-arugula-soup-8867">Broccoli And Arugula Soup</a>, and <a href="https://spoonacular.com/recipes/grilled-broccoli-and-arugula-salad-875822">Grilled Broccoli and Arugula Salad</a>.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: ["fall", "winter"],
+    winePairing: {},
+    analyzedInstructions: [],
+    sourceName: null,
+    creditsText: null,
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 0,
+    aggregateLikes: 499,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "The Lemon Bowl",
+    sourceName: "The Lemon Bowl",
+    pricePerServing: 118.72,
+    id: 1001122,
+    title: "Middle Eastern Syrian Salad",
+    readyInMinutes: 10,
+    servings: 4,
+    sourceUrl: "https://thelemonbowl.com/syrian-salad/",
+    image: "https://spoonacular.com/recipeImages/1001122-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Middle Eastern Syrian Salad is a middl eastern side dish. This recipe serves 4 and costs $12.17 per serving. Watching your figure? This caveman, gluten free, dairy free, and lacto ovo vegetarian recipe has <b>131 calories</b>, <b>6g of protein</b>, and <b>6g of fat</b> per serving. This recipe is liked by 499 foodies and cooks. This recipe from The Lemon Bowl requires olive oil, garlic grated/crushed, radishes, and bell pepper. From preparation to the plate, this recipe takes approximately <b>10 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 97%</b>, which is awesome. Users who liked this recipe also liked <a href="https://spoonacular.com/recipes/middle-eastern-salad-with-lemon-mint-and-garlic-syrian-salad-482498">Middle Eastern Salad with Lemon, Mint and Garlic (Syrian Salad)</a>, <a href="https://spoonacular.com/recipes/middle-eastern-salad-597716">Middle Eastern Salad</a>, and <a href="https://spoonacular.com/recipes/middle-eastern-salad-101949">Middle Eastern Salad</a>.',
+    cuisines: ["Middle Eastern"],
+    dishTypes: ["salad"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Place your salad ingredients of choice in a large bowl.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Add fresh herbs.",
+            ingredients: [
+              {
+                id: 10111297,
+                name: "fresh herbs",
+                localizedName: "fresh herbs",
+                image: "mixed-fresh-herbs.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Squeeze juice of one lemon around the bowl, carefully holding your opposite hand underneath to catch the seeds.",
+            ingredients: [
+              {
+                id: 1019016,
+                name: "juice",
+                localizedName: "juice",
+                image: "apple-juice.jpg",
+              },
+              {
+                id: 9150,
+                name: "lemon",
+                localizedName: "lemon",
+                image: "lemon.png",
+              },
+              {
+                id: 93818,
+                name: "seeds",
+                localizedName: "seeds",
+                image: "sunflower-seeds.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step: "Grate garlic directly over the salad using a microplane.",
+            ingredients: [
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 405906,
+                name: "microplane",
+                localizedName: "microplane",
+                image: "microplane.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Drizzle olive oil around the edge of the salad (this will help ensure the salad is dressed evenly as you toss.)",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "Using, hands, gently toss the salad together.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step: "Sprinkle with zaatar, salt and pepper to taste.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 1002042,
+                name: "zaatar",
+                localizedName: "zaatar",
+                image: "zaatar.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 0,
+    aggregateLikes: 2603,
+    spoonacularScore: 100.0,
+    healthScore: 65.0,
+    creditsText: "Queen of Quinoa",
+    sourceName: "Queen of Quinoa",
+    pricePerServing: 280.04,
+    id: 505103,
+    title: "Strawberry & Peach Quinoa Breakfast",
+    readyInMinutes: 5,
+    servings: 1,
+    sourceUrl:
+      "http://www.queenofquinoa.me/2012/06/strawberry-peach-quinoa-breakfast/",
+    image: "https://spoonacular.com/recipeImages/505103-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Need a <b>gluten free and vegan morn meal</b>? Strawberry & Peach Quinoa Breakfast could be a spectacular recipe to try. This recipe makes 1 servings with <b>351 calories</b>, <b>10g of protein</b>, and <b>15g of fat</b> each. For <b>$2.8 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. It can be enjoyed any time, but it is especially good for <b>Mother\'s Day</b>. 2601 person were impressed by this recipe. A mixture of almond butter, peach, coconut milk, and a handful of other ingredients are all it takes to make this recipe so tasty. From preparation to the plate, this recipe takes roughly <b>5 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is spectacular. Try <a href="https://spoonacular.com/recipes/strawberry-peach-quinoa-breakfast-624184">Strawberry & Peach Quinoa Breakfast</a>, <a href="https://spoonacular.com/recipes/peach-breakfast-quinoa-chia-pudding-793152">Peach Breakfast Quinoa Chia Pudding</a>, and <a href="https://spoonacular.com/recipes/essential-everyday-creamy-peach-breakfast-quinoa-613489">Essential Everyday : Creamy Peach Breakfast Quinoa</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["morning meal", "brunch", "breakfast"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["mother's day"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Combine cooked quinoa, almond butter and coconut milk together in a small bowl.",
+            ingredients: [
+              {
+                id: 12195,
+                name: "almond butter",
+                localizedName: "almond butter",
+                image: "almond-butter.jpg",
+              },
+              {
+                id: 20137,
+                name: "cooked quinoa",
+                localizedName: "cooked quinoa",
+                image: "cooked-quinoa.png",
+              },
+              {
+                id: 12118,
+                name: "coconut milk",
+                localizedName: "coconut milk",
+                image: "coconut-milk.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Mix with spoon until fully combined.Toss fruit and quinoa together.",
+            ingredients: [
+              {
+                id: 20035,
+                name: "quinoa",
+                localizedName: "quinoa",
+                image: "uncooked-quinoa.png",
+              },
+              {
+                id: 9431,
+                name: "fruit",
+                localizedName: "fruit",
+                image: "mixed-fresh-fruit.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step: "Serve slightly warm and enjoy!",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 135,
+    spoonacularScore: 100.0,
+    healthScore: 85.0,
+    creditsText: "Tori Avey",
+    sourceName: "Tori Avey",
+    pricePerServing: 121.25,
+    id: 608490,
+    title: "Apricot Spinach Salad with Avocado Basil Dressing",
+    readyInMinutes: 15,
+    servings: 8,
+    sourceUrl:
+      "http://toriavey.com/toris-kitchen/2014/08/apricot-spinach-salad-avocado-basil-dressing/",
+    image: "https://spoonacular.com/recipeImages/608490-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Apricot Spinach Salad with Avocado Basil Dressing might be just the side dish you are searching for. This recipe serves 8 and costs $1.21 per serving. One serving contains <b>145 calories</b>, <b>4g of protein</b>, and <b>12g of fat</b>. 135 people have tried and liked this recipe. Head to the store and pick up honey, avocado, basil leaves, and a few other things to make it today. It is a good option if you\'re following a <b>caveman, gluten free, dairy free, and primal</b> diet. From preparation to the plate, this recipe takes around <b>15 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Similar recipes include <a href="https://spoonacular.com/recipes/avocado-arugula-salad-with-basil-lemon-dressing-8961">Avocado Arugula Salad With Basil Lemon Dressing</a>, <a href="https://spoonacular.com/recipes/winter-citrus-salad-with-avocado-basil-dressing-628399">Winter Citrus Salad with Avocado-Basil Dressing</a>, and <a href="https://spoonacular.com/recipes/grilled-romaine-salad-with-creamy-avocado-basil-dressing-610032">Grilled Romaine Salad with Creamy Avocado-Basil Dressing</a>.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Toast the walnuts in a skillet over medium heat until they begin to brown and smell toasty.",
+            ingredients: [
+              {
+                id: 12155,
+                name: "walnuts",
+                localizedName: "walnuts",
+                image: "walnuts.jpg",
+              },
+              {
+                id: 18070,
+                name: "toast",
+                localizedName: "toast",
+                image: "toast",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Remove from heat.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Combine spinach, walnuts, and apricot slices in a large salad bowl and toss gently to combine.",
+            ingredients: [
+              {
+                id: 9021,
+                name: "apricot",
+                localizedName: "apricot",
+                image: "apricot.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 12155,
+                name: "walnuts",
+                localizedName: "walnuts",
+                image: "walnuts.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Combine dressing ingredients in a blender and process until smooth and creamy. Do not over-process in order to preserve the color. If the mixture is too thick and not smooth enough to easily pour, stir in water a tablespoon at a time until a dressing consistency is reached.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Serve salad portions drizzled with dressing. The dressing may be made a few hours ahead; store it in the refrigerator with plastic wrap touching the surface of the dressing to prevent browning. Best made the day of serving to preserve color and freshness of flavor.",
+            ingredients: [
+              {
+                id: 10018364,
+                name: "wrap",
+                localizedName: "wrap",
+                image: "flour-tortilla.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404730,
+                name: "plastic wrap",
+                localizedName: "plastic wrap",
+                image: "plastic-wrap.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 20,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 1123,
+    spoonacularScore: 100.0,
+    healthScore: 98.0,
+    creditsText: "Fat Girl Trapped in a Skinny Body",
+    sourceName: "Fat Girl Trapped in a Skinny Body",
+    pricePerServing: 256.87,
+    id: 497090,
+    title: "Sweet Potato and Avocado Salad",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl:
+      "http://www.fatgirltrappedinaskinnybody.com/2012/03/sweet-potato-avocado-salad/",
+    image: "https://spoonacular.com/recipeImages/497090-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Sweet Potato and Avocado Salad might be just the side dish you are searching for. One serving contains <b>481 calories</b>, <b>6g of protein</b>, and <b>37g of fat</b>. This recipe serves 6 and costs $2.1 per serving. If you have bell pepper, onion, salt, and a few other ingredients on hand, you can make it. This recipe is liked by 1123 foodies and cooks. It is a good option if you\'re following a <b>caveman, gluten free, primal, and whole 30</b> diet. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/sweet-potato-avocado-salad-video-607997">sweet potato avocado salad (& video!)</a>, <a href="https://spoonacular.com/recipes/sweet-potato-salad-with-apple-and-avocado-759277">Sweet Potato Salad with Apple and Avocado</a>, and <a href="https://spoonacular.com/recipes/sweet-potato-onion-avocado-quinoa-salad-677766">Sweet Potato, Onion & Avocado Quinoa Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 400 degrees.Peel and chop sweet potatoes into bite size cubes.  Toss with olive oil and lay in a single layer on a cookie sheet.",
+            ingredients: [
+              {
+                id: 11507,
+                name: "sweet potato",
+                localizedName: "sweet potato",
+                image: "sweet-potato.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 10118192,
+                name: "cookies",
+                localizedName: "cookies",
+                image: "shortbread-cookies.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Bake for about 30 minutes, toss half way through.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Remove from the oven and cool completely.While the sweet potatoes are cooling, chop the rest of the salad ingredients and make the dressing.",
+            ingredients: [
+              {
+                id: 11507,
+                name: "sweet potato",
+                localizedName: "sweet potato",
+                image: "sweet-potato.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Combine all of the dressing ingredients in a bowl and whisk until combined.  Refrigerate until ready to use.Once the sweet potatoes have cooled, combine all of the salad ingredients in a bowl and pour the dressing over them.",
+            ingredients: [
+              {
+                id: 11507,
+                name: "sweet potato",
+                localizedName: "sweet potato",
+                image: "sweet-potato.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Mix the dressing and salad, and serve.*Use as much or as little dressing as you like.  The dressing makes more then enough for the salad.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 3,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 405,
+    spoonacularScore: 100.0,
+    healthScore: 96.0,
+    creditsText: "Vegetarian Times",
+    sourceName: "Vegetarian Times",
+    pricePerServing: 66.17,
+    id: 760083,
+    title: "Moroccan Pumpkin and Lentils",
+    readyInMinutes: 45,
+    servings: 8,
+    sourceUrl:
+      "http://www.vegetariantimes.com/recipe/moroccan-pumpkin-and-lentils/",
+    image: "https://spoonacular.com/recipeImages/760083-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'One serving contains <b>179 calories</b>, <b>9g of protein</b>, and <b>4g of fat</b>. This recipe serves 8 and costs 66 cents per serving. 405 people have made this recipe and would make it again. A mixture of olive oil, green lentils, jalapeño chile, and a handful of other ingredients are all it takes to make this recipe so tasty. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/moroccan-chicken-and-lentils-341231">Moroccan Chicken and Lentils</a>, <a href="https://spoonacular.com/recipes/moroccan-braised-lentils-33598">Moroccan Braised Lentils</a>, and <a href="https://spoonacular.com/recipes/moroccan-style-chicken-with-lentils-225752">Moroccan-style chicken with lentils</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Heat olive oil in large saucepan over medium-high heat.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add onion and jalapeño, and sauté 10 minutes, or until onion is translucent and golden.",
+            ingredients: [
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add tomatoes, lentils and spices, and cook 2 to 3 minutes more. Stir in pumpkin cubes, tomato purée and 2 1/2 cups water. Season with salt and pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 11422,
+                name: "pumpkin",
+                localizedName: "pumpkin",
+                image: "pumpkin.png",
+              },
+              {
+                id: 2035,
+                name: "spices",
+                localizedName: "spices",
+                image: "spices.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Reduce heat to medium low, and cook 40 minutes, or until pumpkin and lentils are tender, stirring occasionally and adding more water if needed. Season with salt and pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 11422,
+                name: "pumpkin",
+                localizedName: "pumpkin",
+                image: "pumpkin.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 40,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step: "Garnish with cilantro, and serve hot.",
+            ingredients: [
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 35,
+    aggregateLikes: 1730,
+    spoonacularScore: 100.0,
+    healthScore: 68.0,
+    creditsText: "Eating Well",
+    sourceName: "Eating Well",
+    pricePerServing: 313.83,
+    id: 825127,
+    title: "Roast Pork, Asparagus & Cherry Tomato Bowl",
+    readyInMinutes: 50,
+    servings: 4,
+    sourceUrl:
+      "http://www.eatingwell.com/recipes/roast_pork_asparagus_cherry_tomato_bowl.html",
+    image: "https://spoonacular.com/recipeImages/825127-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give Roast Pork, Asparagus & Cherry Tomato Bowl a try. This recipe serves 4 and costs $3.14 per serving. One serving contains <b>406 calories</b>, <b>34g of protein</b>, and <b>12g of fat</b>. It is a good option if you\'re following a <b>dairy free</b> diet. From preparation to the plate, this recipe takes around <b>50 minutes</b>. This recipe is liked by 1730 foodies and cooks. If you have asparagus, pork tenderloin, canolan oil, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/pork-and-asparagus-rice-bowl-35943">Pork and Asparagus Rice Bowl</a>, <a href="https://spoonacular.com/recipes/avocado-cherry-tomato-ramen-noodle-bowl-with-lemon-basil-vinaigrette-606350">Avocado & Cherry Tomato Ramen Noodle Bowl with Lemon Basil Vinaigrette</a>, and <a href="https://spoonacular.com/recipes/cherry-tomato-and-asparagus-salad-38065">Cherry Tomato and Asparagus Salad</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Preheat oven to 400 F.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Bring 2 1/2 cups water to a boil in a medium saucepan.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Remove from heat and stir in bulgur and 1/4 teaspoon salt. Cover and let stand until tender, about 20 minutes.",
+            ingredients: [
+              {
+                id: 20012,
+                name: "bulgur",
+                localizedName: "bulgur",
+                image: "bulgur-wheat.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Meanwhile, sprinkle pork with marjoram, pepper and 1/4 teaspoon salt.",
+            ingredients: [
+              {
+                id: 2023,
+                name: "marjoram",
+                localizedName: "marjoram",
+                image: "marjoram.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Heat 1 tablespoon oil in a large cast-iron or other ovenproof skillet over medium-high heat.",
+            ingredients: [
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Add the pork; cook, turning several times, until browned on all sides, 4 to 6 minutes.",
+            ingredients: [
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 4,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step:
+              "Toss asparagus and onion with the remaining 1 tablespoon oil and 1/4 teaspoon salt in a medium bowl. When the pork is browned, scatter the asparagus and onion around it.",
+            ingredients: [
+              {
+                id: 11011,
+                name: "asparagus",
+                localizedName: "asparagus",
+                image: "asparagus.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Transfer the pan to the oven and roast until an instant-read thermometer inserted in the center of the pork registers 145 F, 12 to 16 minutes. About 5 minutes before the pork is done, scatter the tomatoes over the vegetables in the pan.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404789,
+                name: "kitchen thermometer",
+                localizedName: "kitchen thermometer",
+                image: "food-thermometer.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 145.0,
+                  unit: "Fahrenheit",
+                },
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 17,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 9,
+            step:
+              "Transfer the pork to a clean cutting board and let rest for 5 minutes before slicing. Toss the vegetables with the pan juices.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404716,
+                name: "cutting board",
+                localizedName: "cutting board",
+                image: "cutting-board.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 10,
+            step:
+              "Drain any remaining liquid from the bulgur, then stir in parsley, lemon zest and lemon juice.",
+            ingredients: [
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 9156,
+                name: "lemon zest",
+                localizedName: "lemon zest",
+                image: "zest-lemon.jpg",
+              },
+              {
+                id: 11297,
+                name: "parsley",
+                localizedName: "parsley",
+                image: "parsley.jpg",
+              },
+              {
+                id: 20012,
+                name: "bulgur",
+                localizedName: "bulgur",
+                image: "bulgur-wheat.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 11,
+            step:
+              "Combine hummus and 2 tablespoons hot -water in a small bowl. Divide the bulgur among 4 bowls and top with the pork and vegetables; drizzle with the hummus sauce.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 20012,
+                name: "bulgur",
+                localizedName: "bulgur",
+                image: "bulgur-wheat.jpg",
+              },
+              {
+                id: 16158,
+                name: "hummus",
+                localizedName: "hummus",
+                image: "hummus.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 10010219,
+                name: "pork",
+                localizedName: "pork",
+                image: "pork-tenderloin-raw.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 11,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 20,
+    aggregateLikes: 1946,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Damn Delicious",
+    sourceName: "Damn Delicious",
+    pricePerServing: 596.95,
+    id: 985875,
+    title: "Asian Salmon in Foil",
+    readyInMinutes: 30,
+    servings: 4,
+    sourceUrl: "https://damndelicious.net/2014/12/19/asian-salmon-foil/",
+    image: "https://spoonacular.com/recipeImages/985875-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Asian Salmon in Foil might be just the main course you are searching for. Watching your figure? This gluten free, dairy free, and pescatarian recipe has <b>431 calories</b>, <b>46g of protein</b>, and <b>18g of fat</b> per serving. This recipe serves 4. For <b>$5.6 per serving</b>, this recipe <b>covers 32%</b> of your daily requirements of vitamins and minerals. A mixture of honey, green onions, seasoned rice vinegar, and a handful of other ingredients are all it takes to make this recipe so scrumptious. To use up the ginger you could follow this main course with the <a href="https://spoonacular.com/recipes/ginger-cake-with-crystallized-ginger-frosting-189279">Ginger Cake with Crystallized Ginger Frosting</a> as a dessert. Plenty of people made this recipe, and 1946 would say it hit the spot. From preparation to the plate, this recipe takes around <b>30 minutes</b>. It is an <b>expensive</b> recipe for fans of Asian food. It is brought to you by Damn Delicious. Overall, this recipe earns a <b>not so excellent spoonacular score of 33%</b>. <a href="https://spoonacular.com/recipes/asian-salmon-in-foil-624119">Asian Salmon in Foil</a>, <a href="https://spoonacular.com/recipes/asian-glazed-salmon-in-foil-899844">Asian Glazed Salmon in Foil</a>, and <a href="https://spoonacular.com/recipes/foil-pack-asian-chicken-279458">Foil-Pack Asian Chicken</a> are very similar to this recipe.',
+    cuisines: ["Asian"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "pescatarian"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["chardonnay", "pinot noir", "sauvignon blanc"],
+      pairingText:
+        "Salmon works really well with Chardonnay, Pinot Noir, and Sauvignon Blanc. To decide on white or red, you should consider your seasoning and sauces. Chardonnay is a great friend to buttery, creamy dishes, while sauvignon blanc can complement herb or citrus-centric dishes. A light-bodied, low-tannin red such as the pinot noir goes great with broiled or grilled salmon. One wine you could try is NV Mindbender Chardonnay. It has 4.4 out of 5 stars and a bottle costs about 12 dollars.",
+      productMatches: [
+        {
+          id: 428583,
+          title: "NV Mindbender Chardonnay",
+          description:
+            "Lightly Oaked, the Mindbender Chardonnay is a sophisticated style of Chardonnay, that is full of the best elements of this classic grape varietal. The aromatics are complex and welcoming with floral and citrus tones mixed with hints of honeysuckle and butterscotch. The good percentage of oak aging brings a lovely vanilla note. The Mindbender Chardonnay is here to make you see Chardonnay in a new and innovative way. The Mindbender Chardonnay is a sophisticated style of Chardonnay, that is full of the best elements of this classic grape varietal. Visually it is golden straw in color. The aromatics are complex and welcoming with floral and citrus tones mixed with hints of honeysuckle and butterscotch. The well-rounded flavors carry the butterscotch throughout lending a smooth, creamy aspect while the citrus flavors bring freshness and brightness to the body. The good percentage of oak aging brings a lovely vanilla note. The finish is rounded out with a depth of ripe fruit flavors such as apricots, melons and peaches with a spritz of lime.",
+          price: "$12.0",
+          imageUrl: "https://spoonacular.com/productImages/428583-312x231.jpg",
+          averageRating: 0.8800000000000001,
+          ratingCount: 4.0,
+          score: 0.8030769230769232,
+          link:
+            "https://www.amazon.com/Mindbender-California-Chardonnay-White-Wine/dp/B00GB87SJQ?tag=spoonacular-20",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 375 degrees F. Line a baking sheet with foil.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 375.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "In a small bowl, whisk together honey, garlic, soy sauce, rice vinegar, sesame oil, ginger, Sriracha and pepper, to taste.",
+            ingredients: [
+              {
+                id: 1022053,
+                name: "rice vinegar",
+                localizedName: "rice vinegar",
+                image: "rice-vinegar.png",
+              },
+              {
+                id: 4058,
+                name: "sesame oil",
+                localizedName: "sesame oil",
+                image: "sesame-oil.png",
+              },
+              {
+                id: 16124,
+                name: "soy sauce",
+                localizedName: "soy sauce",
+                image: "soy-sauce.jpg",
+              },
+              {
+                id: 1016168,
+                name: "sriracha",
+                localizedName: "sriracha",
+                image: "hot-sauce-or-tabasco.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11216,
+                name: "ginger",
+                localizedName: "ginger",
+                image: "ginger.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 19296,
+                name: "honey",
+                localizedName: "honey",
+                image: "honey.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Place salmon onto the prepared baking sheet and fold up all 4 sides of the foil. Spoon the honey mixture over the salmon. Fold the sides of the foil over the salmon, covering completely and sealing the packet closed.",
+            ingredients: [
+              {
+                id: 15076,
+                name: "salmon",
+                localizedName: "salmon",
+                image: "salmon.png",
+              },
+              {
+                id: 19296,
+                name: "honey",
+                localizedName: "honey",
+                image: "honey.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Place into oven and bake until cooked through, about 15-20 minutes.* Open the packet and broil for 2-3 minutes, or until caramelized and slightly charred.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 23,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Serve immediately, garnished with green onions and sesame seeds, if desired.",
+            ingredients: [
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 12023,
+                name: "sesame seeds",
+                localizedName: "sesame seeds",
+                image: "sesame-seeds.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 6,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 667,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Vegetarian Times",
+    sourceName: "Vegetarian Times",
+    pricePerServing: 169.33,
+    id: 759802,
+    title: "Spaghetti with Spinach and Mushrooms",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl:
+      "http://www.vegetariantimes.com/recipe/spaghetti-with-spinach-and-mushrooms/",
+    image: "https://spoonacular.com/recipeImages/759802-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Spaghetti with Spinach and Mushrooms might be just the main course you are searching for. One serving contains <b>248 calories</b>, <b>13g of protein</b>, and <b>3g of fat</b>. This recipe serves 6 and costs $1.69 per serving. A mixture of chickpeas, saffron threads, harissa, and a handful of other ingredients are all it takes to make this recipe so tasty. 667 people have made this recipe and would make it again. It is a good option if you\'re following a <b>vegan</b> diet. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/spaghetti-squash-with-chicken-mushrooms-and-spinach-25496">Spaghetti Squash with Chicken, Mushrooms and Spinach</a>, <a href="https://spoonacular.com/recipes/dinner-tonight-spaghetti-alla-boscaiola-spaghetti-with-tomato-sauce-and-mushrooms-200971">Dinner Tonight: Spaghetti alla Boscaiola (Spaghetti with Tomato Sauce and Mushrooms)</a>, and <a href="https://spoonacular.com/recipes/one-pot-spaghetti-with-mushrooms-519494">One Pot Spaghetti with Mushrooms</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {
+      pairedWines: [],
+      pairingText: "",
+      productMatches: [],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Preheat oven to 350°F.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 350.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Place pasta on baking sheet and coat with cooking spray.",
+            ingredients: [
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Bake 5 to 7 minutes, or until golden, shaking pan once or twice to brown evenly.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Bring vegetable broth, 2½ cups water, tomato paste, harissa, and saffron to a simmer in saucepan. Reduce heat to low, and keep warm.",
+            ingredients: [
+              {
+                id: 6615,
+                name: "vegetable broth",
+                localizedName: "vegetable broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 11887,
+                name: "tomato paste",
+                localizedName: "tomato paste",
+                image: "tomato-paste.jpg",
+              },
+              {
+                id: 1006972,
+                name: "harissa",
+                localizedName: "harissa",
+                image: "harissa-paste.jpg",
+              },
+              {
+                id: 2037,
+                name: "saffron",
+                localizedName: "saffron",
+                image: "saffron.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Heat large stockpot over medium-high heat, and coat with cooking spray.",
+            ingredients: [
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Add mushrooms, and cook 7 minutes, or until browned. Stir in garlic, and cook 1 minute more. Reduce heat to medium, and stir in pasta and 2 cups hot broth. Cook 4 to 5 minutes, or until liquid is absorbed, stirring frequently.",
+            ingredients: [
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 12,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step:
+              "Add spinach, chickpeas and remaining broth. Simmer 5 to 7 minutes more, or until noodles are tender and most of broth is absorbed, stirring constantly. Season with salt and pepper, and serve immediately.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 16057,
+                name: "chickpeas",
+                localizedName: "chickpeas",
+                image: "chickpeas.png",
+              },
+              {
+                id: 20420,
+                name: "pasta",
+                localizedName: "pasta",
+                image: "fusilli.jpg",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 4,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 6,
+    aggregateLikes: 563,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Cookin Canuck",
+    sourceName: "Cookin Canuck",
+    pricePerServing: 139.0,
+    id: 620292,
+    title: "Kale Salad with Raspberries and Parmesan Crisps",
+    readyInMinutes: 21,
+    servings: 4,
+    sourceUrl:
+      "http://www.cookincanuck.com/2014/11/kale-salad-with-raspberries-and-parmesan-crisps/",
+    summary:
+      'Kale Salad with Raspberries and Parmesan Crisps might be just the side dish you are searching for. This gluten free recipe serves 4 and costs <b>$1.39 per serving</b>. One serving contains <b>192 calories</b>, <b>8g of protein</b>, and <b>13g of fat</b>. 563 people have made this recipe and would make it again. Head to the store and pick up driscoll\'s raspberries, salt, kale, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>21 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/lemony-kale-salad-with-parmesan-crisps-814104">Lemony Kale Salad with Parmesan Crisps</a>, <a href="https://spoonacular.com/recipes/hearty-bean-and-kale-soup-served-with-parmesan-sesame-and-poppy-seed-crisps-15572">Hearty bean and kale soup, served with Parmesan-sesame and poppy seed crisps</a>, and <a href="https://spoonacular.com/recipes/caesar-salad-with-parmesan-crisps-391168">Caesar Salad with Parmesan Crisps</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["salad"],
+    diets: ["gluten free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a serving bowl, combine the kale, raspberries and toasted almonds.  Toss the salad with the dressing.  Divide onto 4 plates and garnish each with a Parmesan crisp.In a small bowl, whisk together the lemon juice, olive oil, agave nectar, salt and pepper.  Preheat the oven to 350 degrees F.  Line a baking sheet with parchment paper or a Silpat.Divide the Parmesan into 4 even circles.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 19912,
+                name: "agave",
+                localizedName: "agave",
+                image: "agave.png",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 9302,
+                name: "raspberries",
+                localizedName: "raspberries",
+                image: "raspberries.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 12061,
+                name: "almonds",
+                localizedName: "almonds",
+                image: "almonds.jpg",
+              },
+              {
+                id: 11233,
+                name: "kale",
+                localizedName: "kale",
+                image: "kale.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 350.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Bake the cheese until bubbling and light golden brown, about 6 minutes.",
+            ingredients: [
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 6,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Let cool on the baking sheet for a few minutes, then gently remove with a small metal spatula.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404642,
+                name: "spatula",
+                localizedName: "spatula",
+                image: "spatula-or-turner.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    image: "https://spoonacular.com/recipeImages/620292-312x231.jpg",
+    imageType: "jpg",
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 0,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 0,
+    aggregateLikes: 111,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Food Republic",
+    sourceName: "Food Republic",
+    pricePerServing: 489.77,
+    id: 493744,
+    title: "SupaDupa Greens Juice",
+    readyInMinutes: 5,
+    servings: 1,
+    sourceUrl:
+      "http://www.foodrepublic.com/2014/01/17/supadupa-greens-juice-recipe",
+    image: "https://spoonacular.com/recipeImages/493744-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'SupaDupa Greens Juice is a <b>caveman, gluten free, primal, and whole 30</b> beverage. This recipe makes 1 servings with <b>234 calories</b>, <b>11g of protein</b>, and <b>3g of fat</b> each. For <b>$4.96 per serving</b>, this recipe <b>covers 39%</b> of your daily requirements of vitamins and minerals. A mixture of celery, cucumber, apple, and a handful of other ingredients are all it takes to make this recipe so delicious. From preparation to the plate, this recipe takes about <b>5 minutes</b>. Plenty of people made this recipe, and 111 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/mustard-greens-juice-30-days-of-juicing-609460">Mustard Greens Juice {30 Days of Juicing}</a>, <a href="https://spoonacular.com/recipes/mixed-greens-with-orange-juice-vinaigrette-444413">Mixed Greens with Orange Juice Vinaigrette</a>, and <a href="https://spoonacular.com/recipes/rejuvenating-root-juice-carrot-beet-blood-orange-ginger-turmeric-juice-472371">Rejuvenating Root Juice | Carrot, Beet, Blood Orange, Ginger, Turmeric Juice</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Juice.",
+            ingredients: [
+              {
+                id: 1019016,
+                name: "juice",
+                localizedName: "juice",
+                image: "apple-juice.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: false,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 17,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 25,
+    aggregateLikes: 1626,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "A Family Feast ",
+    sourceName: "A Family Feast ",
+    pricePerServing: 487.15,
+    id: 595194,
+    title: "Couscous with Lentils and Vegetables",
+    readyInMinutes: 35,
+    servings: 1,
+    sourceUrl: "http://www.afamilyfeast.com/couscous-lentils-vegetables/",
+    image: "https://spoonacular.com/recipeImages/595194-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give Couscous with Lentils and Vegetables a try. For <b>$4.68 per serving</b>, this recipe <b>covers 32%</b> of your daily requirements of vitamins and minerals. This recipe makes 1 servings with <b>624 calories</b>, <b>30g of protein</b>, and <b>11g of fat</b> each. If you have extra virgin olive oil, lentils, mushrooms, and a few other ingredients on hand, you can make it. Plenty of people made this recipe, and 1626 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is amazing. Try <a href="https://spoonacular.com/recipes/cheats-lentils-vegetables-brown-rice-biryani-ft-sunrice-rice-lentils-+-a-giveaway-618618">Cheat’s Lentils & Vegetables Brown Rice Biryani (ft. SunRice Rice & Lentils) + A Giveaway</a>, <a href="https://spoonacular.com/recipes/couscous-rocket-mushrooms-and-lentils-8963">Couscous, Rocket, Mushrooms And Lentils</a>, and <a href="https://spoonacular.com/recipes/lentils-coriander-hummus-and-couscous-33671">Lentils, Coriander Hummus And Couscous</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a small sauce pan, heat one cup broth and lentils to boil, cover and simmer over low heat for 20 minutes or until tender. Set aside. If all the liquid evaporates before lentils are cooked, add a little water to finish cooking. In a microwave safe bowl, place ½ cup vegetable broth, butter or oil and microwave until mixture is boiling.",
+            ingredients: [
+              {
+                id: 6615,
+                name: "vegetable broth",
+                localizedName: "vegetable broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 1001,
+                name: "butter",
+                localizedName: "butter",
+                image: "butter-sliced.jpg",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404762,
+                name: "microwave",
+                localizedName: "microwave",
+                image: "microwave.jpg",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Remove from the microwave, add couscous, stir and cover.",
+            ingredients: [
+              {
+                id: 20028,
+                name: "couscous",
+                localizedName: "couscous",
+                image: "couscous-cooked.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404762,
+                name: "microwave",
+                localizedName: "microwave",
+                image: "microwave.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Let sit for five minutes covered. Then fluff with fork and set aside.Once lentils and couscous are cooked, heat a large skillet over medium heat and add 1 teaspoon of olive oil and garlic.  Cook for about one to two minutes and add onions and mushrooms. Increase heat to medium high and sauté for about five minutes until mushrooms and onions are cooked.",
+            ingredients: [
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 20028,
+                name: "couscous",
+                localizedName: "couscous",
+                image: "couscous-cooked.jpg",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 11,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step:
+              "Add optional pepper flakes and tomatoes and sauté for about 2 minutes.",
+            ingredients: [
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 2,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Add fresh basil, cooked lentils and cooked couscous and cook just until at serving temperature.  Season to taste.",
+            ingredients: [
+              {
+                id: 20029,
+                name: "cooked couscous",
+                localizedName: "cooked couscous",
+                image: "couscous-cooked.jpg",
+              },
+              {
+                id: 16070,
+                name: "cooked lentils",
+                localizedName: "cooked lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 2044,
+                name: "fresh basil",
+                localizedName: "fresh basil",
+                image: "fresh-basil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "Serve immediately.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 45,
+    cookingMinutes: 0,
+    aggregateLikes: 2206,
+    spoonacularScore: 100.0,
+    healthScore: 86.0,
+    creditsText: "Eating Well",
+    sourceName: "Eating Well",
+    pricePerServing: 120.12,
+    id: 695175,
+    title: "Cumin-Scented Wheat Berry-Lentil Soup",
+    readyInMinutes: 45,
+    servings: 6,
+    sourceUrl:
+      "http://www.eatingwell.com/recipes/cumin_scented_wheat_berry_lentil_soup.html",
+    image: "https://spoonacular.com/recipeImages/695175-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Cumin-Scented Wheat Berry-Lentil Soup might be just the main course you are searching for. For <b>$1.19 per serving</b>, this recipe <b>covers 28%</b> of your daily requirements of vitamins and minerals. One serving contains <b>275 calories</b>, <b>14g of protein</b>, and <b>8g of fat</b>. It will be a hit at your <b>Autumn</b> event. This recipe is liked by 2206 foodies and cooks. Head to the store and pick up olive oil, water, pepper, and a few other things to make it today. To use up the ground cumin you could follow this main course with the <a href="https://spoonacular.com/recipes/moroccan-chocolate-mousse-752536">Moroccan Chocolate Mousse</a> as a dessert. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It is a good option if you\'re following a <b>gluten free and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/lentil-soup-with-coriander-and-cumin-158662">Lentil Soup with Coriander and Cumin</a>, <a href="https://spoonacular.com/recipes/vegan-red-lentil-soup-with-lemon-and-cumin-573849">Vegan Red Lentil Soup with Lemon and Cumin</a>, and <a href="https://spoonacular.com/recipes/cumin-roasted-butternut-squash-and-cracked-wheat-soup-25516">Cumin Roasted Butternut Squash And Cracked Wheat Soup</a> for similar recipes.',
+    cuisines: [],
+    dishTypes: ["soup"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: ["fall", "winter"],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Combine lentils, broth and water in a Dutch oven. Bring to a boil over high heat, reduce heat, cover, and simmer gently until the lentils are tender, but not mushy, 25 to 30 minutes (brown lentils take a little longer than green).Meanwhile, heat oil in a large skillet over medium heat.",
+            ingredients: [
+              {
+                id: 10116069,
+                name: "brown lentils",
+                localizedName: "brown lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404667,
+                name: "dutch oven",
+                localizedName: "dutch oven",
+                image: "dutch-oven.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 25,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step:
+              "Add carrots, onion, salt and pepper. Cook, stirring occasionally, until the vegetables begin to brown, about 15 minutes.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 15,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Add garlic and cumin and cook, stirring constantly, for 30 seconds more.",
+            ingredients: [
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1002014,
+                name: "cumin",
+                localizedName: "cumin",
+                image: "ground-cumin.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "Remove from the heat.When the lentils are tender, stir cooked wheat berries and chard into the pot. Cover and simmer until the chard has wilted, about 5 minutes. Stir in the carrot mixture and lemon juice.",
+            ingredients: [
+              {
+                id: 10098872,
+                name: "cooked wheatberries",
+                localizedName: "cooked wheatberries",
+                image: "wheat-berries.jpg",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 11147,
+                name: "swiss chard",
+                localizedName: "swiss chard",
+                image: "swiss-chard.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404752,
+                name: "pot",
+                localizedName: "pot",
+                image: "stock-pot.jpg",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: true,
+    vegan: true,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: true,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 15,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 1166,
+    spoonacularScore: 100.0,
+    healthScore: 100.0,
+    creditsText: "Love & Lemons",
+    sourceName: "Love & Lemons",
+    pricePerServing: 330.89,
+    id: 764907,
+    title: "Cauliflower Rice Burrito Bowl",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl: "http://www.loveandlemons.com/cauliflower-rice-burrito-bowl/",
+    image: "https://spoonacular.com/recipeImages/764907-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Cauliflower Rice Burrito Bowl might be just the <b>Mexican</b> recipe you are searching for. This main course has <b>604 calories</b>, <b>16g of protein</b>, and <b>37g of fat</b> per serving. This gluten free and vegan recipe serves 4 and costs <b>$3.31 per serving</b>. 1166 people have made this recipe and would make it again. If you have water, olive oil, mild chiles, and a few other ingredients on hand, you can make it. To use up the avocado you could follow this main course with the <a href="https://spoonacular.com/recipes/chocolate-avocado-mousse-quick-dark-chocolate-avocado-mousse-486646">chocolate avocado mousse | quick dark chocolate avocado mousse</a> as a dessert. From preparation to the plate, this recipe takes about <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 100%</b>. This score is excellent. Similar recipes include <a href="https://spoonacular.com/recipes/chicken-carnitas-burrito-bowl-with-cilantro-lime-cauliflower-rice-471580">Chicken Carnitas Burrito Bowl with Cilantro Lime Cauliflower Rice</a>, <a href="https://spoonacular.com/recipes/chipotles-chicken-burrito-bowl-with-cilantro-lime-rice-515751">Chipotle’s Chicken Burrito Bowl with Cilantro Lime Rice</a>, and <a href="https://spoonacular.com/recipes/chipotles-chicken-burrito-bowl-with-cilantro-lime-rice-667434">Chipotle\'s Chicken Burrito Bowl with Cilantro Lime Rice</a>.',
+    cuisines: ["Mexican"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["pinot noir", "riesling", "sparkling rose"],
+      pairingText:
+        "Mexican works really well with Pinot Noir, Riesling, and Sparkling rosé. Acidic white wines like riesling or low-tannin reds like pinot noir can work well with Mexican dishes. Sparkling rosé is a safe pairing too. The Gary Farrell Russian River Pinot Noir with a 4 out of 5 star rating seems like a good match. It costs about 42 dollars per bottle.",
+      productMatches: [
+        {
+          id: 438237,
+          title: "Gary Farrell Russian River Pinot Noir",
+          description:
+            "The 2007 Russian River Selection shows tremendous concentration and power from this blockbuster vintage. Intense aromas of dark fruits, particularly cherries and plums, are matched with warm spices and a leathery earthiness. The palate shows great depth, weight and acidity with a seductive texture which leads to a balanced finish that confirms the nose. The 2007 Russian River Selection Pinot Noir shows wonderful balanced acidity and generous fruit that will pair beautifully with grilled rosemary pork tenderloin.",
+          price: "$41.99",
+          imageUrl: "https://spoonacular.com/productImages/438237-312x231.jpg",
+          averageRating: 0.8,
+          ratingCount: 58.0,
+          score: 0.7942857142857144,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fgary-farrell-russian-river-pinot-noir-2007%2F102829",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Make the cashew cream. In a blender, combine the cashews, green chiles, scallion, cilantro, garlic, lime juice, water and a pinch of salt and pepper. Blend well and season to taste.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 31015,
+                name: "green chili pepper",
+                localizedName: "green chili pepper",
+                image: "chili-peppers-green.jpg",
+              },
+              {
+                id: 9160,
+                name: "lime juice",
+                localizedName: "lime juice",
+                image: "lime-juice.png",
+              },
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 12087,
+                name: "cashews",
+                localizedName: "cashews",
+                image: "cashews.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 1053,
+                name: "cream",
+                localizedName: "cream",
+                image: "fluid-cream.jpg",
+              },
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Add additional water if necessary to get your blender blade moving. Chill until ready to use.Preheat the oven to 350F and line a baking sheet with parchment paper.",
+            ingredients: [
+              {
+                id: 14412,
+                name: "water",
+                localizedName: "water",
+                image: "water.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 350.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Place the tortilla strips on the baking sheet and toss with a drizzle of olive oil and a pinch of salt.",
+            ingredients: [
+              {
+                id: 98977,
+                name: "tortilla strips",
+                localizedName: "tortilla strips",
+                image: "tortilla-strips.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step: "Bake for 10 minutes or until crispy.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Remove from the oven and set aside.Make sure your cauliflower is fully dry.",
+            ingredients: [
+              {
+                id: 11135,
+                name: "cauliflower",
+                localizedName: "cauliflower",
+                image: "cauliflower.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Place the cauliflower in a food processor and pulse until it has the texture of rice. Work in batches if necessary and dont over process or it will get mushy.In a large skillet, heat 1 teaspoon of olive oil over medium heat.",
+            ingredients: [
+              {
+                id: 11135,
+                name: "cauliflower",
+                localizedName: "cauliflower",
+                image: "cauliflower.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 7,
+            step:
+              "Add the cauliflower and saut until heated through, about 5 minutes. Season with salt, pepper and a squeeze of lime juice to help remove any bitterness from the raw cauliflower. Skip this step if you prefer raw cauliflower rice.",
+            ingredients: [
+              {
+                id: 10111135,
+                name: "cauliflower rice",
+                localizedName: "cauliflower rice",
+                image: "cauliflower.jpg",
+              },
+              {
+                id: 11135,
+                name: "cauliflower",
+                localizedName: "cauliflower",
+                image: "cauliflower.jpg",
+              },
+              {
+                id: 9160,
+                name: "lime juice",
+                localizedName: "lime juice",
+                image: "lime-juice.png",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 8,
+            step:
+              "Remove from the skillet and portion the rice into 4 serving bowls.In a medium skillet, heat 1 teaspoon of olive oil over medium heat. Saut the leeks and poblanos with generous pinches of salt and pepper. Cook until soft for 7 to 10 minutes, and then add the minced garlic and oregano. Stir, cook for 1 minute, then add a squeeze of lime and remove from heat. Distribute among the bowls.To the bowls add the black beans, mango, avocado, and cilantro. Top with the crispy tortilla strips and serve with the green sauce and extra lime wedges.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 98977,
+                name: "tortilla strips",
+                localizedName: "tortilla strips",
+                image: "tortilla-strips.jpg",
+              },
+              {
+                id: 0,
+                name: "minced garlic",
+                localizedName: "minced garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 16015,
+                name: "black beans",
+                localizedName: "black beans",
+                image: "black-beans.jpg",
+              },
+              {
+                id: 1029159,
+                name: "lime wedge",
+                localizedName: "lime wedge",
+                image: "lime-wedge.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11165,
+                name: "cilantro",
+                localizedName: "cilantro",
+                image: "cilantro.png",
+              },
+              {
+                id: 10011333,
+                name: "poblano pepper",
+                localizedName: "poblano pepper",
+                image: "poblano-peppers.jpg",
+              },
+              {
+                id: 9037,
+                name: "avocado",
+                localizedName: "avocado",
+                image: "avocado.jpg",
+              },
+              {
+                id: 2027,
+                name: "oregano",
+                localizedName: "oregano",
+                image: "oregano.jpg",
+              },
+              {
+                id: 11246,
+                name: "leek",
+                localizedName: "leek",
+                image: "leeks.jpg",
+              },
+              {
+                id: 9176,
+                name: "mango",
+                localizedName: "mango",
+                image: "mango.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 9159,
+                name: "lime",
+                localizedName: "lime",
+                image: "lime.jpg",
+              },
+              {
+                id: 20444,
+                name: "rice",
+                localizedName: "rice",
+                image: "uncooked-white-rice.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+            length: {
+              number: 8,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 12,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 45,
+    spoonacularScore: 55.0,
+    healthScore: 9.0,
+    creditsText: "Feast on the Cheap",
+    sourceName: "Feast on the Cheap",
+    pricePerServing: 235.46,
+    id: 57488,
+    title: "White Pizza With Sweet Pears And Balsamic-glazed Figs",
+    readyInMinutes: 45,
+    servings: 2,
+    sourceUrl:
+      "http://feastonthecheap.net/white-pizza-with-sweet-pears-and-balsamic-glazed-figs/",
+    image: "https://spoonacular.com/recipeImages/57488-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe White Pizza With Sweet Pears And Balsamic-glazed Figs could satisfy your Mediterranean craving in approximately <b>45 minutes</b>. This recipe serves 2. One serving contains <b>539 calories</b>, <b>19g of protein</b>, and <b>26g of fat</b>. For <b>$2.35 per serving</b>, this recipe <b>covers 13%</b> of your daily requirements of vitamins and minerals. If you have blend of parmesan and a mild cheese like mozzarella, clove of garlic, extra virgin olive oil, and a few other ingredients on hand, you can make it. To use up the extra virgin olive oil you could follow this main course with the <a href="https://spoonacular.com/recipes/peach-crisp-healthy-crisp-for-breakfast-487698">Peach Crisp: Healthy Crisp for Breakfast</a> as a dessert. 45 people were glad they tried this recipe. It works well as a main course. All things considered, we decided this recipe <b>deserves a spoonacular score of 59%</b>. This score is good. Similar recipes include <a href="https://spoonacular.com/recipes/white-pizza-with-walnuts-pears-and-balsamic-glazed-figs-522718">White Pizza with Walnuts, Pears and Balsamic Glazed Figs</a>, <a href="https://spoonacular.com/recipes/pizza-with-balsamic-roasted-mission-figs-57149">Pizza With Balsamic Roasted Mission Figs</a>, and <a href="https://spoonacular.com/recipes/seared-figs-and-white-peaches-with-balsamic-reduction-57368">Seared Figs and White Peaches with Balsamic Reduction</a>.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 25,
+    cookingMinutes: 25,
+    aggregateLikes: 13,
+    spoonacularScore: 25.0,
+    healthScore: 2.0,
+    creditsText: "Simply Scratch",
+    sourceName: "Simply Scratch",
+    pricePerServing: 172.96,
+    id: 824899,
+    title: "White Pizza with Bacon, Artichokes and Balsamic Drizzle",
+    readyInMinutes: 60,
+    servings: 6,
+    sourceUrl:
+      "http://www.simplyscratch.com/2016/10/white-pizza-with-bacon-artichokes-and-balsamic-drizzle.html",
+    image: "https://spoonacular.com/recipeImages/824899-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe White Pizza with Bacon, Artichokes and Balsamic Drizzle is ready <b>in around 1 hour</b> and is definitely a super <b>gluten free</b> option for lovers of Mediterranean food. For <b>$1.73 per serving</b>, this recipe <b>covers 7%</b> of your daily requirements of vitamins and minerals. This recipe makes 6 servings with <b>303 calories</b>, <b>14g of protein</b>, and <b>20g of fat</b> each. If you have garlic, milk ricotta cheese, parsley, and a few other ingredients on hand, you can make it. To use up the balsamic vinegar you could follow this main course with the <a href="https://spoonacular.com/recipes/skinny-strawberry-ice-cream-667869">Skinny Strawberry Ice Cream</a> as a dessert. A few people really liked this main course. This recipe is liked by 13 foodies and cooks. All things considered, we decided this recipe <b>deserves a spoonacular score of 28%</b>. This score is not so great. Try <a href="https://spoonacular.com/recipes/spring-time-mushroom-+-asparagus-white-burrata-cheese-pizza-with-balsamic-drizzle-549973">Spring Time Mushroom + Asparagus White Burrata Cheese Pizza with Balsamic Drizzle</a>, <a href="https://spoonacular.com/recipes/naan-pizza-with-butternut-squash-and-balsamic-drizzle-590903">Naan Pizza with Butternut Squash and Balsamic Drizzle</a>, and <a href="https://spoonacular.com/recipes/bacon-tomato-+-avocado-smashed-toast-with-balsamic-drizzle-577604">Bacon, Tomato + Avocado Smashed Toast with Balsamic Drizzle</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["side dish"],
+    diets: ["gluten free"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Place the vinegar into a saucepan and bring to a simmer over medium heat. Stir often until reduced and thick. Set a side.Preheat your oven to 400, lightly oil an inverted rimmed baking sheet and set aside.",
+            ingredients: [
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Place the garlic and olive oil in a small sauce pan and heat on low until the garlic just starts to turn golden brown.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Remove off of the heat to cool for a moment.On the prepared pan, stretch and press pizza dough to form a rustic long oval.",
+            ingredients: [
+              {
+                id: 93610,
+                name: "pizza dough",
+                localizedName: "pizza dough",
+                image: "pizza-dough.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Brush the center of the dough with all of the garlic oil leaving an inch or so border. Then sprinkle all of the mozzarella cheese over top.Slide the pan onto the middle rack of your preheated oven and bake for 10 minutes.Meanwhile, mix together the Parmesan cheese and fresh herbs.Once the 10 minutes are up, remove the pizza and scatter small spoonfuls of the ricotta cheese over top of the mozzarella. Arrange the drained artichokes and sprinkle with the chopped bacon pieces and the Parmesan herb mixture. Slide the pizza back into the oven for an additional 12 to 15 minutes.Slice and drizzle with the reduced balsamic.",
+            ingredients: [
+              {
+                id: 1026,
+                name: "mozzarella",
+                localizedName: "mozzarella",
+                image: "mozzarella.png",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 1036,
+                name: "ricotta cheese",
+                localizedName: "ricotta cheese",
+                image: "ricotta.png",
+              },
+              {
+                id: 99229,
+                name: "real bacon pieces",
+                localizedName: "real bacon pieces",
+                image: "bacon-bits.jpg",
+              },
+              {
+                id: 10111297,
+                name: "fresh herbs",
+                localizedName: "fresh herbs",
+                image: "mixed-fresh-herbs.jpg",
+              },
+              {
+                id: 11007,
+                name: "artichoke",
+                localizedName: "artichoke",
+                image: "artichokes.png",
+              },
+              {
+                id: 1004053,
+                name: "garlic oil",
+                localizedName: "garlic oil",
+                image: "garlic-oil.jpg",
+              },
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 32,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 29,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 15,
+    aggregateLikes: 38,
+    spoonacularScore: 90.0,
+    healthScore: 37.0,
+    creditsText: "Creative Culinary",
+    sourceName: "Creative Culinary",
+    pricePerServing: 442.12,
+    id: 522718,
+    title: "White Pizza with Walnuts, Pears and Balsamic Glazed Figs",
+    readyInMinutes: 25,
+    servings: 2,
+    sourceUrl:
+      "http://www.creative-culinary.com/white-pizza-with-pears-and-balsamic-glazed-figs/",
+    image: "https://spoonacular.com/recipeImages/522718-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'White Pizza with Walnuts, Pears and Balsamic Glazed Figs might be just the main course you are searching for. One serving contains <b>1045 calories</b>, <b>38g of protein</b>, and <b>80g of fat</b>. This recipe serves 2 and costs $4.42 per serving. A few people made this recipe, and 38 would say it hit the spot. This recipe is typical of Mediterranean cuisine. From preparation to the plate, this recipe takes approximately <b>25 minutes</b>. A mixture of cup walnuts, garlic, cup figs, and a handful of other ingredients are all it takes to make this recipe so scrumptious. To use up the pears you could follow this main course with the <a href="https://spoonacular.com/recipes/cornmeal-crepes-with-figs-and-pears-188641">Cornmeal Crepes with Figs and Pears</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 91%</b>. This score is outstanding. Try <a href="https://spoonacular.com/recipes/white-pizza-with-sweet-pears-and-balsamic-glazed-figs-57488">White Pizza With Sweet Pears And Balsamic-glazed Figs</a>, <a href="https://spoonacular.com/recipes/figs-with-balsamic-vinegar-mascarpone-and-walnuts-57058">Figs with Balsamic Vinegar, Mascarpone, and Walnuts</a>, and <a href="https://spoonacular.com/recipes/pizza-with-balsamic-roasted-mission-figs-57149">Pizza With Balsamic Roasted Mission Figs</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat the oven to 500 degrees. Pre-warm an empty baking sheet about 5 minutes before you’re ready to bake your pizza (this will result in a crispier crust if you don’t have a proper pizza stone).In a small saucepan, combine the figs, 2 Tablespoons of olive oil, Balsamic vinegar and minced garlic clove over med-low heat for 1 minute – until the figs just start to soften and the vinegar begins to sizzle.",
+            ingredients: [
+              {
+                id: 2069,
+                name: "balsamic vinegar",
+                localizedName: "balsamic vinegar",
+                image: "balsamic-vinegar.jpg",
+              },
+              {
+                id: 0,
+                name: "minced garlic",
+                localizedName: "minced garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 2053,
+                name: "vinegar",
+                localizedName: "vinegar",
+                image: "vinegar-(white).jpg",
+              },
+              {
+                id: 1002011,
+                name: "clove",
+                localizedName: "clove",
+                image: "cloves.jpg",
+              },
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+              {
+                id: 9089,
+                name: "figs",
+                localizedName: "figs",
+                image: "figs-fresh.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 406907,
+                name: "pizza stone",
+                localizedName: "pizza stone",
+                image: "pizza-stone.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+            length: {
+              number: 6,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Remove from heat and set aside.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Roll out your pizza dough on a well-floured surface – be sure to flour your hands and the rolling pin too. Once rolled out, brush the top of your dough with the remaining Tablespoon of olive oil. Assemble your toppings starting with half of the cheese mixture, followed by the pears, the figs, the walnuts and finishing with the remaining cheese.Use two spatulas to place your assembled pizza on the hot baking sheet. (I cheated here...I just put the dough on the hot baking sheet and assembled it quickly to avoid the transfer business).Turn the oven temperature down to 450 degrees and bake for 8-12 minutes – timing will depend on the thickness of your crust and your oven, so be sure to check after 8 minutes. Once your crust has risen and has turned a nice golden brown, remove from the oven.",
+            ingredients: [
+              {
+                id: 93610,
+                name: "pizza dough",
+                localizedName: "pizza dough",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 12155,
+                name: "walnuts",
+                localizedName: "walnuts",
+                image: "walnuts.jpg",
+              },
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+              {
+                id: 20081,
+                name: "all purpose flour",
+                localizedName: "all purpose flour",
+                image: "flour.png",
+              },
+              {
+                id: 9252,
+                name: "pear",
+                localizedName: "pear",
+                image: "pears-bosc.jpg",
+              },
+              {
+                id: 9089,
+                name: "figs",
+                localizedName: "figs",
+                image: "figs-fresh.jpg",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404746,
+                name: "rolling pin",
+                localizedName: "rolling pin",
+                image: "rolling-pin.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404642,
+                name: "spatula",
+                localizedName: "spatula",
+                image: "spatula-or-turner.jpg",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step: "Serve hot.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 29,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 15,
+    spoonacularScore: 83.0,
+    healthScore: 23.0,
+    creditsText: "Big Girls Small Kitchen",
+    sourceName: "Big Girls Small Kitchen",
+    pricePerServing: 474.5,
+    id: 40113,
+    title: "White Pizza With Ricotta, Sundried Tomato, And Scallions",
+    readyInMinutes: 16,
+    servings: 3,
+    sourceUrl:
+      "http://www.biggirlssmallkitchen.com/2010/06/cooking-for-others-bff-pizza-party.html",
+    image: "https://spoonacular.com/recipeImages/40113-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give White Pizza With Ricotta, Sundried Tomato, And Scallions a try. For <b>$4.75 per serving</b>, this recipe <b>covers 29%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains approximately <b>51g of protein</b>, <b>44g of fat</b>, and a total of <b>911 calories</b>. This recipe serves 3. 15 people have tried and liked this recipe. Head to the store and pick up pizza sauce, ricotta cheese, pizza dough, and a few other things to make it today. To use up the pizza dough you could follow this main course with the <a href="https://spoonacular.com/recipes/grilled-dessert-pizza-203680">Grilled Dessert Pizza</a> as a dessert. It is a <b>pretty expensive</b> recipe for fans of Mediterranean food. From preparation to the plate, this recipe takes approximately <b>16 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 85%</b>. This score is tremendous. Try <a href="https://spoonacular.com/recipes/broccoli-and-sundried-tomato-rutabaga-pasta-with-ricotta-824844">Broccoli and Sundried Tomato Rutabaga Pasta with Ricotta</a>, <a href="https://spoonacular.com/recipes/saturday-night-sundried-tomato-pizza-27257">Saturday Night Sundried Tomato Pizza</a>, and <a href="https://spoonacular.com/recipes/sundried-tomato-and-black-olive-pizza-476412">Sundried Tomato and Black Olive Pizza</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 12,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 13,
+    spoonacularScore: 32.0,
+    healthScore: 3.0,
+    creditsText: "Food52",
+    sourceName: "Food52",
+    pricePerServing: 140.38,
+    id: 40692,
+    title: "White Pizza With Burrata, Dried Chilies & Ramp (or Chive) Oil",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl:
+      "http://www.food52.com/recipes/5164_white_pizza_with_burrata_dried_chilies_ramp_or_chive_oil",
+    image: "https://spoonacular.com/recipeImages/40692-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe White Pizza With Burrata, Dried Chilies & Ramp (or Chive) Oil could satisfy your Mediterranean craving in roughly <b>45 minutes</b>. One portion of this dish contains about <b>9g of protein</b>, <b>20g of fat</b>, and a total of <b>416 calories</b>. This recipe serves 4 and costs $1.61 per serving. 13 people have made this recipe and would make it again. Head to the store and pick up ancho pepper, garlic, tsp pepper, and a few other things to make it today. With a spoonacular <b>score of 38%</b>, this dish is not so spectacular. Try <a href="https://spoonacular.com/recipes/spring-time-mushroom-+-asparagus-white-burrata-cheese-pizza-with-balsamic-drizzle-549973">Spring Time Mushroom + Asparagus White Burrata Cheese Pizza with Balsamic Drizzle</a>, <a href="https://spoonacular.com/recipes/kung-pao-fish-with-dried-chilies-and-sichuan-peppercorns-607057">Kung Pao Fish With Dried Chilies and Sichuan Peppercorns</a>, and <a href="https://spoonacular.com/recipes/ramp-pizza-594592">Ramp Pizza</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["side dish"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [],
+  },
+  {
+    vegetarian: true,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: true,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 6,
+    gaps: "GAPS_FULL",
+    lowFodmap: true,
+    preparationMinutes: 0,
+    cookingMinutes: 0,
+    aggregateLikes: 0,
+    spoonacularScore: 31.0,
+    healthScore: 5.0,
+    creditsText: "Thriving On Paleo",
+    sourceName: "Thriving On Paleo",
+    pricePerServing: 86.85,
+    id: 907664,
+    title: "Paleo Pizza Egg Muffins (and what we ate mountain climbing vlog)",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl:
+      "https://thrivingonpaleo.com/paleo-pizza-egg-muffins-what-we-ate-mountain-climbing-vlog/",
+    image: "https://spoonacular.com/recipeImages/907664-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Paleo Pizzan Egg Muffins (and what we ate mountain climbing vlog) might be just the <b>Mediterranean</b> recipe you are searching for. For <b>87 cents per serving</b>, this recipe <b>covers 13%</b> of your daily requirements of vitamins and minerals. This recipe makes 4 servings with <b>204 calories</b>, <b>15g of protein</b>, and <b>15g of fat</b> each. 1 person were impressed by this recipe. It works well as an inexpensive main course. Head to the store and pick up tomatoes, pepper, coconut milk, and a few other things to make it today. To use up the black pepper you could follow this main course with the <a href="https://spoonacular.com/recipes/dr-pepper-cake-with-flour-cooked-frosting-539165">Dr. Pepper Cake with Flour Cooked Frosting</a> as a dessert. It is a good option if you\'re following a <b>caveman, gluten free, dairy free, and primal</b> diet. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 2%</b>. This score is very bad (but still fixable). Try <a href="https://spoonacular.com/recipes/paleo-camping-vlog-and-for-hobo-packet-904994">Paleo Camping- Vlog and for Hobo Packet</a>, <a href="https://spoonacular.com/recipes/sage-mountain-gorgonzola-and-fig-pizza-761157">Sage, Mountain Gorgonzolan and Fig Pizza</a>, and <a href="https://spoonacular.com/recipes/breakfast-egg-muffins-924745">Breakfast Egg Muffins</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["side dish"],
+    diets: [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "fodmap friendly",
+    ],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 350 F. If using a standard muffin tin, line the tin with paper liners. I recommend using a silicone muffin tin for egg muffins though since they just slide right out and cleanup is minimal.In a large bowl, whisk together the eggs, coconut milk, salt, oregano, and pepper.",
+            ingredients: [
+              {
+                id: 12118,
+                name: "coconut milk",
+                localizedName: "coconut milk",
+                image: "coconut-milk.png",
+              },
+              {
+                id: 2027,
+                name: "oregano",
+                localizedName: "oregano",
+                image: "oregano.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 1123,
+                name: "egg",
+                localizedName: "egg",
+                image: "egg.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 406910,
+                name: "silicone muffin tray",
+                localizedName: "silicone muffin tray",
+                image: "silicone-muffin-pan.jpg",
+              },
+              {
+                id: 404671,
+                name: "muffin tray",
+                localizedName: "muffin tray",
+                image: "muffin-tray.jpg",
+              },
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 350.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Add in the tomatoes, pepperoni, and olives and mix.",
+            ingredients: [
+              {
+                id: 7057,
+                name: "pepperoni",
+                localizedName: "pepperoni",
+                image: "pepperoni.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 9195,
+                name: "olives",
+                localizedName: "olives",
+                image: "olives-mixed.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step: "Pour the mixture into the muffin cups evenly.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404676,
+                name: "muffin liners",
+                localizedName: "muffin liners",
+                image: "muffin-or-cupcake-forms.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step: "Bake for 30 minutes or until the muffins are set.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 30,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 10,
+    aggregateLikes: 216,
+    spoonacularScore: 39.0,
+    healthScore: 3.0,
+    creditsText: "Oh My Veggies",
+    sourceName: "Oh My Veggies",
+    pricePerServing: 153.31,
+    id: 495219,
+    title:
+      "Pesto Pizza with Roasted Red Peppers, Cremini Mushrooms & Asparagus",
+    readyInMinutes: 25,
+    servings: 6,
+    sourceUrl:
+      "http://ohmyveggies.com/recipe-pesto-pizza-with-roasted-red-peppers-cremini-mushrooms-asparagus/",
+    image: "https://spoonacular.com/recipeImages/495219-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Pesto Pizza with Roasted Red Peppers, Cremini Mushrooms & Asparagus could satisfy your Mediterranean craving in approximately <b>25 minutes</b>. One serving contains <b>315 calories</b>, <b>11g of protein</b>, and <b>15g of fat</b>. For <b>$1.53 per serving</b>, this recipe <b>covers 6%</b> of your daily requirements of vitamins and minerals. Plenty of people made this recipe, and 216 would say it hit the spot. If you have asparagus stalks, pesto, pizza crust, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 43%</b>. This score is good. Try <a href="https://spoonacular.com/recipes/pizza-with-parsley-pesto-cremini-mushrooms-fontina-and-goat-cheese-752742">Pizza with Parsley Pesto, Cremini Mushrooms, Fontinan and Goat Cheese</a>, <a href="https://spoonacular.com/recipes/asparagus-ravioli-with-pan-seared-cremini-mushrooms-495138">Asparagus Ravioli with Pan-Seared Cremini Mushrooms</a>, and <a href="https://spoonacular.com/recipes/sun-dried-tomato-and-olive-pesto-pizza-with-salami-+-roasted-red-peppers-623146">Sun-Dried Tomato and Olive Pesto Pizza with Salami + Roasted Red Peppers</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["side dish"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Preheat oven to temperature indicated on pizza crust.",
+            ingredients: [
+              {
+                id: 93770,
+                name: "prepared pizza crust",
+                localizedName: "prepared pizza crust",
+                image: "pizza-dough.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Place pizza crust on baking sheet.",
+            ingredients: [
+              {
+                id: 93770,
+                name: "prepared pizza crust",
+                localizedName: "prepared pizza crust",
+                image: "pizza-dough.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step: "Heat olive oil in a small skillet over medium heat.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step: "Add mushrooms and cook about 5 minutes, or until softened.",
+            ingredients: [
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Spread pesto evenly onto pizza crust. Top with cheese, mushrooms, red peppers, and asparagus tips and ribbons.",
+            ingredients: [
+              {
+                id: 11011,
+                name: "asparagus",
+                localizedName: "asparagus",
+                image: "asparagus.png",
+              },
+              {
+                id: 93770,
+                name: "prepared pizza crust",
+                localizedName: "prepared pizza crust",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 11821,
+                name: "red pepper",
+                localizedName: "red pepper",
+                image: "red-pepper.jpg",
+              },
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Bake until asparagus has softened and cheese has melted, about 10 minutes.",
+            ingredients: [
+              {
+                id: 11011,
+                name: "asparagus",
+                localizedName: "asparagus",
+                image: "asparagus.png",
+              },
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: true,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: true,
+    sustainable: false,
+    weightWatcherSmartPoints: 26,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 3703,
+    spoonacularScore: 98.0,
+    healthScore: 49.0,
+    creditsText: "Foodie Crush",
+    sourceName: "Foodie Crush",
+    pricePerServing: 586.65,
+    id: 608470,
+    title:
+      "Pesto Pizza with Fresh Tomatoes and Mozzarella and Perfect Pizza at Home",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl:
+      "http://www.foodiecrush.com/2014/08/pesto-pizza-with-fresh-tomatoes-and-mozzarella-and-perfect-pizza-at-home/",
+    image: "https://spoonacular.com/recipeImages/608470-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Pesto Pizza with Fresh Tomatoes and Mozzarellan and Perfect Pizzan at Home might be just the <b>Mediterranean</b> recipe you are searching for. For <b>$5.87 per serving</b>, this recipe <b>covers 36%</b> of your daily requirements of vitamins and minerals. One serving contains <b>779 calories</b>, <b>42g of protein</b>, and <b>64g of fat</b>. 3703 people have made this recipe and would make it again. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It works well as an expensive condiment. Head to the store and pick up pinenuts, garlic, extra virgin olive oil, and a few other things to make it today. It is a good option if you\'re following a <b>gluten free, primal, and ketogenic</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 98%</b>. This score is awesome. Try <a href="https://spoonacular.com/recipes/pizza-with-pesto-fresh-tomatoes-and-mozzarella-154317">Pizza with Pesto, Fresh Tomatoes, and Mozzarella</a>, <a href="https://spoonacular.com/recipes/pasta-with-pesto-fresh-tomatoes-sun-dried-tomatoes-chicken-and-mozzarella-cheese-607983">Pasta with Pesto, Fresh Tomatoes, Sun-Dried Tomatoes, Chicken and Mozzarella Cheese</a>, and <a href="https://spoonacular.com/recipes/penne-pasta-with-pesto-sauce-fresh-mozzarella-and-cherry-tomatoes-503055">Penne Pasta with Pesto Sauce, Fresh Mozzarellan and Cherry Tomatoes</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["gluten free", "primal"],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Prepare the Neapolitan pizza dough and let rise overnight in the refrigerator.Preheat a pizza stone in the oven set to 500 degrees F. Make pizza crusts according to the video directions on Craftsy. Prepare the pesto.",
+            ingredients: [
+              {
+                id: 93770,
+                name: "prepared pizza crust",
+                localizedName: "prepared pizza crust",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 93610,
+                name: "pizza dough",
+                localizedName: "pizza dough",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 406907,
+                name: "pizza stone",
+                localizedName: "pizza stone",
+                image: "pizza-stone.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 500.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Heat a sauté pan over medium heat and add the chopped garlic and olive oil mixture. Stir for 15 seconds and remove from heat. You want to seat the garlic, not brown it.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Place the basil leaves, parmesan, pine nuts, lemon juice, olive oil and garlic oil mixture into a food processor. Pulse until the basil has broken down and the ingredients are mixed. The mixture should be bright green and have a pebbly texture. It should be thin enough to spread but not runny.",
+            ingredients: [
+              {
+                id: 2044,
+                name: "fresh basil",
+                localizedName: "fresh basil",
+                image: "fresh-basil.jpg",
+              },
+              {
+                id: 9152,
+                name: "lemon juice",
+                localizedName: "lemon juice",
+                image: "lemon-juice.jpg",
+              },
+              {
+                id: 1004053,
+                name: "garlic oil",
+                localizedName: "garlic oil",
+                image: "garlic-oil.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 12147,
+                name: "pine nuts",
+                localizedName: "pine nuts",
+                image: "pine-nuts.png",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404771,
+                name: "food processor",
+                localizedName: "food processor",
+                image: "food-processor.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Add kosher salt to taste and add more olive oil if the sauce is too thick.",
+            ingredients: [
+              {
+                id: 1082047,
+                name: "kosher salt",
+                localizedName: "kosher salt",
+                image: "salt.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Transfer the sauce to a container or bowl.Prepare the pizza rounds according to the directions in this free online class from Craftsy. Dust a baker's peel with flour and carefully transfer one pizza round to the peel.Lightly spread the pesto sauce on the pizza dough leaving a 1-inch border, then sprinkle with shredded cheese and 3 slices of the fresh mozzarella. Top with slices of tomatoes and extra shredded parmesan if desired.  Line up the edge of the baker’s peel with far edge of stone, tilt peel and jerk the pizza onto the hot pizza stone.",
+            ingredients: [
+              {
+                id: 1021026,
+                name: "fresh mozzarella",
+                localizedName: "fresh mozzarella",
+                image: "mozzarella.png",
+              },
+              {
+                id: 1011026,
+                name: "shredded cheese",
+                localizedName: "shredded cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+              {
+                id: 93610,
+                name: "pizza dough",
+                localizedName: "pizza dough",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 20081,
+                name: "all purpose flour",
+                localizedName: "all purpose flour",
+                image: "flour.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 406907,
+                name: "pizza stone",
+                localizedName: "pizza stone",
+                image: "pizza-stone.jpg",
+              },
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step:
+              "Bake the pizza until the dough is crisp and brown, about 10 to 12 minutes.",
+            ingredients: [
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step:
+              "Transfer the pizza on the peel to a cutting board, cut into slices and serve immediately. Top with more pesto, fresh basil leaves and crushed red pepper flakes if desired.",
+            ingredients: [
+              {
+                id: 1032009,
+                name: "red pepper flakes",
+                localizedName: "red pepper flakes",
+                image: "red-pepper-flakes.jpg",
+              },
+              {
+                id: 2044,
+                name: "fresh basil",
+                localizedName: "fresh basil",
+                image: "fresh-basil.jpg",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404716,
+                name: "cutting board",
+                localizedName: "cutting board",
+                image: "cutting-board.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 5,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 20,
+    cookingMinutes: 20,
+    aggregateLikes: 0,
+    spoonacularScore: 14.0,
+    healthScore: 1.0,
+    creditsText: "Life Made Simple",
+    sourceName: "Life Made Simple",
+    pricePerServing: 70.79,
+    id: 1472549,
+    title: "Veggie Pizza",
+    readyInMinutes: 40,
+    servings: 12,
+    sourceUrl: "https://lifemadesimplebakes.com/garden-veggie-pizza/",
+    image: "https://spoonacular.com/recipeImages/1472549-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many Mediterranean recipes, so give Veggie Pizzan a try. One serving contains <b>174 calories</b>, <b>8g of protein</b>, and <b>8g of fat</b>. This recipe serves 12. For <b>71 cents per serving</b>, this recipe <b>covers 5%</b> of your daily requirements of vitamins and minerals. 1 person were glad they tried this recipe. Not a lot of people really liked this hor d\'oeuvre. A mixture of ground pepper, butter, seasoning, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by Life Made Simple. From preparation to the plate, this recipe takes around <b>40 minutes</b>. Overall, this recipe earns a <b>very bad (but still fixable) spoonacular score of 0%</b>. Users who liked this recipe also liked <a href="https://spoonacular.com/recipes/veggie-pizza-471225">Veggie Pizza</a>, <a href="https://spoonacular.com/recipes/veggie-pizza-1084221">Veggie Pizza</a>, and <a href="https://spoonacular.com/recipes/veggie-pizza-1018140">Veggie Pizza</a>.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: [
+      "antipasti",
+      "starter",
+      "snack",
+      "appetizer",
+      "antipasto",
+      "hor d'oeuvre",
+    ],
+    diets: [],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["sangiovese", "barbera wine", "shiraz"],
+      pairingText:
+        "Sangiovese, Barbera Wine, and Shiraz are great choices for Pizza. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. The Caposaldo Chianti with a 5 out of 5 star rating seems like a good match. It costs about 13 dollars per bottle.",
+      productMatches: [
+        {
+          id: 441745,
+          title: "Caposaldo Chianti",
+          description:
+            "Ruby red with an aroma and flavor of red cherries, a smooth texture, excellent structure and a long, elegant finish. Best with pizza, pasta with tomato- or meat-based sauces, meaty mushrooms, roasted chicken or grilled meats.Blend: 75% Sangiovese, 10% Cabernet Sauvignon, 10% Merlot, 5% Malvasia",
+          price: "$12.99",
+          imageUrl: "https://spoonacular.com/productImages/441745-312x231.jpg",
+          averageRating: 1.0,
+          ratingCount: 5.0,
+          score: 0.9375,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fcaposaldo-chianti-2012%2F140351",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Preheat oven to 500 degrees.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "To make sauce, in a small saucepan set over medium heat, melt butter.",
+            ingredients: [
+              {
+                id: 1001,
+                name: "butter",
+                localizedName: "butter",
+                image: "butter-sliced.jpg",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404669,
+                name: "sauce pan",
+                localizedName: "sauce pan",
+                image: "sauce-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step: "Add minced garlic, stir and cook for 1 minute.",
+            ingredients: [
+              {
+                id: 0,
+                name: "minced garlic",
+                localizedName: "minced garlic",
+                image: "garlic.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 4,
+            step: "Add flour, cook for 1 minute.",
+            ingredients: [
+              {
+                id: 20081,
+                name: "all purpose flour",
+                localizedName: "all purpose flour",
+                image: "flour.png",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 1,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Add milk and whisk continuously until a smooth. As the mixture thickens, season with salt, pepper and Italian seasoning. Simmer for 5 minutes, then reduce from heat and add the parmesan.",
+            ingredients: [
+              {
+                id: 1022027,
+                name: "italian seasoning",
+                localizedName: "italian seasoning",
+                image: "dried-herbs.png",
+              },
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 1002030,
+                name: "pepper",
+                localizedName: "pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 1077,
+                name: "milk",
+                localizedName: "milk",
+                image: "milk.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404661,
+                name: "whisk",
+                localizedName: "whisk",
+                image: "whisk.png",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step: "Let cool for 15 minutes before using.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step: 'Roll out the dough into a 16" circle.',
+            ingredients: [
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 8,
+            step:
+              "Place on the pizza pan, then fold the overhanging dough over to form the crust. Press the edge to seal.",
+            ingredients: [
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+            ],
+            equipment: [
+              {
+                id: 470580,
+                name: "pizza pan",
+                localizedName: "pizza pan",
+                image: "",
+              },
+            ],
+          },
+          {
+            number: 9,
+            step: "Brush with olive oil, then bake for 5 minutes.",
+            ingredients: [
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 5,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 10,
+            step: "Remove from the oven.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 11,
+            step:
+              "Spread the sauce over the pizza peel, then top with spinach, artichokes, mozzarella cheese and monterey jack cheese.",
+            ingredients: [
+              {
+                id: 1001025,
+                name: "monterey jack cheese",
+                localizedName: "monterey jack cheese",
+                image: "shredded-cheese-white.jpg",
+              },
+              {
+                id: 1026,
+                name: "mozzarella",
+                localizedName: "mozzarella",
+                image: "mozzarella.png",
+              },
+              {
+                id: 11007,
+                name: "artichoke",
+                localizedName: "artichoke",
+                image: "artichokes.png",
+              },
+              {
+                id: 10011457,
+                name: "spinach",
+                localizedName: "spinach",
+                image: "spinach.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 12,
+            step:
+              "Add the zucchini, yellow squash, red onion, diced tomato, green onion, oregano, red pepper, salt & pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 10211641,
+                name: "yellow squash",
+                localizedName: "yellow squash",
+                image: "yellow-squash.jpg",
+              },
+              {
+                id: 11291,
+                name: "green onions",
+                localizedName: "green onions",
+                image: "spring-onions.jpg",
+              },
+              {
+                id: 11821,
+                name: "red pepper",
+                localizedName: "red pepper",
+                image: "red-pepper.jpg",
+              },
+              {
+                id: 10011282,
+                name: "red onion",
+                localizedName: "red onion",
+                image: "red-onion.png",
+              },
+              {
+                id: 11477,
+                name: "zucchini",
+                localizedName: "zucchini",
+                image: "zucchini.jpg",
+              },
+              {
+                id: 2027,
+                name: "oregano",
+                localizedName: "oregano",
+                image: "oregano.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 13,
+            step: "Bake for 10-12 minutes.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 14,
+            step:
+              "Remove, and sprinkle with parmesan cheese, allow to cool for 8 minutes before slicing and serving.",
+            ingredients: [
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 8,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 7,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 15,
+    aggregateLikes: 1,
+    spoonacularScore: 13.0,
+    healthScore: 1.0,
+    creditsText: "Julies Eats and Treats",
+    sourceName: "Julies Eats and Treats",
+    pricePerServing: 82.81,
+    id: 1084221,
+    title: "Veggie Pizza",
+    readyInMinutes: 30,
+    servings: 16,
+    sourceUrl: "https://www.julieseatsandtreats.com/vegetable-pizza/",
+    image: "https://spoonacular.com/recipeImages/1084221-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Veggie Pizza could satisfy your Mediterranean craving in approximately <b>30 minutes</b>. This recipe serves 16 and costs 83 cents per serving. One portion of this dish contains around <b>3g of protein</b>, <b>14g of fat</b>, and a total of <b>186 calories</b>. 1 person found this recipe to be yummy and satisfying. If you have crescent rolls, olives, cream cheese, and a few other ingredients on hand, you can make it. It is brought to you by Julies Eats and Treats. With a spoonacular <b>score of 58%</b>, this dish is solid. <a href="https://spoonacular.com/recipes/veggie-pizza-272140">Veggie Pizza</a>, <a href="https://spoonacular.com/recipes/veggie-pizza-397520">Veggie Pizza</a>, and <a href="https://spoonacular.com/recipes/veggie-pizza-1018140">Veggie Pizza</a> are very similar to this recipe.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: [],
+    diets: [],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["sangiovese", "barbera wine", "shiraz"],
+      pairingText:
+        "Sangiovese, Barbera Wine, and Shiraz are great choices for Pizza. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. You could try Caposaldo Chianti. Reviewers quite like it with a 5 out of 5 star rating and a price of about 13 dollars per bottle.",
+      productMatches: [
+        {
+          id: 441745,
+          title: "Caposaldo Chianti",
+          description:
+            "Ruby red with an aroma and flavor of red cherries, a smooth texture, excellent structure and a long, elegant finish. Best with pizza, pasta with tomato- or meat-based sauces, meaty mushrooms, roasted chicken or grilled meats.Blend: 75% Sangiovese, 10% Cabernet Sauvignon, 10% Merlot, 5% Malvasia",
+          price: "$12.99",
+          imageUrl: "https://spoonacular.com/productImages/441745-312x231.jpg",
+          averageRating: 1.0,
+          ratingCount: 5.0,
+          score: 0.9375,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fcaposaldo-chianti-2012%2F140351",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Put crescent rolls in a greased jelly roll pan, press them together to form a crust.",
+            ingredients: [
+              {
+                id: 93618,
+                name: "refrigerated crescent rolls",
+                localizedName: "refrigerated crescent rolls",
+                image: "crescent-rolls.jpg",
+              },
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+              {
+                id: 19297,
+                name: "jelly",
+                localizedName: "jelly",
+                image: "grape-jelly.jpg",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Bake crescent rolls according to package directions.",
+            ingredients: [
+              {
+                id: 93618,
+                name: "refrigerated crescent rolls",
+                localizedName: "refrigerated crescent rolls",
+                image: "crescent-rolls.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Mix french onion dip, cream cheese, ranch dressing and mayo together.",
+            ingredients: [
+              {
+                id: 99209,
+                name: "onion dip",
+                localizedName: "onion dip",
+                image: "onion-dip.png",
+              },
+              {
+                id: 4639,
+                name: "ranch dressing",
+                localizedName: "ranch dressing",
+                image: "ranch-dressing.jpg",
+              },
+              {
+                id: 1017,
+                name: "cream cheese",
+                localizedName: "cream cheese",
+                image: "cream-cheese.jpg",
+              },
+              {
+                id: 4025,
+                name: "mayonnaise",
+                localizedName: "mayonnaise",
+                image: "mayonnaise.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step: "Spread on cooled crescent rolls.",
+            ingredients: [
+              {
+                id: 93618,
+                name: "refrigerated crescent rolls",
+                localizedName: "refrigerated crescent rolls",
+                image: "crescent-rolls.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Cut vegetables up and put on cream cheese mixture.",
+            ingredients: [
+              {
+                id: 1017,
+                name: "cream cheese",
+                localizedName: "cream cheese",
+                image: "cream-cheese.jpg",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "Sprinkle with cheese.",
+            ingredients: [
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step: "Refrigerate & cut when ready to serve.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 5,
+    cookingMinutes: 30,
+    aggregateLikes: 0,
+    spoonacularScore: 36.0,
+    healthScore: 7.0,
+    creditsText: "Crazy for Crust",
+    sourceName: "Crazy for Crust",
+    pricePerServing: 165.09,
+    id: 1441285,
+    title: "Hummus Pizza",
+    readyInMinutes: 35,
+    servings: 4,
+    sourceUrl: "https://www.crazyforcrust.com/hummus-pizza-recipe/",
+    image: "https://spoonacular.com/recipeImages/1441285-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Hummus Pizza takes about <b>35 minutes</b> from beginning to end. For <b>$1.65 per serving</b>, you get a hor d\'oeuvre that serves 4. One portion of this dish contains around <b>7g of protein</b>, <b>17g of fat</b>, and a total of <b>287 calories</b>. Not a lot of people made this recipe, and 1 would say it hit the spot. It is a <b>reasonably priced</b> recipe for fans of middl eastern food. Head to the store and pick up crescent rolls 8 rolls, goat cheese, roma tomato, and a few other things to make it today. It is brought to you by Crazy for Crust. Taking all factors into account, this recipe <b>earns a spoonacular score of 0%</b>, which is improvable. <a href="https://spoonacular.com/recipes/clean-eating-sun-dried-tomato-and-olive-hummus-pizza-hummus-1099436">Clean Eating Sun Dried Tomato And Olive Hummus (Pizza Hummus)</a>, <a href="https://spoonacular.com/recipes/cheesy-margarita-pizza-hummus-with-grilled-pesto-pizza-bread-606656">Cheesy Margarita Pizza Hummus with Grilled Pesto Pizza Bread</a>, and <a href="https://spoonacular.com/recipes/hummus-pizza-471178">Hummus Pizza</a> are very similar to this recipe.',
+    cuisines: ["Middle Eastern"],
+    dishTypes: [
+      "antipasti",
+      "starter",
+      "snack",
+      "appetizer",
+      "antipasto",
+      "hor d'oeuvre",
+    ],
+    diets: [],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["sangiovese", "barbera wine", "shiraz"],
+      pairingText:
+        "Pizza can be paired with Sangiovese, Barbera Wine, and Shiraz. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. The Rodano Vigna Viacosta Chianti Classico with a 4.3 out of 5 star rating seems like a good match. It costs about 30 dollars per bottle.",
+      productMatches: [
+        {
+          id: 459637,
+          title: "Rodano Vigna Viacosta Chianti Classico",
+          description:
+            "Deep concentration of Sangiovese flavors of classic cherry, earth and a hint of smoky pistachio nuts. Made with 100% Sangiovese.",
+          price: "$29.99",
+          imageUrl: "https://spoonacular.com/productImages/459637-312x231.jpg",
+          averageRating: 0.86,
+          ratingCount: 6.0,
+          score: 0.8073684210526315,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Frodano-vigna-viacosta-chianti-classico-2010%2F164552",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 375°F. Line one cookie sheet with foil and spray it with nonstick coking spray. Line a second cookie sheet with parchment paper or a silicone baking mat.",
+            ingredients: [
+              {
+                id: 10118192,
+                name: "cookies",
+                localizedName: "cookies",
+                image: "shortbread-cookies.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 375.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Chop vegetables and place them on the cookie sheet with foil. Spray the vegetables with nonstick cooking spray and season with salt and pepper. Roast vegetables until cooked, about 15-20 minutes. Cool 5 minutes.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 10118192,
+                name: "cookies",
+                localizedName: "cookies",
+                image: "shortbread-cookies.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+              {
+                id: 404765,
+                name: "aluminum foil",
+                localizedName: "aluminum foil",
+                image: "aluminum-foil.png",
+              },
+            ],
+            length: {
+              number: 25,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Unroll crescent roll dough on the cookie sheet with parchment paper. Keep the dough in the rectangle and press any seams together.",
+            ingredients: [
+              {
+                id: 93618,
+                name: "crescent roll dough",
+                localizedName: "crescent roll dough",
+                image: "crescent-roll-dough.png",
+              },
+              {
+                id: 10118192,
+                name: "cookies",
+                localizedName: "cookies",
+                image: "shortbread-cookies.jpg",
+              },
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+            ],
+            equipment: [
+              {
+                id: 404770,
+                name: "baking paper",
+                localizedName: "baking paper",
+                image: "baking-paper.jpg",
+              },
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Bake until golden and cooked through, about 12-15 minutes. Cool 5 minutes.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Assemble the pizza: spread the hummus on the crust. Top with roasted vegetables.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 16158,
+                name: "hummus",
+                localizedName: "hummus",
+                image: "hummus.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Sprinkle with goat or feta cheese. Slice and serve immediately.",
+            ingredients: [
+              {
+                id: 1019,
+                name: "feta cheese",
+                localizedName: "feta cheese",
+                image: "feta.png",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 10,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 0,
+    spoonacularScore: 28.0,
+    healthScore: 3.0,
+    creditsText: "My Recipes",
+    sourceName: "My Recipes",
+    pricePerServing: 137.13,
+    id: 237633,
+    title: "Bianca Pizza",
+    readyInMinutes: 10,
+    servings: 6,
+    sourceUrl: "http://www.myrecipes.com/recipe/bianca-pizza-10000001913092/",
+    image: "https://spoonacular.com/recipeImages/237633-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Bianca Pizza could satisfy your Mediterranean craving in approximately <b>10 minutes</b>. This recipe makes 6 servings with <b>312 calories</b>, <b>17g of protein</b>, and <b>14g of fat</b> each. For <b>$1.37 per serving</b>, this recipe <b>covers 7%</b> of your daily requirements of vitamins and minerals. Only a few people made this recipe, and 1 would say it hit the spot. Head to the store and pick up onion, our best pizza dough, salt, and a few other things to make it today. To use up the pizza dough you could follow this main course with the <a href="https://spoonacular.com/recipes/grilled-dessert-pizza-203680">Grilled Dessert Pizza</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 34%</b>. This score is rather bad. Try <a href="https://spoonacular.com/recipes/pizza-bianca-dip-588188">Pizza Bianca Dip</a>, <a href="https://spoonacular.com/recipes/pizza-bianca-244197">Pizza Bianca</a>, and <a href="https://spoonacular.com/recipes/pizza-bianca-752635">Pizza Bianca</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: [],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Evenly scatter a few onion slices and a large handful of cheese over each half-grilled dough round, then sprinkle with chopped rosemary and a little salt. Grill as directed in step 6 of Our Best Pizza Dough.",
+            ingredients: [
+              {
+                id: 93610,
+                name: "pizza dough",
+                localizedName: "pizza dough",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 2036,
+                name: "rosemary",
+                localizedName: "rosemary",
+                image: "rosemary.jpg",
+              },
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 2047,
+                name: "salt",
+                localizedName: "salt",
+                image: "salt.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404706,
+                name: "grill",
+                localizedName: "grill",
+                image: "grill.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 19,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 25,
+    cookingMinutes: 5,
+    aggregateLikes: 20,
+    spoonacularScore: 89.0,
+    healthScore: 40.0,
+    creditsText: "The Lean Green Bean",
+    sourceName: "The Lean Green Bean",
+    pricePerServing: 433.42,
+    id: 565588,
+    title: "Indian Pizza",
+    readyInMinutes: 30,
+    servings: 2,
+    sourceUrl: "http://www.theleangreenbean.com/indian-pizza/",
+    image: "https://spoonacular.com/recipeImages/565588-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Indian Pizza might be just the main course you are searching for. One serving contains <b>758 calories</b>, <b>33g of protein</b>, and <b>18g of fat</b>. For <b>$4.51 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. This recipe is typical of Indian cuisine. A few people made this recipe, and 20 would say it hit the spot. A mixture of shrimp, curry powder, sweet potato, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the curry powder you could follow this main course with the <a href="https://spoonacular.com/recipes/curry-ice-cream-with-mango-and-pistachio-539368">Curry Ice Cream with Mango and Pistachio</a> as a dessert. It is a good option if you\'re following a <b>pescatarian</b> diet. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 89%</b>. This score is great. Try <a href="https://spoonacular.com/recipes/indian-cauliflower-pizza-579802">Indian Cauliflower Pizza</a>, <a href="https://spoonacular.com/recipes/indian-spiced-pita-pizza-46351">Indian Spiced Pita Pizza</a>, and <a href="https://spoonacular.com/recipes/indian-style-paneer-pizza-578239">Indian style paneer pizza</a> for similar recipes.',
+    cuisines: ["Indian", "Asian"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["pescatarian"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["chenin blanc", "gewurztraminer", "riesling"],
+      pairingText:
+        "Asian works really well with Chenin Blanc, Gewurztraminer, and Riesling. The best wine for Asian food depends on the cuisine and dish - of course - but these acidic whites pair with a number of traditional meals, spicy or not. The L'Ecole 41 Chenin Blanc with a 4.4 out of 5 star rating seems like a good match. It costs about 18 dollars per bottle.",
+      productMatches: [
+        {
+          id: 437316,
+          title: "L'Ecole 41 Chenin Blanc",
+          description:
+            "This fresh and vibrant Chenin Blanc shows abundant expressive aromatics of jasmine, passion fruit, and orange blossom with flavors of star fruit and apple on a balanced, crisp mineral finish.",
+          price: "$17.99",
+          imageUrl: "https://spoonacular.com/productImages/437316-312x231.jpg",
+          averageRating: 0.8800000000000001,
+          ratingCount: 6.0,
+          score: 0.8273684210526318,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flecole-41-chenin-blanc-2013%2F132051",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "For the Sauce",
+            ingredients: [
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "Add a little EVOO to a pan and saute leeks over medium heat until soft.",
+            ingredients: [
+              {
+                id: 11246,
+                name: "leek",
+                localizedName: "leek",
+                image: "leeks.jpg",
+              },
+              {
+                id: 1034053,
+                name: "extra virgin olive oil",
+                localizedName: "extra virgin olive oil",
+                image: "olive-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step:
+              "Add the chopped sweet potato, broth and spices and bring to a boil.Reduce heat and simmer until sweet potatoes are tender.",
+            ingredients: [
+              {
+                id: 11507,
+                name: "sweet potato",
+                localizedName: "sweet potato",
+                image: "sweet-potato.png",
+              },
+              {
+                id: 2035,
+                name: "spices",
+                localizedName: "spices",
+                image: "spices.png",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "Transfer mixture to a blender or use an immersion blender and blend until smooth.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404776,
+                name: "immersion blender",
+                localizedName: "immersion blender",
+                image: "immersion-blender.png",
+              },
+              {
+                id: 404726,
+                name: "blender",
+                localizedName: "blender",
+                image: "blender.png",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Add more broth if necessary to thin out the sauce and adjust spices to taste.For the Pizza",
+            ingredients: [
+              {
+                id: 2035,
+                name: "spices",
+                localizedName: "spices",
+                image: "spices.png",
+              },
+              {
+                id: 1006615,
+                name: "broth",
+                localizedName: "broth",
+                image: "chicken-broth.png",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Toss vegetables lightly in EVOO and season with curry powder. Roast at 400 degrees until desired tenderness is reached.",
+            ingredients: [
+              {
+                id: 2015,
+                name: "curry powder",
+                localizedName: "curry powder",
+                image: "curry-powder.jpg",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 1034053,
+                name: "extra virgin olive oil",
+                localizedName: "extra virgin olive oil",
+                image: "olive-oil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step:
+              "Remove from oven.If using frozen naan, cook at 400 degrees for 5-6 minutes to heat through.",
+            ingredients: [
+              {
+                id: 93723,
+                name: "naan",
+                localizedName: "naan",
+                image: "naan.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 6,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 8,
+            step: "Remove from oven.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 9,
+            step: "Spread sauce onto naan pieces.Top with lentils.",
+            ingredients: [
+              {
+                id: 10316069,
+                name: "lentils",
+                localizedName: "lentils",
+                image: "lentils-brown.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "sauce",
+                localizedName: "sauce",
+                image: "",
+              },
+              {
+                id: 93723,
+                name: "naan",
+                localizedName: "naan",
+                image: "naan.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 10,
+            step:
+              "Add roasted vegetables and chopped shrimp.Top with crumbles of goat cheese.",
+            ingredients: [
+              {
+                id: 1159,
+                name: "goat cheese",
+                localizedName: "goat cheese",
+                image: "goat-cheese.jpg",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 15152,
+                name: "shrimp",
+                localizedName: "shrimp",
+                image: "shrimp.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 11,
+            step: "Bake for 6-8 minuts until heated through.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 15,
+    aggregateLikes: 0,
+    spoonacularScore: 35.0,
+    healthScore: 6.0,
+    creditsText: "Taste of Home",
+    sourceName: "Taste of Home",
+    pricePerServing: 135.43,
+    id: 426696,
+    title: "Tomato Pizza",
+    readyInMinutes: 30,
+    servings: 8,
+    sourceUrl: "http://www.tasteofhome.com/Recipes/tomato-pizza",
+    image: "https://spoonacular.com/recipeImages/426696-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'You can never have too many main course recipes, so give Tomato Pizzan a try. This recipe serves 8. One portion of this dish contains about <b>12g of protein</b>, <b>15g of fat</b>, and a total of <b>299 calories</b>. For <b>$1.35 per serving</b>, this recipe <b>covers 9%</b> of your daily requirements of vitamins and minerals. 1 person has tried and liked this recipe. Head to the store and pick up pepper, salt, cheddar cheese, and a few other things to make it today. To use up the olives you could follow this main course with the <a href="https://spoonacular.com/recipes/one-bowl-chocolate-oatmeal-cookies-258224">One Bowl Chocolate Oatmeal Cookies</a> as a dessert. From preparation to the plate, this recipe takes approximately <b>30 minutes</b>. This recipe is typical of Mediterranean cuisine. All things considered, we decided this recipe <b>deserves a spoonacular score of 39%</b>. This score is rather bad. Try <a href="https://spoonacular.com/recipes/roasted-tomato-pizza-with-fresh-basil-and-homemade-pizza-sauce-618526">Roasted Tomato Pizza with Fresh Basil and Homemade Pizza Sauce</a>, <a href="https://spoonacular.com/recipes/pizza-margherita-with-roasted-tomato-pizza-sauce-595025">Pizza Margherita with Roasted Tomato Pizza Sauce</a>, and <a href="https://spoonacular.com/recipes/basic-tomato-pizza-sauce-how-to-make-tomato-pizza-sauce-488488">basic tomato pizza sauce , how to make tomato pizza sauce</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["side dish"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Place tomato slices in a circle on crust, overlapping slightly until crust is completely covered.",
+            ingredients: [
+              {
+                id: 10511529,
+                name: "tomato slices",
+                localizedName: "tomato slices",
+                image: "sliced-tomato.jpg",
+              },
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 2,
+            step:
+              "Drizzle with olive oil. Season with salt and pepper. Cover with olives if desired, green pepper and onion.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 11333,
+                name: "green pepper",
+                localizedName: "green pepper",
+                image: "green-pepper.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 9195,
+                name: "olives",
+                localizedName: "olives",
+                image: "olives-mixed.jpg",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step: "Sprinkle with basil.",
+            ingredients: [
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step: "Cover with mozzarella and cheddar cheeses.",
+            ingredients: [
+              {
+                id: 1026,
+                name: "mozzarella",
+                localizedName: "mozzarella",
+                image: "mozzarella.png",
+              },
+              {
+                id: 1009,
+                name: "cheddar cheese",
+                localizedName: "cheddar cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Bake at 400° for 15 minutes or until cheese is melted.",
+            ingredients: [
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Celsius",
+                },
+              },
+            ],
+            length: {
+              number: 15,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step: "Serve immediately.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 9,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 20,
+    aggregateLikes: 1,
+    spoonacularScore: 25.0,
+    healthScore: 3.0,
+    creditsText: "Pip and Debby",
+    sourceName: "Pip and Debby",
+    pricePerServing: 141.73,
+    id: 1057752,
+    title: "Pickle Pizza",
+    readyInMinutes: 30,
+    servings: 8,
+    sourceUrl: "https://www.pipandebby.com/pip-ebby/pickle-pizza-recipe",
+    image: "https://spoonacular.com/recipeImages/1057752-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Pickle Pizza takes around <b>30 minutes</b> from beginning to end. This recipe serves 8 and costs $1.42 per serving. One portion of this dish contains approximately <b>11g of protein</b>, <b>15g of fat</b>, and a total of <b>294 calories</b>. This recipe from Pip and Debby requires dill pickles, dill, salt and pepper, and mozzarella cheese. Not a lot of people made this recipe, and 1 would say it hit the spot. This recipe is typical of Mediterranean cuisine. All things considered, we decided this recipe <b>deserves a spoonacular score of 0%</b>. This score is very bad (but still fixable). Try <a href="https://spoonacular.com/recipes/sloppy-joes-pickle-and-cheese-pizza-625010">Sloppy Joes Pickle and Cheese Pizza</a>, <a href="https://spoonacular.com/recipes/lemon-pickle-nimboo-ka-achar-elumichai-oorugai-nimmakaya-uragaya-easy-indian-pickle-s-564675">Lemon Pickle | Nimboo Kan Achar | Elumichai Oorugai | Nimmakayan Uragaya - Easy Indian Pickle s</a>, and <a href="https://spoonacular.com/recipes/pickle-chicken-with-garlic-fries-and-spicy-pickle-dip-604622">Pickle Chicken with Garlic Fries and Spicy Pickle Dip</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["side dish"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat oven to 400 degrees F and lightly coat a 12- or 13-inch round pizza pan with cooking spray.",
+            ingredients: [
+              {
+                id: 4679,
+                name: "cooking spray",
+                localizedName: "cooking spray",
+                image: "cooking-spray.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 470580,
+                name: "pizza pan",
+                localizedName: "pizza pan",
+                image: "",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Roll the pizza dough out into a circle on a lightly floured work surface.",
+            ingredients: [
+              {
+                id: 93610,
+                name: "pizza dough",
+                localizedName: "pizza dough",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 0,
+                name: "roll",
+                localizedName: "roll",
+                image: "dinner-yeast-rolls.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Transfer to the prepared pan, folding the dough over at the edges.",
+            ingredients: [
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step:
+              "Spread the olive oil in an even layer over the dough and sprinkle the garlic evenly over the top. Top with an even layer of pickles, followed by dill, salt and pepper.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 4053,
+                name: "olive oil",
+                localizedName: "olive oil",
+                image: "olive-oil.jpg",
+              },
+              {
+                id: 11937,
+                name: "pickles",
+                localizedName: "pickles",
+                image: "dill-pickles.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+              {
+                id: 2045,
+                name: "dill",
+                localizedName: "dill",
+                image: "dill.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step:
+              "Bake in the preheated oven for 15-20 minutes, or until crust is lightly golden brown.",
+            ingredients: [
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 6,
+            step: "Cut into slices and serve!",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 12,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 35,
+    cookingMinutes: 15,
+    aggregateLikes: 0,
+    spoonacularScore: 29.0,
+    healthScore: 4.0,
+    creditsText: "Taste of Home",
+    sourceName: "Taste of Home",
+    pricePerServing: 150.96,
+    id: 386356,
+    title: "Brunch Pizza",
+    readyInMinutes: 50,
+    servings: 12,
+    sourceUrl: "http://www.tasteofhome.com/recipes/brunch-pizza-4",
+    image: "https://spoonacular.com/recipeImages/386356-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Brunch Pizza could satisfy your Mediterranean craving in approximately <b>50 minutes</b>. This main course has <b>347 calories</b>, <b>15g of protein</b>, and <b>26g of fat</b> per serving. For <b>$1.53 per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. This recipe serves 12. 1 person has made this recipe and would make it again. Head to the store and pick up bacon strips, garlic clove, crescent rolls, and a few other things to make it today. To use up the butter you could follow this main course with the <a href="https://spoonacular.com/recipes/cinnamon-butter-cake-60334">Cinnamon Butter Cake</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 34%</b>. This score is rather bad. Try <a href="https://spoonacular.com/recipes/brunch-pizza-867279">Brunch Pizza</a>, <a href="https://spoonacular.com/recipes/brunch-pizza-407200">Brunch Pizza</a>, and <a href="https://spoonacular.com/recipes/brunch-pizza-407199">Brunch Pizza</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["morning meal", "brunch", "breakfast"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Unroll crescent dough into a greased 13-in. x 9-in. baking dish; seal seams and perforations.",
+            ingredients: [
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+            ],
+            equipment: [
+              {
+                id: 404646,
+                name: "baking pan",
+                localizedName: "baking pan",
+                image: "roasting-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Bake at 375° for 6-8 minutes or until golden brown.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 375.0,
+                  unit: "Celsius",
+                },
+              },
+            ],
+            length: {
+              number: 8,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step:
+              "Meanwhile, in a small skillet, cook bacon and sausage over medium heat until bacon is crisp and sausage is no longer pink. Using a slotted spoon, remove meat to paper towels; drain, reserving 2 tablespoons drippings. In the drippings, saute the mushrooms, onion and green pepper.",
+            ingredients: [
+              {
+                id: 11333,
+                name: "green pepper",
+                localizedName: "green pepper",
+                image: "green-pepper.jpg",
+              },
+              {
+                id: 11260,
+                name: "mushrooms",
+                localizedName: "mushrooms",
+                image: "mushrooms.png",
+              },
+              {
+                id: 1017063,
+                name: "sausage",
+                localizedName: "sausage",
+                image: "raw-pork-sausage.png",
+              },
+              {
+                id: 10123,
+                name: "bacon",
+                localizedName: "bacon",
+                image: "raw-bacon.png",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 1065062,
+                name: "meat",
+                localizedName: "meat",
+                image: "whole-chicken.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404636,
+                name: "slotted spoon",
+                localizedName: "slotted spoon",
+                image: "slotted-spoon.jpg",
+              },
+              {
+                id: 405895,
+                name: "paper towels",
+                localizedName: "paper towels",
+                image: "paper-towels.jpg",
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step: "Remove and set aside.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 5,
+            step: "Heat butter in a large skillet over medium heat.",
+            ingredients: [
+              {
+                id: 1001,
+                name: "butter",
+                localizedName: "butter",
+                image: "butter-sliced.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 6,
+            step: "Add eggs; cook and stir until almost set.",
+            ingredients: [
+              {
+                id: 1123,
+                name: "egg",
+                localizedName: "egg",
+                image: "egg.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step:
+              "In a small bowl, beat the cream cheese, sour cream, garlic and Italian seasoning; spread over crust.",
+            ingredients: [
+              {
+                id: 1022027,
+                name: "italian seasoning",
+                localizedName: "italian seasoning",
+                image: "dried-herbs.png",
+              },
+              {
+                id: 1017,
+                name: "cream cheese",
+                localizedName: "cream cheese",
+                image: "cream-cheese.jpg",
+              },
+              {
+                id: 1056,
+                name: "sour cream",
+                localizedName: "sour cream",
+                image: "sour-cream.jpg",
+              },
+              {
+                id: 11215,
+                name: "garlic",
+                localizedName: "garlic",
+                image: "garlic.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 8,
+            step:
+              "Layer with eggs, sausage and bacon, sauteed vegetables, tomatoes and mozzarella.",
+            ingredients: [
+              {
+                id: 1026,
+                name: "mozzarella",
+                localizedName: "mozzarella",
+                image: "mozzarella.png",
+              },
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 1017063,
+                name: "sausage",
+                localizedName: "sausage",
+                image: "raw-pork-sausage.png",
+              },
+              {
+                id: 10123,
+                name: "bacon",
+                localizedName: "bacon",
+                image: "raw-bacon.png",
+              },
+              {
+                id: 1123,
+                name: "egg",
+                localizedName: "egg",
+                image: "egg.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 9,
+            step: "Bake at 375° for 15-18 minutes or until cheese is melted.",
+            ingredients: [
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 375.0,
+                  unit: "Celsius",
+                },
+              },
+            ],
+            length: {
+              number: 18,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 10,
+            step:
+              "Serve with picante sauce and additional sour cream if desired.",
+            ingredients: [
+              {
+                id: 1006164,
+                name: "picante sauce",
+                localizedName: "picante sauce",
+                image: "salsa.jpg",
+              },
+              {
+                id: 1056,
+                name: "sour cream",
+                localizedName: "sour cream",
+                image: "sour-cream.jpg",
+              },
+            ],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 1,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 10,
+    cookingMinutes: 24,
+    aggregateLikes: 0,
+    spoonacularScore: 16.0,
+    healthScore: 1.0,
+    pricePerServing: 28.36,
+    id: 272140,
+    title: "Veggie Pizza",
+    readyInMinutes: 24,
+    servings: 24,
+    sourceUrl: "http://www.Kraftrecipes.com/recipes/veggie-pizza-53295.aspx",
+    image: "https://spoonacular.com/recipeImages/272140-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'The recipe Veggie Pizza could satisfy your Mediterranean craving in roughly <b>24 minutes</b>. This recipe serves 24. One portion of this dish contains roughly <b>3g of protein</b>, <b>1g of fat</b>, and a total of <b>56 calories</b>. For <b>29 cents per serving</b>, this recipe <b>covers 2%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up mushrooms, milk mozzarella cheese, pepper strips, and a few other things to make it today. 1 person were impressed by this recipe. All things considered, we decided this recipe <b>deserves a spoonacular score of 20%</b>. This score is rather bad. Similar recipes include <a href="https://spoonacular.com/recipes/very-veggie-pizza-pie-166799">Very Veggie Pizza Pie</a>, <a href="https://spoonacular.com/recipes/veggie-pizza-397520">Veggie Pizza</a>, and <a href="https://spoonacular.com/recipes/veggie-pizza-471225">Veggie Pizza</a>.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: [
+      "antipasti",
+      "starter",
+      "snack",
+      "appetizer",
+      "antipasto",
+      "hor d'oeuvre",
+    ],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Heat oven to 450F.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 450.0,
+                  unit: "Fahrenheit",
+                },
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Place crust on baking sheet; spread with pizza sauce.",
+            ingredients: [
+              {
+                id: 11549,
+                name: "pizza sauce",
+                localizedName: "pizza sauce",
+                image: "tomato-sauce-or-pasta-sauce.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404727,
+                name: "baking sheet",
+                localizedName: "baking sheet",
+                image: "baking-sheet.jpg",
+              },
+            ],
+          },
+          {
+            number: 3,
+            step: "Top with vegetables and cheese.",
+            ingredients: [
+              {
+                id: 11583,
+                name: "vegetable",
+                localizedName: "vegetable",
+                image: "mixed-vegetables.png",
+              },
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "Bake 12 to 14 min. or until cheese is melted and crust is golden brown.",
+            ingredients: [
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 12,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+    sourceName: null,
+    creditsText: null,
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 15,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 0,
+    spoonacularScore: 52.0,
+    healthScore: 16.0,
+    creditsText: "My Recipes",
+    sourceName: "My Recipes",
+    pricePerServing: 311.06,
+    id: 214945,
+    title: "Shrimp Pizza",
+    readyInMinutes: 45,
+    servings: 4,
+    sourceUrl: "http://www.myrecipes.com/m/recipe/shrimp-pizza-50400000120817/",
+    image: "https://spoonacular.com/recipeImages/214945-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Shrimp Pizzan is a <b>pescatarian</b> main course. One portion of this dish contains about <b>28g of protein</b>, <b>19g of fat</b>, and a total of <b>516 calories</b>. This recipe serves 4 and costs $2.74 per serving. Head to the store and pick up alfredo sauce, perfect poached shrimp, parmesan cheese, and a few other things to make it today. Not a lot of people made this recipe, and 1 would say it hit the spot. This recipe is typical of Mediterranean cuisine. All things considered, we decided this recipe <b>deserves a spoonacular score of 28%</b>. This score is not so great. Try <a href="https://spoonacular.com/recipes/shrimp-pizza-471308">Shrimp Pizza</a>, <a href="https://spoonacular.com/recipes/shrimp-pizza-382550">Shrimp Pizza</a>, and <a href="https://spoonacular.com/recipes/shrimp-and-bacon-pizza-526204">Shrimp and Bacon Pizza</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: ["pescatarian"],
+    occasions: [],
+    winePairing: {
+      pairedWines: ["pinot grigio", "riesling", "sauvignon blanc"],
+      pairingText:
+        "Pinot Grigio, Riesling, and Sauvignon Blanc are great choices for Shrimp. These crisp white wines work well with shrimp prepared in a variety of ways, whether grilled, fried, or in garlic sauce. The Tomaiolo Pinot Grigio with a 4.2 out of 5 star rating seems like a good match. It costs about 11 dollars per bottle.",
+      productMatches: [
+        {
+          id: 480348,
+          title: "Tomaiolo Pinot Grigio",
+          description:
+            "Straw yellow with greenish reflections. The bouquet is balanced with notes of apple, peach and hawthorn.Fresh and harmonious on the palate.Ideal with grilled chicken, fish course or salads. Serve at cool at around 10°C.",
+          price: "$10.99",
+          imageUrl: "https://spoonacular.com/productImages/480348-312x231.jpg",
+          averageRating: 0.8400000000000001,
+          ratingCount: 5.0,
+          score: 0.7775000000000001,
+          link:
+            "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftomaiolo-pinot-grigio-2017%2F511384",
+        },
+      ],
+    },
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step: "Preheat oven to 45",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step:
+              "Spread pizza crust with light pesto or Alfredo sauce. Top with Perfect Poached Shrimp, chopped roasted red bell peppers, and 1/3 cup freshly grated Parmesan cheese.",
+            ingredients: [
+              {
+                id: 11916,
+                name: "roasted red peppers",
+                localizedName: "roasted red peppers",
+                image: "red-pepper.jpg",
+              },
+              {
+                id: 1032,
+                name: "grated parmesan cheese",
+                localizedName: "grated parmesan cheese",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 93606,
+                name: "alfredo sauce",
+                localizedName: "alfredo sauce",
+                image: "alfredo-sauce.png",
+              },
+              {
+                id: 93770,
+                name: "prepared pizza crust",
+                localizedName: "prepared pizza crust",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 15152,
+                name: "shrimp",
+                localizedName: "shrimp",
+                image: "shrimp.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 93698,
+                name: "pesto",
+                localizedName: "pesto",
+                image: "basil-pesto.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Bake 20 minutes or until thoroughly heated. Top with arugula, shaved Parmesan cheese, and freshly ground pepper.",
+            ingredients: [
+              {
+                id: 1033,
+                name: "parmesan",
+                localizedName: "parmesan",
+                image: "parmesan.jpg",
+              },
+              {
+                id: 1002030,
+                name: "ground black pepper",
+                localizedName: "ground black pepper",
+                image: "pepper.jpg",
+              },
+              {
+                id: 11959,
+                name: "arugula",
+                localizedName: "arugula",
+                image: "arugula-or-rocket-salad.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 18,
+    gaps: "no",
+    lowFodmap: false,
+    preparationMinutes: 15,
+    cookingMinutes: 25,
+    aggregateLikes: 0,
+    spoonacularScore: 29.0,
+    healthScore: 5.0,
+    creditsText: "Taste of Home",
+    sourceName: "Taste of Home",
+    pricePerServing: 272.92,
+    id: 370617,
+    title: "Turkey Pizza",
+    readyInMinutes: 40,
+    servings: 8,
+    sourceUrl: "http://www.tasteofhome.com/Recipes/turkey-pizza",
+    image: "https://spoonacular.com/recipeImages/370617-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Turkey Pizza might be just the <b>Mediterranean</b> recipe you are searching for. For <b>$2.42 per serving</b>, this recipe <b>covers 12%</b> of your daily requirements of vitamins and minerals. This recipe makes 8 servings with <b>519 calories</b>, <b>29g of protein</b>, and <b>21g of fat</b> each. 1 person were impressed by this recipe. Not a lot of people really liked this main course. Head to the store and pick up pizza crust, tomatoes, olive oil, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>40 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 35%</b>. This score is not so amazing. Try <a href="https://spoonacular.com/recipes/bbq-turkey-pizza-with-your-leftover-thanksgiving-turkey-590122">BBQ Turkey Pizza with Your Leftover Thanksgiving Turkey</a>, <a href="https://spoonacular.com/recipes/turkey-tomato-pizza-430522">Turkey Tomato Pizza</a>, and <a href="https://spoonacular.com/recipes/turkey-divan-pizza-395459">Turkey Divan Pizza</a> for similar recipes.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["lunch", "main course", "main dish", "dinner"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "In a large skillet, cook sausage in oil over medium heat for 8-10 minutes or until no longer pink.",
+            ingredients: [
+              {
+                id: 1017063,
+                name: "sausage",
+                localizedName: "sausage",
+                image: "raw-pork-sausage.png",
+              },
+              {
+                id: 4582,
+                name: "cooking oil",
+                localizedName: "cooking oil",
+                image: "vegetable-oil.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 2,
+            step: "Cut into 1/4-in. slices.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 3,
+            step:
+              "Press pizza dough into a greased 15-in. x 10-in. x 1-in. baking pan, building up edges slightly; seal seam. Prick dough thoroughly with a fork.",
+            ingredients: [
+              {
+                id: 93610,
+                name: "pizza dough",
+                localizedName: "pizza dough",
+                image: "pizza-dough.jpg",
+              },
+              {
+                id: 0,
+                name: "dough",
+                localizedName: "dough",
+                image: "pizza-dough",
+              },
+            ],
+            equipment: [
+              {
+                id: 404646,
+                name: "baking pan",
+                localizedName: "baking pan",
+                image: "roasting-pan.jpg",
+              },
+            ],
+          },
+          {
+            number: 4,
+            step: "Bake at 400° for 8 minutes or until lightly browned.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 400.0,
+                  unit: "Celsius",
+                },
+              },
+            ],
+            length: {
+              number: 8,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 5,
+            step:
+              "Spread with pizza sauce; top with sausage, onion, artichokes and tomatoes.",
+            ingredients: [
+              {
+                id: 11549,
+                name: "pizza sauce",
+                localizedName: "pizza sauce",
+                image: "tomato-sauce-or-pasta-sauce.jpg",
+              },
+              {
+                id: 11007,
+                name: "artichoke",
+                localizedName: "artichoke",
+                image: "artichokes.png",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 1017063,
+                name: "sausage",
+                localizedName: "sausage",
+                image: "raw-pork-sausage.png",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step: "Sprinkle with cheese.",
+            ingredients: [
+              {
+                id: 1041009,
+                name: "cheese",
+                localizedName: "cheese",
+                image: "cheddar-cheese.png",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 7,
+            step: "Bake for 15-20 minutes or until crust is golden brown.",
+            ingredients: [
+              {
+                id: 0,
+                name: "crust",
+                localizedName: "crust",
+                image: "",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 20,
+              unit: "minutes",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    dairyFree: false,
+    veryHealthy: false,
+    cheap: false,
+    veryPopular: false,
+    sustainable: false,
+    weightWatcherSmartPoints: 14,
+    gaps: "no",
+    lowFodmap: false,
+    aggregateLikes: 1,
+    spoonacularScore: 35.0,
+    healthScore: 7.0,
+    creditsText: "How Sweet Eats",
+    sourceName: "How Sweet Eats",
+    pricePerServing: 153.83,
+    id: 1018140,
+    title: "Veggie Pizza",
+    readyInMinutes: 120,
+    servings: 10,
+    sourceUrl: "https://www.howsweeteats.com/2018/07/veggie-pizza/",
+    image: "https://spoonacular.com/recipeImages/1018140-312x231.jpg",
+    imageType: "jpg",
+    summary:
+      'Veggie Pizzan is a Mediterranean recipe that serves 10. One portion of this dish contains approximately <b>7g of protein</b>, <b>26g of fat</b>, and a total of <b>355 calories</b>. For <b>$1.53 per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. 1 person were glad they tried this recipe. Head to the store and pick up grape tomatoes, torn dill, chives, and a few other things to make it today. It is brought to you by How Sweet Eats. From preparation to the plate, this recipe takes around <b>2 hours</b>. With a spoonacular <b>score of 78%</b>, this dish is solid. Users who liked this recipe also liked <a href="https://spoonacular.com/recipes/veggie-pizza-471225">Veggie Pizza</a>, <a href="https://spoonacular.com/recipes/veggie-pizza-397520">Veggie Pizza</a>, and <a href="https://spoonacular.com/recipes/veggie-pizza-272140">Veggie Pizza</a>.',
+    cuisines: ["Mediterranean", "Italian", "European"],
+    dishTypes: ["side dish"],
+    diets: [],
+    occasions: [],
+    winePairing: {},
+    analyzedInstructions: [
+      {
+        name: "",
+        steps: [
+          {
+            number: 1,
+            step:
+              "Preheat the oven to 375 degrees F. Press the crescent roll dough into a 913 inch pan so its in a single layer.",
+            ingredients: [
+              {
+                id: 93618,
+                name: "crescent roll dough",
+                localizedName: "crescent roll dough",
+                image: "crescent-roll-dough.png",
+              },
+            ],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+                temperature: {
+                  number: 375.0,
+                  unit: "Fahrenheit",
+                },
+              },
+              {
+                id: 404645,
+                name: "frying pan",
+                localizedName: "frying pan",
+                image: "pan.png",
+              },
+            ],
+          },
+          {
+            number: 2,
+            step: "Bake for 10 to 12 minutes, until golden brown.",
+            ingredients: [],
+            equipment: [
+              {
+                id: 404784,
+                name: "oven",
+                localizedName: "oven",
+                image: "oven.jpg",
+              },
+            ],
+            length: {
+              number: 10,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 3,
+            step: "Let cool completely.",
+            ingredients: [],
+            equipment: [],
+          },
+          {
+            number: 4,
+            step:
+              "In a large bowl, stir together the mascarpone, yogurt, oregano, dill, garlic powder, smoked paprika, onion powder, salt and pepper until combined. Once mixed, spread it all over the cooled crescent roll dough.",
+            ingredients: [
+              {
+                id: 93618,
+                name: "crescent roll dough",
+                localizedName: "crescent roll dough",
+                image: "crescent-roll-dough.png",
+              },
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+              {
+                id: 1012028,
+                name: "smoked paprika",
+                localizedName: "smoked paprika",
+                image: "paprika.jpg",
+              },
+              {
+                id: 1022020,
+                name: "garlic powder",
+                localizedName: "garlic powder",
+                image: "garlic-powder.png",
+              },
+              {
+                id: 2026,
+                name: "onion powder",
+                localizedName: "onion powder",
+                image: "onion-powder.jpg",
+              },
+              {
+                id: 93820,
+                name: "mascarpone",
+                localizedName: "mascarpone",
+                image: "white-cream-fluffy.jpg",
+              },
+              {
+                id: 2027,
+                name: "oregano",
+                localizedName: "oregano",
+                image: "oregano.jpg",
+              },
+              {
+                id: 0,
+                name: "spread",
+                localizedName: "spread",
+                image: "",
+              },
+              {
+                id: 1116,
+                name: "yogurt",
+                localizedName: "yogurt",
+                image: "plain-yogurt.jpg",
+              },
+              {
+                id: 2045,
+                name: "dill",
+                localizedName: "dill",
+                image: "dill.jpg",
+              },
+            ],
+            equipment: [
+              {
+                id: 404783,
+                name: "bowl",
+                localizedName: "bowl",
+                image: "bowl.jpg",
+              },
+            ],
+          },
+          {
+            number: 5,
+            step:
+              "Add all the veggies on top: the broccoli, carrots, peppers, tomatoes, olives, onions, radish, fresh dill, basil, oregano and chives.",
+            ingredients: [
+              {
+                id: 2045,
+                name: "fresh dill",
+                localizedName: "fresh dill",
+                image: "dill.jpg",
+              },
+              {
+                id: 11090,
+                name: "broccoli",
+                localizedName: "broccoli",
+                image: "broccoli.jpg",
+              },
+              {
+                id: 11529,
+                name: "tomato",
+                localizedName: "tomato",
+                image: "tomato.png",
+              },
+              {
+                id: 11124,
+                name: "carrot",
+                localizedName: "carrot",
+                image: "sliced-carrot.png",
+              },
+              {
+                id: 2027,
+                name: "oregano",
+                localizedName: "oregano",
+                image: "oregano.jpg",
+              },
+              {
+                id: 10111333,
+                name: "peppers",
+                localizedName: "peppers",
+                image: "green-pepper.jpg",
+              },
+              {
+                id: 11156,
+                name: "chives",
+                localizedName: "chives",
+                image: "fresh-chives.jpg",
+              },
+              {
+                id: 9195,
+                name: "olives",
+                localizedName: "olives",
+                image: "olives-mixed.jpg",
+              },
+              {
+                id: 11282,
+                name: "onion",
+                localizedName: "onion",
+                image: "brown-onion.png",
+              },
+              {
+                id: 11429,
+                name: "radish",
+                localizedName: "radish",
+                image: "radishes.jpg",
+              },
+              {
+                id: 2044,
+                name: "basil",
+                localizedName: "basil",
+                image: "basil.jpg",
+              },
+            ],
+            equipment: [],
+          },
+          {
+            number: 6,
+            step:
+              "Sprinkle the entire thing with salt and pepper. Refrigerate the pizza for at least 1 hour before serving.",
+            ingredients: [
+              {
+                id: 1102047,
+                name: "salt and pepper",
+                localizedName: "salt and pepper",
+                image: "salt-and-pepper.jpg",
+              },
+            ],
+            equipment: [],
+            length: {
+              number: 60,
+              unit: "minutes",
+            },
+          },
+          {
+            number: 7,
+            step: "When ready to serve, cut into squares.",
+            ingredients: [],
+            equipment: [],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export default ourInfo;
-//Default export of all of the information as a 'live' API 
+//Default export of all of the information as a 'live' API
