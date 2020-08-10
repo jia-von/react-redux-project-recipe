@@ -1,3 +1,5 @@
+//MyGoodRecipes.js component relates to the 'Your Favourite Eats' page. Due to planning issues, it is best adviced not to change the file name this late in the project. 
+
 import React from "react";
 import "../../style/MyGoodRecipe.css";
 import MainHeader from "../logic/MainHeader";

@@ -1,3 +1,5 @@
+//GirlRec.js component relaates to the Our Favourite Eats page on the website. 
+
 import React from "react";
 import food1 from "../../images/food1.jpg";
 import food2 from "../../images/food2.jpg";
@@ -10,9 +12,10 @@ import food8 from "../../images/food8.jpg";
 import MainHeader from "../logic/MainHeader";
 import "../../style/GirlRec.css";
 import Footer from "../logic/Footer";
+
+
 class GirlRec extends React.Component {
   render() {
-    // const { authors } = this.state;
     return (
       <div>
         <MainHeader titleHeader="Our Favorite Eats" />

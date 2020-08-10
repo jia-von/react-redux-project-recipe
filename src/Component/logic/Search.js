@@ -1,9 +1,12 @@
+//Search component that handles user input to search a recipe such as 'kale' and 'soup'
+
 import { connect } from "react-redux";
 import React, { Component } from "react";
 import { searchRecipe } from "../../actions/recipeAction";
 import "../../style/search.css";
 
 class Search extends Component {
+  //This seach component is going to modify the state therefore constructor () and super () were used. 
   constructor(props) {
     super(props);
     this.state = {
@@ -14,7 +17,7 @@ class Search extends Component {
   search = (event) => {
     event.preventDefault();
     console.log(this.state);
-    // Create an empty Array to hold the recipes that get returned as having the search term in thier title
+    // Create an empty Array to hold the recipes that get returned as having the search term in their title
     let newArray = [];
 
     // Search through the store with the results from the API searching for titles with the searched text
