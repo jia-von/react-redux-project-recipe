@@ -45,7 +45,7 @@ class ContactUs extends React.Component {
         <div className="contactUsContainer">
           <form onSubmit={this.handleSubmit} className="contactFormHolder">
             <div>
-              <h2 id="header2">Get In Touch!</h2>
+              <h2 className="header2">Get In Touch!</h2>
               <div>
                 <label htmlFor="fullName">Name</label>
               </div>

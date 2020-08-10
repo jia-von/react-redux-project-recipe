@@ -37,11 +37,12 @@ h1 {
 @media only screen and (min-width: 700px) {
   .bgHeader {
     background-image: url(../images/goodgirlseatlogo.jpg);
-    height: 150px;
+    height: 200px;
     background-size: stretch;
     background-repeat: no-repeat;
     display: flex;
     margin: auto;
+
    
   }
   h1 {

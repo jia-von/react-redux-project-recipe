@@ -77,4 +77,9 @@ p {
     border-bottom: 1px dotted black;
     display: flex;
   }
+  .searchForm {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 }

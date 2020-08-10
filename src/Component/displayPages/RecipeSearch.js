@@ -64,7 +64,7 @@ class RecipeSearch extends React.Component {
         Form used to query the global storage of information
      */}
 
-        <form onSubmit={this.search}>
+        <form className="searchForm" onSubmit={this.search}>
           <p>Find your new favourite recipe!</p>
           <input
             type="text"

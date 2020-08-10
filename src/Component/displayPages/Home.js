@@ -11,7 +11,7 @@ class Home extends React.Component {
     return (
       <div className="recGalleryContainer">
       <MainHeader titleHeader="Good Girls Eat"/>
-        <p id="pHome">Welcome! This site is dedicated to our love for all things delicious. We love breakfast, lunch, and dinner, so here are a few good eats to get you started. Enjoy!</p> 
+        <p className="pHome">Welcome! This site is dedicated to our love for all things delicious. We love breakfast, lunch, and dinner, so here are a few good eats to get you started. Enjoy!</p> 
         <figure className="eggBenedictBreakfast"> {/*Start of Egg_Benedict_Breakfast @link: https://spoonacular.com/recipes/classic-eggs-benedict-639594*/}
 
           <div className="overlay"> {/*className overlay was created to replect the CSS where an overlay can be inserted @link: https://www.w3schools.com/howto/howto_css_overlay.asp*/}
