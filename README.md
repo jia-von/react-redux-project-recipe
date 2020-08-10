@@ -7,7 +7,7 @@
 </div>
 
 # About Good Girls Eat
-This mobile-specific application will allow users to find new, delicious recipes with help from the Spoontacluar recipe API. Users will be able to search for new recipes, save their favourite dishes,  email recipes to their friends, and even leave notes for themselves! We also share  bite-sized information about ourselves and our favourite meals! Make sure you say hello to us through our contact page!
+This fully responsive application will allow users to find new, delicious recipes with help from the Spoontacluar recipe API. Users will be able to search for new recipes, save their favourite dishes,  email recipes to their friends, and even leave notes for themselves! We also share  bite-sized information about ourselves and our favourite meals! Make sure you say hello to us through our contact page!
  
 # Installation  
 To run this application, you'll need Git and Node.js (includes npm) already installed on your computer. In your terminal:
@@ -28,7 +28,7 @@ To run this application, you'll need Git and Node.js (includes npm) already inst
 \
 *$ npm start*
 
-**5. In your browser's Developer Tools, change the view toa  mobile-device of your choice & enjoy!**
+**5. In your browser's Developer Tools, change the view to  mobile-device of your choice or desktop view & enjoy!**
 
 # Features & Functionality (By Page)
 **Home**  
