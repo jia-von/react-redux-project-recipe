@@ -8,6 +8,7 @@
   align-content: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 /*change the color of h2 font since h2 is the child of recGalleryContainer*/
