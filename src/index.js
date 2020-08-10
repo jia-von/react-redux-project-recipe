@@ -1,12 +1,8 @@
-/* index.js is where the Redux Store occurs
- *
- */
-
+/* index.js is where the Redux Store occurs*/
 import React from "react";
 import PropTypes from "prop-types";
 import "./style/index.css";
 import { createStore } from "redux";
-//import FoodDetails from "./Component/displayPages/FoodDetails";
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
 import Home from "./Component/displayPages/Home";
@@ -41,4 +37,3 @@ Root.propTypes = {
 };
 
 render(<Root store={store} />, document.getElementById("root"));
-//      <Route path="/fooddetails" component={FoodDetails} />
