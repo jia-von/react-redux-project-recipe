@@ -20,6 +20,7 @@ const Footer = () => (
       <p className= "footerText">Home</p>
     </Link> </div>
     <div className="footerIcons"> 
+
     <Link to="/GirlRec">
       <FontAwesomeIcon icon={faHamburger} />
       <p className="footerText">Good Girls</p>
