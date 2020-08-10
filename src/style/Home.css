@@ -61,7 +61,7 @@ figure {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100%;
   height: auto;
   margin-top: auto;
@@ -85,9 +85,8 @@ ul {
 li {
   color: #b90000;
 }
-#pHome{
+#pHome {
   color: #b90000;
   font-style: italic;
-  font-weight: 700
-  ;
+  font-weight: 700;
 }

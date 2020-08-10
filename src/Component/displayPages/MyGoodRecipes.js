@@ -1,4 +1,4 @@
-//MyGoodRecipes.js component relates to the 'Your Favourite Eats' page. Due to planning issues, it is best adviced not to change the file name this late in the project. 
+//MyGoodRecipes.js component relates to the 'Your Favourite Eats' page. Due to planning issues, it is best adviced not to change the file name this late in the project.
 
 import React from "react";
 import "../../style/MyGoodRecipe.css";
@@ -47,10 +47,9 @@ class MyGoodRecipes extends React.Component {
     Render of results of favorites
  */}
         <h3>All your favorite recipes in one place!</h3>
-        {/* {this.searchFavorites()} */}
         {this.searchFavorites() ? (
           this.searchFavorites().map((indrecipe) => (
-            <div key={uuid}>
+            <div key={uuid()}>
               <h2>{indrecipe.title}</h2>
               <i
                 className="fas fa-heart"
@@ -82,7 +81,7 @@ class MyGoodRecipes extends React.Component {
                             (analyzedInstruction) =>
                               analyzedInstruction.steps.map((stepsInd) =>
                                 stepsInd.ingredients.map((ingredient) => (
-                                  <div key={uuid}>
+                                  <div key={uuid()}>
                                     {ingredient.name ? (
                                       ingredient.name
                                     ) : (

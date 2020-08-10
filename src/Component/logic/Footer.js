@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 const Footer = () => (
   <div className="footer">
     <Link to="/Home">
-      <FontAwesomeIcon icon={faHome} />
+      <FontAwesomeIcon title="Home" icon={faHome} />
     </Link>
     <Link to="/GirlRec">
       <FontAwesomeIcon icon={faHamburger} />
