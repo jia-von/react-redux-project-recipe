@@ -65,6 +65,7 @@ button {
 
 @media only screen and (min-width: 700px) {
   .contactUsContainer {width: 60%;
-  margin: auto;}
+  margin: 0 auto;
+}
   
 } 

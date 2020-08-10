@@ -34,23 +34,25 @@ h1 {
 /*End of h1 that will influence all the h1 element in all pages*/
 
 /*Start of media query that will influence that app when viewed in mobile*/
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .bgHeader {
-    background-image: url(../images/salad.jpg);
+    background-image: url(../images/goodgirlseatlogo.jpg);
     height: 150px;
     background-size: stretch;
     background-repeat: no-repeat;
     display: flex;
     margin: auto;
+   
   }
   h1 {
     text-align: center;
     vertical-align: center;
-    height: 33%;
-    background-color: rgba(226, 40, 77, 0.6);
-    width: 80%;
+    height: 40%;
+    background-color:#ff0000;
+    width: 100%;
     margin: 0 auto;
     font-size: 2rem;
+ 
   }
 }
 /*End of media query that will influence that app when viewed in a mobile*/
