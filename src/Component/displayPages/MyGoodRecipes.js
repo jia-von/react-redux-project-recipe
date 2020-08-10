@@ -46,7 +46,8 @@ class MyGoodRecipes extends React.Component {
         {/*
     Render of results of favorites
  */}
-        <h3>All your favorite recipes in one place!</h3>
+ <div className="favContainer">
+<h3>All your favorite recipes in one place!</h3>
         {this.searchFavorites() ? (
           this.searchFavorites().map((indrecipe) => (
             <div key={uuid()}>
@@ -129,7 +130,7 @@ class MyGoodRecipes extends React.Component {
             (<h2>" No Favorited recipes yet"</h2>)
           </>
         )}
-
+</div>
         <Footer />
       </div>
     );
